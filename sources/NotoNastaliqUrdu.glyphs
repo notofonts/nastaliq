@@ -44074,12 +44074,12 @@ ref = OneDotBelowNS;
 {
 pos = (2842,285);
 ref = "alef-ar.short";
-scale = (1,0.9305);
+scale = (1,0.93);
 },
 {
 pos = (1699,292);
 ref = "alef-ar.short";
-scale = (1,0.9305);
+scale = (1,0.93);
 },
 {
 pos = (578,-150);
@@ -44096,7 +44096,7 @@ ref = Divine_nm_p1;
 {
 pos = (3810,303);
 ref = "alef-ar.short";
-scale = (1,0.9462);
+scale = (1,0.946);
 },
 {
 pos = (3513,-198);
@@ -44987,7 +44987,7 @@ ref = Divine_nm_p1;
 {
 pos = (1038,790);
 ref = "alef-ar.short";
-scale = (1,0.9462);
+scale = (1,0.946);
 },
 {
 pos = (899,-802);
@@ -45020,7 +45020,7 @@ ref = AlefSuperiorNS;
 {
 pos = (1485,134);
 ref = AlefSuperiorNS;
-scale = (1.1176,1.2561);
+scale = (1.118,1.256);
 },
 {
 pos = (1396,-967);
@@ -45442,7 +45442,7 @@ ref = AlefSuperiorNS;
 {
 pos = (1369,7);
 ref = AlefSuperiorNS;
-scale = (1,1.2791);
+scale = (1,1.279);
 },
 {
 pos = (1291,-852);
@@ -45455,7 +45455,7 @@ ref = TwoDotsBelowNS;
 {
 pos = (403,-452);
 ref = RingNS;
-scale = (0.9609,1.08);
+scale = (0.961,1.08);
 }
 );
 width = 2586;
@@ -182688,13 +182688,13 @@ shapes = (
 {
 pos = (0,1);
 ref = ThreeDotsDownEnclNS;
-scale = (1,0.9091);
+scale = (1,0.909);
 },
 {
 alignment = -1;
 pos = (-2,186);
 ref = OneDotEnclNS;
-scale = (1,0.9091);
+scale = (1,0.909);
 }
 );
 width = 0;
@@ -195191,7 +195191,7 @@ ref = KafMed.VoutD2MM;
 {
 pos = (-578,20);
 ref = _gaf.sarkash6;
-scale = (0.78,1.0007);
+scale = (0.78,1.001);
 }
 );
 width = 261;
@@ -195230,7 +195230,7 @@ ref = KafMed.VoutD2MM;
 {
 pos = (-594,56);
 ref = _gaf.sarkash6;
-scale = (0.8374,1.0123);
+scale = (0.837,1.012);
 }
 );
 width = 187;
@@ -195930,7 +195930,7 @@ shapes = (
 {
 pos = (-32,296);
 ref = _gaf.sarkash.invfat;
-scale = (1.0025,0.9446);
+scale = (1.002,0.945);
 }
 );
 };
@@ -195942,7 +195942,7 @@ ref = KafIni.NoutT3;
 {
 pos = (-32,296);
 ref = _gaf.sarkash.invfat;
-scale = (1.0025,0.9446);
+scale = (1.002,0.945);
 }
 );
 width = 431;
@@ -196022,7 +196022,7 @@ ref = KafIni.NoutD1;
 {
 pos = (481,354);
 ref = _gaf.sarkash.invfat;
-scale = (0.9384,0.8131);
+scale = (0.938,0.813);
 }
 );
 width = 871;
@@ -196069,7 +196069,7 @@ ref = KafIni.NoutD1;
 {
 pos = (383,253);
 ref = _gaf.sarkash.invfat;
-scale = (0.8848,0.8595);
+scale = (0.885,0.86);
 }
 );
 width = 656;
@@ -196390,7 +196390,7 @@ shapes = (
 {
 pos = (251,113);
 ref = _gaf.sarkash.invfat;
-scale = (0.9475,0.856);
+scale = (0.948,0.856);
 }
 );
 };
@@ -196402,7 +196402,7 @@ ref = KafIni.NoutD2H;
 {
 pos = (251,113);
 ref = _gaf.sarkash.invfat;
-scale = (0.9475,0.856);
+scale = (0.948,0.856);
 }
 );
 width = 597;
@@ -196437,7 +196437,7 @@ ref = KafIni.NoutD2H;
 {
 pos = (196,129);
 ref = _gaf.sarkash.invfat;
-scale = (0.8734,0.8653);
+scale = (0.873,0.865);
 }
 );
 width = 471;
@@ -204390,5 +204390,5 @@ O,
 };
 };
 versionMajor = 3;
-versionMinor = 4;
+versionMinor = 5;
 }
