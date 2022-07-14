@@ -6,7 +6,7 @@ Fontbakery version: 0.8.9
 
 
 * 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoNastaliqUrdu/googlefonts/ttf', 'fonts/NotoNastaliqUrdu/googlefonts/variable-ttf'] [code: single-directory]
-</div></details><br></div></details><details><summary><b>[11] NotoNastaliqUrdu-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoNastaliqUrdu-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -21,24 +21,20 @@ Fontbakery version: 0.8.9
 * 🔥 **FAIL** The following glyph names do not comply with naming conventions: alef-ar.short
 
  A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not. [code: found-invalid-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** head version is "3.00500" while name version string (for platform 3, encoding 1) is "Version 3.004; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* Zain
-	* Tah
-	* KafFarsi
-	* uni0763
-	* uni076B
-	* HehUrdu
-	* Beh
-	* uni077B
-	* Sheen
-	* uni077A and 136 more.
+	* uni076A
+	* uni0681
+	* uni06CD
+	* uni077C
+	* uni068D
+	* YehHamza
+	* uni077D
+	* HehHamzaUrdu
+	* uni0683
+	* uni0769 and 136 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -50,25 +46,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- multiply
-
-	- minus
-
 	- guillemetright
 
-	- SmallMeem
+	- multiply
 
 	- divide
 
+	- ellipsis
+
+	- minus
+
+	- SmallMeem
+
+	- nbspace
+
 	- alef-ar.short
 
-	- guillemetleft
+	- ArEightBelowAltNS 
 
-	- ArEightBelowAltNS
-
-	- nbspace 
-
-	- And ellipsis
+	- And guillemetleft
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -126,7 +122,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* And 5 more.
 
 Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[11] NotoNastaliqUrdu-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoNastaliqUrdu-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -141,10 +137,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * 🔥 **FAIL** The following glyph names do not comply with naming conventions: alef-ar.short
 
  A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not. [code: found-invalid-names]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** head version is "3.00500" while name version string (for platform 3, encoding 1) is "Version 3.004; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
@@ -1024,16 +1016,16 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* Zain
-	* Tah
-	* KafFarsi
-	* uni0763
-	* uni076B
-	* HehUrdu
-	* Beh
-	* uni077B
-	* Sheen
-	* uni077A and 135 more.
+	* uni076A
+	* uni0681
+	* uni06CD
+	* uni077C
+	* uni068D
+	* YehHamza
+	* uni077D
+	* HehHamzaUrdu
+	* uni0683
+	* uni0769 and 135 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -1045,25 +1037,25 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- multiply
-
-	- minus
-
 	- guillemetright
 
-	- SmallMeem
+	- multiply
 
 	- divide
 
+	- ellipsis
+
+	- minus
+
+	- SmallMeem
+
+	- nbspace
+
 	- alef-ar.short
 
-	- guillemetleft
+	- ArEightBelowAltNS 
 
-	- ArEightBelowAltNS
-
-	- nbspace 
-
-	- And ellipsis
+	- And guillemetleft
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1095,7 +1087,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 	* uni08F3_NS (U+08F3): L<<18.0,897.0>--<-24.0,879.0>> -> L<<-24.0,879.0>--<-113.0,846.0>> 
 
 	* And uni08F4_NS (U+08F4): L<<-57.0,950.0>--<-55.0,951.0>> -> L<<-55.0,951.0>--<36.0,1002.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[8] NotoNastaliqUrdu[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[7] NotoNastaliqUrdu[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -1108,10 +1100,6 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1981, but got 1904 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 1518, but got 596 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
-
-
-* 🔥 **FAIL** head version is "3.00500" while name version string (for platform 3, encoding 1) is "Version 3.004". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
@@ -1127,23 +1115,23 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 	- multiply
 
-	- minus
-
 	- uni0627.short
-
-	- uni00A0.1
-
-	- SmallMeem
 
 	- divide
 
-	- guillemotleft.1
+	- ellipsis
 
 	- guillemotright.1
 
-	- ArEightBelowAltNS 
+	- minus
 
-	- And ellipsis
+	- SmallMeem
+
+	- uni00A0.1
+
+	- guillemotleft.1 
+
+	- And ArEightBelowAltNS
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
@@ -1157,8 +1145,8 @@ Use -F or --full-lists to disable shortening of long lists. [code: mark-chars]
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 12 | 16 | 328 | 20 | 296 | 0 |
-| 0% | 2% | 2% | 49% | 3% | 44% | 0% |
+| 3 | 9 | 16 | 328 | 20 | 299 | 0 |
+| 0% | 1% | 2% | 49% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
