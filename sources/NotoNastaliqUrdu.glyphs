@@ -20467,6 +20467,8 @@ code = "# Select isolated forms
     sub uni0775 by YehxSep Small2AboveNS;
     sub uni0776 by YehxSep Small3AboveNS;
     sub uni0777 by YehxSep Small4UrduBelowNS;
+	sub uni077A by YehBarreeSep Small2AboveNS;
+	sub uni077B by YehBarreeSep Small3AboveNS;
     sub uni077C by HahSep Small4UrduEnclNS;
     sub uni08C5 by HahSep OneDotEnclNS ThreeDotsUpAboveNS;
     sub uni08C6 by HahSep FourDotsRhombusEnclNS;
