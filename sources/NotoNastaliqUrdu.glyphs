@@ -7570,130 +7570,34 @@ name = "Toothless medial Seen selection";
 },
 {
 code = "lookup RefineStage2 {
-
-lookupflag IgnoreMarks;
-
-@S1 = [SeenMed.inT2outT2 SeenIni.outT2];
-
-# Group A
-@GpA2 = [BehxIni.outT2tall BehxMed.inT2outT2 GafIni.outT2 GafMed.outT2 GafInvIni.outT2 GafInvMed.outT2 KafIni.outT2 KafMed.outT2 LamIni.outT2 LamMed.outT2]; 
-
-# Group B
-@GpB3 = [AinIni.outT2 HahIni.outT2 HahMed.inD2outT2 SadIni.outT2 SadMed.inD1outT2];
-
-# Group C
-@GpC4 = [HehIni.outT2 HehMed.inD5outT2 MeemIni.outT2 MeemMed.inD2outT2];
-
-# Group D
-@GpD5 = [TahIni.outT2 TahMed.inD1outT2 HehDoIni.outT2 HehDoMed.inD2outT2]; 
-
-# Group F
-@GpF6 = [FehxMed.inT3outT2 HehIniAF.outT2];
-
-# Group FF
-@GpFF7 = [FehxIni.outT2]; 
-
-@GpG8 = [AinMed.inT3outT2];
-
-@CS9 = [BehxMed.inT2outD2H];
-@CS10 = [BehxMed.inT1outT2];
-@CS11 = [BehxMed.inT1outT2N];
-@CS12 = [SeenMed.r SeenFin];
-
-
-# backtrackclass definition begin
-@BtS2 = [AinIni HahIni FehxIni TahIni AinMed.inT3outT1 HahMed.inD2outT1 FehxMed.inT3outT1 TahMed.inD1outT1];
-
-# lookaheadclass definition begin
-@LaS1 = [SeenMed.inT2outD1 SeenMed.inT2outD11 SeenMed.inT2outD2D SeenMed.inT2outD2H SeenMed.inT2outD2M SeenMed.inT2outD2MM SeenMed.inT2outD2Y SeenMed.inT2outD2YB SeenMed.inT2outD5 SeenMed.inT2outS1 SeenMed.inT2outT1 SeenMed.inT2outT2short SeenMed.inT2outT3 SeenMed.inT2outT2 ];
-@LaS2 = [HahFin];
-@LaS3 = [HahMed.inD2outT2 HahMed.inD2outT3 HahMed.inD2outD11 HahMed.inD2outD2 HahMed.inD2outD2Y HahMed.inD2outD3 HahMed.inD2outS1 HahMed.inD2outD1 HahMed.inD2outD5 HahMed.inD2outD2MM HahMed.inD2outT1 HahMed.inD2outD2];
-
-
-
-# Part 1 ;
-sub @GpA2' lookup PreToothless @S1' lookup Toothless_A @S1' lookup PreToothless @S1' lookup Toothless_B @CS12' ;
-sub @CS10' lookup PreToothless @S1' lookup Toothless_A @S1' lookup PreToothless @S1' lookup Toothless_B @CS12' ;
-sub @GpB3' lookup PreToothless @S1' lookup Toothless_B @S1' lookup PreToothless @S1' lookup Toothless_B @CS12' ;
-sub @GpC4' lookup PreToothless @S1' lookup Toothless_C @S1' lookup PreToothless @S1' lookup Toothless_B @CS12' ;
-sub @GpD5' lookup PreToothless @S1' lookup Toothless_D @S1' lookup PreToothless @S1' lookup Toothless_B @CS12' ;
-sub @GpF6' lookup PreToothless @S1' lookup Toothless_F @S1' lookup PreToothless @S1' lookup Toothless_B @CS12' ;
-sub @GpFF7' lookup PreToothless @S1' lookup Toothless_FF @S1' lookup PreToothless @S1' lookup Toothless_B @CS12' ;
-sub @GpG8' lookup PreToothless @S1' lookup Toothless_G @S1' lookup PreToothless @S1' lookup Toothless_B @CS12' ;
-
-sub @GpA2' @S1' lookup PreToothless @S1' lookup Toothless_B @CS12'  ;
-sub @CS10' @S1' lookup PreToothless @S1' lookup Toothless_B @CS12'  ;
-sub @GpB3' @S1' lookup PreToothless @S1' lookup Toothless_B @CS12'  ;
-sub @GpC4' @S1' lookup PreToothless @S1' lookup Toothless_B @CS12'  ;
-sub @GpD5' @S1' lookup PreToothless @S1' lookup Toothless_B @CS12'  ;
-sub @GpF6' @S1' lookup PreToothless @S1' lookup Toothless_B @CS12'  ;
-sub @GpFF7' @S1' lookup PreToothless @S1' lookup Toothless_B @CS12'  ;
-sub @GpG8' @S1' lookup PreToothless @S1' lookup Toothless_B @CS12'  ;
-
-sub @GpA2' lookup PreToothless @S1' lookup Toothless_A @CS12'   ;
-sub @CS10' lookup PreToothless @S1' lookup Toothless_A @CS12'   ;
-sub @GpB3' lookup PreToothless @S1' lookup Toothless_B @CS12'   ;
-sub @GpC4' lookup PreToothless @S1' lookup Toothless_C @CS12'   ;
-sub @GpD5' lookup PreToothless @S1' lookup Toothless_D @CS12'   ;
-sub @GpF6' lookup PreToothless @S1' lookup Toothless_F @CS12'   ;
-sub @GpFF7' lookup PreToothless @S1' lookup Toothless_FF @CS12'   ;
-sub @GpG8' lookup PreToothless @S1' lookup Toothless_G @CS12'   ;
-
-
-# Part 2 ;
-sub @GpA2' lookup PreToothless @S1' lookup Toothless_A @S1' lookup PreToothless @S1' lookup Toothless_A ;
-sub @CS10' lookup PreToothless @S1' lookup Toothless_A @S1' lookup PreToothless @S1' lookup Toothless_A ;
-sub @GpB3' lookup PreToothless @S1' lookup Toothless_B @S1' lookup PreToothless @S1' lookup Toothless_A ;
-sub @GpC4' lookup PreToothless @S1' lookup Toothless_C @S1' lookup PreToothless @S1' lookup Toothless_A ;
-sub @GpD5' lookup PreToothless @S1' lookup Toothless_D @S1' lookup PreToothless @S1' lookup Toothless_A ;
-sub @GpF6' lookup PreToothless @S1' lookup Toothless_F @S1' lookup PreToothless @S1' lookup Toothless_A ;
-sub @GpFF7' lookup PreToothless @S1' lookup Toothless_FF @S1' lookup PreToothless @S1' lookup Toothless_A ;
-sub @GpG8' lookup PreToothless @S1' lookup Toothless_G @S1' lookup PreToothless @S1' lookup Toothless_A ;
-
-sub @GpA2' @S1' lookup PreToothless @S1' lookup Toothless_A  ;
-sub @CS10' @S1' lookup PreToothless @S1' lookup Toothless_A  ;
-sub @GpB3' @S1' lookup PreToothless @S1' lookup Toothless_A  ;
-sub @GpC4' @S1' lookup PreToothless @S1' lookup Toothless_A  ;
-sub @GpD5' @S1' lookup PreToothless @S1' lookup Toothless_A  ;
-sub @GpF6' @S1' lookup PreToothless @S1' lookup Toothless_A  ;
-sub @GpFF7' @S1' lookup PreToothless @S1' lookup Toothless_A  ;
-sub @GpG8' @S1' lookup PreToothless @S1' lookup Toothless_A  ;
-
-sub @GpA2' lookup PreToothless @S1' lookup Toothless_A   ;
-sub @CS10' lookup PreToothless @S1' lookup Toothless_A   ;
-sub @GpB3' lookup PreToothless @S1' lookup Toothless_B   ;
-sub @GpC4' lookup PreToothless @S1' lookup Toothless_C   ;
-sub @GpD5' lookup PreToothless @S1' lookup Toothless_D   ;
-sub @GpF6' lookup PreToothless @S1' lookup Toothless_F   ;
-sub @GpFF7' lookup PreToothless @S1' lookup Toothless_FF   ;
-sub @GpG8' lookup PreToothless @S1' lookup Toothless_G   ;
-
-
-
-# Part 3 ;
-sub @S1' lookup PreToothless @S1' @S1' lookup PreToothless @S1' lookup Toothless_B @S1' lookup PreToothless @S1' lookup Toothless_B @CS12 ;
-sub @S1' lookup Toothless_A @S1' lookup PreToothless @S1' @S1' lookup PreToothless @S1' lookup Toothless_B @CS12  ;
-sub @S1' lookup PreToothless @S1' lookup Toothless_B @S1' lookup PreToothless @S1' @CS12     ;
-sub @S1' lookup Toothless_A @S1' lookup PreToothless @S1' lookup Toothless_B @CS12        ;
-sub @S1' lookup PreToothless @S1' lookup Toothless_B @CS12     ;
-sub @S1' lookup Toothless_A @CS12      ;
-
-sub @S1' lookup Toothless_A @S1' lookup PreToothless @S1' @S1' lookup PreToothless @S1' lookup Toothless_B   ;
-sub @S1' lookup PreToothless @S1' lookup Toothless_B @S1' lookup PreToothless @S1    ;
-sub @S1' lookup Toothless_A @S1' lookup PreToothless @S1' lookup Toothless_B     ;
-sub @S1' lookup PreToothless @S1' lookup Toothless_B      ;
-sub @S1' lookup Toothless_A ;
-
-sub @CS9' lookup preHahFin ;
-sub @CS9' lookup preHahFin ;
-sub @CS9' lookup preHahMed2 ;
-
-sub @BtS2 @CS10' lookup preSeen lookup toWide ;
-sub @BtS2 @CS11' lookup toWide  ;
-sub @BtS2 @CS10' lookup toWide ;
-sub @CS10' lookup preSeen  ;
-
-  } RefineStage2;
+    lookupflag IgnoreMarks;
+    ;
+    sub SeenIni.outT2' lookup Toothless_A @SeenMeds [@SeenMeds SeenFin];
+    sub [SeenIni.outT2 SeenMed.inT2outT2]' lookup PreToothless [SeenIni.outT2 SeenMed.inT2outT2]' lookup Toothless_B [@SeenMeds SeenFin];
+    sub SeenIni.outT2' lookup Toothless_A @SeenMeds;
+    sub [BehxIni.outT2tall BehxMed.inT2outT2 GafIni.outT2 GafMed.outT2 KafIni.outT2 KafMed.outT2 LamIni.outT2 LamMed.outT2]' [SeenIni.outT2 SeenMed.inT2outT2]' lookup PreToothless [SeenIni.outT2 SeenMed.inT2outT2]' lookup Toothless_A @SeenMeds;
+    sub [BehxIni.outT2tall BehxMed.inT2outT2 GafIni.outT2 GafMed.outT2 KafIni.outT2 KafMed.outT2 LamIni.outT2 LamMed.outT2]' lookup PreToothless [SeenIni.outT2 SeenMed.inT2outT2]' lookup Toothless_A @SeenMeds;
+    sub [SadIni.outT2 HahIni.outT2 AinIni.outT2 HahMed.inD2outT2 SadMed.inD1outT2]' [SeenIni.outT2 SeenMed.inT2outT2]' lookup PreToothless [SeenIni.outT2 SeenMed.inT2outT2]' lookup Toothless_B @SeenMeds;
+    sub [SadIni.outT2 HahIni.outT2 AinIni.outT2 HahMed.inD2outT2 SadMed.inD1outT2]' lookup PreToothless [SeenIni.outT2 SeenMed.inT2outT2]' lookup Toothless_B @SeenMeds;
+    sub [HehIni.outT2 MeemIni.outT2 HehMed.inD5outT2 MeemMed.inD2outT2]' [SeenIni.outT2 SeenMed.inT2outT2]' lookup PreToothless [SeenIni.outT2 SeenMed.inT2outT2]' lookup Toothless_C @SeenMeds;
+    sub [HehIni.outT2 MeemIni.outT2 HehMed.inD5outT2 MeemMed.inD2outT2]' lookup PreToothless [SeenIni.outT2 SeenMed.inT2outT2]' lookup Toothless_C @SeenMeds;
+    sub [TahIni.outT2 HehDoIni.outT2 HehDoMed.inD2outT2 TahMed.inD1outT2]' lookup PreToothless [SeenIni.outT2 SeenMed.inT2outT2]' lookup Toothless_D @SeenMeds;
+    sub [FehxMed.inT3outT2 HehIniAF.outT2]' [SeenIni.outT2 SeenMed.inT2outT2]' lookup PreToothless [SeenIni.outT2 SeenMed.inT2outT2]' lookup Toothless_F @SeenMeds;
+    sub [FehxMed.inT3outT2 HehIniAF.outT2]' lookup PreToothless [SeenIni.outT2 SeenMed.inT2outT2]' lookup Toothless_F @SeenMeds;
+    sub FehxIni.outT2' [SeenIni.outT2 SeenMed.inT2outT2]' lookup PreToothless [SeenIni.outT2 SeenMed.inT2outT2]' lookup Toothless_FF @SeenMeds;
+    sub FehxIni.outT2' lookup PreToothless [SeenIni.outT2 SeenMed.inT2outT2]' lookup Toothless_FF @SeenMeds;
+    sub AinMed.inT3outT2' [SeenIni.outT2 SeenMed.inT2outT2]' lookup PreToothless [SeenIni.outT2 SeenMed.inT2outT2]' lookup Toothless_G @SeenMeds;
+    sub AinMed.inT3outT2' lookup PreToothless [SeenIni.outT2 SeenMed.inT2outT2]' lookup Toothless_G @SeenMeds;
+    sub BehxMed.inT2outD2H' lookup preHahFin HahFin;
+    sub BehxMed.inT2outD2H' lookup preHahMed2 [HahMed.inD2outD1 HahMed.inD2outD11 HahMed.inD2outD2 HahMed.inD2outD2D HahMed.inD2outD2H HahMed.inD2outD2MM HahMed.inD2outD2Y HahMed.inD2outD2YB HahMed.inD2outD3 HahMed.inD2outD5 HahMed.inD2outS1 HahMed.inD2outT1 HahMed.inD2outT2 HahMed.inD2outT3] HahFin;
+    sub BehxMed.inT2outD2H' lookup preHahMed2 [HahMed.inD2outD1 HahMed.inD2outD11 HahMed.inD2outD2 HahMed.inD2outD2D HahMed.inD2outD2H HahMed.inD2outD2MM HahMed.inD2outD2Y HahMed.inD2outD2YB HahMed.inD2outD3 HahMed.inD2outD5 HahMed.inD2outS1 HahMed.inD2outT1 HahMed.inD2outT2 HahMed.inD2outT3] [HahMed.inD2outD1 HahMed.inD2outD11 HahMed.inD2outD2 HahMed.inD2outD2D HahMed.inD2outD2H HahMed.inD2outD2MM HahMed.inD2outD2Y HahMed.inD2outD2YB HahMed.inD2outD3 HahMed.inD2outD5 HahMed.inD2outS1 HahMed.inD2outT1 HahMed.inD2outT2 HahMed.inD2outT3];
+    sub BehxMed.inT1outT2' [SeenIni.outT2 SeenMed.inT2outT2]' lookup PreToothless [SeenIni.outT2 SeenMed.inT2outT2]' lookup Toothless_A @SeenMeds;
+    sub BehxMed.inT1outT2' lookup PreToothless [SeenIni.outT2 SeenMed.inT2outT2]' lookup Toothless_A @SeenMeds;
+    sub @class562 BehxMed.inT1outT2' lookup preSeen lookup toWide @SeenMeds;
+    sub @class562 BehxMed.inT1outT2' lookup toWide;
+    sub BehxMed.inT1outT2' lookup preSeen @SeenMeds;
+    sub @class562 BehxMed.inT1outT2N' lookup toWide;
+} RefineStage2;
 ";
 name = "Select toothless medial seen";
 },
