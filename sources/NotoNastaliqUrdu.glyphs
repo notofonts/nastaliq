@@ -1,5 +1,5 @@
 {
-.appVersion = "3109";
+.appVersion = "3072";
 .formatVersion = 3;
 axes = (
 {
@@ -20782,7 +20782,7 @@ nodes = (
 width = 900;
 }
 );
-note = ".notdef";
+note = .notdef;
 },
 {
 glyphname = NULL;
@@ -204294,5 +204294,5 @@ O,
 };
 };
 versionMajor = 3;
-versionMinor = 5;
+versionMinor = 6;
 }
