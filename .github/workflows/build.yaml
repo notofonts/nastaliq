@@ -8,7 +8,6 @@ jobs:
   build-ttf:
     runs-on: ubuntu-latest
     name: Build main TTFs
-    needs: first-run
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python
