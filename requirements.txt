@@ -2,4 +2,5 @@ git+https://github.com/notofonts/notobuilder
 drawbot-skia>=0.4.8
 sh>=1.14.2
 bumpfontversion
+uharfbuzz==0.28.0
 chevron
