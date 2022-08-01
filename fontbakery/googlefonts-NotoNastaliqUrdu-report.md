@@ -6,7 +6,7 @@ Fontbakery version: 0.8.9
 
 
 * 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoNastaliqUrdu/googlefonts/ttf', 'fonts/NotoNastaliqUrdu/googlefonts/variable-ttf'] [code: single-directory]
-</div></details><br></div></details><details><summary><b>[9] NotoNastaliqUrdu-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[12] NotoNastaliqUrdu-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -21,20 +21,24 @@ Fontbakery version: 0.8.9
 * 🔥 **FAIL** The following glyph names do not comply with naming conventions: alef-ar.short
 
  A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not. [code: found-invalid-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** head version is "3.00700" while name version string (for platform 3, encoding 1) is "Version 3.006; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni0681
-	* uni068E
-	* uni076B
-	* uni067D
-	* FourDotsAboveAltNS
-	* uni0759
-	* uni068F
-	* uni06AB
-	* TehMarbuta
-	* uni063F and 136 more.
+	* uni077D
+	* YehKashmiri
+	* DalTahAbove
+	* TehTahAbove
+	* uni0680
+	* Qaf
+	* uni076D
+	* uni06BC
+	* uni0770
+	* uni0777 and 136 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -46,25 +50,27 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nbspace
-
-	- guillemetright
-
-	- multiply
-
-	- ellipsis
-
-	- SmallMeem
-
-	- alef-ar.short
+	- quoteright
 
 	- minus
 
+	- alef-ar.short
+
+	- nbspace
+
+	- SmallMeem
+
+	- guillemetleft
+
 	- divide
 
-	- guillemetleft 
+	- ArEightBelowAltNS
 
-	- And ArEightBelowAltNS
+	- multiply
+
+	- guillemetright 
+
+	- And ellipsis
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -75,12 +81,44 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* exclam (U+0021): X=275.0,Y=1.0 (should be at baseline 0?)
+
+	* exclam (U+0021): X=283.0,Y=1.0 (should be at baseline 0?)
+
+	* parenright (U+0029): X=158.5,Y=-2.0 (should be at baseline 0?)
+
+	* comma (U+002C): X=171.5,Y=1.5 (should be at baseline 0?)
+
+	* comma (U+002C): X=269.5,Y=-1.0 (should be at baseline 0?)
+
+	* period (U+002E): X=139.0,Y=1.0 (should be at baseline 0?)
+
+	* period (U+002E): X=147.0,Y=1.0 (should be at baseline 0?)
+
+	* two (U+0032): X=74.0,Y=-2.0 (should be at baseline 0?)
+
+	* two (U+0032): X=74.0,Y=-2.0 (should be at baseline 0?)
+
+	* eight (U+0038): X=284.0,Y=1.0 (should be at baseline 0?) 
+
+	* And 56 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -92,30 +130,26 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* W (U+0057): B<<266.0,196.0>-<272.0,161.0>-<275.0,137.0>>/B<<275.0,137.0>-<278.0,162.0>-<284.0,196.5>> = 13.967789761532726
+	* y (U+0079): B<<321.0,162.0>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<331.0,139.0>-<339.5,165.0>> = 11.150925168505127
 
-	* W (U+0057): B<<489.0,505.5>-<485.0,529.0>-<483.0,542.0>>/B<<483.0,542.0>-<482.0,529.0>-<477.5,505.5>> = 13.144867617550734
+	* yacute (U+00FD): B<<321.0,162.0>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<331.0,139.0>-<339.5,165.0>> = 11.150925168505127
 
-	* W (U+0057): B<<683.0,196.0>-<689.0,161.0>-<692.0,137.0>>/B<<692.0,137.0>-<695.0,162.0>-<701.0,196.5>> = 13.967789761532726
+	* ycircumflex (U+0177): B<<321.0,162.0>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<331.0,139.0>-<339.5,165.0>> = 11.150925168505127
 
-	* Wacute (U+1E82): B<<266.0,196.0>-<272.0,161.0>-<275.0,137.0>>/B<<275.0,137.0>-<278.0,162.0>-<284.0,196.5>> = 13.967789761532726
+	* ydieresis (U+00FF): B<<321.0,162.0>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<331.0,139.0>-<339.5,165.0>> = 11.150925168505127 
 
-	* Wacute (U+1E82): B<<489.0,505.5>-<485.0,529.0>-<483.0,542.0>>/B<<483.0,542.0>-<482.0,529.0>-<477.5,505.5>> = 13.144867617550734
+	* And ygrave (U+1EF3): B<<321.0,162.0>-<327.0,138.0>-<329.0,118.0>>/B<<329.0,118.0>-<331.0,139.0>-<339.5,165.0>> = 11.150925168505127 [code: found-jaggy-segments]
+</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
 
-	* Wacute (U+1E82): B<<683.0,196.0>-<689.0,161.0>-<692.0,137.0>>/B<<692.0,137.0>-<695.0,162.0>-<701.0,196.5>> = 13.967789761532726
 
-	* Wcircumflex (U+0174): B<<266.0,196.0>-<272.0,161.0>-<275.0,137.0>>/B<<275.0,137.0>-<278.0,162.0>-<284.0,196.5>> = 13.967789761532726
+* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* Wcircumflex (U+0174): B<<489.0,505.5>-<485.0,529.0>-<483.0,542.0>>/B<<483.0,542.0>-<482.0,529.0>-<477.5,505.5>> = 13.144867617550734
+	* h (U+0068): L<<101.0,122.0>--<100.0,646.0>>
 
-	* Wcircumflex (U+0174): B<<683.0,196.0>-<689.0,161.0>-<692.0,137.0>>/B<<692.0,137.0>-<695.0,162.0>-<701.0,196.5>> = 13.967789761532726
+	* h (U+0068): L<<252.0,309.0>--<253.0,118.0>> 
 
-	* Wdieresis (U+1E84): B<<266.0,196.0>-<272.0,161.0>-<275.0,137.0>>/B<<275.0,137.0>-<278.0,162.0>-<284.0,196.5>> = 13.967789761532726 
-
-	* And 5 more.
-
-Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-segments]
-</div></details><br></div></details><details><summary><b>[9] NotoNastaliqUrdu-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+	* And sterling (U+00A3): L<<428.0,346.0>--<270.0,347.0>> [code: found-semi-vertical]
+</div></details><br></div></details><details><summary><b>[11] NotoNastaliqUrdu-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -130,6 +164,10 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-jaggy-s
 * 🔥 **FAIL** The following glyph names do not comply with naming conventions: alef-ar.short
 
  A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not. [code: found-invalid-names]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** head version is "3.00700" while name version string (for platform 3, encoding 1) is "Version 3.006; ttfautohint (v1.8.4.7-5d5b)". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check that texts shape as per expectation (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Shaping Checks>.html#com.google.fonts/check/shaping/regression">com.google.fonts/check/shaping/regression</a>)</summary><div>
 
 
@@ -211,16 +249,16 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* GafIni.HRk
-	* uni0681
-	* uni068E
-	* uni076B
-	* uni067D
-	* uni0759
-	* uni068F
-	* uni06AB
-	* TehMarbuta
-	* uni063F and 135 more.
+	* uni077D
+	* YehKashmiri
+	* DalTahAbove
+	* TehTahAbove
+	* uni0680
+	* Qaf
+	* uni076D
+	* uni06BC
+	* uni0770
+	* uni0777 and 135 more.
 
 Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
@@ -232,25 +270,27 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- nbspace
-
-	- guillemetright
-
-	- multiply
-
-	- ellipsis
-
-	- SmallMeem
-
-	- alef-ar.short
+	- quoteright
 
 	- minus
 
+	- alef-ar.short
+
+	- nbspace
+
+	- SmallMeem
+
+	- guillemetleft
+
 	- divide
 
-	- guillemetleft 
+	- ArEightBelowAltNS
 
-	- And ArEightBelowAltNS
+	- multiply
+
+	- guillemetright 
+
+	- And ellipsis
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -261,12 +301,44 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2 
 
 	- And Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* parenright (U+0029): X=142.0,Y=715.5 (should be at cap-height 714?)
+
+	* two (U+0032): X=104.0,Y=-1.0 (should be at baseline 0?)
+
+	* two (U+0032): X=104.0,Y=-1.0 (should be at baseline 0?)
+
+	* six (U+0036): X=290.0,Y=1.0 (should be at baseline 0?)
+
+	* six (U+0036): X=290.0,Y=1.0 (should be at baseline 0?)
+
+	* semicolon (U+003B): X=132.0,Y=1.0 (should be at baseline 0?)
+
+	* G (U+0047): X=519.0,Y=1.5 (should be at baseline 0?)
+
+	* a (U+0061): X=182.0,Y=536.5 (should be at x-height 536?)
+
+	* c (U+0063): X=360.0,Y=535.0 (should be at x-height 536?)
+
+	* g (U+0067): X=161.0,Y=-0.5 (should be at baseline 0?) 
+
+	* And 57 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do any segments have colinear vectors? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_colinear_vectors">com.google.fonts/check/outline_colinear_vectors</a>)</summary><div>
 
 
@@ -275,7 +347,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni08F3_NS (U+08F3): L<<18.0,897.0>--<-24.0,879.0>> -> L<<-24.0,879.0>--<-113.0,846.0>> 
 
 	* And uni08F4_NS (U+08F4): L<<-57.0,950.0>--<-55.0,951.0>> -> L<<-55.0,951.0>--<36.0,1002.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[6] NotoNastaliqUrdu[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoNastaliqUrdu[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with IndexError: list index out of range
@@ -288,6 +360,10 @@ The following glyphs do not have the recommended number of contours:
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1981, but got 1904 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 1518, but got 596 instead. [code: descent]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking font version fields (head and name table). (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/head.html#com.google.fonts/check/font_version">com.google.fonts/check/font_version</a>)</summary><div>
+
+
+* 🔥 **FAIL** head version is "3.00700" while name version string (for platform 3, encoding 1) is "Version 3.006". [code: mismatch]
 </div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
 
 
@@ -301,33 +377,63 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- guillemotleft.1
-
-	- uni00A0.1
-
-	- multiply
-
-	- ellipsis
-
-	- SmallMeem
-
-	- guillemotright.1
+	- quoteright
 
 	- minus
 
+	- SmallMeem
+
+	- uni0627.short
+
 	- divide
 
-	- uni0627.short 
+	- ArEightBelowAltNS
 
-	- And ArEightBelowAltNS
+	- multiply
+
+	- uni00A0.1
+
+	- guillemotright.1
+
+	- ellipsis 
+
+	- And guillemotleft.1
  [code: unreachable-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
+
+
+* ⚠ **WARN** The following glyphs have on-curve points which have potentially incorrect y coordinates:
+
+	* parenright (U+0029): X=142.0,Y=715.5 (should be at cap-height 714?)
+
+	* two (U+0032): X=104.0,Y=-1.0 (should be at baseline 0?)
+
+	* two (U+0032): X=104.0,Y=-1.0 (should be at baseline 0?)
+
+	* six (U+0036): X=290.0,Y=1.0 (should be at baseline 0?)
+
+	* six (U+0036): X=290.0,Y=1.0 (should be at baseline 0?)
+
+	* semicolon (U+003B): X=132.0,Y=1.0 (should be at baseline 0?)
+
+	* G (U+0047): X=519.0,Y=1.5 (should be at baseline 0?)
+
+	* a (U+0061): X=182.0,Y=536.5 (should be at x-height 536?)
+
+	* c (U+0063): X=360.0,Y=535.0 (should be at x-height 536?)
+
+	* f (U+0066): X=331.0,Y=712.5 (should be at cap-height 714?) 
+
+	* And 68 more.
+
+Use -F or --full-lists to disable shortening of long lists. [code: found-misalignments]
 </div></details><br></div></details>
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 9 | 13 | 328 | 20 | 302 | 0 |
-| 0% | 1% | 2% | 49% | 3% | 45% | 0% |
+| 3 | 12 | 17 | 328 | 20 | 295 | 0 |
+| 0% | 2% | 3% | 49% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
