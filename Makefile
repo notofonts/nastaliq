@@ -18,8 +18,8 @@ venv: venv/touchfile
 
 build.stamp: venv .init.stamp sources/config*.yaml $(SOURCES)
 	rm -rf fonts
-	fontmake --master-dir /home/runner/work/nastaliq/nastaliq/sources/ -o ufo -g /home/runner/work/nastaliq/nastaliq/sources/NotoNastaliqUrdu.glyphs
-	fontmake -i -o ufo -m /home/runner/work/nastaliq/nastaliq/sources/NotoNastaliqUrdu.designspace
+	. venv/bin/activate; python3 -m fontmake --master-dir /home/runner/work/nastaliq/nastaliq/sources/ -o ufo -g /home/runner/work/nastaliq/nastaliq/sources/NotoNastaliqUrdu.glyphs
+	. venv/bin/activate; python3 -m fontmake -i -o ufo -m /home/runner/work/nastaliq/nastaliq/sources/NotoNastaliqUrdu.designspace
 	(for config in sources/config*.yaml; do . venv/bin/activate; python3 -m notobuilder --debug $$config; done)  && touch build.stamp
 
 .init.stamp: venv
