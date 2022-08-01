@@ -1,9 +1,28 @@
-name: Build, QA, Release
+name: Build for testing
 
 on: push
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 jobs:
-  build_font:
-    uses: notofonts/notobuilder/.github/workflows/build.yaml@main
-    secrets: inherit
-
+  build-ttf:
+    runs-on: ubuntu-latest
+    name: Build main TTFs
+    needs: first-run
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+    - uses: actions/cache@v2
+      with:
+        path: ./subset-files
+        key: subsets
+    - name: Build fonts
+      run: make build
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v2
+      with:
+        name: fontbuild-ttf
+        path: fonts
