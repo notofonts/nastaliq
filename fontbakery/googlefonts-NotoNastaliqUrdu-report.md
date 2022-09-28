@@ -1,16 +1,12 @@
 ## Fontbakery report
 
-Fontbakery version: 0.8.9
+Fontbakery version: 0.8.10
 
 <details><summary><b>[1] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking all files are in the same directory. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/single_directory">com.google.fonts/check/family/single_directory</a>)</summary><div>
 
 
 * 🔥 **FAIL** Not all fonts passed in the command line are in the same directory. This may lead to bad results as the tool will interpret all font files as belonging to a single font family. The detected directories are: ['fonts/NotoNastaliqUrdu/googlefonts/ttf', 'fonts/NotoNastaliqUrdu/googlefonts/variable-ttf'] [code: single-directory]
-</div></details><br></div></details><details><summary><b>[11] NotoNastaliqUrdu-Bold.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[10] NotoNastaliqUrdu-Bold.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1981, but got 1904 instead [code: ascent]
@@ -25,18 +21,7 @@ Fontbakery version: 0.8.9
 
 
 * ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni067A
-	* uni0681
-	* uni06C4
-	* YehBarreeHamza
-	* uni06C6
-	* YehKashmiri
-	* uni0778
-	* YehBarree
-	* uni0771
-	* uni076C and 136 more.
-
-Use -F or --full-lists to disable shortening of long lists.
+	* FourDotsRhombusEnclNS
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -46,27 +31,27 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- multiply
-
-	- guillemetleft
-
-	- divide
-
 	- ArEightBelowAltNS
-
-	- quoteright
-
-	- nbspace
-
-	- alef-ar.short
 
 	- SmallMeem
 
+	- alef-ar.short
+
+	- divide
+
+	- ellipsis
+
+	- guillemetleft
+
 	- guillemetright
 
-	- minus 
+	- minus
 
-	- And ellipsis
+	- multiply
+
+	- nbspace 
+
+	- And quoteright
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -145,11 +130,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* h (U+0068): L<<252.0,309.0>--<253.0,118.0>> 
 
 	* And sterling (U+00A3): L<<428.0,346.0>--<270.0,347.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[10] NotoNastaliqUrdu-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoNastaliqUrdu-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1981, but got 1904 instead [code: ascent]
@@ -237,22 +218,6 @@ Got: <svg class="shaping-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 79
 
 
 </div> [code: shaping-regression]
-</div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
-
-
-* ⚠ **WARN** Following glyphs differ greatly from Google Fonts version:
-	* uni067A
-	* uni0681
-	* uni06C4
-	* YehBarreeHamza
-	* uni06C6
-	* YehKashmiri
-	* uni0778
-	* YehBarree
-	* uni0771
-	* uni076C and 135 more.
-
-Use -F or --full-lists to disable shortening of long lists.
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -262,27 +227,27 @@ Use -F or --full-lists to disable shortening of long lists.
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- multiply
-
-	- guillemetleft
-
-	- divide
-
 	- ArEightBelowAltNS
-
-	- quoteright
-
-	- nbspace
-
-	- alef-ar.short
 
 	- SmallMeem
 
+	- alef-ar.short
+
+	- divide
+
+	- ellipsis
+
+	- guillemetleft
+
 	- guillemetright
 
-	- minus 
+	- minus
 
-	- And ellipsis
+	- multiply
+
+	- nbspace 
+
+	- And quoteright
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -339,23 +304,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 	* uni08F3_NS (U+08F3): L<<18.0,897.0>--<-24.0,879.0>> -> L<<-24.0,879.0>--<-113.0,846.0>> 
 
 	* And uni08F4_NS (U+08F4): L<<-57.0,950.0>--<-55.0,951.0>> -> L<<-55.0,951.0>--<36.0,1002.0>> [code: found-colinear-vectors]
-</div></details><br></div></details><details><summary><b>[7] NotoNastaliqUrdu[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[8] NotoNastaliqUrdu[wght].ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
 
 
-* 💔 **ERROR** Failed with IndexError: list index out of range
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure variable fonts include an avar table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mandatory_avar_table">com.google.fonts/check/mandatory_avar_table</a>)</summary><div>
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check a font's STAT table contains compulsory Axis Values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/STAT">com.google.fonts/check/STAT</a>)</summary><div>
 
 
-* 🔥 **FAIL** This variable font does not have an avar table. [code: missing-avar]
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
+</div></details><details><summary>💔 <b>ERROR:</b> Check variable font instances (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fvar_instances">com.google.fonts/check/fvar_instances</a>)</summary><div>
+
+
+* 💔 **ERROR** The condition <FontBakeryCondition:expected_font_names> had an error: KeyError: 'fvar'
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1981, but got 1904 instead [code: ascent]
 * 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 1518, but got 596 instead. [code: descent]
-</div></details><details><summary>🔥 <b>FAIL:</b> Validates that when an instance record is included for the default instance, its subfamilyNameID value is set to either 2 or 17, and its postScriptNameID value is set to 6. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/fvar.html#com.adobe.fonts/check/varfont/valid_default_instance_nameids">com.adobe.fonts/check/varfont/valid_default_instance_nameids</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Ensure variable fonts include an avar table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/mandatory_avar_table">com.google.fonts/check/mandatory_avar_table</a>)</summary><div>
 
 
-* 🔥 **FAIL** 'Regular' instance has the same coordinates as the default instance; its subfamilyNameID should be either 2 or 17, instead of 263. [code: invalid-default-instance-subfamily-nameid:263]
+* ⚠ **WARN** This variable font does not have an avar table. [code: missing-avar]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -365,27 +334,27 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- multiply
+	- ArEightBelowAltNS
+
+	- SmallMeem
 
 	- divide
 
-	- ArEightBelowAltNS
-
-	- quoteright
-
-	- uni0627.short
+	- ellipsis
 
 	- guillemotleft.1
-
-	- SmallMeem
 
 	- guillemotright.1
 
 	- minus
 
-	- ellipsis 
+	- multiply
 
-	- And uni00A0.1
+	- quoteright
+
+	- uni00A0.1 
+
+	- And uni0627.short
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Are there any misaligned on-curve points? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_alignment_miss">com.google.fonts/check/outline_alignment_miss</a>)</summary><div>
 
@@ -420,7 +389,7 @@ Use -F or --full-lists to disable shortening of long lists. [code: found-misalig
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 3 | 9 | 17 | 328 | 20 | 298 | 0 |
+| 3 | 7 | 17 | 319 | 20 | 285 | 0 |
 | 0% | 1% | 3% | 49% | 3% | 44% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
