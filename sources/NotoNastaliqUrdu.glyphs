@@ -3,7 +3,8 @@
 .formatVersion = 3;
 DisplayStrings = (
 "/HahSep",
-"ڵ"
+"ڵ",
+"/SharetKafNS/KafSep ڭ"
 );
 axes = (
 {
@@ -20211,6 +20212,7 @@ sub uni063F by YehxFin ThreeDotsUpAboveNS;
 sub uni0683 by HahFin TwoDotsEnclNS;
 sub uni0684 by HahFin TwoDotsVertEnclNS;
 sub uni0687 by HahFin FourDotsEnclNS;
+sub uni06AD by KafFin SharetKafNS ThreeDotsUpEnclNS;
 sub uni06BB by NoonxFin TahSmallAboveNS;
 sub uni06BC by NoonxFin OneDotEnclNS RingNS;
 sub uni06BD by NoonxFin ThreeDotsUpAboveNS;
@@ -20260,6 +20262,7 @@ sub uni063F by BehxIni ThreeDotsUpAboveNS TwoDotsBelowNS;
 sub uni0683 by HahIni TwoDotsBelowNS;
 sub uni0684 by HahIni TwoDotsVertBelowNS;
 sub uni0687 by HahIni FourDotsBelowNS;
+sub uni06AD by KafIni ThreeDotsUpAboveNS;
 sub uni06BB by BehxIni TahSmallAboveNS;
 sub uni06BC by BehxIni OneDotAboveNS RingNS;
 sub uni06BD by BehxIni ThreeDotsDownBelowNS;
@@ -20365,6 +20368,7 @@ code = "# Select isolated forms
     sub uni0683 by HahSep TwoDotsEnclNS;
     sub uni0684 by HahSep TwoDotsVertEnclNS;
     sub uni0687 by HahSep FourDotsEnclNS;
+	sub uni06AD by KafSep SharetKafNS ThreeDotsUpEnclNS;
     sub uni06BB by NoonxSep TahSmallAboveNS;
     sub uni06BC by NoonxSep OneDotEnclNS RingNS;
 	sub uni06BD by NoonxSep ThreeDotsUpAboveNS;
@@ -20442,6 +20446,7 @@ sub uni063F by BehxMed ThreeDotsUpAboveNS TwoDotsBelowNS;
 sub uni0683 by HahMed TwoDotsBelowNS;
 sub uni0684 by HahMed TwoDotsVertBelowNS;
 sub uni0687 by HahMed FourDotsBelowNS;
+sub uni06AD by KafMed ThreeDotsUpAboveNS;
 sub uni06BB by BehxMed TahSmallAboveNS;
 sub uni06BC by BehxMed OneDotAboveNS RingNS;
 sub uni06BD by BehxMed ThreeDotsDownBelowNS;
@@ -26658,6 +26663,10 @@ layers = (
 {
 anchors = (
 {
+name = Anchor17;
+pos = (457,1046);
+},
+{
 name = _Anchor17;
 pos = (479,549);
 }
@@ -26707,6 +26716,10 @@ width = 0;
 },
 {
 anchors = (
+{
+name = Anchor17;
+pos = (457,1046);
+},
 {
 name = _Anchor17;
 pos = (479,549);
@@ -200465,6 +200478,46 @@ width = 600;
 }
 );
 unicode = 1704;
+},
+{
+glyphname = uni06AD;
+layers = (
+{
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = KafSep;
+},
+{
+ref = SharetKafNS;
+},
+{
+pos = (492,0);
+ref = ThreeDotsUpAboveNS;
+}
+);
+width = 1159;
+},
+{
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = KafSep;
+},
+{
+ref = SharetKafNS;
+},
+{
+pos = (492,0);
+ref = ThreeDotsUpAboveNS;
+}
+);
+width = 1226;
+}
+);
+metricLeft = KafSep;
+metricRight = KafSep;
+unicode = 1709;
 },
 {
 glyphname = uni06B5;
