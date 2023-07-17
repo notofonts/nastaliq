@@ -1,5 +1,5 @@
 {
-.appVersion = "3134";
+.appVersion = "3205";
 .formatVersion = 3;
 DisplayStrings = (
 "/HahSep",
@@ -1982,14 +1982,9 @@ code = "lookup FormDivineName {
     sub LamIni LamMed HehFin by Divine_nm_p1;
 } FormDivineName;
 lookup DivNmCheck {
-    ignore sub LamIni' LamMed' HehFin';
-    sub LamIni' lookup FormDivineName LamMed' [AlefSuperiorNS FathaNS ShaddaNS]' HehFin';
-    sub LamIni' lookup FormDivineName LamMed' [AlefSuperiorNS FathaNS ShaddaNS]' [AlefSuperiorNS FathaNS ShaddaNS]' HehFin';
-    sub LamIni' lookup FormDivineName [AlefSuperiorNS FathaNS ShaddaNS]' LamMed' HehFin';
-    sub LamIni' lookup FormDivineName [AlefSuperiorNS FathaNS ShaddaNS]' LamMed' [AlefSuperiorNS FathaNS ShaddaNS]' HehFin';
-    sub LamIni' lookup FormDivineName [AlefSuperiorNS FathaNS ShaddaNS]' LamMed' [AlefSuperiorNS FathaNS ShaddaNS]' [AlefSuperiorNS FathaNS ShaddaNS]' HehFin';
-} DivNmCheck;
-";
+    sub LamIni' lookup FormDivineName LamMed' ShaddaNS' [AlefSuperiorNS FathaNS]' HehFin';
+    sub LamIni' lookup FormDivineName LamMed' [ShaddaNS AlefSuperiorNS FathaNS]' HehFin';
+} DivNmCheck;";
 name = "Divine Name Ligature";
 },
 {
