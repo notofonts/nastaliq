@@ -20128,9 +20128,6 @@ sub uni08C3 by Ain OneDotAboveNS ThreeDotsUpAboveNS;
 sub uni08C7 by Lam TahSmallAboveNS;
 
 
-    lookup SubtendingMarks;
-    lookup SubtendingLigs;
-
 # See \"Localizations\" prefix
 script arab;
 language ARA;
@@ -20484,9 +20481,13 @@ lookup LamAlefGen {
 
 lookup DivNmCheck;
 
+    lookup SubtendingMarks;
+    lookup SubtendingLigs;
+
     lookup YBinfra;
     lookup YBaddAnchors;
     lookup YBmarks;
+
     lookup Ini_FinPairs1;
     lookup Ini_FinPairs2;
     lookup IniMedFin_Gen;
