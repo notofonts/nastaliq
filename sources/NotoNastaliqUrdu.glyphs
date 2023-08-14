@@ -5,7 +5,7 @@ DisplayStrings = (
 "/HahSep",
 "ڵ",
 "/SharetKafNS/KafSep ڭ",
-"ࢭ"
+"/WawSep ۋ/HamzaAboveAF_NS"
 );
 axes = (
 {
@@ -20068,6 +20068,7 @@ sub uni06C4 by Waw RingNS;
 sub uni06C6 by Waw ArSevenAboveNS;
 sub uni06C7 by Waw DammaNS;
 sub uni06CA by Waw TwoDotsAboveNS;
+sub uni06CB by Waw ThreeDotsUpAboveNS;
 sub uni06CD by AlefMaqsura SharetYehPashtoNS;
 sub uni06CE by AlefMaqsura ArSevenAboveNS;
 sub uni06CF by Waw OneDotAboveNS;
@@ -200577,6 +200578,38 @@ width = 600;
 }
 );
 unicode = 1743;
+},
+{
+glyphname = uni06CB;
+layers = (
+{
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = WawSep;
+},
+{
+pos = (238,-266);
+ref = ThreeDotsUpAboveNS;
+}
+);
+width = 600;
+},
+{
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = WawSep;
+},
+{
+pos = (266,-125);
+ref = ThreeDotsUpAboveNS;
+}
+);
+width = 485;
+}
+);
+unicode = 1739;
 },
 {
 category = Mark;
