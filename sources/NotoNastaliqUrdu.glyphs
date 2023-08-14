@@ -20048,6 +20048,7 @@ sub uni068D by Dal TwoDotsBelowNS;
 sub uni068E by Dal ThreeDotsUpAboveNS;
 sub uni068F by Dal ThreeDotsDownAboveNS;
 sub uni0693 by Reh RingNS;
+sub uni0695 by Reh ArSevenBelowNS;
 sub uni0696 by Reh OneDotSmallAbove OneDotSmallBelowNS;
 sub uni0699 by Reh FourDotsAboveNS;
 sub uni069A by Seen OneDotAboveNS OneDotBelowNS;
@@ -200406,6 +200407,39 @@ nodes = (
 width = 320;
 }
 );
+},
+{
+glyphname = uni0695;
+layers = (
+{
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = RehSep;
+},
+{
+pos = (284,-87);
+ref = ArSevenBelowNS;
+}
+);
+width = 406;
+},
+{
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = RehSep;
+},
+{
+pos = (284,-87);
+ref = ArSevenBelowNS;
+}
+);
+width = 489;
+}
+);
+metricWidth = "=RehSep";
+unicode = 1685;
 },
 {
 glyphname = uni069B;
