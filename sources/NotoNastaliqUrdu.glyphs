@@ -3,7 +3,7 @@
 .formatVersion = 3;
 DisplayStrings = (
 "/HahSep",
-"/GafIni.HRk ڹنڸڿۅۈۉۑ"
+"/LamSep.LA"
 );
 axes = (
 {
@@ -35891,7 +35891,11 @@ name = Anchor7;
 pos = (482,835);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (595,676);
+},
+{
+name = Ring;
 pos = (595,676);
 },
 {
@@ -36159,7 +36163,11 @@ name = Anchor7;
 pos = (482,835);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (595,676);
+},
+{
+name = Ring;
 pos = (595,676);
 },
 {
@@ -46381,7 +46389,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (564,-56);
+},
+{
+name = Ring;
 pos = (564,-56);
 },
 {
@@ -46435,7 +46447,11 @@ width = 1227;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (527,-46);
+},
+{
+name = Ring;
 pos = (527,-46);
 },
 {
@@ -46495,7 +46511,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (614,-54);
+},
+{
+name = Ring;
 pos = (614,-54);
 },
 {
@@ -46566,7 +46586,11 @@ width = 1293;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (527,-46);
+},
+{
+name = Ring;
 pos = (527,-46);
 },
 {
@@ -46647,7 +46671,11 @@ name = Anchor7;
 pos = (409,216);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (343,-410);
+},
+{
+name = Ring;
 pos = (343,-410);
 },
 {
@@ -46715,7 +46743,11 @@ name = Anchor7;
 pos = (409,216);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (342,-376);
+},
+{
+name = Ring;
 pos = (342,-376);
 },
 {
@@ -46785,7 +46817,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (370,-434);
+},
+{
+name = Ring;
 pos = (370,-434);
 },
 {
@@ -46854,7 +46890,11 @@ width = 766;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (342,-376);
+},
+{
+name = Ring;
 pos = (342,-376);
 },
 {
@@ -47075,7 +47115,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (170,-82);
+},
+{
+name = Ring;
 pos = (170,-82);
 },
 {
@@ -47120,7 +47164,11 @@ width = 362;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (205,-22);
+},
+{
+name = Ring;
 pos = (205,-22);
 },
 {
@@ -47175,7 +47223,11 @@ name = Anchor7;
 pos = (264,746);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (222,-42);
+},
+{
+name = Ring;
 pos = (222,-42);
 },
 {
@@ -47238,7 +47290,11 @@ name = Anchor7;
 pos = (219,624);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (183,-27);
+},
+{
+name = Ring;
 pos = (183,-27);
 },
 {
@@ -47315,7 +47371,11 @@ name = Anchor7;
 pos = (252,702);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (353,291);
+},
+{
+name = Ring;
 pos = (216,-41);
 },
 {
@@ -47366,7 +47426,11 @@ name = Anchor7;
 pos = (192,646);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (286,265);
+},
+{
+name = Ring;
 pos = (175,-21);
 },
 {
@@ -48929,7 +48993,11 @@ name = Anchor7;
 pos = (239,805);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (120,29);
+},
+{
+name = Ring;
 pos = (120,29);
 },
 {
@@ -48994,7 +49062,11 @@ name = Anchor7;
 pos = (206,690);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (124,49);
+},
+{
+name = Ring;
 pos = (124,49);
 },
 {
@@ -49061,7 +49133,11 @@ name = Anchor15;
 pos = (925,1152);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1412,1112);
+},
+{
+name = Ring;
 pos = (1412,1112);
 },
 {
@@ -49154,7 +49230,11 @@ name = Anchor15;
 pos = (832,1040);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1238,1005);
+},
+{
+name = Ring;
 pos = (1238,1005);
 },
 {
@@ -49249,7 +49329,7 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
 pos = (777,811);
 },
 {
@@ -49312,7 +49392,7 @@ width = 890;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
 pos = (747,810);
 },
 {
@@ -49381,7 +49461,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (777,811);
+},
+{
+name = Ring;
 pos = (777,811);
 },
 {
@@ -49459,7 +49543,11 @@ width = 886;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (747,974);
+},
+{
+name = Ring;
 pos = (747,974);
 },
 {
@@ -50148,7 +50236,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (575,-58);
+},
+{
+name = Ring;
 pos = (575,-58);
 },
 {
@@ -50229,7 +50321,11 @@ width = 1323;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (527,-46);
+},
+{
+name = Ring;
 pos = (527,-46);
 },
 {
@@ -51534,7 +51630,11 @@ name = Anchor7;
 pos = (182,1146);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (67,651);
+},
+{
+name = Ring;
 pos = (67,651);
 },
 {
@@ -51594,7 +51694,11 @@ name = Anchor7;
 pos = (128,1145);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (87,625);
+},
+{
+name = Ring;
 pos = (87,625);
 },
 {
@@ -51660,7 +51764,11 @@ name = Anchor7;
 pos = (191,1145);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (67,651);
+},
+{
+name = Ring;
 pos = (67,651);
 },
 {
@@ -51733,7 +51841,11 @@ name = Anchor7;
 pos = (120,1144);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (87,625);
+},
+{
+name = Ring;
 pos = (87,625);
 },
 {
@@ -51808,7 +51920,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (220,568);
+},
+{
+name = Ring;
 pos = (220,568);
 },
 {
@@ -51868,7 +51984,11 @@ width = 383;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (202,476);
+},
+{
+name = Ring;
 pos = (202,476);
 },
 {
@@ -51934,7 +52054,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (229,590);
+},
+{
+name = Ring;
 pos = (229,590);
 },
 {
@@ -52005,7 +52129,11 @@ width = 336;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (202,476);
+},
+{
+name = Ring;
 pos = (202,476);
 },
 {
@@ -52086,7 +52214,11 @@ name = Anchor7;
 pos = (236,976);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (189,486);
+},
+{
+name = Ring;
 pos = (189,486);
 },
 {
@@ -52147,7 +52279,11 @@ name = Anchor7;
 pos = (211,980);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (184,415);
+},
+{
+name = Ring;
 pos = (184,415);
 },
 {
@@ -52214,7 +52350,11 @@ name = Anchor7;
 pos = (233,1022);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (199,486);
+},
+{
+name = Ring;
 pos = (199,486);
 },
 {
@@ -52292,7 +52432,11 @@ name = Anchor7;
 pos = (233,1022);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (184,450);
+},
+{
+name = Ring;
 pos = (184,450);
 },
 {
@@ -53542,7 +53686,11 @@ name = Anchor7;
 pos = (202,545);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (97,-11);
+},
+{
+name = Ring;
 pos = (97,-11);
 },
 {
@@ -53591,7 +53739,11 @@ name = Anchor7;
 pos = (178,442);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (96,-11);
+},
+{
+name = Ring;
 pos = (96,-11);
 },
 {
@@ -53646,7 +53798,11 @@ name = Anchor7;
 pos = (202,545);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (97,-11);
+},
+{
+name = Ring;
 pos = (97,-11);
 },
 {
@@ -53695,7 +53851,11 @@ name = Anchor7;
 pos = (178,442);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (96,-11);
+},
+{
+name = Ring;
 pos = (96,-11);
 },
 {
@@ -54092,7 +54252,11 @@ name = Anchor23;
 pos = (239,-201);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (74,-246);
+},
+{
+name = Ring;
 pos = (74,-246);
 },
 {
@@ -54154,7 +54318,11 @@ name = Anchor23;
 pos = (195,-228);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (123,-180);
+},
+{
+name = Ring;
 pos = (123,-180);
 },
 {
@@ -55378,7 +55546,11 @@ name = Anchor7;
 pos = (229,805);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (120,29);
+},
+{
+name = Ring;
 pos = (120,29);
 },
 {
@@ -55451,7 +55623,11 @@ name = Anchor7;
 pos = (134,672);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (124,49);
+},
+{
+name = Ring;
 pos = (124,49);
 },
 {
@@ -55671,7 +55847,11 @@ name = Anchor7;
 pos = (423,1448);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (357,838);
+},
+{
+name = Ring;
 pos = (357,838);
 },
 {
@@ -55768,7 +55948,11 @@ name = Anchor7;
 pos = (423,1448);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (315,741);
+},
+{
+name = Ring;
 pos = (315,741);
 },
 {
@@ -56211,7 +56395,11 @@ name = Anchor7;
 pos = (207,643);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (101,-19);
+},
+{
+name = Ring;
 pos = (101,-19);
 },
 {
@@ -56260,7 +56448,11 @@ name = Anchor7;
 pos = (206,532);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (87,-14);
+},
+{
+name = Ring;
 pos = (87,-14);
 },
 {
@@ -56311,7 +56503,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (101,-19);
+},
+{
+name = Ring;
 pos = (101,-19);
 },
 {
@@ -56352,7 +56548,11 @@ width = 179;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (87,-14);
+},
+{
+name = Ring;
 pos = (87,-14);
 },
 {
@@ -56403,7 +56603,11 @@ name = Anchor7;
 pos = (177,519);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (101,-19);
+},
+{
+name = Ring;
 pos = (101,-19);
 },
 {
@@ -56448,7 +56652,11 @@ name = Anchor7;
 pos = (162,425);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (87,-14);
+},
+{
+name = Ring;
 pos = (87,-14);
 },
 {
@@ -57225,7 +57433,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (128,35);
+},
+{
+name = Ring;
 pos = (128,35);
 },
 {
@@ -57282,7 +57494,11 @@ width = 275;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (113,17);
+},
+{
+name = Ring;
 pos = (113,17);
 },
 {
@@ -57345,7 +57561,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (121,-5);
+},
+{
+name = Ring;
 pos = (121,-5);
 },
 {
@@ -57386,7 +57606,11 @@ width = 272;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (107,-23);
+},
+{
+name = Ring;
 pos = (107,-23);
 },
 {
@@ -57433,7 +57657,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (202,86);
+},
+{
+name = Ring;
 pos = (202,86);
 },
 {
@@ -57493,7 +57721,11 @@ width = 332;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (151,14);
+},
+{
+name = Ring;
 pos = (151,14);
 },
 {
@@ -57559,7 +57791,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (202,86);
+},
+{
+name = Ring;
 pos = (202,86);
 },
 {
@@ -57619,7 +57855,11 @@ width = 332;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (151,14);
+},
+{
+name = Ring;
 pos = (151,14);
 },
 {
@@ -58114,7 +58354,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (219,31);
+},
+{
+name = Ring;
 pos = (219,31);
 },
 {
@@ -58173,7 +58417,11 @@ width = 390;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (151,-11);
+},
+{
+name = Ring;
 pos = (151,-11);
 },
 {
@@ -58242,7 +58490,11 @@ name = Anchor7;
 pos = (293,572);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (179,20);
+},
+{
+name = Ring;
 pos = (179,20);
 },
 {
@@ -58294,7 +58546,11 @@ name = Anchor7;
 pos = (222,416);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (136,9);
+},
+{
+name = Ring;
 pos = (136,9);
 },
 {
@@ -59360,7 +59616,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (221,86);
+},
+{
+name = Ring;
 pos = (221,86);
 },
 {
@@ -59407,7 +59667,11 @@ width = 449;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (190,84);
+},
+{
+name = Ring;
 pos = (190,84);
 },
 {
@@ -59460,7 +59724,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (349,121);
+},
+{
+name = Ring;
 pos = (349,121);
 },
 {
@@ -59513,7 +59781,11 @@ width = 661;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (305,121);
+},
+{
+name = Ring;
 pos = (305,121);
 },
 {
@@ -59572,7 +59844,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (122,40);
+},
+{
+name = Ring;
 pos = (122,40);
 },
 {
@@ -59620,7 +59896,11 @@ width = 207;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (123,93);
+},
+{
+name = Ring;
 pos = (123,93);
 },
 {
@@ -59674,7 +59954,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (164,103);
+},
+{
+name = Ring;
 pos = (164,103);
 },
 {
@@ -59725,7 +60009,11 @@ width = 242;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (132,66);
+},
+{
+name = Ring;
 pos = (132,66);
 },
 {
@@ -59923,7 +60211,11 @@ name = Anchor7;
 pos = (181,635);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (215,-68);
+},
+{
+name = Ring;
 pos = (215,-68);
 },
 {
@@ -59995,7 +60287,11 @@ name = Anchor7;
 pos = (164,609);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (191,-15);
+},
+{
+name = Ring;
 pos = (191,-15);
 },
 {
@@ -60061,7 +60357,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (239,126);
+},
+{
+name = Ring;
 pos = (239,126);
 },
 {
@@ -60111,7 +60411,11 @@ width = 428;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (211,119);
+},
+{
+name = Ring;
 pos = (211,119);
 },
 {
@@ -60167,7 +60471,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (123,5);
+},
+{
+name = Ring;
 pos = (123,5);
 },
 {
@@ -60223,7 +60531,11 @@ width = 1163;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (126,58);
+},
+{
+name = Ring;
 pos = (126,58);
 },
 {
@@ -60293,7 +60605,11 @@ name = Anchor23;
 pos = (239,-201);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (74,-246);
+},
+{
+name = Ring;
 pos = (74,-246);
 },
 {
@@ -60358,7 +60674,11 @@ name = Anchor23;
 pos = (195,-228);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (131,-180);
+},
+{
+name = Ring;
 pos = (131,-180);
 },
 {
@@ -60803,7 +61123,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (72,-2);
+},
+{
+name = Ring;
 pos = (72,-2);
 },
 {
@@ -60850,7 +61174,11 @@ width = 305;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (89,40);
+},
+{
+name = Ring;
 pos = (89,40);
 },
 {
@@ -60911,7 +61239,11 @@ name = Anchor23;
 pos = (249,-201);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (74,-246);
+},
+{
+name = Ring;
 pos = (74,-246);
 },
 {
@@ -60970,7 +61302,11 @@ name = Anchor23;
 pos = (195,-228);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (128,-180);
+},
+{
+name = Ring;
 pos = (128,-180);
 },
 {
@@ -61035,7 +61371,11 @@ name = Anchor23;
 pos = (387,-59);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (215,-59);
+},
+{
+name = Ring;
 pos = (215,-59);
 },
 {
@@ -61116,7 +61456,11 @@ name = Anchor23;
 pos = (267,-84);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (217,-15);
+},
+{
+name = Ring;
 pos = (217,-15);
 },
 {
@@ -61569,7 +61913,11 @@ name = Anchor23;
 pos = (249,-201);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (74,-246);
+},
+{
+name = Ring;
 pos = (74,-246);
 },
 {
@@ -61628,7 +61976,11 @@ name = Anchor23;
 pos = (195,-228);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (128,-180);
+},
+{
+name = Ring;
 pos = (128,-180);
 },
 {
@@ -61689,7 +62041,11 @@ name = Anchor15;
 pos = (453,1154);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (614,925);
+},
+{
+name = Ring;
 pos = (614,925);
 },
 {
@@ -61768,7 +62124,11 @@ name = Anchor15;
 pos = (529,1121);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (552,829);
+},
+{
+name = Ring;
 pos = (552,829);
 },
 {
@@ -61853,7 +62213,11 @@ name = Anchor15;
 pos = (148,807);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (387,685);
+},
+{
+name = Ring;
 pos = (387,685);
 },
 {
@@ -61951,7 +62315,11 @@ name = Anchor15;
 pos = (148,767);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (340,592);
+},
+{
+name = Ring;
 pos = (340,592);
 },
 {
@@ -62055,7 +62423,11 @@ name = Anchor15;
 pos = (172,892);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (373,672);
+},
+{
+name = Ring;
 pos = (373,672);
 },
 {
@@ -62189,7 +62561,11 @@ name = Anchor15;
 pos = (151,802);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (352,592);
+},
+{
+name = Ring;
 pos = (352,592);
 },
 {
@@ -63604,7 +63980,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (111,111);
+},
+{
+name = Ring;
 pos = (111,111);
 },
 {
@@ -63660,7 +64040,11 @@ width = 332;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (125,110);
+},
+{
+name = Ring;
 pos = (125,110);
 },
 {
@@ -64288,7 +64672,11 @@ name = Anchor7;
 pos = (159,805);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (120,35);
+},
+{
+name = Ring;
 pos = (120,35);
 },
 {
@@ -64354,7 +64742,11 @@ name = Anchor7;
 pos = (159,725);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (124,49);
+},
+{
+name = Ring;
 pos = (124,49);
 },
 {
@@ -64426,7 +64818,11 @@ name = Anchor7;
 pos = (213,804);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (120,30);
+},
+{
+name = Ring;
 pos = (120,30);
 },
 {
@@ -64492,7 +64888,11 @@ name = Anchor7;
 pos = (159,785);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (124,49);
+},
+{
+name = Ring;
 pos = (124,49);
 },
 {
@@ -64560,7 +64960,11 @@ name = Anchor7;
 pos = (249,862);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (248,128);
+},
+{
+name = Ring;
 pos = (248,128);
 },
 {
@@ -64634,7 +65038,11 @@ name = Anchor7;
 pos = (188,802);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (200,81);
+},
+{
+name = Ring;
 pos = (200,81);
 },
 {
@@ -64714,7 +65122,11 @@ name = Anchor7;
 pos = (207,724);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (201,116);
+},
+{
+name = Ring;
 pos = (201,116);
 },
 {
@@ -64794,7 +65206,11 @@ name = Anchor7;
 pos = (213,636);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (198,115);
+},
+{
+name = Ring;
 pos = (198,115);
 },
 {
@@ -64880,7 +65296,11 @@ name = Anchor7;
 pos = (252,790);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (232,60);
+},
+{
+name = Ring;
 pos = (232,60);
 },
 {
@@ -64954,7 +65374,11 @@ name = Anchor7;
 pos = (191,790);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (165,20);
+},
+{
+name = Ring;
 pos = (165,20);
 },
 {
@@ -65030,7 +65454,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (241,139);
+},
+{
+name = Ring;
 pos = (241,139);
 },
 {
@@ -65107,7 +65535,11 @@ width = 337;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (230,106);
+},
+{
+name = Ring;
 pos = (230,106);
 },
 {
@@ -65190,7 +65622,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (241,139);
+},
+{
+name = Ring;
 pos = (241,139);
 },
 {
@@ -65267,7 +65703,11 @@ width = 337;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (230,106);
+},
+{
+name = Ring;
 pos = (230,106);
 },
 {
@@ -65674,7 +66114,11 @@ name = Anchor15;
 pos = (175,1233);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (601,1223);
+},
+{
+name = Ring;
 pos = (601,1223);
 },
 {
@@ -65808,7 +66252,11 @@ name = Anchor15;
 pos = (138,1154);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (552,1119);
+},
+{
+name = Ring;
 pos = (552,1119);
 },
 {
@@ -65905,7 +66353,11 @@ name = Anchor7;
 pos = (159,861);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (169,68);
+},
+{
+name = Ring;
 pos = (169,68);
 },
 {
@@ -65976,7 +66428,11 @@ name = Anchor7;
 pos = (101,714);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (125,49);
+},
+{
+name = Ring;
 pos = (125,49);
 },
 {
@@ -66053,7 +66509,11 @@ name = Anchor7;
 pos = (119,676);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (132,-23);
+},
+{
+name = Ring;
 pos = (132,-23);
 },
 {
@@ -66129,7 +66589,11 @@ name = Anchor7;
 pos = (63,539);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (109,3);
+},
+{
+name = Ring;
 pos = (109,3);
 },
 {
@@ -66210,7 +66674,11 @@ name = Anchor7;
 pos = (127,712);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (230,105);
+},
+{
+name = Ring;
 pos = (230,105);
 },
 {
@@ -66283,7 +66751,11 @@ name = Anchor7;
 pos = (90,534);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (221,119);
+},
+{
+name = Ring;
 pos = (221,119);
 },
 {
@@ -66362,7 +66834,11 @@ name = Anchor7;
 pos = (150,876);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (175,73);
+},
+{
+name = Ring;
 pos = (175,73);
 },
 {
@@ -66436,7 +66912,11 @@ name = Anchor7;
 pos = (80,775);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (151,63);
+},
+{
+name = Ring;
 pos = (151,63);
 },
 {
@@ -66516,7 +66996,11 @@ name = Anchor7;
 pos = (132,705);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (165,49);
+},
+{
+name = Ring;
 pos = (165,49);
 },
 {
@@ -66587,7 +67071,11 @@ name = Anchor7;
 pos = (106,802);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (114,31);
+},
+{
+name = Ring;
 pos = (114,31);
 },
 {
@@ -66660,7 +67148,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (140,14);
+},
+{
+name = Ring;
 pos = (140,14);
 },
 {
@@ -66729,7 +67221,11 @@ width = 314;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (116,6);
+},
+{
+name = Ring;
 pos = (116,6);
 },
 {
@@ -66807,7 +67303,11 @@ name = Anchor7;
 pos = (128,776);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (133,18);
+},
+{
+name = Ring;
 pos = (133,18);
 },
 {
@@ -66878,7 +67378,11 @@ name = Anchor7;
 pos = (81,661);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (105,35);
+},
+{
+name = Ring;
 pos = (105,35);
 },
 {
@@ -66955,7 +67459,11 @@ name = Anchor7;
 pos = (50,705);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (65,-44);
+},
+{
+name = Ring;
 pos = (65,-44);
 },
 {
@@ -67009,7 +67517,11 @@ name = Anchor7;
 pos = (50,705);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (45,-48);
+},
+{
+name = Ring;
 pos = (45,-48);
 },
 {
@@ -67069,7 +67581,11 @@ name = Anchor7;
 pos = (108,773);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (233,151);
+},
+{
+name = Ring;
 pos = (233,151);
 },
 {
@@ -67141,7 +67657,11 @@ name = Anchor7;
 pos = (107,623);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (261,141);
+},
+{
+name = Ring;
 pos = (261,141);
 },
 {
@@ -67219,7 +67739,11 @@ name = Anchor7;
 pos = (121,593);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (177,30);
+},
+{
+name = Ring;
 pos = (177,30);
 },
 {
@@ -67287,7 +67811,11 @@ name = Anchor7;
 pos = (65,516);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (199,58);
+},
+{
+name = Ring;
 pos = (199,58);
 },
 {
@@ -67356,7 +67884,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (269,133);
+},
+{
+name = Ring;
 pos = (269,133);
 },
 {
@@ -67421,7 +67953,11 @@ width = 449;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (256,145);
+},
+{
+name = Ring;
 pos = (256,145);
 },
 {
@@ -67500,7 +68036,11 @@ name = Anchor7;
 pos = (119,805);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (120,33);
+},
+{
+name = Ring;
 pos = (120,33);
 },
 {
@@ -67581,7 +68121,11 @@ name = Anchor7;
 pos = (137,645);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (124,49);
+},
+{
+name = Ring;
 pos = (124,49);
 },
 {
@@ -68038,7 +68582,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (86,5);
+},
+{
+name = Ring;
 pos = (86,5);
 },
 {
@@ -68104,7 +68652,11 @@ width = 228;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (87,35);
+},
+{
+name = Ring;
 pos = (87,35);
 },
 {
@@ -68176,7 +68728,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (205,104);
+},
+{
+name = Ring;
 pos = (205,104);
 },
 {
@@ -68239,7 +68795,11 @@ width = 296;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (131,79);
+},
+{
+name = Ring;
 pos = (131,79);
 },
 {
@@ -68308,7 +68868,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (239,102);
+},
+{
+name = Ring;
 pos = (239,102);
 },
 {
@@ -68377,7 +68941,11 @@ width = 336;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (233,100);
+},
+{
+name = Ring;
 pos = (233,100);
 },
 {
@@ -68962,7 +69530,11 @@ name = Anchor7;
 pos = (460,704);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (613,147);
+},
+{
+name = Ring;
 pos = (613,147);
 },
 {
@@ -69040,7 +69612,11 @@ name = Anchor7;
 pos = (426,664);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (554,188);
+},
+{
+name = Ring;
 pos = (554,188);
 },
 {
@@ -69120,7 +69696,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (492,149);
+},
+{
+name = Ring;
 pos = (492,149);
 },
 {
@@ -69194,7 +69774,11 @@ width = 595;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (446,139);
+},
+{
+name = Ring;
 pos = (446,139);
 },
 {
@@ -69274,7 +69858,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (653,162);
+},
+{
+name = Ring;
 pos = (653,162);
 },
 {
@@ -69351,7 +69939,11 @@ width = 757;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (554,188);
+},
+{
+name = Ring;
 pos = (554,188);
 },
 {
@@ -69592,7 +70184,11 @@ name = Anchor7;
 pos = (149,631);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (218,39);
+},
+{
+name = Ring;
 pos = (218,39);
 },
 {
@@ -69661,7 +70257,11 @@ name = Anchor7;
 pos = (149,491);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (232,65);
+},
+{
+name = Ring;
 pos = (232,65);
 },
 {
@@ -69732,7 +70332,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (130,91);
+},
+{
+name = Ring;
 pos = (130,91);
 },
 {
@@ -69797,7 +70401,11 @@ width = 292;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (159,101);
+},
+{
+name = Ring;
 pos = (159,101);
 },
 {
@@ -69872,7 +70480,11 @@ name = Anchor7;
 pos = (282,593);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (289,94);
+},
+{
+name = Ring;
 pos = (289,94);
 },
 {
@@ -69945,7 +70557,11 @@ name = Anchor7;
 pos = (217,583);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (308,109);
+},
+{
+name = Ring;
 pos = (308,109);
 },
 {
@@ -70024,7 +70640,11 @@ name = Anchor7;
 pos = (217,583);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (289,94);
+},
+{
+name = Ring;
 pos = (289,94);
 },
 {
@@ -70094,7 +70714,11 @@ name = Anchor7;
 pos = (217,583);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (308,109);
+},
+{
+name = Ring;
 pos = (308,109);
 },
 {
@@ -70170,7 +70794,11 @@ name = Anchor7;
 pos = (282,593);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (289,94);
+},
+{
+name = Ring;
 pos = (289,94);
 },
 {
@@ -70240,7 +70868,11 @@ name = Anchor7;
 pos = (331,583);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (308,109);
+},
+{
+name = Ring;
 pos = (308,109);
 },
 {
@@ -70312,7 +70944,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (374,109);
+},
+{
+name = Ring;
 pos = (374,109);
 },
 {
@@ -70381,7 +71017,11 @@ width = 566;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (343,136);
+},
+{
+name = Ring;
 pos = (343,136);
 },
 {
@@ -70460,7 +71100,11 @@ name = Anchor7;
 pos = (259,663);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (235,126);
+},
+{
+name = Ring;
 pos = (235,126);
 },
 {
@@ -70533,7 +71177,11 @@ name = Anchor7;
 pos = (243,582);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (222,151);
+},
+{
+name = Ring;
 pos = (222,151);
 },
 {
@@ -70800,7 +71448,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (105,28);
+},
+{
+name = Ring;
 pos = (105,28);
 },
 {
@@ -70865,7 +71517,11 @@ width = 268;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (126,42);
+},
+{
+name = Ring;
 pos = (126,42);
 },
 {
@@ -71240,7 +71896,11 @@ name = Anchor7;
 pos = (205,990);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (168,616);
+},
+{
+name = Ring;
 pos = (168,616);
 },
 {
@@ -71305,7 +71965,11 @@ name = Anchor7;
 pos = (184,929);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (158,608);
+},
+{
+name = Ring;
 pos = (158,608);
 },
 {
@@ -71376,7 +72040,11 @@ name = Anchor7;
 pos = (249,1078);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (226,692);
+},
+{
+name = Ring;
 pos = (226,692);
 },
 {
@@ -71438,7 +72106,11 @@ name = Anchor7;
 pos = (244,1008);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (210,643);
+},
+{
+name = Ring;
 pos = (210,643);
 },
 {
@@ -71506,7 +72178,11 @@ name = Anchor7;
 pos = (280,1027);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (248,616);
+},
+{
+name = Ring;
 pos = (248,616);
 },
 {
@@ -71577,7 +72253,11 @@ name = Anchor7;
 pos = (276,966);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (246,582);
+},
+{
+name = Ring;
 pos = (246,582);
 },
 {
@@ -71654,7 +72334,11 @@ name = Anchor7;
 pos = (133,844);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (98,474);
+},
+{
+name = Ring;
 pos = (98,474);
 },
 {
@@ -71715,7 +72399,11 @@ name = Anchor7;
 pos = (129,773);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (96,423);
+},
+{
+name = Ring;
 pos = (96,423);
 },
 {
@@ -71782,7 +72470,11 @@ name = Anchor7;
 pos = (130,773);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (97,424);
+},
+{
+name = Ring;
 pos = (97,424);
 },
 {
@@ -71852,7 +72544,11 @@ name = Anchor7;
 pos = (129,773);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (96,423);
+},
+{
+name = Ring;
 pos = (96,423);
 },
 {
@@ -71924,7 +72620,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,648);
+},
+{
+name = Ring;
 pos = (491,648);
 },
 {
@@ -71987,7 +72687,11 @@ width = 651;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (474,608);
+},
+{
+name = Ring;
 pos = (474,608);
 },
 {
@@ -72056,7 +72760,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (497,658);
+},
+{
+name = Ring;
 pos = (497,658);
 },
 {
@@ -72131,7 +72839,11 @@ width = 607;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (492,608);
+},
+{
+name = Ring;
 pos = (492,608);
 },
 {
@@ -72216,7 +72928,11 @@ name = Anchor15;
 pos = (138,981);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (512,899);
+},
+{
+name = Ring;
 pos = (512,899);
 },
 {
@@ -72298,7 +73014,11 @@ name = Anchor15;
 pos = (67,891);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,855);
+},
+{
+name = Ring;
 pos = (491,855);
 },
 {
@@ -72386,7 +73106,11 @@ name = Anchor15;
 pos = (149,867);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (483,753);
+},
+{
+name = Ring;
 pos = (483,753);
 },
 {
@@ -72471,7 +73195,11 @@ name = Anchor15;
 pos = (67,891);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,855);
+},
+{
+name = Ring;
 pos = (491,855);
 },
 {
@@ -72566,7 +73294,11 @@ name = Anchor7;
 pos = (423,1448);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (357,838);
+},
+{
+name = Ring;
 pos = (357,838);
 },
 {
@@ -72672,7 +73404,11 @@ name = Anchor7;
 pos = (423,1448);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (315,741);
+},
+{
+name = Ring;
 pos = (315,741);
 },
 {
@@ -72780,7 +73516,11 @@ name = Anchor15;
 pos = (175,1233);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (601,1223);
+},
+{
+name = Ring;
 pos = (601,1223);
 },
 {
@@ -72880,7 +73620,11 @@ name = Anchor15;
 pos = (138,1154);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (552,1119);
+},
+{
+name = Ring;
 pos = (552,1119);
 },
 {
@@ -72986,7 +73730,11 @@ name = Anchor15;
 pos = (245,1213);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (627,1203);
+},
+{
+name = Ring;
 pos = (627,1203);
 },
 {
@@ -73081,7 +73829,11 @@ name = Anchor15;
 pos = (146,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (567,1093);
+},
+{
+name = Ring;
 pos = (567,1093);
 },
 {
@@ -73182,7 +73934,11 @@ name = Anchor15;
 pos = (103,834);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (485,737);
+},
+{
+name = Ring;
 pos = (485,737);
 },
 {
@@ -73261,7 +74017,11 @@ name = Anchor15;
 pos = (120,785);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,741);
+},
+{
+name = Ring;
 pos = (491,741);
 },
 {
@@ -73346,7 +74106,11 @@ name = Anchor15;
 pos = (925,1152);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1412,1112);
+},
+{
+name = Ring;
 pos = (1412,1112);
 },
 {
@@ -73413,7 +74177,11 @@ name = Anchor15;
 pos = (779,1052);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1238,1005);
+},
+{
+name = Ring;
 pos = (1238,1005);
 },
 {
@@ -73483,7 +74251,11 @@ name = Anchor15;
 pos = (103,834);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (485,737);
+},
+{
+name = Ring;
 pos = (485,737);
 },
 {
@@ -73546,7 +74318,11 @@ name = Anchor15;
 pos = (111,840);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (542,703);
+},
+{
+name = Ring;
 pos = (542,703);
 },
 {
@@ -73615,7 +74391,11 @@ name = Anchor15;
 pos = (137,1068);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (512,899);
+},
+{
+name = Ring;
 pos = (512,899);
 },
 {
@@ -73649,7 +74429,11 @@ name = Anchor15;
 pos = (50,899);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,855);
+},
+{
+name = Ring;
 pos = (491,855);
 },
 {
@@ -73689,7 +74473,11 @@ name = Anchor15;
 pos = (156,958);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (483,753);
+},
+{
+name = Ring;
 pos = (483,753);
 },
 {
@@ -73731,7 +74519,11 @@ name = Anchor15;
 pos = (50,899);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,855);
+},
+{
+name = Ring;
 pos = (491,855);
 },
 {
@@ -73803,7 +74595,11 @@ name = Anchor15;
 pos = (190,1215);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (627,1203);
+},
+{
+name = Ring;
 pos = (627,1203);
 },
 {
@@ -73869,7 +74665,11 @@ name = Anchor15;
 pos = (146,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (567,1093);
+},
+{
+name = Ring;
 pos = (567,1093);
 },
 {
@@ -73941,7 +74741,11 @@ name = Anchor7;
 pos = (233,989);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (197,607);
+},
+{
+name = Ring;
 pos = (197,607);
 },
 {
@@ -74007,7 +74811,11 @@ name = Anchor7;
 pos = (230,929);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (202,582);
+},
+{
+name = Ring;
 pos = (202,582);
 },
 {
@@ -74079,7 +74887,11 @@ name = Anchor7;
 pos = (303,1068);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (266,677);
+},
+{
+name = Ring;
 pos = (266,677);
 },
 {
@@ -74143,7 +74955,11 @@ name = Anchor7;
 pos = (279,1007);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (246,590);
+},
+{
+name = Ring;
 pos = (246,590);
 },
 {
@@ -74213,7 +75029,11 @@ name = Anchor7;
 pos = (134,853);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (91,457);
+},
+{
+name = Ring;
 pos = (91,457);
 },
 {
@@ -74276,7 +75096,11 @@ name = Anchor7;
 pos = (116,792);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (79,441);
+},
+{
+name = Ring;
 pos = (79,441);
 },
 {
@@ -74345,7 +75169,11 @@ name = Anchor7;
 pos = (382,1012);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (382,628);
+},
+{
+name = Ring;
 pos = (382,628);
 },
 {
@@ -74415,7 +75243,11 @@ name = Anchor7;
 pos = (378,951);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (351,599);
+},
+{
+name = Ring;
 pos = (351,599);
 },
 {
@@ -74491,7 +75323,11 @@ name = Anchor7;
 pos = (661,1049);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (617,652);
+},
+{
+name = Ring;
 pos = (617,652);
 },
 {
@@ -74552,7 +75388,11 @@ name = Anchor7;
 pos = (616,988);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (580,608);
+},
+{
+name = Ring;
 pos = (580,608);
 },
 {
@@ -74619,7 +75459,11 @@ name = Anchor7;
 pos = (189,929);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (157,517);
+},
+{
+name = Ring;
 pos = (157,517);
 },
 {
@@ -74683,7 +75527,11 @@ name = Anchor7;
 pos = (183,869);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (145,494);
+},
+{
+name = Ring;
 pos = (145,494);
 },
 {
@@ -74753,7 +75601,11 @@ name = Anchor7;
 pos = (83,791);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (40,428);
+},
+{
+name = Ring;
 pos = (40,428);
 },
 {
@@ -74820,7 +75672,11 @@ name = Anchor7;
 pos = (77,731);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (52,388);
+},
+{
+name = Ring;
 pos = (52,388);
 },
 {
@@ -74889,7 +75745,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (222,607);
+},
+{
+name = Ring;
 pos = (222,607);
 },
 {
@@ -74945,7 +75805,11 @@ width = 380;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (202,573);
+},
+{
+name = Ring;
 pos = (202,573);
 },
 {
@@ -75011,7 +75875,11 @@ name = Anchor7;
 pos = (265,1082);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (229,705);
+},
+{
+name = Ring;
 pos = (229,705);
 },
 {
@@ -75088,7 +75956,11 @@ name = Anchor7;
 pos = (256,1021);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (219,643);
+},
+{
+name = Ring;
 pos = (219,643);
 },
 {
@@ -75171,7 +76043,11 @@ name = Anchor7;
 pos = (249,1055);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (207,705);
+},
+{
+name = Ring;
 pos = (207,705);
 },
 {
@@ -75248,7 +76124,11 @@ name = Anchor7;
 pos = (239,995);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (202,634);
+},
+{
+name = Ring;
 pos = (202,634);
 },
 {
@@ -75331,7 +76211,11 @@ name = Anchor7;
 pos = (307,1080);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (267,715);
+},
+{
+name = Ring;
 pos = (267,715);
 },
 {
@@ -75401,7 +76285,11 @@ name = Anchor7;
 pos = (291,1019);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (254,661);
+},
+{
+name = Ring;
 pos = (254,661);
 },
 {
@@ -75477,7 +76365,11 @@ name = Anchor7;
 pos = (317,1080);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (270,705);
+},
+{
+name = Ring;
 pos = (270,705);
 },
 {
@@ -75557,7 +76449,11 @@ name = Anchor7;
 pos = (293,1019);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (254,661);
+},
+{
+name = Ring;
 pos = (254,661);
 },
 {
@@ -75639,7 +76535,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (617,610);
+},
+{
+name = Ring;
 pos = (617,610);
 },
 {
@@ -75712,7 +76612,11 @@ width = 724;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (580,573);
+},
+{
+name = Ring;
 pos = (580,573);
 },
 {
@@ -75795,7 +76699,11 @@ name = Anchor7;
 pos = (266,1002);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (210,641);
+},
+{
+name = Ring;
 pos = (210,641);
 },
 {
@@ -75868,7 +76776,11 @@ name = Anchor7;
 pos = (262,942);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (219,582);
+},
+{
+name = Ring;
 pos = (219,582);
 },
 {
@@ -75947,7 +76859,11 @@ name = Anchor7;
 pos = (373,970);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (335,619);
+},
+{
+name = Ring;
 pos = (335,619);
 },
 {
@@ -76026,7 +76942,11 @@ name = Anchor7;
 pos = (369,909);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (333,564);
+},
+{
+name = Ring;
 pos = (333,564);
 },
 {
@@ -76111,7 +77031,11 @@ name = Anchor7;
 pos = (473,1039);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (433,675);
+},
+{
+name = Ring;
 pos = (433,675);
 },
 {
@@ -76196,7 +77120,11 @@ name = Anchor7;
 pos = (466,978);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (430,599);
+},
+{
+name = Ring;
 pos = (430,599);
 },
 {
@@ -76287,7 +77215,11 @@ name = Anchor7;
 pos = (473,1039);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (433,675);
+},
+{
+name = Ring;
 pos = (433,675);
 },
 {
@@ -76372,7 +77304,11 @@ name = Anchor7;
 pos = (466,978);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (430,599);
+},
+{
+name = Ring;
 pos = (430,599);
 },
 {
@@ -76463,7 +77399,11 @@ name = Anchor7;
 pos = (206,963);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (164,630);
+},
+{
+name = Ring;
 pos = (164,630);
 },
 {
@@ -76540,7 +77480,11 @@ name = Anchor7;
 pos = (208,902);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (166,546);
+},
+{
+name = Ring;
 pos = (166,546);
 },
 {
@@ -76622,7 +77566,11 @@ name = Anchor7;
 pos = (151,1062);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (154,650);
+},
+{
+name = Ring;
 pos = (154,650);
 },
 {
@@ -76707,7 +77655,11 @@ name = Anchor7;
 pos = (146,1001);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (105,652);
+},
+{
+name = Ring;
 pos = (105,652);
 },
 {
@@ -76794,7 +77746,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (229,596);
+},
+{
+name = Ring;
 pos = (229,596);
 },
 {
@@ -76865,7 +77821,11 @@ width = 336;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (210,590);
+},
+{
+name = Ring;
 pos = (210,590);
 },
 {
@@ -76945,7 +77905,11 @@ name = Anchor7;
 pos = (160,976);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (110,623);
+},
+{
+name = Ring;
 pos = (110,623);
 },
 {
@@ -77021,7 +77985,11 @@ name = Anchor7;
 pos = (156,916);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (114,582);
+},
+{
+name = Ring;
 pos = (114,582);
 },
 {
@@ -77103,7 +78071,11 @@ name = Anchor7;
 pos = (155,886);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (121,620);
+},
+{
+name = Ring;
 pos = (121,620);
 },
 {
@@ -77182,7 +78154,11 @@ name = Anchor7;
 pos = (154,885);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (114,573);
+},
+{
+name = Ring;
 pos = (114,573);
 },
 {
@@ -77267,7 +78243,11 @@ name = Anchor15;
 pos = (94,1077);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (530,1103);
+},
+{
+name = Ring;
 pos = (530,1103);
 },
 {
@@ -77327,7 +78307,11 @@ name = Anchor15;
 pos = (81,1008);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (541,1052);
+},
+{
+name = Ring;
 pos = (541,1052);
 },
 {
@@ -77392,7 +78376,11 @@ name = Anchor15;
 pos = (220,1207);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (701,1187);
+},
+{
+name = Ring;
 pos = (701,1187);
 },
 {
@@ -77430,7 +78418,11 @@ name = Anchor15;
 pos = (164,1084);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (640,1093);
+},
+{
+name = Ring;
 pos = (640,1093);
 },
 {
@@ -78378,7 +79370,11 @@ name = Anchor15;
 pos = (167,1224);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (649,1161);
+},
+{
+name = Ring;
 pos = (649,1161);
 },
 {
@@ -78420,7 +79416,11 @@ name = Anchor15;
 pos = (146,1093);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (605,1084);
+},
+{
+name = Ring;
 pos = (605,1084);
 },
 {
@@ -78642,7 +79642,11 @@ name = Anchor15;
 pos = (469,1216);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (912,1146);
+},
+{
+name = Ring;
 pos = (912,1146);
 },
 {
@@ -78686,7 +79690,11 @@ name = Anchor15;
 pos = (428,1093);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (871,1066);
+},
+{
+name = Ring;
 pos = (871,1066);
 },
 {
@@ -78928,7 +79936,11 @@ name = Anchor15;
 pos = (125,1203);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (572,1130);
+},
+{
+name = Ring;
 pos = (572,1130);
 },
 {
@@ -78974,7 +79986,11 @@ name = Anchor15;
 pos = (39,1084);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,1066);
+},
+{
+name = Ring;
 pos = (491,1066);
 },
 {
@@ -79158,7 +80174,11 @@ name = Anchor15;
 pos = (86,1175);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (567,1109);
+},
+{
+name = Ring;
 pos = (567,1109);
 },
 {
@@ -79306,7 +80326,11 @@ name = Anchor15;
 pos = (67,1005);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (500,979);
+},
+{
+name = Ring;
 pos = (500,979);
 },
 {
@@ -79473,7 +80497,11 @@ name = Anchor15;
 pos = (78,1113);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (570,1067);
+},
+{
+name = Ring;
 pos = (570,1067);
 },
 {
@@ -79633,7 +80661,11 @@ name = Anchor15;
 pos = (101,996);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (516,970);
+},
+{
+name = Ring;
 pos = (516,970);
 },
 {
@@ -79803,7 +80835,11 @@ name = Anchor15;
 pos = (206,979);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (614,925);
+},
+{
+name = Ring;
 pos = (614,925);
 },
 {
@@ -79891,7 +80927,11 @@ name = Anchor15;
 pos = (529,1219);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (631,899);
+},
+{
+name = Ring;
 pos = (631,899);
 },
 {
@@ -80008,7 +81048,11 @@ name = Anchor15;
 pos = (220,1099);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (683,1045);
+},
+{
+name = Ring;
 pos = (683,1045);
 },
 {
@@ -80165,7 +81209,11 @@ name = Anchor15;
 pos = (182,970);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,943);
+},
+{
+name = Ring;
 pos = (623,943);
 },
 {
@@ -80327,7 +81375,11 @@ name = Anchor15;
 pos = (274,923);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (701,865);
+},
+{
+name = Ring;
 pos = (701,865);
 },
 {
@@ -80487,7 +81539,11 @@ name = Anchor15;
 pos = (270,873);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (712,847);
+},
+{
+name = Ring;
 pos = (712,847);
 },
 {
@@ -80649,7 +81705,11 @@ name = Anchor15;
 pos = (384,1036);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (809,958);
+},
+{
+name = Ring;
 pos = (809,958);
 },
 {
@@ -80699,7 +81759,11 @@ name = Anchor15;
 pos = (347,935);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (816,917);
+},
+{
+name = Ring;
 pos = (816,917);
 },
 {
@@ -80883,7 +81947,11 @@ name = Anchor15;
 pos = (111,961);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (572,918);
+},
+{
+name = Ring;
 pos = (572,918);
 },
 {
@@ -80930,7 +81998,11 @@ name = Anchor15;
 pos = (126,882);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (542,829);
+},
+{
+name = Ring;
 pos = (542,829);
 },
 {
@@ -81110,7 +82182,11 @@ name = Anchor15;
 pos = (138,1234);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (591,1207);
+},
+{
+name = Ring;
 pos = (591,1207);
 },
 {
@@ -81160,7 +82236,11 @@ name = Anchor15;
 pos = (109,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (552,1119);
+},
+{
+name = Ring;
 pos = (552,1119);
 },
 {
@@ -81327,7 +82407,11 @@ name = Anchor15;
 pos = (919,1065);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1349,968);
+},
+{
+name = Ring;
 pos = (1349,968);
 },
 {
@@ -81366,7 +82450,11 @@ name = Anchor15;
 pos = (814,979);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1273,935);
+},
+{
+name = Ring;
 pos = (1273,935);
 },
 {
@@ -81419,7 +82507,11 @@ name = Anchor15;
 pos = (379,1220);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (800,1168);
+},
+{
+name = Ring;
 pos = (800,1168);
 },
 {
@@ -81469,7 +82561,11 @@ name = Anchor15;
 pos = (349,1075);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (791,1110);
+},
+{
+name = Ring;
 pos = (791,1110);
 },
 {
@@ -81525,7 +82621,11 @@ name = Anchor15;
 pos = (172,892);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (373,672);
+},
+{
+name = Ring;
 pos = (373,672);
 },
 {
@@ -81750,7 +82850,11 @@ name = Anchor15;
 pos = (151,802);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (352,592);
+},
+{
+name = Ring;
 pos = (352,592);
 },
 {
@@ -81975,7 +83079,11 @@ name = Anchor15;
 pos = (157,1155);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (568,1113);
+},
+{
+name = Ring;
 pos = (568,1113);
 },
 {
@@ -82013,7 +83121,11 @@ name = Anchor15;
 pos = (153,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,1119);
+},
+{
+name = Ring;
 pos = (623,1119);
 },
 {
@@ -82244,7 +83356,11 @@ name = Anchor15;
 pos = (566,1119);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (971,1091);
+},
+{
+name = Ring;
 pos = (971,1091);
 },
 {
@@ -82283,7 +83399,11 @@ name = Anchor15;
 pos = (566,1109);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (971,1031);
+},
+{
+name = Ring;
 pos = (971,1031);
 },
 {
@@ -82832,7 +83952,11 @@ name = Anchor15;
 pos = (204,923);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (639,881);
+},
+{
+name = Ring;
 pos = (639,881);
 },
 {
@@ -82870,7 +83994,11 @@ name = Anchor15;
 pos = (145,803);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,864);
+},
+{
+name = Ring;
 pos = (623,864);
 },
 {
@@ -85126,7 +86254,11 @@ name = Anchor15;
 pos = (128,1038);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (530,941);
+},
+{
+name = Ring;
 pos = (530,941);
 },
 {
@@ -85264,7 +86396,11 @@ name = Anchor15;
 pos = (94,970);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (550,952);
+},
+{
+name = Ring;
 pos = (550,952);
 },
 {
@@ -85414,7 +86550,11 @@ name = Anchor7;
 pos = (461,1667);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (708,1127);
+},
+{
+name = Ring;
 pos = (708,1127);
 },
 {
@@ -85493,7 +86633,11 @@ name = Anchor7;
 pos = (261,1402);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (589,1005);
+},
+{
+name = Ring;
 pos = (589,1005);
 },
 {
@@ -85635,7 +86779,11 @@ name = Anchor7;
 pos = (351,1447);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (637,965);
+},
+{
+name = Ring;
 pos = (637,965);
 },
 {
@@ -85711,7 +86859,11 @@ name = Anchor7;
 pos = (351,1257);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,899);
+},
+{
+name = Ring;
 pos = (623,899);
 },
 {
@@ -86012,7 +87164,11 @@ name = Anchor15;
 pos = (568,1152);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1053,1087);
+},
+{
+name = Ring;
 pos = (1053,1087);
 },
 {
@@ -86166,7 +87322,11 @@ name = Anchor15;
 pos = (524,1040);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (994,1014);
+},
+{
+name = Ring;
 pos = (994,1014);
 },
 {
@@ -86332,7 +87492,11 @@ name = Anchor15;
 pos = (173,1133);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (646,1101);
+},
+{
+name = Ring;
 pos = (646,1101);
 },
 {
@@ -86378,7 +87542,11 @@ name = Anchor15;
 pos = (160,1040);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (612,1014);
+},
+{
+name = Ring;
 pos = (612,1014);
 },
 {
@@ -86430,7 +87598,11 @@ name = Anchor15;
 pos = (558,940);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (987,895);
+},
+{
+name = Ring;
 pos = (987,895);
 },
 {
@@ -86563,7 +87735,11 @@ name = Anchor15;
 pos = (551,979);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (992,935);
+},
+{
+name = Ring;
 pos = (992,935);
 },
 {
@@ -86705,7 +87881,11 @@ name = Anchor15;
 pos = (151,1023);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (570,966);
+},
+{
+name = Ring;
 pos = (570,966);
 },
 {
@@ -86755,7 +87935,11 @@ name = Anchor15;
 pos = (138,952);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (589,935);
+},
+{
+name = Ring;
 pos = (589,935);
 },
 {
@@ -86973,7 +88157,11 @@ name = Anchor15;
 pos = (202,1215);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (635,1222);
+},
+{
+name = Ring;
 pos = (635,1222);
 },
 {
@@ -87132,7 +88320,11 @@ name = Anchor15;
 pos = (145,1075);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (587,1128);
+},
+{
+name = Ring;
 pos = (587,1128);
 },
 {
@@ -87285,7 +88477,11 @@ name = Anchor15;
 pos = (289,1106);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (708,1077);
+},
+{
+name = Ring;
 pos = (708,1077);
 },
 {
@@ -87323,7 +88519,11 @@ name = Anchor15;
 pos = (246,1040);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (680,1031);
+},
+{
+name = Ring;
 pos = (680,1031);
 },
 {
@@ -87367,7 +88567,11 @@ name = Anchor15;
 pos = (53,1152);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (472,1111);
+},
+{
+name = Ring;
 pos = (472,1111);
 },
 {
@@ -87413,7 +88617,11 @@ name = Anchor15;
 pos = (54,1049);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (523,1102);
+},
+{
+name = Ring;
 pos = (523,1102);
 },
 {
@@ -87765,7 +88973,11 @@ name = Anchor15;
 pos = (887,1147);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1419,1158);
+},
+{
+name = Ring;
 pos = (1419,1158);
 },
 {
@@ -87904,7 +89116,11 @@ name = Anchor15;
 pos = (779,1058);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1229,1022);
+},
+{
+name = Ring;
 pos = (1229,1022);
 },
 {
@@ -88054,7 +89270,11 @@ name = Anchor15;
 pos = (843,1178);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1348,1187);
+},
+{
+name = Ring;
 pos = (1348,1187);
 },
 {
@@ -88171,7 +89391,11 @@ name = Anchor15;
 pos = (779,1102);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1247,1128);
+},
+{
+name = Ring;
 pos = (1247,1128);
 },
 {
@@ -88334,7 +89558,11 @@ name = Anchor15;
 pos = (123,919);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (597,888);
+},
+{
+name = Ring;
 pos = (597,888);
 },
 {
@@ -88469,7 +89697,11 @@ name = Anchor15;
 pos = (109,832);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (587,858);
+},
+{
+name = Ring;
 pos = (587,858);
 },
 {
@@ -93094,7 +94326,11 @@ name = Anchor7;
 pos = (618,848);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (555,114);
+},
+{
+name = Ring;
 pos = (555,114);
 },
 {
@@ -93160,7 +94396,11 @@ name = Anchor7;
 pos = (617,812);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (512,104);
+},
+{
+name = Ring;
 pos = (512,104);
 },
 {
@@ -94044,7 +95284,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (378,49);
+},
+{
+name = Ring;
 pos = (378,49);
 },
 {
@@ -94112,7 +95356,11 @@ width = 574;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (386,60);
+},
+{
+name = Ring;
 pos = (386,60);
 },
 {
@@ -110668,7 +111916,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (396,-213);
+},
+{
+name = Ring;
 pos = (396,-213);
 },
 {
@@ -110738,7 +111990,11 @@ width = 423;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (396,-213);
+},
+{
+name = Ring;
 pos = (396,-213);
 },
 {
@@ -114026,7 +115282,11 @@ name = Anchor15;
 pos = (487,1227);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (637,965);
+},
+{
+name = Ring;
 pos = (637,965);
 },
 {
@@ -114127,7 +115387,11 @@ name = Anchor15;
 pos = (529,1121);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,899);
+},
+{
+name = Ring;
 pos = (623,899);
 },
 {
@@ -121380,7 +122644,11 @@ name = Anchor15;
 pos = (938,1048);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1349,968);
+},
+{
+name = Ring;
 pos = (1349,968);
 },
 {
@@ -121488,7 +122756,11 @@ name = Anchor15;
 pos = (902,979);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1273,935);
+},
+{
+name = Ring;
 pos = (1273,935);
 },
 {
@@ -121602,7 +122874,11 @@ name = Anchor15;
 pos = (248,1096);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (631,1026);
+},
+{
+name = Ring;
 pos = (631,1026);
 },
 {
@@ -121696,7 +122972,11 @@ name = Anchor15;
 pos = (435,1104);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (570,935);
+},
+{
+name = Ring;
 pos = (570,935);
 },
 {
@@ -121796,7 +123076,11 @@ name = Anchor15;
 pos = (558,940);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (987,895);
+},
+{
+name = Ring;
 pos = (987,895);
 },
 {
@@ -121881,7 +123165,11 @@ name = Anchor15;
 pos = (612,979);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (992,935);
+},
+{
+name = Ring;
 pos = (992,935);
 },
 {
@@ -121972,7 +123260,11 @@ name = Anchor15;
 pos = (162,934);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (573,869);
+},
+{
+name = Ring;
 pos = (573,869);
 },
 {
@@ -122051,7 +123343,11 @@ name = Anchor15;
 pos = (173,908);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (579,882);
+},
+{
+name = Ring;
 pos = (579,882);
 },
 {
@@ -122136,7 +123432,11 @@ name = Anchor15;
 pos = (251,1085);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (683,1045);
+},
+{
+name = Ring;
 pos = (683,1045);
 },
 {
@@ -122227,7 +123527,11 @@ name = Anchor15;
 pos = (208,970);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,943);
+},
+{
+name = Ring;
 pos = (623,943);
 },
 {
@@ -122324,7 +123628,11 @@ name = Anchor15;
 pos = (144,1153);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (567,1109);
+},
+{
+name = Ring;
 pos = (567,1109);
 },
 {
@@ -122422,7 +123730,11 @@ name = Anchor15;
 pos = (85,1005);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (500,979);
+},
+{
+name = Ring;
 pos = (500,979);
 },
 {
@@ -122526,7 +123838,11 @@ name = Anchor15;
 pos = (389,1148);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (792,1057);
+},
+{
+name = Ring;
 pos = (792,1057);
 },
 {
@@ -122635,7 +123951,11 @@ name = Anchor15;
 pos = (299,1005);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (714,979);
+},
+{
+name = Ring;
 pos = (714,979);
 },
 {
@@ -122746,7 +124066,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (64,-104);
+},
+{
+name = Ring;
 pos = (64,-104);
 },
 {
@@ -122805,7 +124129,11 @@ width = 223;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (-12,-103);
+},
+{
+name = Ring;
 pos = (-12,-103);
 },
 {
@@ -122874,7 +124202,11 @@ name = Anchor15;
 pos = (151,1130);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (570,1067);
+},
+{
+name = Ring;
 pos = (570,1067);
 },
 {
@@ -122986,7 +124318,11 @@ name = Anchor15;
 pos = (101,996);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (516,970);
+},
+{
+name = Ring;
 pos = (516,970);
 },
 {
@@ -123248,7 +124584,11 @@ name = Anchor15;
 pos = (1039,1264);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1419,1158);
+},
+{
+name = Ring;
 pos = (1419,1158);
 },
 {
@@ -123360,7 +124700,11 @@ name = Anchor15;
 pos = (823,1058);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1229,1022);
+},
+{
+name = Ring;
 pos = (1229,1022);
 },
 {
@@ -123478,7 +124822,11 @@ name = Anchor15;
 pos = (977,1271);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1348,1187);
+},
+{
+name = Ring;
 pos = (1348,1187);
 },
 {
@@ -123586,7 +124934,11 @@ name = Anchor15;
 pos = (806,1102);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1247,1128);
+},
+{
+name = Ring;
 pos = (1247,1128);
 },
 {
@@ -123700,7 +125052,11 @@ name = Anchor15;
 pos = (199,1199);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (668,1175);
+},
+{
+name = Ring;
 pos = (668,1175);
 },
 {
@@ -123786,7 +125142,11 @@ name = Anchor15;
 pos = (146,1093);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,1102);
+},
+{
+name = Ring;
 pos = (623,1102);
 },
 {
@@ -123878,7 +125238,11 @@ name = Anchor15;
 pos = (376,1137);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (826,1079);
+},
+{
+name = Ring;
 pos = (826,1079);
 },
 {
@@ -123967,7 +125331,11 @@ name = Anchor15;
 pos = (305,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (781,1075);
+},
+{
+name = Ring;
 pos = (781,1075);
 },
 {
@@ -124062,7 +125430,11 @@ name = Anchor15;
 pos = (191,1163);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (606,1082);
+},
+{
+name = Ring;
 pos = (606,1082);
 },
 {
@@ -124151,7 +125523,11 @@ name = Anchor15;
 pos = (85,1014);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (561,1022);
+},
+{
+name = Ring;
 pos = (561,1022);
 },
 {
@@ -124246,7 +125622,11 @@ name = Anchor15;
 pos = (261,1143);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (637,1079);
+},
+{
+name = Ring;
 pos = (637,1079);
 },
 {
@@ -124328,7 +125708,11 @@ name = Anchor15;
 pos = (146,1031);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (622,1040);
+},
+{
+name = Ring;
 pos = (622,1040);
 },
 {
@@ -124416,7 +125800,11 @@ name = Anchor15;
 pos = (268,1137);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (680,1084);
+},
+{
+name = Ring;
 pos = (680,1084);
 },
 {
@@ -124506,7 +125894,11 @@ name = Anchor15;
 pos = (182,1005);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (658,1014);
+},
+{
+name = Ring;
 pos = (658,1014);
 },
 {
@@ -124602,7 +125994,11 @@ name = Anchor15;
 pos = (268,1225);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (694,1158);
+},
+{
+name = Ring;
 pos = (694,1158);
 },
 {
@@ -124685,7 +126081,11 @@ name = Anchor15;
 pos = (146,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,1075);
+},
+{
+name = Ring;
 pos = (623,1075);
 },
 {
@@ -124774,7 +126174,11 @@ name = Anchor15;
 pos = (108,960);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (531,902);
+},
+{
+name = Ring;
 pos = (531,902);
 },
 {
@@ -124861,7 +126265,11 @@ name = Anchor15;
 pos = (20,882);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (485,882);
+},
+{
+name = Ring;
 pos = (485,882);
 },
 {
@@ -124954,7 +126362,11 @@ name = Anchor15;
 pos = (237,1235);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (661,1190);
+},
+{
+name = Ring;
 pos = (661,1190);
 },
 {
@@ -125056,7 +126468,11 @@ name = Anchor15;
 pos = (138,1093);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (614,1102);
+},
+{
+name = Ring;
 pos = (614,1102);
 },
 {
@@ -125164,7 +126580,11 @@ name = Anchor15;
 pos = (146,1093);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (237,1218);
+},
+{
+name = Ring;
 pos = (237,1218);
 },
 {
@@ -125260,7 +126680,11 @@ name = Anchor15;
 pos = (146,1093);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (605,1084);
+},
+{
+name = Ring;
 pos = (605,1084);
 },
 {
@@ -125362,7 +126786,11 @@ name = Anchor15;
 pos = (267,1218);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (701,1187);
+},
+{
+name = Ring;
 pos = (701,1187);
 },
 {
@@ -125466,7 +126894,11 @@ name = Anchor15;
 pos = (164,1084);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (640,1093);
+},
+{
+name = Ring;
 pos = (640,1093);
 },
 {
@@ -125576,7 +127008,11 @@ name = Anchor15;
 pos = (701,1187);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (267,1218);
+},
+{
+name = Ring;
 pos = (267,1218);
 },
 {
@@ -125673,7 +127109,11 @@ name = Anchor15;
 pos = (164,1084);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (640,1093);
+},
+{
+name = Ring;
 pos = (640,1093);
 },
 {
@@ -125776,7 +127216,11 @@ name = Anchor15;
 pos = (615,1146);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1053,1087);
+},
+{
+name = Ring;
 pos = (1053,1087);
 },
 {
@@ -125880,7 +127324,11 @@ name = Anchor15;
 pos = (560,1040);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (994,1014);
+},
+{
+name = Ring;
 pos = (994,1014);
 },
 {
@@ -125990,7 +127438,11 @@ name = Anchor15;
 pos = (469,1216);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (912,1146);
+},
+{
+name = Ring;
 pos = (912,1146);
 },
 {
@@ -126093,7 +127545,11 @@ name = Anchor15;
 pos = (428,1093);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (871,1066);
+},
+{
+name = Ring;
 pos = (871,1066);
 },
 {
@@ -126202,7 +127658,11 @@ name = Anchor15;
 pos = (251,1190);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (646,1101);
+},
+{
+name = Ring;
 pos = (646,1101);
 },
 {
@@ -126305,7 +127765,11 @@ name = Anchor15;
 pos = (178,1040);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (612,1014);
+},
+{
+name = Ring;
 pos = (612,1014);
 },
 {
@@ -126414,7 +127878,11 @@ name = Anchor15;
 pos = (615,1146);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1048,1142);
+},
+{
+name = Ring;
 pos = (1048,1142);
 },
 {
@@ -126500,7 +127968,11 @@ name = Anchor15;
 pos = (521,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (973,1066);
+},
+{
+name = Ring;
 pos = (973,1066);
 },
 {
@@ -126592,7 +128064,11 @@ name = Anchor15;
 pos = (474,1204);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (936,1151);
+},
+{
+name = Ring;
 pos = (936,1151);
 },
 {
@@ -126679,7 +128155,11 @@ name = Anchor15;
 pos = (416,1050);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (850,1023);
+},
+{
+name = Ring;
 pos = (850,1023);
 },
 {
@@ -126772,7 +128252,11 @@ name = Anchor15;
 pos = (594,950);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (996,907);
+},
+{
+name = Ring;
 pos = (996,907);
 },
 {
@@ -126870,7 +128354,11 @@ name = Anchor15;
 pos = (540,891);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (974,864);
+},
+{
+name = Ring;
 pos = (974,864);
 },
 {
@@ -126974,7 +128462,11 @@ name = Anchor15;
 pos = (274,923);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (701,865);
+},
+{
+name = Ring;
 pos = (701,865);
 },
 {
@@ -127074,7 +128566,11 @@ name = Anchor15;
 pos = (278,873);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (712,847);
+},
+{
+name = Ring;
 pos = (712,847);
 },
 {
@@ -127180,7 +128676,11 @@ name = Anchor15;
 pos = (438,1215);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (800,1168);
+},
+{
+name = Ring;
 pos = (800,1168);
 },
 {
@@ -127299,7 +128799,11 @@ name = Anchor15;
 pos = (349,1075);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (791,1110);
+},
+{
+name = Ring;
 pos = (791,1110);
 },
 {
@@ -127424,7 +128928,11 @@ name = Anchor15;
 pos = (478,1232);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (914,1174);
+},
+{
+name = Ring;
 pos = (914,1174);
 },
 {
@@ -127530,7 +129038,11 @@ name = Anchor15;
 pos = (384,1076);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (819,1050);
+},
+{
+name = Ring;
 pos = (819,1050);
 },
 {
@@ -127642,7 +129154,11 @@ name = Anchor15;
 pos = (478,1232);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (914,1174);
+},
+{
+name = Ring;
 pos = (914,1174);
 },
 {
@@ -127749,7 +129265,11 @@ name = Anchor15;
 pos = (384,1076);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (819,1050);
+},
+{
+name = Ring;
 pos = (819,1050);
 },
 {
@@ -127862,7 +129382,11 @@ name = Anchor15;
 pos = (193,1132);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (604,1075);
+},
+{
+name = Ring;
 pos = (604,1075);
 },
 {
@@ -127964,7 +129488,11 @@ name = Anchor15;
 pos = (138,1022);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (589,1005);
+},
+{
+name = Ring;
 pos = (589,1005);
 },
 {
@@ -128071,7 +129599,11 @@ name = Anchor15;
 pos = (31,912);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (484,868);
+},
+{
+name = Ring;
 pos = (484,868);
 },
 {
@@ -128165,7 +129697,11 @@ name = Anchor15;
 pos = (6,847);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (458,829);
+},
+{
+name = Ring;
 pos = (458,829);
 },
 {
@@ -128265,7 +129801,11 @@ name = Anchor15;
 pos = (161,1190);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (572,1130);
+},
+{
+name = Ring;
 pos = (572,1130);
 },
 {
@@ -128372,7 +129912,11 @@ name = Anchor15;
 pos = (39,1084);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,1066);
+},
+{
+name = Ring;
 pos = (491,1066);
 },
 {
@@ -128489,7 +130033,11 @@ name = Anchor7;
 pos = (351,1497);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (708,1127);
+},
+{
+name = Ring;
 pos = (708,1127);
 },
 {
@@ -128599,7 +130147,11 @@ name = Anchor7;
 pos = (350,1496);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (589,1005);
+},
+{
+name = Ring;
 pos = (589,1005);
 },
 {
@@ -128711,7 +130263,11 @@ name = Anchor15;
 pos = (151,1023);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (570,966);
+},
+{
+name = Ring;
 pos = (570,966);
 },
 {
@@ -128807,7 +130363,11 @@ name = Anchor15;
 pos = (138,952);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (589,935);
+},
+{
+name = Ring;
 pos = (589,935);
 },
 {
@@ -128909,7 +130469,11 @@ name = Anchor15;
 pos = (289,1106);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (708,1077);
+},
+{
+name = Ring;
 pos = (708,1077);
 },
 {
@@ -129005,7 +130569,11 @@ name = Anchor15;
 pos = (246,1040);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (680,1031);
+},
+{
+name = Ring;
 pos = (680,1031);
 },
 {
@@ -129107,7 +130675,11 @@ name = Anchor15;
 pos = (147,1033);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (530,941);
+},
+{
+name = Ring;
 pos = (530,941);
 },
 {
@@ -129192,7 +130764,11 @@ name = Anchor15;
 pos = (94,970);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (550,952);
+},
+{
+name = Ring;
 pos = (550,952);
 },
 {
@@ -129283,7 +130859,11 @@ name = Anchor15;
 pos = (75,985);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (547,968);
+},
+{
+name = Ring;
 pos = (547,968);
 },
 {
@@ -129396,7 +130976,11 @@ name = Anchor15;
 pos = (40,956);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (492,938);
+},
+{
+name = Ring;
 pos = (492,938);
 },
 {
@@ -129515,7 +131099,11 @@ name = Anchor15;
 pos = (409,1031);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (809,958);
+},
+{
+name = Ring;
 pos = (809,958);
 },
 {
@@ -129623,7 +131211,11 @@ name = Anchor15;
 pos = (364,935);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (816,917);
+},
+{
+name = Ring;
 pos = (816,917);
 },
 {
@@ -129737,7 +131329,11 @@ name = Anchor15;
 pos = (197,974);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (599,930);
+},
+{
+name = Ring;
 pos = (599,930);
 },
 {
@@ -129829,7 +131425,11 @@ name = Anchor15;
 pos = (197,935);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (649,917);
+},
+{
+name = Ring;
 pos = (649,917);
 },
 {
@@ -129927,7 +131527,11 @@ name = Anchor15;
 pos = (155,960);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (572,918);
+},
+{
+name = Ring;
 pos = (572,918);
 },
 {
@@ -130027,7 +131631,11 @@ name = Anchor15;
 pos = (126,882);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (542,829);
+},
+{
+name = Ring;
 pos = (542,829);
 },
 {
@@ -130132,7 +131740,11 @@ name = Anchor15;
 pos = (172,1198);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (591,1207);
+},
+{
+name = Ring;
 pos = (591,1207);
 },
 {
@@ -130225,7 +131837,11 @@ name = Anchor15;
 pos = (109,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (552,1119);
+},
+{
+name = Ring;
 pos = (552,1119);
 },
 {
@@ -130324,7 +131940,11 @@ name = Anchor15;
 pos = (202,1215);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (635,1222);
+},
+{
+name = Ring;
 pos = (635,1222);
 },
 {
@@ -130422,7 +132042,11 @@ name = Anchor15;
 pos = (145,1075);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (587,1128);
+},
+{
+name = Ring;
 pos = (587,1128);
 },
 {
@@ -130526,7 +132150,11 @@ name = Anchor15;
 pos = (202,1215);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (635,1222);
+},
+{
+name = Ring;
 pos = (635,1222);
 },
 {
@@ -130624,7 +132252,11 @@ name = Anchor15;
 pos = (145,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (587,1119);
+},
+{
+name = Ring;
 pos = (587,1119);
 },
 {
@@ -130728,7 +132360,11 @@ name = Anchor15;
 pos = (566,1119);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (971,1091);
+},
+{
+name = Ring;
 pos = (971,1091);
 },
 {
@@ -130827,7 +132463,11 @@ name = Anchor15;
 pos = (522,1040);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (992,1110);
+},
+{
+name = Ring;
 pos = (992,1110);
 },
 {
@@ -130932,7 +132572,11 @@ name = Anchor15;
 pos = (461,1218);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (859,1188);
+},
+{
+name = Ring;
 pos = (859,1188);
 },
 {
@@ -131036,7 +132680,11 @@ name = Anchor15;
 pos = (426,1102);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (869,1154);
+},
+{
+name = Ring;
 pos = (869,1154);
 },
 {
@@ -131146,7 +132794,11 @@ name = Anchor15;
 pos = (147,1222);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (526,1176);
+},
+{
+name = Ring;
 pos = (526,1176);
 },
 {
@@ -131259,7 +132911,11 @@ name = Anchor15;
 pos = (30,1084);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,1154);
+},
+{
+name = Ring;
 pos = (491,1154);
 },
 {
@@ -131378,7 +133034,11 @@ name = Anchor15;
 pos = (83,1156);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (472,1111);
+},
+{
+name = Ring;
 pos = (472,1111);
 },
 {
@@ -131479,7 +133139,11 @@ name = Anchor15;
 pos = (81,1049);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (523,1102);
+},
+{
+name = Ring;
 pos = (523,1102);
 },
 {
@@ -131586,7 +133250,11 @@ name = Anchor15;
 pos = (157,1155);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (568,1113);
+},
+{
+name = Ring;
 pos = (568,1113);
 },
 {
@@ -131678,7 +133346,11 @@ name = Anchor15;
 pos = (180,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,1119);
+},
+{
+name = Ring;
 pos = (623,1119);
 },
 {
@@ -131776,7 +133448,11 @@ name = Anchor15;
 pos = (98,1125);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (492,1096);
+},
+{
+name = Ring;
 pos = (492,1096);
 },
 {
@@ -131889,7 +133565,11 @@ name = Anchor15;
 pos = (48,987);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,1040);
+},
+{
+name = Ring;
 pos = (491,1040);
 },
 {
@@ -132008,7 +133688,11 @@ name = Anchor15;
 pos = (136,1134);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (503,1079);
+},
+{
+name = Ring;
 pos = (503,1079);
 },
 {
@@ -132113,7 +133797,11 @@ name = Anchor15;
 pos = (98,1000);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (541,1052);
+},
+{
+name = Ring;
 pos = (541,1052);
 },
 {
@@ -132223,7 +133911,11 @@ name = Anchor15;
 pos = (352,968);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (750,857);
+},
+{
+name = Ring;
 pos = (750,857);
 },
 {
@@ -132309,7 +134001,11 @@ name = Anchor15;
 pos = (232,820);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (746,899);
+},
+{
+name = Ring;
 pos = (746,899);
 },
 {
@@ -132789,7 +134485,11 @@ name = Anchor15;
 pos = (148,807);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (387,685);
+},
+{
+name = Ring;
 pos = (387,685);
 },
 {
@@ -132893,7 +134593,11 @@ name = Anchor15;
 pos = (148,767);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (340,592);
+},
+{
+name = Ring;
 pos = (340,592);
 },
 {
@@ -133003,7 +134707,11 @@ name = Anchor15;
 pos = (202,962);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (597,888);
+},
+{
+name = Ring;
 pos = (597,888);
 },
 {
@@ -133082,7 +134790,11 @@ name = Anchor15;
 pos = (145,832);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (587,858);
+},
+{
+name = Ring;
 pos = (587,858);
 },
 {
@@ -133167,7 +134879,11 @@ name = Anchor15;
 pos = (252,950);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (639,881);
+},
+{
+name = Ring;
 pos = (639,881);
 },
 {
@@ -133250,7 +134966,11 @@ name = Anchor15;
 pos = (145,803);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,864);
+},
+{
+name = Ring;
 pos = (623,864);
 },
 {
@@ -133339,7 +135059,11 @@ name = Anchor15;
 pos = (208,962);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (552,873);
+},
+{
+name = Ring;
 pos = (552,873);
 },
 {
@@ -133428,7 +135152,11 @@ name = Anchor15;
 pos = (109,855);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (552,873);
+},
+{
+name = Ring;
 pos = (552,873);
 },
 {
@@ -133523,7 +135251,11 @@ name = Anchor15;
 pos = (17,898);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (361,819);
+},
+{
+name = Ring;
 pos = (361,819);
 },
 {
@@ -133676,7 +135408,11 @@ name = Anchor15;
 pos = (138,1022);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (315,741);
+},
+{
+name = Ring;
 pos = (315,741);
 },
 {
@@ -133835,7 +135571,11 @@ name = Anchor15;
 pos = (17,898);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (361,819);
+},
+{
+name = Ring;
 pos = (361,819);
 },
 {
@@ -133996,7 +135736,11 @@ name = Anchor15;
 pos = (138,1022);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (315,741);
+},
+{
+name = Ring;
 pos = (315,741);
 },
 {
@@ -134163,7 +135907,11 @@ name = Anchor15;
 pos = (199,1199);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (668,1175);
+},
+{
+name = Ring;
 pos = (668,1175);
 },
 {
@@ -134313,7 +136061,11 @@ name = Anchor15;
 pos = (146,1093);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,1102);
+},
+{
+name = Ring;
 pos = (623,1102);
 },
 {
@@ -134435,7 +136187,11 @@ name = Anchor15;
 pos = (191,1163);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (606,1082);
+},
+{
+name = Ring;
 pos = (606,1082);
 },
 {
@@ -134586,7 +136342,11 @@ name = Anchor15;
 pos = (85,1014);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (561,1022);
+},
+{
+name = Ring;
 pos = (561,1022);
 },
 {
@@ -134737,7 +136497,11 @@ name = Anchor15;
 pos = (188,1116);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (637,1079);
+},
+{
+name = Ring;
 pos = (637,1079);
 },
 {
@@ -134779,7 +136543,11 @@ name = Anchor15;
 pos = (146,1031);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (622,1040);
+},
+{
+name = Ring;
 pos = (622,1040);
 },
 {
@@ -134827,7 +136595,11 @@ name = Anchor15;
 pos = (258,1147);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (680,1084);
+},
+{
+name = Ring;
 pos = (680,1084);
 },
 {
@@ -134873,7 +136645,11 @@ name = Anchor15;
 pos = (182,1005);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (658,1014);
+},
+{
+name = Ring;
 pos = (658,1014);
 },
 {
@@ -134925,7 +136701,11 @@ name = Anchor15;
 pos = (268,1225);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (694,1158);
+},
+{
+name = Ring;
 pos = (694,1158);
 },
 {
@@ -135073,7 +136853,11 @@ name = Anchor15;
 pos = (146,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,1075);
+},
+{
+name = Ring;
 pos = (623,1075);
 },
 {
@@ -135214,7 +136998,11 @@ name = Anchor15;
 pos = (607,1159);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1048,1142);
+},
+{
+name = Ring;
 pos = (1048,1142);
 },
 {
@@ -135256,7 +137044,11 @@ name = Anchor15;
 pos = (495,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (973,1066);
+},
+{
+name = Ring;
 pos = (973,1066);
 },
 {
@@ -135304,7 +137096,11 @@ name = Anchor15;
 pos = (474,1204);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (936,1151);
+},
+{
+name = Ring;
 pos = (936,1151);
 },
 {
@@ -135338,7 +137134,11 @@ name = Anchor15;
 pos = (390,1050);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (850,1023);
+},
+{
+name = Ring;
 pos = (850,1023);
 },
 {
@@ -135386,7 +137186,11 @@ name = Anchor15;
 pos = (31,912);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (484,868);
+},
+{
+name = Ring;
 pos = (484,868);
 },
 {
@@ -135420,7 +137224,11 @@ name = Anchor15;
 pos = (-21,847);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (458,829);
+},
+{
+name = Ring;
 pos = (458,829);
 },
 {
@@ -135468,7 +137276,11 @@ name = Anchor15;
 pos = (376,1137);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (826,1079);
+},
+{
+name = Ring;
 pos = (826,1079);
 },
 {
@@ -135510,7 +137322,11 @@ name = Anchor15;
 pos = (287,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (781,1075);
+},
+{
+name = Ring;
 pos = (781,1075);
 },
 {
@@ -135558,7 +137374,11 @@ name = Anchor15;
 pos = (98,980);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (531,902);
+},
+{
+name = Ring;
 pos = (531,902);
 },
 {
@@ -135600,7 +137420,11 @@ name = Anchor15;
 pos = (-7,882);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (485,882);
+},
+{
+name = Ring;
 pos = (485,882);
 },
 {
@@ -135648,7 +137472,11 @@ name = Anchor15;
 pos = (211,1211);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (661,1190);
+},
+{
+name = Ring;
 pos = (661,1190);
 },
 {
@@ -135724,7 +137552,11 @@ name = Anchor15;
 pos = (138,1093);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (614,1102);
+},
+{
+name = Ring;
 pos = (614,1102);
 },
 {
@@ -135801,7 +137633,11 @@ name = Anchor15;
 pos = (192,1072);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (631,1026);
+},
+{
+name = Ring;
 pos = (631,1026);
 },
 {
@@ -135839,7 +137675,11 @@ name = Anchor15;
 pos = (400,1152);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (570,935);
+},
+{
+name = Ring;
 pos = (570,935);
 },
 {
@@ -135892,7 +137732,11 @@ name = Anchor15;
 pos = (235,1251);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (701,1187);
+},
+{
+name = Ring;
 pos = (701,1187);
 },
 {
@@ -136062,7 +137906,11 @@ name = Anchor15;
 pos = (164,1084);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (640,1093);
+},
+{
+name = Ring;
 pos = (640,1093);
 },
 {
@@ -136226,7 +138074,11 @@ name = Anchor15;
 pos = (338,1148);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (792,1057);
+},
+{
+name = Ring;
 pos = (792,1057);
 },
 {
@@ -136272,7 +138124,11 @@ name = Anchor15;
 pos = (255,1005);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (714,979);
+},
+{
+name = Ring;
 pos = (714,979);
 },
 {
@@ -136324,7 +138180,11 @@ name = Anchor15;
 pos = (409,1197);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (909,1120);
+},
+{
+name = Ring;
 pos = (909,1120);
 },
 {
@@ -136370,7 +138230,11 @@ name = Anchor15;
 pos = (349,1076);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (819,1050);
+},
+{
+name = Ring;
 pos = (819,1050);
 },
 {
@@ -136422,7 +138286,11 @@ name = Anchor15;
 pos = (409,1197);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (909,1120);
+},
+{
+name = Ring;
 pos = (909,1120);
 },
 {
@@ -136468,7 +138336,11 @@ name = Anchor15;
 pos = (349,1076);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (819,1050);
+},
+{
+name = Ring;
 pos = (819,1050);
 },
 {
@@ -136520,7 +138392,11 @@ name = Anchor15;
 pos = (169,1161);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (604,1075);
+},
+{
+name = Ring;
 pos = (604,1075);
 },
 {
@@ -136567,7 +138443,11 @@ name = Anchor15;
 pos = (111,1022);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (589,1005);
+},
+{
+name = Ring;
 pos = (589,1005);
 },
 {
@@ -136619,7 +138499,11 @@ name = Anchor15;
 pos = (150,953);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (573,869);
+},
+{
+name = Ring;
 pos = (573,869);
 },
 {
@@ -136661,7 +138545,11 @@ name = Anchor15;
 pos = (138,908);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (579,882);
+},
+{
+name = Ring;
 pos = (579,882);
 },
 {
@@ -136803,7 +138691,11 @@ name = Anchor15;
 pos = (564,970);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (996,907);
+},
+{
+name = Ring;
 pos = (996,907);
 },
 {
@@ -136850,7 +138742,11 @@ name = Anchor15;
 pos = (505,891);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (974,864);
+},
+{
+name = Ring;
 pos = (974,864);
 },
 {
@@ -137015,7 +138911,11 @@ name = Anchor15;
 pos = (75,985);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (547,968);
+},
+{
+name = Ring;
 pos = (547,968);
 },
 {
@@ -137193,7 +139093,11 @@ name = Anchor15;
 pos = (40,956);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (492,938);
+},
+{
+name = Ring;
 pos = (492,938);
 },
 {
@@ -137359,7 +139263,11 @@ name = Anchor15;
 pos = (171,985);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (599,930);
+},
+{
+name = Ring;
 pos = (599,930);
 },
 {
@@ -137405,7 +139313,11 @@ name = Anchor15;
 pos = (171,935);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (649,917);
+},
+{
+name = Ring;
 pos = (649,917);
 },
 {
@@ -137457,7 +139369,11 @@ name = Anchor15;
 pos = (202,1215);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (635,1222);
+},
+{
+name = Ring;
 pos = (635,1222);
 },
 {
@@ -137611,7 +139527,11 @@ name = Anchor15;
 pos = (145,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (587,1119);
+},
+{
+name = Ring;
 pos = (587,1119);
 },
 {
@@ -137771,7 +139691,11 @@ name = Anchor15;
 pos = (429,1214);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (859,1188);
+},
+{
+name = Ring;
 pos = (859,1188);
 },
 {
@@ -137937,7 +139861,11 @@ name = Anchor15;
 pos = (399,1102);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (869,1154);
+},
+{
+name = Ring;
 pos = (869,1154);
 },
 {
@@ -138092,7 +140020,11 @@ name = Anchor15;
 pos = (116,1201);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (526,1176);
+},
+{
+name = Ring;
 pos = (526,1176);
 },
 {
@@ -138263,7 +140195,11 @@ name = Anchor15;
 pos = (4,1084);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,1154);
+},
+{
+name = Ring;
 pos = (491,1154);
 },
 {
@@ -138315,7 +140251,11 @@ name = Anchor15;
 pos = (66,1125);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (492,1096);
+},
+{
+name = Ring;
 pos = (492,1096);
 },
 {
@@ -138353,7 +140293,11 @@ name = Anchor15;
 pos = (48,987);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,1040);
+},
+{
+name = Ring;
 pos = (491,1040);
 },
 {
@@ -138405,7 +140349,11 @@ name = Anchor15;
 pos = (352,968);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (750,857);
+},
+{
+name = Ring;
 pos = (750,857);
 },
 {
@@ -138447,7 +140395,11 @@ name = Anchor15;
 pos = (232,820);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (746,899);
+},
+{
+name = Ring;
 pos = (746,899);
 },
 {
@@ -138495,7 +140447,11 @@ name = Anchor15;
 pos = (134,1011);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (569,899);
+},
+{
+name = Ring;
 pos = (569,899);
 },
 {
@@ -138533,7 +140489,11 @@ name = Anchor15;
 pos = (83,855);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (552,873);
+},
+{
+name = Ring;
 pos = (552,873);
 },
 {
@@ -139055,7 +141015,11 @@ name = Anchor15;
 pos = (512,899);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (482,1364);
+},
+{
+name = Ring;
 pos = (482,1364);
 },
 {
@@ -139097,7 +141061,11 @@ name = Anchor15;
 pos = (50,899);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,855);
+},
+{
+name = Ring;
 pos = (491,855);
 },
 {
@@ -139691,7 +141659,11 @@ name = Anchor15;
 pos = (138,981);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (512,899);
+},
+{
+name = Ring;
 pos = (512,899);
 },
 {
@@ -139775,7 +141747,11 @@ name = Anchor15;
 pos = (67,891);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,855);
+},
+{
+name = Ring;
 pos = (491,855);
 },
 {
@@ -139866,7 +141842,11 @@ name = Anchor7;
 pos = (133,844);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (98,474);
+},
+{
+name = Ring;
 pos = (98,474);
 },
 {
@@ -139929,7 +141909,11 @@ name = Anchor7;
 pos = (129,773);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (96,423);
+},
+{
+name = Ring;
 pos = (96,423);
 },
 {
@@ -146812,7 +148796,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (214,101);
+},
+{
+name = Ring;
 pos = (214,101);
 },
 {
@@ -146885,7 +148873,11 @@ width = 369;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (169,77);
+},
+{
+name = Ring;
 pos = (169,77);
 },
 {
@@ -146964,7 +148956,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (216,94);
+},
+{
+name = Ring;
 pos = (216,94);
 },
 {
@@ -147039,7 +149035,11 @@ width = 388;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (165,83);
+},
+{
+name = Ring;
 pos = (165,83);
 },
 {
@@ -147120,7 +149120,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (476,82);
+},
+{
+name = Ring;
 pos = (476,82);
 },
 {
@@ -147189,7 +149193,11 @@ width = 656;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (419,59);
+},
+{
+name = Ring;
 pos = (419,59);
 },
 {
@@ -147832,7 +149840,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (422,90);
+},
+{
+name = Ring;
 pos = (422,90);
 },
 {
@@ -147901,7 +149913,11 @@ width = 577;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (339,58);
+},
+{
+name = Ring;
 pos = (339,58);
 },
 {
@@ -149311,7 +151327,7 @@ layers = (
 {
 anchors = (
 {
-name = _Ring_Bar;
+name = _Ring;
 pos = (0,519);
 }
 );
@@ -149360,7 +151376,7 @@ width = 0;
 {
 anchors = (
 {
-name = _Ring_Bar;
+name = _Ring;
 pos = (0,518);
 }
 );
@@ -163630,7 +165646,11 @@ name = Anchor15;
 pos = (92,859);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (542,762);
+},
+{
+name = Ring;
 pos = (542,762);
 },
 {
@@ -163729,7 +165749,11 @@ name = Anchor15;
 pos = (92,759);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (542,732);
+},
+{
+name = Ring;
 pos = (542,732);
 },
 {
@@ -163834,7 +165858,11 @@ name = Anchor15;
 pos = (48,880);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (558,793);
+},
+{
+name = Ring;
 pos = (558,793);
 },
 {
@@ -163927,7 +165955,11 @@ name = Anchor15;
 pos = (48,680);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (498,653);
+},
+{
+name = Ring;
 pos = (498,653);
 },
 {
@@ -164026,7 +166058,11 @@ name = Anchor15;
 pos = (-10,934);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (470,878);
+},
+{
+name = Ring;
 pos = (470,878);
 },
 {
@@ -164116,7 +166152,11 @@ name = Anchor15;
 pos = (30,784);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (480,757);
+},
+{
+name = Ring;
 pos = (480,757);
 },
 {
@@ -164212,7 +166252,11 @@ name = Anchor15;
 pos = (461,887);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (954,887);
+},
+{
+name = Ring;
 pos = (954,887);
 },
 {
@@ -164310,7 +166354,11 @@ name = Anchor15;
 pos = (361,847);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (854,847);
+},
+{
+name = Ring;
 pos = (854,847);
 },
 {
@@ -164414,7 +166462,11 @@ name = Anchor15;
 pos = (392,923);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (842,897);
+},
+{
+name = Ring;
 pos = (842,897);
 },
 {
@@ -164506,7 +166558,11 @@ name = Anchor15;
 pos = (312,853);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (762,827);
+},
+{
+name = Ring;
 pos = (762,827);
 },
 {
@@ -164604,7 +166660,11 @@ name = Anchor15;
 pos = (143,644);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (593,617);
+},
+{
+name = Ring;
 pos = (593,617);
 },
 {
@@ -164707,7 +166767,11 @@ name = Anchor15;
 pos = (113,644);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (563,617);
+},
+{
+name = Ring;
 pos = (563,617);
 },
 {
@@ -164815,7 +166879,11 @@ name = Anchor15;
 pos = (224,643);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (674,617);
+},
+{
+name = Ring;
 pos = (674,617);
 },
 {
@@ -164924,7 +166992,11 @@ name = Anchor15;
 pos = (224,753);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (674,727);
+},
+{
+name = Ring;
 pos = (674,727);
 },
 {
@@ -165039,7 +167111,11 @@ name = Anchor15;
 pos = (44,589);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (494,563);
+},
+{
+name = Ring;
 pos = (494,563);
 },
 {
@@ -165155,7 +167231,11 @@ name = Anchor15;
 pos = (34,609);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (484,583);
+},
+{
+name = Ring;
 pos = (484,583);
 },
 {
@@ -165277,7 +167357,11 @@ name = Anchor15;
 pos = (21,752);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (482,686);
+},
+{
+name = Ring;
 pos = (482,686);
 },
 {
@@ -165394,7 +167478,11 @@ name = Anchor15;
 pos = (21,662);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (472,636);
+},
+{
+name = Ring;
 pos = (472,636);
 },
 {
@@ -165517,7 +167605,11 @@ name = Anchor15;
 pos = (43,728);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (563,791);
+},
+{
+name = Ring;
 pos = (563,791);
 },
 {
@@ -165624,7 +167716,11 @@ name = Anchor15;
 pos = (13,768);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (463,741);
+},
+{
+name = Ring;
 pos = (463,741);
 },
 {
@@ -165737,7 +167833,11 @@ name = Anchor15;
 pos = (500,950);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (951,924);
+},
+{
+name = Ring;
 pos = (951,924);
 },
 {
@@ -165854,7 +167954,11 @@ name = Anchor15;
 pos = (399,864);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (850,838);
+},
+{
+name = Ring;
 pos = (850,838);
 },
 {
@@ -165977,7 +168081,11 @@ name = Anchor15;
 pos = (377,897);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (827,871);
+},
+{
+name = Ring;
 pos = (827,871);
 },
 {
@@ -166088,7 +168196,11 @@ name = Anchor15;
 pos = (347,877);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (797,851);
+},
+{
+name = Ring;
 pos = (797,851);
 },
 {
@@ -166205,7 +168317,11 @@ name = Anchor15;
 pos = (101,636);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (551,609);
+},
+{
+name = Ring;
 pos = (551,609);
 },
 {
@@ -166321,7 +168437,11 @@ name = Anchor15;
 pos = (101,636);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (551,609);
+},
+{
+name = Ring;
 pos = (551,609);
 },
 {
@@ -166443,7 +168563,11 @@ name = Anchor15;
 pos = (224,759);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (674,732);
+},
+{
+name = Ring;
 pos = (674,732);
 },
 {
@@ -166570,7 +168694,11 @@ name = Anchor15;
 pos = (224,759);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (674,732);
+},
+{
+name = Ring;
 pos = (674,732);
 },
 {
@@ -166703,7 +168831,11 @@ name = Anchor15;
 pos = (65,627);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (516,601);
+},
+{
+name = Ring;
 pos = (516,601);
 },
 {
@@ -166829,7 +168961,11 @@ name = Anchor15;
 pos = (65,627);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (516,601);
+},
+{
+name = Ring;
 pos = (516,601);
 },
 {
@@ -166961,7 +169097,11 @@ name = Anchor15;
 pos = (84,864);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (530,862);
+},
+{
+name = Ring;
 pos = (530,862);
 },
 {
@@ -167096,7 +169236,11 @@ name = Anchor15;
 pos = (92,759);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (542,732);
+},
+{
+name = Ring;
 pos = (542,732);
 },
 {
@@ -167231,7 +169375,11 @@ name = Anchor15;
 pos = (61,823);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (538,796);
+},
+{
+name = Ring;
 pos = (538,796);
 },
 {
@@ -167269,7 +169417,11 @@ name = Anchor15;
 pos = (21,753);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (498,653);
+},
+{
+name = Ring;
 pos = (498,653);
 },
 {
@@ -167313,7 +169465,11 @@ name = Anchor15;
 pos = (6,1056);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (548,970);
+},
+{
+name = Ring;
 pos = (548,970);
 },
 {
@@ -167359,7 +169515,11 @@ name = Anchor15;
 pos = (30,784);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (480,757);
+},
+{
+name = Ring;
 pos = (480,757);
 },
 {
@@ -167411,7 +169571,11 @@ name = Anchor15;
 pos = (334,847);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (874,847);
+},
+{
+name = Ring;
 pos = (874,847);
 },
 {
@@ -167445,7 +169609,11 @@ name = Anchor15;
 pos = (334,847);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (854,847);
+},
+{
+name = Ring;
 pos = (854,847);
 },
 {
@@ -167493,7 +169661,11 @@ name = Anchor15;
 pos = (325,953);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (862,897);
+},
+{
+name = Ring;
 pos = (862,897);
 },
 {
@@ -167535,7 +169707,11 @@ name = Anchor15;
 pos = (285,853);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (762,827);
+},
+{
+name = Ring;
 pos = (762,827);
 },
 {
@@ -167583,7 +169759,11 @@ name = Anchor15;
 pos = (60,600);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (643,607);
+},
+{
+name = Ring;
 pos = (643,607);
 },
 {
@@ -167625,7 +169805,11 @@ name = Anchor15;
 pos = (60,600);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (563,617);
+},
+{
+name = Ring;
 pos = (563,617);
 },
 {
@@ -167665,7 +169849,11 @@ name = Anchor15;
 pos = (197,778);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (727,679);
+},
+{
+name = Ring;
 pos = (727,679);
 },
 {
@@ -167707,7 +169895,11 @@ name = Anchor15;
 pos = (197,727);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (674,727);
+},
+{
+name = Ring;
 pos = (674,727);
 },
 {
@@ -167747,7 +169939,11 @@ name = Anchor15;
 pos = (17,683);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (504,573);
+},
+{
+name = Ring;
 pos = (504,573);
 },
 {
@@ -167789,7 +169985,11 @@ name = Anchor15;
 pos = (7,583);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (484,583);
+},
+{
+name = Ring;
 pos = (484,583);
 },
 {
@@ -167837,7 +170037,11 @@ name = Anchor15;
 pos = (4,836);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (568,763);
+},
+{
+name = Ring;
 pos = (568,763);
 },
 {
@@ -167879,7 +170083,11 @@ name = Anchor15;
 pos = (4,636);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (472,636);
+},
+{
+name = Ring;
 pos = (472,636);
 },
 {
@@ -167935,7 +170143,11 @@ name = Anchor15;
 pos = (40,839);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (593,829);
+},
+{
+name = Ring;
 pos = (593,829);
 },
 {
@@ -167985,7 +170197,11 @@ name = Anchor15;
 pos = (-14,741);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (463,741);
+},
+{
+name = Ring;
 pos = (463,741);
 },
 {
@@ -168033,7 +170249,11 @@ name = Anchor15;
 pos = (373,920);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1043,994);
+},
+{
+name = Ring;
 pos = (1043,994);
 },
 {
@@ -168079,7 +170299,11 @@ name = Anchor15;
 pos = (373,838);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (850,838);
+},
+{
+name = Ring;
 pos = (850,838);
 },
 {
@@ -168131,7 +170355,11 @@ name = Anchor15;
 pos = (268,816);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (850,851);
+},
+{
+name = Ring;
 pos = (850,851);
 },
 {
@@ -168177,7 +170405,11 @@ name = Anchor15;
 pos = (268,816);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (797,851);
+},
+{
+name = Ring;
 pos = (797,851);
 },
 {
@@ -168229,7 +170461,11 @@ name = Anchor15;
 pos = (65,660);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (581,644);
+},
+{
+name = Ring;
 pos = (581,644);
 },
 {
@@ -168275,7 +170511,11 @@ name = Anchor15;
 pos = (65,601);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (551,609);
+},
+{
+name = Ring;
 pos = (551,609);
 },
 {
@@ -168319,7 +170559,11 @@ name = Anchor15;
 pos = (180,771);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (730,776);
+},
+{
+name = Ring;
 pos = (730,776);
 },
 {
@@ -168365,7 +170609,11 @@ name = Anchor15;
 pos = (180,715);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (674,732);
+},
+{
+name = Ring;
 pos = (674,732);
 },
 {
@@ -168417,7 +170665,11 @@ name = Anchor15;
 pos = (21,644);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (564,686);
+},
+{
+name = Ring;
 pos = (564,686);
 },
 {
@@ -168463,7 +170715,11 @@ name = Anchor15;
 pos = (21,583);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (516,601);
+},
+{
+name = Ring;
 pos = (516,601);
 },
 {
@@ -182461,11 +184717,7 @@ layers = (
 {
 anchors = (
 {
-name = _Anchor23;
-pos = (90,70);
-},
-{
-name = _Ring_Bar;
+name = _Bar;
 pos = (0,292);
 }
 );
@@ -182494,10 +184746,7 @@ width = 0;
 {
 anchors = (
 {
-name = _Anchor23;
-},
-{
-name = _Ring_Bar;
+name = _Bar;
 pos = (0,291);
 }
 );
@@ -182534,7 +184783,7 @@ layers = (
 {
 anchors = (
 {
-name = _Ring_Bar;
+name = _Bar;
 pos = (0,291);
 }
 );
@@ -182580,7 +184829,7 @@ width = 0;
 {
 anchors = (
 {
-name = _Ring_Bar;
+name = _Bar;
 pos = (0,292);
 }
 );
@@ -184306,7 +186555,11 @@ name = Anchor15;
 pos = (148,807);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (387,685);
+},
+{
+name = Ring;
 pos = (387,685);
 },
 {
@@ -184462,7 +186715,11 @@ name = Anchor15;
 pos = (148,767);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (340,592);
+},
+{
+name = Ring;
 pos = (340,592);
 },
 {
@@ -184609,7 +186866,11 @@ name = Anchor15;
 pos = (175,1233);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (601,1223);
+},
+{
+name = Ring;
 pos = (601,1223);
 },
 {
@@ -184696,7 +186957,11 @@ name = Anchor15;
 pos = (138,1154);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (552,1119);
+},
+{
+name = Ring;
 pos = (552,1119);
 },
 {
@@ -184853,7 +187118,11 @@ name = Anchor15;
 pos = (925,1152);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1412,1112);
+},
+{
+name = Ring;
 pos = (1412,1112);
 },
 {
@@ -184942,7 +187211,11 @@ name = Anchor15;
 pos = (832,1040);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1238,1005);
+},
+{
+name = Ring;
 pos = (1238,1005);
 },
 {
@@ -185039,7 +187312,11 @@ name = Anchor15;
 pos = (103,834);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (485,737);
+},
+{
+name = Ring;
 pos = (485,737);
 },
 {
@@ -185123,7 +187400,11 @@ name = Anchor15;
 pos = (120,785);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,741);
+},
+{
+name = Ring;
 pos = (491,741);
 },
 {
@@ -185257,7 +187538,11 @@ name = Anchor15;
 pos = (138,981);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (512,899);
+},
+{
+name = Ring;
 pos = (512,899);
 },
 {
@@ -185299,7 +187584,11 @@ name = Anchor15;
 pos = (67,891);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,855);
+},
+{
+name = Ring;
 pos = (491,855);
 },
 {
@@ -185339,7 +187628,11 @@ name = Anchor15;
 pos = (149,867);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (483,753);
+},
+{
+name = Ring;
 pos = (483,753);
 },
 {
@@ -185373,7 +187666,11 @@ name = Anchor15;
 pos = (67,891);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,855);
+},
+{
+name = Ring;
 pos = (491,855);
 },
 {
@@ -185413,7 +187710,11 @@ name = Anchor15;
 pos = (245,1213);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (627,1203);
+},
+{
+name = Ring;
 pos = (627,1203);
 },
 {
@@ -185464,7 +187765,11 @@ name = Anchor15;
 pos = (146,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (567,1093);
+},
+{
+name = Ring;
 pos = (567,1093);
 },
 {
@@ -185511,7 +187816,11 @@ name = Anchor15;
 pos = (136,1134);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (503,1079);
+},
+{
+name = Ring;
 pos = (503,1079);
 },
 {
@@ -185673,7 +187982,11 @@ name = Anchor15;
 pos = (98,1000);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (541,1052);
+},
+{
+name = Ring;
 pos = (541,1052);
 },
 {
@@ -185829,7 +188142,11 @@ name = Anchor15;
 pos = (701,1187);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (267,1218);
+},
+{
+name = Ring;
 pos = (267,1218);
 },
 {
@@ -185875,7 +188192,11 @@ name = Anchor15;
 pos = (164,1084);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (640,1093);
+},
+{
+name = Ring;
 pos = (640,1093);
 },
 {
@@ -185919,7 +188240,11 @@ name = Anchor15;
 pos = (146,1093);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (605,1084);
+},
+{
+name = Ring;
 pos = (605,1084);
 },
 {
@@ -186074,7 +188399,11 @@ name = Anchor15;
 pos = (146,1093);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (605,1084);
+},
+{
+name = Ring;
 pos = (605,1084);
 },
 {
@@ -186245,7 +188574,11 @@ name = Anchor15;
 pos = (469,1216);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (912,1146);
+},
+{
+name = Ring;
 pos = (912,1146);
 },
 {
@@ -186291,7 +188624,11 @@ name = Anchor15;
 pos = (428,1093);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (871,1066);
+},
+{
+name = Ring;
 pos = (871,1066);
 },
 {
@@ -186343,7 +188680,11 @@ name = Anchor15;
 pos = (161,1190);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (572,1130);
+},
+{
+name = Ring;
 pos = (572,1130);
 },
 {
@@ -186381,7 +188722,11 @@ name = Anchor15;
 pos = (39,1084);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,1066);
+},
+{
+name = Ring;
 pos = (491,1066);
 },
 {
@@ -186433,7 +188778,11 @@ name = Anchor15;
 pos = (144,1153);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (567,1109);
+},
+{
+name = Ring;
 pos = (567,1109);
 },
 {
@@ -186471,7 +188820,11 @@ name = Anchor15;
 pos = (85,1005);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (500,979);
+},
+{
+name = Ring;
 pos = (500,979);
 },
 {
@@ -186515,7 +188868,11 @@ name = Anchor15;
 pos = (151,1130);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (570,1067);
+},
+{
+name = Ring;
 pos = (570,1067);
 },
 {
@@ -186553,7 +188910,11 @@ name = Anchor15;
 pos = (101,996);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (516,970);
+},
+{
+name = Ring;
 pos = (516,970);
 },
 {
@@ -186605,7 +188966,11 @@ name = Anchor15;
 pos = (453,1154);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (614,925);
+},
+{
+name = Ring;
 pos = (614,925);
 },
 {
@@ -186647,7 +189012,11 @@ name = Anchor15;
 pos = (529,1121);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (552,829);
+},
+{
+name = Ring;
 pos = (552,829);
 },
 {
@@ -186687,7 +189056,11 @@ name = Anchor15;
 pos = (251,1085);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (683,1045);
+},
+{
+name = Ring;
 pos = (683,1045);
 },
 {
@@ -186842,7 +189215,11 @@ name = Anchor15;
 pos = (208,970);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,943);
+},
+{
+name = Ring;
 pos = (623,943);
 },
 {
@@ -187006,7 +189383,11 @@ name = Anchor15;
 pos = (274,923);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (701,865);
+},
+{
+name = Ring;
 pos = (701,865);
 },
 {
@@ -187044,7 +189425,11 @@ name = Anchor15;
 pos = (278,873);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (712,847);
+},
+{
+name = Ring;
 pos = (712,847);
 },
 {
@@ -187096,7 +189481,11 @@ name = Anchor15;
 pos = (409,1031);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (809,958);
+},
+{
+name = Ring;
 pos = (809,958);
 },
 {
@@ -187268,7 +189657,11 @@ name = Anchor15;
 pos = (364,935);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (816,917);
+},
+{
+name = Ring;
 pos = (816,917);
 },
 {
@@ -187443,7 +189836,11 @@ name = Anchor15;
 pos = (155,960);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (572,918);
+},
+{
+name = Ring;
 pos = (572,918);
 },
 {
@@ -187482,7 +189879,11 @@ name = Anchor15;
 pos = (126,882);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (542,829);
+},
+{
+name = Ring;
 pos = (542,829);
 },
 {
@@ -187534,7 +189935,11 @@ name = Anchor15;
 pos = (172,1198);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (591,1207);
+},
+{
+name = Ring;
 pos = (591,1207);
 },
 {
@@ -187584,7 +189989,11 @@ name = Anchor15;
 pos = (109,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (552,1119);
+},
+{
+name = Ring;
 pos = (552,1119);
 },
 {
@@ -187640,7 +190049,11 @@ name = Anchor15;
 pos = (938,1048);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1349,968);
+},
+{
+name = Ring;
 pos = (1349,968);
 },
 {
@@ -187674,7 +190087,11 @@ name = Anchor15;
 pos = (902,979);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1273,935);
+},
+{
+name = Ring;
 pos = (1273,935);
 },
 {
@@ -187815,7 +190232,11 @@ name = Anchor15;
 pos = (438,1215);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (800,1168);
+},
+{
+name = Ring;
 pos = (800,1168);
 },
 {
@@ -187961,7 +190382,11 @@ name = Anchor15;
 pos = (349,1075);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (791,1110);
+},
+{
+name = Ring;
 pos = (791,1110);
 },
 {
@@ -188017,7 +190442,11 @@ name = Anchor15;
 pos = (148,807);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (387,685);
+},
+{
+name = Ring;
 pos = (387,685);
 },
 {
@@ -188061,7 +190490,11 @@ name = Anchor15;
 pos = (148,767);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (340,592);
+},
+{
+name = Ring;
 pos = (340,592);
 },
 {
@@ -188114,7 +190547,11 @@ name = Anchor15;
 pos = (157,1155);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (568,1113);
+},
+{
+name = Ring;
 pos = (568,1113);
 },
 {
@@ -188152,7 +190589,11 @@ name = Anchor15;
 pos = (180,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,1119);
+},
+{
+name = Ring;
 pos = (623,1119);
 },
 {
@@ -188204,7 +190645,11 @@ name = Anchor15;
 pos = (566,1119);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (971,1091);
+},
+{
+name = Ring;
 pos = (971,1091);
 },
 {
@@ -188243,7 +190688,11 @@ name = Anchor15;
 pos = (522,1040);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (992,1110);
+},
+{
+name = Ring;
 pos = (992,1110);
 },
 {
@@ -188296,7 +190745,11 @@ name = Anchor15;
 pos = (252,950);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (639,881);
+},
+{
+name = Ring;
 pos = (639,881);
 },
 {
@@ -188436,7 +190889,11 @@ name = Anchor15;
 pos = (145,803);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,864);
+},
+{
+name = Ring;
 pos = (623,864);
 },
 {
@@ -188586,7 +191043,11 @@ name = Anchor15;
 pos = (147,1033);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (530,941);
+},
+{
+name = Ring;
 pos = (530,941);
 },
 {
@@ -188628,7 +191089,11 @@ name = Anchor15;
 pos = (94,970);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (550,952);
+},
+{
+name = Ring;
 pos = (550,952);
 },
 {
@@ -188680,7 +191145,11 @@ name = Anchor7;
 pos = (351,1497);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (708,1127);
+},
+{
+name = Ring;
 pos = (708,1127);
 },
 {
@@ -188738,7 +191207,11 @@ name = Anchor7;
 pos = (350,1496);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (589,1005);
+},
+{
+name = Ring;
 pos = (589,1005);
 },
 {
@@ -188790,7 +191263,11 @@ name = Anchor15;
 pos = (487,1227);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (637,965);
+},
+{
+name = Ring;
 pos = (637,965);
 },
 {
@@ -188953,7 +191430,11 @@ name = Anchor15;
 pos = (529,1121);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,899);
+},
+{
+name = Ring;
 pos = (623,899);
 },
 {
@@ -189120,7 +191601,11 @@ name = Anchor15;
 pos = (615,1146);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1053,1087);
+},
+{
+name = Ring;
 pos = (1053,1087);
 },
 {
@@ -189168,7 +191653,11 @@ name = Anchor15;
 pos = (560,1040);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (994,1014);
+},
+{
+name = Ring;
 pos = (994,1014);
 },
 {
@@ -189213,7 +191702,11 @@ name = Anchor15;
 pos = (251,1190);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (646,1101);
+},
+{
+name = Ring;
 pos = (646,1101);
 },
 {
@@ -189251,7 +191744,11 @@ name = Anchor15;
 pos = (178,1040);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (612,1014);
+},
+{
+name = Ring;
 pos = (612,1014);
 },
 {
@@ -189303,7 +191800,11 @@ name = Anchor15;
 pos = (558,940);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (987,895);
+},
+{
+name = Ring;
 pos = (987,895);
 },
 {
@@ -189436,7 +191937,11 @@ name = Anchor15;
 pos = (612,979);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (992,935);
+},
+{
+name = Ring;
 pos = (992,935);
 },
 {
@@ -189476,7 +191981,11 @@ name = Anchor15;
 pos = (151,1023);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (570,966);
+},
+{
+name = Ring;
 pos = (570,966);
 },
 {
@@ -189638,7 +192147,11 @@ name = Anchor15;
 pos = (138,952);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (589,935);
+},
+{
+name = Ring;
 pos = (589,935);
 },
 {
@@ -189806,7 +192319,11 @@ name = Anchor15;
 pos = (202,1215);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (635,1222);
+},
+{
+name = Ring;
 pos = (635,1222);
 },
 {
@@ -189844,7 +192361,11 @@ name = Anchor15;
 pos = (145,1075);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (587,1128);
+},
+{
+name = Ring;
 pos = (587,1128);
 },
 {
@@ -189896,7 +192417,11 @@ name = Anchor15;
 pos = (289,1106);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (708,1077);
+},
+{
+name = Ring;
 pos = (708,1077);
 },
 {
@@ -189934,7 +192459,11 @@ name = Anchor15;
 pos = (246,1040);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (680,1031);
+},
+{
+name = Ring;
 pos = (680,1031);
 },
 {
@@ -189986,7 +192515,11 @@ name = Anchor15;
 pos = (83,1156);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (472,1111);
+},
+{
+name = Ring;
 pos = (472,1111);
 },
 {
@@ -190024,7 +192557,11 @@ name = Anchor15;
 pos = (81,1049);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (523,1102);
+},
+{
+name = Ring;
 pos = (523,1102);
 },
 {
@@ -190076,7 +192613,11 @@ name = Anchor15;
 pos = (1039,1264);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1419,1158);
+},
+{
+name = Ring;
 pos = (1419,1158);
 },
 {
@@ -190114,7 +192655,11 @@ name = Anchor15;
 pos = (823,1058);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1229,1022);
+},
+{
+name = Ring;
 pos = (1229,1022);
 },
 {
@@ -190238,7 +192783,11 @@ name = Anchor15;
 pos = (977,1271);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1348,1187);
+},
+{
+name = Ring;
 pos = (1348,1187);
 },
 {
@@ -190377,7 +192926,11 @@ name = Anchor15;
 pos = (806,1102);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1247,1128);
+},
+{
+name = Ring;
 pos = (1247,1128);
 },
 {
@@ -190519,7 +193072,11 @@ name = Anchor15;
 pos = (202,962);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (597,888);
+},
+{
+name = Ring;
 pos = (597,888);
 },
 {
@@ -190561,7 +193118,11 @@ name = Anchor15;
 pos = (145,832);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (587,858);
+},
+{
+name = Ring;
 pos = (587,858);
 },
 {
@@ -190605,7 +193166,11 @@ name = Anchor7;
 pos = (423,1448);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (357,838);
+},
+{
+name = Ring;
 pos = (357,838);
 },
 {
@@ -190741,7 +193306,11 @@ name = Anchor7;
 pos = (423,1448);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (315,741);
+},
+{
+name = Ring;
 pos = (315,741);
 },
 {
@@ -190910,7 +193479,11 @@ name = Anchor7;
 pos = (423,1448);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (357,838);
+},
+{
+name = Ring;
 pos = (357,838);
 },
 {
@@ -190962,7 +193535,11 @@ name = Anchor7;
 pos = (423,1448);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (315,741);
+},
+{
+name = Ring;
 pos = (315,741);
 },
 {
@@ -191135,7 +193712,11 @@ name = Anchor15;
 pos = (199,1199);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (668,1175);
+},
+{
+name = Ring;
 pos = (668,1175);
 },
 {
@@ -191181,7 +193762,11 @@ name = Anchor15;
 pos = (146,1093);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,1102);
+},
+{
+name = Ring;
 pos = (623,1102);
 },
 {
@@ -191233,7 +193818,11 @@ name = Anchor15;
 pos = (191,1163);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (606,1082);
+},
+{
+name = Ring;
 pos = (606,1082);
 },
 {
@@ -191279,7 +193868,11 @@ name = Anchor15;
 pos = (85,1014);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (561,1022);
+},
+{
+name = Ring;
 pos = (561,1022);
 },
 {
@@ -191331,7 +193924,11 @@ name = Anchor15;
 pos = (261,1143);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (637,1079);
+},
+{
+name = Ring;
 pos = (637,1079);
 },
 {
@@ -191373,7 +193970,11 @@ name = Anchor15;
 pos = (146,1031);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (622,1040);
+},
+{
+name = Ring;
 pos = (622,1040);
 },
 {
@@ -191421,7 +194022,11 @@ name = Anchor15;
 pos = (268,1137);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (680,1084);
+},
+{
+name = Ring;
 pos = (680,1084);
 },
 {
@@ -191467,7 +194072,11 @@ name = Anchor15;
 pos = (182,1005);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (658,1014);
+},
+{
+name = Ring;
 pos = (658,1014);
 },
 {
@@ -191511,7 +194120,11 @@ name = Anchor15;
 pos = (268,1225);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (694,1158);
+},
+{
+name = Ring;
 pos = (694,1158);
 },
 {
@@ -191657,7 +194270,11 @@ name = Anchor15;
 pos = (146,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (623,1075);
+},
+{
+name = Ring;
 pos = (623,1075);
 },
 {
@@ -191800,7 +194417,11 @@ name = Anchor15;
 pos = (615,1146);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (1048,1142);
+},
+{
+name = Ring;
 pos = (1048,1142);
 },
 {
@@ -191943,7 +194564,11 @@ name = Anchor15;
 pos = (521,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (973,1066);
+},
+{
+name = Ring;
 pos = (973,1066);
 },
 {
@@ -192092,7 +194717,11 @@ name = Anchor15;
 pos = (474,1204);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (936,1151);
+},
+{
+name = Ring;
 pos = (936,1151);
 },
 {
@@ -192241,7 +194870,11 @@ name = Anchor15;
 pos = (416,1050);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (850,1023);
+},
+{
+name = Ring;
 pos = (850,1023);
 },
 {
@@ -192392,7 +195025,11 @@ name = Anchor15;
 pos = (31,912);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (484,868);
+},
+{
+name = Ring;
 pos = (484,868);
 },
 {
@@ -192541,7 +195178,11 @@ name = Anchor15;
 pos = (6,847);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (458,829);
+},
+{
+name = Ring;
 pos = (458,829);
 },
 {
@@ -192589,7 +195230,11 @@ name = Anchor15;
 pos = (376,1137);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (826,1079);
+},
+{
+name = Ring;
 pos = (826,1079);
 },
 {
@@ -192623,7 +195268,11 @@ name = Anchor15;
 pos = (305,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (781,1075);
+},
+{
+name = Ring;
 pos = (781,1075);
 },
 {
@@ -192671,7 +195320,11 @@ name = Anchor15;
 pos = (108,960);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (531,902);
+},
+{
+name = Ring;
 pos = (531,902);
 },
 {
@@ -192705,7 +195358,11 @@ name = Anchor15;
 pos = (20,882);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (485,882);
+},
+{
+name = Ring;
 pos = (485,882);
 },
 {
@@ -192753,7 +195410,11 @@ name = Anchor15;
 pos = (237,1235);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (661,1190);
+},
+{
+name = Ring;
 pos = (661,1190);
 },
 {
@@ -192803,7 +195464,11 @@ name = Anchor15;
 pos = (138,1093);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (614,1102);
+},
+{
+name = Ring;
 pos = (614,1102);
 },
 {
@@ -192859,7 +195524,11 @@ name = Anchor15;
 pos = (248,1096);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (631,1026);
+},
+{
+name = Ring;
 pos = (631,1026);
 },
 {
@@ -193015,7 +195684,11 @@ name = Anchor15;
 pos = (435,1104);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (570,935);
+},
+{
+name = Ring;
 pos = (570,935);
 },
 {
@@ -193174,7 +195847,11 @@ name = Anchor15;
 pos = (267,1218);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (701,1187);
+},
+{
+name = Ring;
 pos = (701,1187);
 },
 {
@@ -193340,7 +196017,11 @@ name = Anchor15;
 pos = (164,1084);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (640,1093);
+},
+{
+name = Ring;
 pos = (640,1093);
 },
 {
@@ -193506,7 +196187,11 @@ name = Anchor15;
 pos = (389,1148);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (792,1057);
+},
+{
+name = Ring;
 pos = (792,1057);
 },
 {
@@ -193674,7 +196359,11 @@ name = Anchor15;
 pos = (299,1005);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (714,979);
+},
+{
+name = Ring;
 pos = (714,979);
 },
 {
@@ -193839,7 +196528,11 @@ name = Anchor15;
 pos = (478,1232);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (914,1174);
+},
+{
+name = Ring;
 pos = (914,1174);
 },
 {
@@ -194018,7 +196711,11 @@ name = Anchor15;
 pos = (384,1076);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (819,1050);
+},
+{
+name = Ring;
 pos = (819,1050);
 },
 {
@@ -194189,7 +196886,11 @@ name = Anchor15;
 pos = (478,1232);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (914,1174);
+},
+{
+name = Ring;
 pos = (914,1174);
 },
 {
@@ -194235,7 +196936,11 @@ name = Anchor15;
 pos = (384,1076);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (819,1050);
+},
+{
+name = Ring;
 pos = (819,1050);
 },
 {
@@ -194287,7 +196992,11 @@ name = Anchor15;
 pos = (193,1132);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (604,1075);
+},
+{
+name = Ring;
 pos = (604,1075);
 },
 {
@@ -194334,7 +197043,11 @@ name = Anchor15;
 pos = (138,1022);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (589,1005);
+},
+{
+name = Ring;
 pos = (589,1005);
 },
 {
@@ -194386,7 +197099,11 @@ name = Anchor15;
 pos = (162,934);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (573,869);
+},
+{
+name = Ring;
 pos = (573,869);
 },
 {
@@ -194420,7 +197137,11 @@ name = Anchor15;
 pos = (173,908);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (579,882);
+},
+{
+name = Ring;
 pos = (579,882);
 },
 {
@@ -194460,7 +197181,11 @@ name = Anchor15;
 pos = (594,950);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (996,907);
+},
+{
+name = Ring;
 pos = (996,907);
 },
 {
@@ -194507,7 +197232,11 @@ name = Anchor15;
 pos = (540,891);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (974,864);
+},
+{
+name = Ring;
 pos = (974,864);
 },
 {
@@ -194560,7 +197289,11 @@ name = Anchor15;
 pos = (75,985);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (547,968);
+},
+{
+name = Ring;
 pos = (547,968);
 },
 {
@@ -194606,7 +197339,11 @@ name = Anchor15;
 pos = (40,956);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (492,938);
+},
+{
+name = Ring;
 pos = (492,938);
 },
 {
@@ -194658,7 +197395,11 @@ name = Anchor15;
 pos = (197,974);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (599,930);
+},
+{
+name = Ring;
 pos = (599,930);
 },
 {
@@ -194696,7 +197437,11 @@ name = Anchor15;
 pos = (197,935);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (649,917);
+},
+{
+name = Ring;
 pos = (649,917);
 },
 {
@@ -194851,7 +197596,11 @@ name = Anchor15;
 pos = (202,1215);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (635,1222);
+},
+{
+name = Ring;
 pos = (635,1222);
 },
 {
@@ -194897,7 +197646,11 @@ name = Anchor15;
 pos = (145,1066);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (587,1119);
+},
+{
+name = Ring;
 pos = (587,1119);
 },
 {
@@ -194941,7 +197694,11 @@ name = Anchor15;
 pos = (461,1218);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (859,1188);
+},
+{
+name = Ring;
 pos = (859,1188);
 },
 {
@@ -194979,7 +197736,11 @@ name = Anchor15;
 pos = (426,1102);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (869,1154);
+},
+{
+name = Ring;
 pos = (869,1154);
 },
 {
@@ -195031,7 +197792,11 @@ name = Anchor15;
 pos = (147,1222);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (526,1176);
+},
+{
+name = Ring;
 pos = (526,1176);
 },
 {
@@ -195177,7 +197942,11 @@ name = Anchor15;
 pos = (30,1084);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,1154);
+},
+{
+name = Ring;
 pos = (491,1154);
 },
 {
@@ -195222,7 +197991,11 @@ name = Anchor15;
 pos = (98,1125);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (492,1096);
+},
+{
+name = Ring;
 pos = (492,1096);
 },
 {
@@ -195268,7 +198041,11 @@ name = Anchor15;
 pos = (48,987);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,1040);
+},
+{
+name = Ring;
 pos = (491,1040);
 },
 {
@@ -195320,7 +198097,11 @@ name = Anchor15;
 pos = (352,968);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (750,857);
+},
+{
+name = Ring;
 pos = (750,857);
 },
 {
@@ -195362,7 +198143,11 @@ name = Anchor15;
 pos = (232,820);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (746,899);
+},
+{
+name = Ring;
 pos = (746,899);
 },
 {
@@ -195402,7 +198187,11 @@ name = Anchor15;
 pos = (208,962);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (552,873);
+},
+{
+name = Ring;
 pos = (552,873);
 },
 {
@@ -195440,7 +198229,11 @@ name = Anchor15;
 pos = (109,855);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (552,873);
+},
+{
+name = Ring;
 pos = (552,873);
 },
 {
@@ -195492,7 +198285,11 @@ name = Anchor15;
 pos = (138,981);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (512,899);
+},
+{
+name = Ring;
 pos = (512,899);
 },
 {
@@ -195525,7 +198322,11 @@ name = Anchor15;
 pos = (67,891);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (491,855);
+},
+{
+name = Ring;
 pos = (491,855);
 },
 {
@@ -195573,7 +198374,11 @@ name = Anchor15;
 pos = (119,898);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (542,831);
+},
+{
+name = Ring;
 pos = (542,831);
 },
 {
@@ -195610,7 +198415,11 @@ name = Anchor15;
 pos = (92,759);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (542,732);
+},
+{
+name = Ring;
 pos = (542,732);
 },
 {
@@ -195737,7 +198546,11 @@ name = Anchor15;
 pos = (48,770);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (498,723);
+},
+{
+name = Ring;
 pos = (498,723);
 },
 {
@@ -195805,7 +198618,11 @@ name = Anchor15;
 pos = (48,680);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (498,653);
+},
+{
+name = Ring;
 pos = (498,653);
 },
 {
@@ -195880,7 +198697,11 @@ name = Anchor15;
 pos = (30,984);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (480,887);
+},
+{
+name = Ring;
 pos = (480,887);
 },
 {
@@ -195928,7 +198749,11 @@ name = Anchor15;
 pos = (30,784);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (480,757);
+},
+{
+name = Ring;
 pos = (480,757);
 },
 {
@@ -195973,7 +198798,11 @@ name = Anchor15;
 pos = (361,847);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (969,867);
+},
+{
+name = Ring;
 pos = (969,867);
 },
 {
@@ -196008,7 +198837,11 @@ name = Anchor15;
 pos = (361,847);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (854,847);
+},
+{
+name = Ring;
 pos = (854,847);
 },
 {
@@ -196061,7 +198894,11 @@ name = Anchor15;
 pos = (312,853);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (824,827);
+},
+{
+name = Ring;
 pos = (824,827);
 },
 {
@@ -196096,7 +198933,11 @@ name = Anchor15;
 pos = (312,853);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (762,827);
+},
+{
+name = Ring;
 pos = (762,827);
 },
 {
@@ -196146,7 +198987,11 @@ name = Anchor15;
 pos = (113,644);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (568,617);
+},
+{
+name = Ring;
 pos = (568,617);
 },
 {
@@ -196273,7 +199118,11 @@ name = Anchor15;
 pos = (113,644);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (563,617);
+},
+{
+name = Ring;
 pos = (563,617);
 },
 {
@@ -196344,7 +199193,11 @@ name = Anchor15;
 pos = (224,753);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (786,645);
+},
+{
+name = Ring;
 pos = (786,645);
 },
 {
@@ -196388,7 +199241,11 @@ name = Anchor15;
 pos = (224,753);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (674,727);
+},
+{
+name = Ring;
 pos = (674,727);
 },
 {
@@ -196429,7 +199286,11 @@ name = Anchor15;
 pos = (29,659);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (513,552);
+},
+{
+name = Ring;
 pos = (513,552);
 },
 {
@@ -196567,7 +199428,11 @@ name = Anchor15;
 pos = (34,609);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (484,583);
+},
+{
+name = Ring;
 pos = (484,583);
 },
 {
@@ -196615,7 +199480,11 @@ name = Anchor15;
 pos = (21,662);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (472,636);
+},
+{
+name = Ring;
 pos = (472,636);
 },
 {
@@ -196657,7 +199526,11 @@ name = Anchor15;
 pos = (21,662);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (472,636);
+},
+{
+name = Ring;
 pos = (472,636);
 },
 {
@@ -196717,7 +199590,11 @@ name = Anchor15;
 pos = (69,831);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (583,791);
+},
+{
+name = Ring;
 pos = (583,791);
 },
 {
@@ -196767,7 +199644,11 @@ name = Anchor15;
 pos = (13,768);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (463,741);
+},
+{
+name = Ring;
 pos = (463,741);
 },
 {
@@ -196827,7 +199708,11 @@ name = Anchor15;
 pos = (402,990);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (960,928);
+},
+{
+name = Ring;
 pos = (960,928);
 },
 {
@@ -196873,7 +199758,11 @@ name = Anchor15;
 pos = (399,864);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (850,838);
+},
+{
+name = Ring;
 pos = (850,838);
 },
 {
@@ -196929,7 +199818,11 @@ name = Anchor15;
 pos = (291,954);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (857,881);
+},
+{
+name = Ring;
 pos = (857,881);
 },
 {
@@ -196975,7 +199868,11 @@ name = Anchor15;
 pos = (347,877);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (797,851);
+},
+{
+name = Ring;
 pos = (797,851);
 },
 {
@@ -197031,7 +199928,11 @@ name = Anchor15;
 pos = (101,636);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (551,609);
+},
+{
+name = Ring;
 pos = (551,609);
 },
 {
@@ -197069,7 +199970,11 @@ name = Anchor15;
 pos = (101,636);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (551,609);
+},
+{
+name = Ring;
 pos = (551,609);
 },
 {
@@ -197113,7 +200018,11 @@ name = Anchor15;
 pos = (244,779);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (694,742);
+},
+{
+name = Ring;
 pos = (694,742);
 },
 {
@@ -197150,7 +200059,11 @@ name = Anchor15;
 pos = (224,759);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (674,732);
+},
+{
+name = Ring;
 pos = (674,732);
 },
 {
@@ -197228,7 +200141,11 @@ name = Anchor15;
 pos = (46,714);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (580,651);
+},
+{
+name = Ring;
 pos = (580,651);
 },
 {
@@ -197274,7 +200191,11 @@ name = Anchor15;
 pos = (65,627);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (516,601);
+},
+{
+name = Ring;
 pos = (516,601);
 },
 {
@@ -197318,7 +200239,11 @@ name = Anchor7;
 pos = (252,702);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (216,-41);
+},
+{
+name = Ring;
 pos = (216,-41);
 },
 {
@@ -197391,7 +200316,11 @@ name = Anchor7;
 pos = (192,646);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (175,-21);
+},
+{
+name = Ring;
 pos = (175,-21);
 },
 {
@@ -197466,7 +200395,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (74,-246);
+},
+{
+name = Ring;
 pos = (74,-246);
 },
 {
@@ -197550,7 +200483,11 @@ width = 776;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (123,-180);
+},
+{
+name = Ring;
 pos = (123,-180);
 },
 {
@@ -197644,7 +200581,11 @@ name = Anchor7;
 pos = (181,635);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (215,-68);
+},
+{
+name = Ring;
 pos = (215,-68);
 },
 {
@@ -197735,7 +200676,11 @@ name = Anchor7;
 pos = (164,609);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (191,-15);
+},
+{
+name = Ring;
 pos = (191,-15);
 },
 {
@@ -197828,7 +200773,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (74,-246);
+},
+{
+name = Ring;
 pos = (74,-246);
 },
 {
@@ -197912,7 +200861,11 @@ width = 880;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (131,-180);
+},
+{
+name = Ring;
 pos = (131,-180);
 },
 {
@@ -198002,7 +200955,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (74,-246);
+},
+{
+name = Ring;
 pos = (74,-246);
 },
 {
@@ -198086,7 +201043,11 @@ width = 776;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (128,-180);
+},
+{
+name = Ring;
 pos = (128,-180);
 },
 {
@@ -198176,7 +201137,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (215,-59);
+},
+{
+name = Ring;
 pos = (215,-59);
 },
 {
@@ -198278,7 +201243,11 @@ width = 713;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (217,-15);
+},
+{
+name = Ring;
 pos = (217,-15);
 },
 {
@@ -198386,7 +201355,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (74,-246);
+},
+{
+name = Ring;
 pos = (74,-246);
 },
 {
@@ -198470,7 +201443,11 @@ width = 766;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (128,-180);
+},
+{
+name = Ring;
 pos = (128,-180);
 },
 {
@@ -198564,7 +201541,11 @@ name = Anchor7;
 pos = (239,805);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (120,29);
+},
+{
+name = Ring;
 pos = (120,29);
 },
 {
@@ -198619,7 +201600,11 @@ name = Anchor7;
 pos = (206,690);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (124,49);
+},
+{
+name = Ring;
 pos = (124,49);
 },
 {
@@ -198680,7 +201665,11 @@ name = Anchor7;
 pos = (229,805);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (120,29);
+},
+{
+name = Ring;
 pos = (120,29);
 },
 {
@@ -198711,7 +201700,11 @@ name = Anchor7;
 pos = (103,693);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (124,49);
+},
+{
+name = Ring;
 pos = (124,49);
 },
 {
@@ -198748,7 +201741,11 @@ name = Anchor7;
 pos = (159,805);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (120,35);
+},
+{
+name = Ring;
 pos = (120,35);
 },
 {
@@ -198807,7 +201804,11 @@ name = Anchor7;
 pos = (199,755);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (124,49);
+},
+{
+name = Ring;
 pos = (124,49);
 },
 {
@@ -198872,7 +201873,11 @@ name = Anchor7;
 pos = (213,804);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (120,30);
+},
+{
+name = Ring;
 pos = (120,30);
 },
 {
@@ -198931,7 +201936,11 @@ name = Anchor7;
 pos = (213,764);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (124,49);
+},
+{
+name = Ring;
 pos = (124,49);
 },
 {
@@ -198996,7 +202005,11 @@ name = Anchor7;
 pos = (119,805);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (120,33);
+},
+{
+name = Ring;
 pos = (120,33);
 },
 {
@@ -199055,7 +202068,11 @@ name = Anchor7;
 pos = (137,645);
 },
 {
-name = Ring_Bar;
+name = Bar;
+pos = (124,49);
+},
+{
+name = Ring;
 pos = (124,49);
 },
 {
@@ -200050,7 +203067,11 @@ layers = (
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (324,172);
+},
+{
+name = Ring;
 pos = (324,172);
 },
 {
@@ -200115,7 +203136,11 @@ width = 442;
 {
 anchors = (
 {
-name = Ring_Bar;
+name = Bar;
+pos = (344,155);
+},
+{
+name = Ring;
 pos = (344,155);
 },
 {
