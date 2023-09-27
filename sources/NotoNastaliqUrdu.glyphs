@@ -20586,7 +20586,7 @@ value = 1904;
 },
 {
 name = winDescent;
-value = 596;
+value = 1382;
 },
 {
 name = hheaAscender;
@@ -20685,7 +20685,7 @@ value = 1904;
 },
 {
 name = winDescent;
-value = 596;
+value = 1382;
 },
 {
 name = hheaAscender;
@@ -206288,7 +206288,7 @@ value = 1904;
 },
 {
 name = winDescent;
-value = 596;
+value = 1382;
 },
 {
 name = hheaAscender;
@@ -206354,7 +206354,7 @@ value = 1904;
 },
 {
 name = winDescent;
-value = 596;
+value = 1382;
 },
 {
 name = hheaAscender;
