@@ -13,20 +13,12 @@ name = Anchor33;
 pos = (0,-328);
 },
 {
-name = _Anchor31;
-pos = (0,926);
-},
-{
 name = _Anchor33;
 pos = (0,-24);
 },
 {
 name = _bottom;
 pos = (0,-81);
-},
-{
-name = _top;
-pos = (-2,958);
 }
 );
 layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
@@ -86,20 +78,12 @@ name = Anchor33;
 pos = (0,-328);
 },
 {
-name = _Anchor31;
-pos = (0,926);
-},
-{
 name = _Anchor33;
 pos = (0,-44);
 },
 {
 name = _bottom;
 pos = (0,-82);
-},
-{
-name = _top;
-pos = (-2,958);
 }
 );
 layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
