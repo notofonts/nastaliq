@@ -1,0 +1,98 @@
+{
+glyphname = GafMed.outS1;
+layers = (
+{
+anchors = (
+{
+name = Anchor15;
+pos = (220,1207);
+},
+{
+name = Bar;
+pos = (701,1187);
+},
+{
+name = Ring;
+pos = (701,1187);
+},
+{
+name = bottom;
+pos = (236,-187);
+},
+{
+name = entry;
+pos = (378,105);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (461,1525);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = KafMed.outS1;
+},
+{
+pos = (14,-6);
+ref = _Gaf.sarkash;
+}
+);
+width = 378;
+},
+{
+anchors = (
+{
+name = Anchor15;
+pos = (164,1084);
+},
+{
+name = Bar;
+pos = (640,1093);
+},
+{
+name = Ring;
+pos = (640,1093);
+},
+{
+name = bottom;
+pos = (235,-188);
+},
+{
+name = entry;
+pos = (331,99);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (354,1308);
+}
+);
+background = {
+shapes = (
+{
+pos = (40,4);
+ref = _Gaf.sarkash;
+}
+);
+};
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = KafMed.outS1;
+},
+{
+pos = (40,4);
+ref = _Gaf.sarkash;
+}
+);
+width = 332;
+}
+);
+note = GafMed.outS1;
+}

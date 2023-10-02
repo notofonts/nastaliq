@@ -1,0 +1,39 @@
+{
+category = Mark;
+glyphname = ArSevenKNS;
+layers = (
+{
+anchors = (
+{
+name = _Anchor15;
+pos = (44,926);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+pos = (4,1);
+ref = ArSevenAboveNS;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _Anchor15;
+pos = (45,926);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+pos = (4,18);
+ref = ArSevenAboveNS;
+}
+);
+width = 0;
+}
+);
+subCategory = Nonspacing;
+}

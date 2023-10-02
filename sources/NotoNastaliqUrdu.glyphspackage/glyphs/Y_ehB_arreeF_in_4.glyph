@@ -1,0 +1,68 @@
+{
+glyphname = YehBarreeFin_4;
+layers = (
+{
+anchors = (
+{
+name = Anchor7;
+pos = (1129,-158);
+},
+{
+name = bottom;
+pos = (98,-480);
+},
+{
+name = bottom.alt;
+pos = (795,-281);
+},
+{
+name = entry;
+pos = (358,459);
+},
+{
+name = top;
+pos = (149,627);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = YehBarreeFin;
+}
+);
+width = 358;
+},
+{
+anchors = (
+{
+name = Anchor7;
+pos = (1098,-159);
+},
+{
+name = bottom;
+pos = (74,-188);
+},
+{
+name = bottom.alt;
+pos = (764,-282);
+},
+{
+name = entry;
+pos = (355,419);
+},
+{
+name = top;
+pos = (118,463);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = YehBarreeFin;
+}
+);
+width = 356;
+}
+);
+note = YehBarreeFin_4;
+}

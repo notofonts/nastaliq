@@ -1,0 +1,82 @@
+{
+glyphname = TahMed.inD1outD2YB;
+layers = (
+{
+anchors = (
+{
+name = Anchor19;
+pos = (509,806);
+},
+{
+name = Anchor7;
+pos = (308,1046);
+},
+{
+name = bottom;
+pos = (310,-420);
+},
+{
+name = enclosing;
+pos = (516,835);
+},
+{
+name = entry;
+pos = (237,99);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (306,1153);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = TahMed.inD1outD2;
+}
+);
+width = 237;
+},
+{
+anchors = (
+{
+name = Anchor19;
+pos = (428,765);
+},
+{
+name = Anchor7;
+pos = (307,1016);
+},
+{
+name = bottom;
+pos = (309,-420);
+},
+{
+name = enclosing;
+pos = (506,836);
+},
+{
+name = entry;
+pos = (164,91);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (305,1122);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = TahMed.inD1outD2;
+}
+);
+width = 165;
+}
+);
+note = TahMed.inD1outD2YB;
+}

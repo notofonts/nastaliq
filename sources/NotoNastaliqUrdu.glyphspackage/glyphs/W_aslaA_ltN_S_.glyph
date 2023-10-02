@@ -1,0 +1,60 @@
+{
+category = Mark;
+glyphname = WaslaAltNS;
+layers = (
+{
+anchors = (
+{
+name = Anchor31;
+pos = (0,1117);
+},
+{
+name = _Anchor7;
+pos = (1,973);
+}
+);
+background = {
+shapes = (
+{
+ref = WaslaNS;
+}
+);
+};
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = WaslaNS;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = Anchor31;
+pos = (0,1117);
+},
+{
+name = _Anchor7;
+pos = (0,973);
+}
+);
+background = {
+shapes = (
+{
+ref = WaslaNS;
+}
+);
+};
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = WaslaNS;
+}
+);
+width = 0;
+}
+);
+note = WaslaAltNS;
+subCategory = Nonspacing;
+}

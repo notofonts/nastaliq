@@ -1,0 +1,52 @@
+{
+glyphname = QafxFin;
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (319,-574);
+},
+{
+name = entry;
+pos = (621,243);
+},
+{
+name = top;
+pos = (671,830);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = QafxSep;
+}
+);
+width = 864;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (298,-574);
+},
+{
+name = entry;
+pos = (639,259);
+},
+{
+name = top;
+pos = (650,829);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = QafxSep;
+}
+);
+width = 855;
+}
+);
+note = QafxFin;
+}

@@ -1,0 +1,98 @@
+{
+glyphname = GafInvIni.outT3;
+layers = (
+{
+anchors = (
+{
+name = Anchor15;
+pos = (268,1137);
+},
+{
+name = Bar;
+pos = (680,1084);
+},
+{
+name = Ring;
+pos = (680,1084);
+},
+{
+name = bottom;
+pos = (156,-273);
+},
+{
+name = bottom.alt;
+pos = (255,-102);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (463,1383);
+}
+);
+background = {
+shapes = (
+{
+pos = (-724,-74);
+ref = _gaf.sarkash6;
+}
+);
+};
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = KafIni.outT3;
+},
+{
+pos = (-724,-74);
+ref = _gaf.sarkash6;
+}
+);
+width = 407;
+},
+{
+anchors = (
+{
+name = Anchor15;
+pos = (182,1005);
+},
+{
+name = Bar;
+pos = (658,1014);
+},
+{
+name = Ring;
+pos = (658,1014);
+},
+{
+name = bottom;
+pos = (156,-274);
+},
+{
+name = bottom.alt;
+pos = (254,-103);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (422,1242);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = KafIni.outT3;
+},
+{
+pos = (-628,-59);
+ref = _gaf.sarkash6;
+}
+);
+width = 390;
+}
+);
+note = GafIni.outT3;
+}

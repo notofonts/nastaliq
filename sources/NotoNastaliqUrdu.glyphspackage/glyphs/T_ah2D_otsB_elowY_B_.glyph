@@ -1,0 +1,46 @@
+{
+category = Mark;
+glyphname = Tah2DotsBelowYB;
+layers = (
+{
+anchors = (
+{
+name = Anchor28;
+pos = (0,-424);
+},
+{
+name = _Anchor28;
+pos = (5,-58);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = Tah2DotsBelowNS;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = Anchor28;
+pos = (0,-424);
+},
+{
+name = _Anchor28;
+pos = (5,-59);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = Tah2DotsBelowNS;
+}
+);
+width = 0;
+}
+);
+note = Tah2DotsBelowYB;
+subCategory = Nonspacing;
+}

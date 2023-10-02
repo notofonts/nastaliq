@@ -1,0 +1,72 @@
+{
+category = Mark;
+glyphname = OneDotEnclNS;
+layers = (
+{
+anchors = (
+{
+name = _enclosing;
+pos = (0,216);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(3,120,l),
+(49,152,o),
+(95,192,o),
+(95,225,cs),
+(95,257,o),
+(64,282,o),
+(9,317,c),
+(-1,317,l),
+(-18,306,o),
+(-79,239,o),
+(-97,211,c),
+(-97,201,l),
+(-70,181,o),
+(-45,160,o),
+(-5,120,c)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _enclosing;
+pos = (0,217);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(4,128,l),
+(60,168,o),
+(87,200,o),
+(87,223,cs),
+(87,246,o),
+(70,269,o),
+(9,308,c),
+(0,308,l),
+(-17,297,o),
+(-70,238,o),
+(-87,212,c),
+(-87,203,l),
+(-60,182,o),
+(-32,157,o),
+(-4,128,c)
+);
+}
+);
+width = 0;
+}
+);
+note = OneDotEnclNS;
+subCategory = Nonspacing;
+}

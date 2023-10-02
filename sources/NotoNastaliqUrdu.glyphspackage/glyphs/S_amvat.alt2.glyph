@@ -1,0 +1,46 @@
+{
+category = Letter;
+glyphname = Samvat.alt2;
+layers = (
+{
+anchors = (
+{
+name = subtending_1;
+pos = (825,423);
+},
+{
+name = subtending_2;
+pos = (1251,423);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = Samvat;
+}
+);
+width = 2792;
+},
+{
+anchors = (
+{
+name = subtending_1;
+pos = (848,366);
+},
+{
+name = subtending_2;
+pos = (1254,366);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = Samvat;
+}
+);
+width = 2655;
+}
+);
+note = Samvat.alt2;
+subCategory = Ligature;
+}

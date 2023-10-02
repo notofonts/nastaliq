@@ -1,0 +1,76 @@
+{
+glyphname = WawStraightFin;
+layers = (
+{
+anchors = (
+{
+name = Anchor7;
+pos = (229,805);
+},
+{
+name = Bar;
+pos = (120,29);
+},
+{
+name = Ring;
+pos = (120,29);
+},
+{
+name = bottom;
+pos = (218,-288);
+},
+{
+name = entry;
+pos = (140,191);
+},
+{
+name = top;
+pos = (269,755);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = WawStraightSep;
+}
+);
+width = 140;
+},
+{
+anchors = (
+{
+name = Anchor7;
+pos = (103,693);
+},
+{
+name = Bar;
+pos = (124,49);
+},
+{
+name = Ring;
+pos = (124,49);
+},
+{
+name = bottom;
+pos = (129,-200);
+},
+{
+name = entry;
+pos = (124,192);
+},
+{
+name = top;
+pos = (177,631);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = WawStraightSep;
+}
+);
+width = 124;
+}
+);
+note = WawFin;
+}

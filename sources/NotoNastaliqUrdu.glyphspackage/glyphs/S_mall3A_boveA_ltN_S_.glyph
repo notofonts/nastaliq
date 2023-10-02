@@ -1,0 +1,54 @@
+{
+category = Mark;
+glyphname = Small3AboveAltNS;
+layers = (
+{
+anchors = (
+{
+name = Anchor31;
+pos = (0,771);
+},
+{
+name = _Anchor33;
+pos = (180,901);
+},
+{
+name = _Anchor7;
+pos = (180,901);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = Small3AboveNS;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = Anchor31;
+pos = (0,770);
+},
+{
+name = _Anchor33;
+pos = (180,901);
+},
+{
+name = _Anchor7;
+pos = (0,560);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = Small3AboveNS;
+}
+);
+width = 0;
+}
+);
+note = Small3AboveAltNS;
+subCategory = Nonspacing;
+}

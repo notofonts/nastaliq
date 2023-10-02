@@ -1,0 +1,37 @@
+{
+glyphname = uni2011;
+layers = (
+{
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(423,6,l),
+(431,79,l),
+(64,79,l),
+(56,6,l)
+);
+}
+);
+width = 487;
+},
+{
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(400,11,l),
+(407,75,l),
+(73,75,l),
+(66,11,l)
+);
+}
+);
+width = 473;
+}
+);
+note = uni2011;
+unicode = 8209;
+}

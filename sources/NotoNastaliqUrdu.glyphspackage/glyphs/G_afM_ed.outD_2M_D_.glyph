@@ -1,0 +1,106 @@
+{
+glyphname = GafMed.outD2MD;
+layers = (
+{
+anchors = (
+{
+name = Anchor15;
+pos = (338,1148);
+},
+{
+name = Bar;
+pos = (792,1057);
+},
+{
+name = Ring;
+pos = (792,1057);
+},
+{
+name = bottom;
+pos = (212,-296);
+},
+{
+name = entry;
+pos = (438,-40);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (537,1435);
+}
+);
+background = {
+shapes = (
+{
+pos = (-171,-126);
+ref = _gaf.sarkash.long;
+}
+);
+};
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = KafMed.outD2MD;
+},
+{
+pos = (-171,-126);
+ref = _gaf.sarkash.long;
+}
+);
+width = 438;
+},
+{
+anchors = (
+{
+name = Anchor15;
+pos = (255,1005);
+},
+{
+name = Bar;
+pos = (714,979);
+},
+{
+name = Ring;
+pos = (714,979);
+},
+{
+name = bottom;
+pos = (312,-297);
+},
+{
+name = entry;
+pos = (408,-11);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (477,1274);
+}
+);
+background = {
+shapes = (
+{
+pos = (-161,-96);
+ref = _gaf.sarkash.long;
+}
+);
+};
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = KafMed.outD2MD;
+},
+{
+pos = (-161,-96);
+ref = _gaf.sarkash.long;
+}
+);
+width = 409;
+}
+);
+note = GafMed.outD2MD;
+}

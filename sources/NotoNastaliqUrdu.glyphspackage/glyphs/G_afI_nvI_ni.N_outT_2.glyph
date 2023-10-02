@@ -1,0 +1,151 @@
+{
+glyphname = GafInvIni.NoutT2;
+layers = (
+{
+anchors = (
+{
+name = Anchor15;
+pos = (48,770);
+},
+{
+name = Bar;
+pos = (498,723);
+},
+{
+name = Ring;
+pos = (498,723);
+},
+{
+name = bottom;
+pos = (72,-207);
+},
+{
+name = bottom.alt;
+pos = (245,-109);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (317,1105);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(252,610,l),
+(306,647,ls),
+(320,656,o),
+(343,672,o),
+(376,695,cs),
+(414,721,ls),
+(482,767,o),
+(518,797,o),
+(527,810,cs),
+(539,828,o),
+(553,852,o),
+(564,880,c),
+(550,887,l),
+(537,879,o),
+(507,852,o),
+(485,836,cs),
+(335,726,ls),
+(272,680,o),
+(234,647,o),
+(214,609,c),
+(237,597,l)
+);
+}
+);
+};
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+pos = (-59,-85);
+ref = _gaf.sarkash.short;
+},
+{
+ref = KafIni.NoutT2;
+}
+);
+width = 336;
+},
+{
+anchors = (
+{
+name = Anchor15;
+pos = (48,680);
+},
+{
+name = Bar;
+pos = (498,653);
+},
+{
+name = Ring;
+pos = (498,653);
+},
+{
+name = bottom;
+pos = (72,-207);
+},
+{
+name = bottom.alt;
+pos = (225,-109);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (287,915);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(222,439,o),
+(265,476,o),
+(348,544,cs),
+(365,558,ls),
+(408,594,o),
+(460,645,o),
+(481,675,c),
+(487,691,o),
+(494,709,o),
+(500,736,c),
+(491,740,l),
+(474,723,o),
+(455,704,o),
+(437,686,cs),
+(419,668,o),
+(369,620,o),
+(333,587,cs),
+(309,565,ls),
+(228,491,o),
+(209,475,o),
+(194,433,c),
+(207,421,l)
+);
+}
+);
+};
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+pos = (-80,-105);
+ref = _gaf.sarkash.short;
+},
+{
+ref = KafIni.NoutT2;
+}
+);
+width = 249;
+}
+);
+note = GafIni.NoutT2;
+}

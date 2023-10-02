@@ -1,0 +1,17 @@
+{
+category = Letter;
+glyphname = uni08C0;
+layers = (
+{
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+width = 1227;
+},
+{
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+width = 1175;
+}
+);
+note = Teh;
+script = arabic;
+unicode = 2240;
+}

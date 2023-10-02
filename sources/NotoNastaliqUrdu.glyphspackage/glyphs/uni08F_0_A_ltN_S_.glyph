@@ -1,0 +1,49 @@
+{
+category = Mark;
+glyphname = uni08F0_AltNS;
+layers = (
+{
+anchors = (
+{
+name = _Anchor7;
+pos = (0,958);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+alignment = -1;
+pos = (80,139);
+ref = FathaNS;
+},
+{
+alignment = -1;
+ref = FathaNS;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _Anchor7;
+pos = (0,950);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+alignment = -1;
+pos = (71,138);
+ref = FathaNS;
+},
+{
+alignment = -1;
+ref = FathaNS;
+}
+);
+width = 0;
+}
+);
+subCategory = Nonspacing;
+}

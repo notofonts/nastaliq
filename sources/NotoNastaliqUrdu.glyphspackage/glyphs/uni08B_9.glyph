@@ -1,0 +1,15 @@
+{
+glyphname = uni08B9;
+layers = (
+{
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+width = 489;
+},
+{
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+width = 406;
+}
+);
+note = Reh;
+unicode = 2233;
+}

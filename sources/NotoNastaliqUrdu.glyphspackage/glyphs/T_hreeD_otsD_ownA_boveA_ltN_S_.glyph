@@ -1,0 +1,46 @@
+{
+category = Mark;
+glyphname = ThreeDotsDownAboveAltNS;
+layers = (
+{
+anchors = (
+{
+name = Anchor31;
+pos = (0,1231);
+},
+{
+name = _Anchor7;
+pos = (0,914);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = ThreeDotsDownAboveNS;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = Anchor31;
+pos = (0,1244);
+},
+{
+name = _Anchor7;
+pos = (0,921);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = ThreeDotsDownAboveNS;
+}
+);
+width = 0;
+}
+);
+note = ThreeDotsDownAboveAltNS;
+subCategory = Nonspacing;
+}

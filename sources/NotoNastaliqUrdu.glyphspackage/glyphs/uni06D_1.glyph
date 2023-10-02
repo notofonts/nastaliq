@@ -1,0 +1,32 @@
+{
+glyphname = uni06D1;
+layers = (
+{
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = YehxSep;
+},
+{
+pos = (456,-450);
+ref = ThreeDotsDownBelowNS;
+}
+);
+width = 860;
+},
+{
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = YehxSep;
+},
+{
+pos = (459,-543);
+ref = ThreeDotsDownBelowNS;
+}
+);
+width = 907;
+}
+);
+unicode = 1745;
+}
