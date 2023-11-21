@@ -19981,6 +19981,7 @@ languagesystem arab FAR ;
 languagesystem arab KSH ;
 languagesystem arab SND ;
 languagesystem arab URD ;
+languagesystem arab UYG ;
 languagesystem latn dflt;
 ";
 name = Languagesystems;
@@ -20174,6 +20175,11 @@ language FAR;
     sub SixUrdu by SixFarsi;
     sub SevenUrdu by SevenFarsi;
     sub DecimalPointArabic by DecimalPointFarsi;
+
+language UYG;
+    sub HamzaAboveNS by HamzaAboveAF_NS;
+    sub HamzaBelowNS by HamzaBelowAF_NS;
+
 ";
 tag = ccmp;
 },
