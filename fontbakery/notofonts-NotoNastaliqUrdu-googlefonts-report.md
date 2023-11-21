@@ -1,11 +1,218 @@
 ## FontBakery report
 
-fontbakery version: 0.9.2
+fontbakery version: 0.10.4
 
-<details><summary><b>[9] NotoNastaliqUrdu[wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
+<details><summary><b>[1] Experimental checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Shapes languages in all GF glyphsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyphsets/shape_languages">com.google.fonts/check/glyphsets/shape_languages</a>)</summary><div>
+
+
+* 🔥 **FAIL** GF_Arabic_Core glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| ar_Arab (Arabic) | Shaper didn't attach DammaNS to space |
+|  ^  | Shaper didn't attach DammatanNS to space |
+|  ^  | Shaper didn't attach KasraNS to space |
+|  ^  | Shaper didn't attach AlefSuperiorNS to space |
+|  ^  | Shaper didn't attach FathatanNS to space |
+|  ^  | Shaper didn't attach ShaddaNS to space |
+|  ^  | Shaper didn't attach SukunJazmNS to space |
+|  ^  | Shaper didn't attach FathaNS to space |
+|  ^  | Shaper didn't attach KasratanNS to space |
+| fa_Arab (Persian) | Shaper didn't attach DammatanNS to space |
+|  ^  | Shaper didn't attach HamzaAboveNS to space |
+|  ^  | Shaper didn't attach FathatanNS to space |
+|  ^  | Shaper didn't attach ShaddaNS to space |
+|  ^  | Shaper didn't attach KasratanNS to space |
+
+ [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Latin_Core glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| br_Latn (Breton) | Some base glyphs were missing: CʼH, cʼh |
+|  ^  | Shaper produced a .notdef |
+| haw_Latn (Hawaiian) | Some base glyphs were missing: ʻ |
+|  ^  | Shaper produced a .notdef |
+| mh_Latn (Marshallese) | Some base glyphs were missing: Ḷ, ḷ, Ṃ, ṃ, Ṇ, ṇ, Ọ, ọ |
+|  ^  | Some mark glyphs were missing: ◌̣ |
+|  ^  | Shaper produced a .notdef |
+| qu_Latn (Quechua) | Some base glyphs were missing: CHʼ, Kʼ, Pʼ, Qʼ, Tʼ, chʼ, kʼ, pʼ, qʼ, tʼ |
+|  ^  | Shaper produced a .notdef |
+| scn_Latn (Sicilian) | Some base glyphs were missing: Ḍ, ḍ |
+|  ^  | Shaper produced a .notdef |
+| teo_Latn (Teso) | Some base glyphs were missing: Ɔ, Ɛ, Ɨ, Ʉ, ɔ, ɛ, ɨ, ʉ, ᵃ, ᵉ, ᵋ, ᵒ, ᵓ, ᵘ, ᶤ, ᶶ, ⁱ |
+|  ^  | Shaper produced a .notdef |
+
+ [code: failed-language-shaping]
+* 🔥 **FAIL** GF_Arabic_Plus glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| ps_Arab (Pashto) | Shaper didn't attach DammaNS to space |
+|  ^  | Shaper didn't attach DammatanNS to space |
+|  ^  | Shaper didn't attach KasraNS to space |
+|  ^  | Shaper didn't attach AlefSuperiorNS to space |
+|  ^  | Shaper didn't attach HamzaAboveNS to space |
+|  ^  | Shaper didn't attach FathatanNS to space |
+|  ^  | Shaper didn't attach ShaddaNS to space |
+|  ^  | Shaper didn't attach SukunJazmNS to space |
+|  ^  | Shaper didn't attach FathaNS to space |
+|  ^  | Shaper didn't attach KasratanNS to space |
+| sd_Arab (Sindhi) | Some base glyphs were missing: ڪ |
+|  ^  | Shaper produced a .notdef |
+
+ [code: failed-language-shaping]
+* ⚠ **WARN** GF_Latin_Core glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| lg_Latn (Ganda) | No variant glyphs were found for Eng |
+| dyo_Latn (Jola-Fonyi) | No variant glyphs were found for Eng |
+| ny_Latn (Nyanja) | No variant glyphs were found for Eng |
+| wo_Latn (Wolof) | No variant glyphs were found for Eng |
+
+ [code: warning-language-shaping]
+* ⚠ **WARN** GF_Arabic_Plus glyphset:
+
+| Language | FAIL messages |
+| :--- | :--- |
+| ku_Arab (Kurdish (Arabic)) | No exemplar glyphs were defined for language Kurdish (Arabic) |
+| ms_Arab (Malay (Arabic)) | No exemplar glyphs were defined for language Malay (Arabic) |
+
+ [code: warning-language-shaping]
+</div></details><br></div></details><details><summary><b>[10] NotoNastaliqUrdu[wght].ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Noto fonts must have an ARTICLE.en_us.html file (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/description/noto_has_article">com.google.fonts/check/description/noto_has_article</a>)</summary><div>
 
 
 * 🔥 **FAIL** This is a Noto font but it lacks an ARTICLE.en_us.html file [code: missing-article]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check that legacy accents aren't used in composite glyphs. (derived from com.google.fonts/check/legacy_accents) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/legacy_accents">com.google.fonts/check/legacy_accents</a>)</summary><div>
+
+
+* 🔥 **FAIL** Glyph "Aacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Abreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Acircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Adieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Agrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Aogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Atilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Cacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ccaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Cdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Dcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Eacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ecaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ecircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Edieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Edotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Egrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Gbreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Gdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Iacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Icircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Idieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Idotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Igrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Lacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Nacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ncaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ntilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Oacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ocircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Odieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ograve" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ohungarumlaut" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Otilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Racute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Rcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Sacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Scaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Scedilla" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Tcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Uacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ubreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ucircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Udieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ugrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Uhungarumlaut" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Uring" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Wacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Wcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Wdieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Wgrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Yacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ycircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ydieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Ygrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Zacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Zcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "Zdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "aacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "abreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "acircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "acutecomb" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "adieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "agrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "aogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "aring" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "atilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0306" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "cacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni030C" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ccaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ccedilla" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "cdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0302" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0308" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni0307" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "eacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ecaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ecircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "edieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "edotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "egrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "gbreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "gdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "gravecomb" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni030B" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "iacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "icircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "idieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "igrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "lacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "nacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ncaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ntilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "oacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ocircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "odieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ograve" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ohungarumlaut" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "otilde" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "racute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "rcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uni030A" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "sacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "scaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "scedilla" has a legacy accent component (cedilla). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "tildecomb" has a legacy accent component (tilde). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ubreve" has a legacy accent component (breve). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ucircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "udieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ugrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uhungarumlaut" has a legacy accent component (hungarumlaut). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uogonek" has a legacy accent component (ogonek). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "uring" has a legacy accent component (ring). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "wacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "wcircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "wdieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "wgrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "yacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ycircumflex" has a legacy accent component (circumflex). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ydieresis" has a legacy accent component (dieresis). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "ygrave" has a legacy accent component (grave). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "zacute" has a legacy accent component (acute). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "zcaron" has a legacy accent component (caron). It needs to be replaced by a combining mark. [code: legacy-accents-component]
+* 🔥 **FAIL** Glyph "zdotaccent" has a legacy accent component (dotaccent). It needs to be replaced by a combining mark. [code: legacy-accents-component]
 </div></details><details><summary>⚠ <b>WARN:</b> Check for codepoints not covered by METADATA subsets. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/metadata/unreachable_subsetting">com.google.fonts/check/metadata/unreachable_subsetting</a>)</summary><div>
 
 
@@ -15,17 +222,17 @@ fontbakery version: 0.9.2
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: yi, tifinagh, canadian-aboriginal
+ * U+02C7 CARON: try adding one of: tifinagh, yi, canadian-aboriginal
  * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
  * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
  * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
  * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: coptic, math, cherokee, tifinagh
- * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
- * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, syriac, coptic, malayalam, math, tifinagh, tai-le, old-permic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, coptic, tifinagh, cherokee
+ * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
+ * U+0307 COMBINING DOT ABOVE: try adding one of: math, coptic, canadian-aboriginal, malayalam, old-permic, syriac, tai-le, tifinagh
  * U+030A COMBINING RING ABOVE: try adding syriac
- * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
+ * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee
  * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
@@ -39,7 +246,7 @@ fontbakery version: 0.9.2
  * U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic
  * U+060A ARABIC-INDIC PER TEN THOUSAND SIGN: try adding arabic
  * U+060B AFGHANI SIGN: try adding arabic
- * U+060C ARABIC COMMA: try adding one of: arabic, syriac, nko, thaana, hanifi-rohingya, yezidi
+ * U+060C ARABIC COMMA: try adding one of: yezidi, nko, thaana, syriac, hanifi-rohingya, arabic
  * U+060D ARABIC DATE SEPARATOR: try adding arabic
  * U+060E ARABIC POETIC VERSE SIGN: try adding arabic
  * U+060F ARABIC SIGN MISRA: try adding arabic
@@ -49,18 +256,18 @@ fontbakery version: 0.9.2
  * U+0613 ARABIC SIGN RADI ALLAHOU ANHU: try adding arabic
  * U+0614 ARABIC SIGN TAKHALLUS: try adding arabic
  * U+0615 ARABIC SMALL HIGH TAH: try adding arabic
- * U+061B ARABIC SEMICOLON: try adding one of: arabic, syriac, nko, thaana, hanifi-rohingya, yezidi
+ * U+061B ARABIC SEMICOLON: try adding one of: yezidi, nko, thaana, syriac, hanifi-rohingya, arabic
  * U+061C ARABIC LETTER MARK: try adding arabic
  * U+061E ARABIC TRIPLE DOT PUNCTUATION MARK: try adding arabic
- * U+061F ARABIC QUESTION MARK: try adding one of: arabic, syriac, adlam, nko, thaana, hanifi-rohingya, yezidi
+ * U+061F ARABIC QUESTION MARK: try adding one of: yezidi, adlam, nko, thaana, syriac, hanifi-rohingya, arabic
  * U+0620 ARABIC LETTER KASHMIRI YEH: try adding arabic
- * U+0621 ARABIC LETTER HAMZA: try adding one of: arabic, syriac
+ * U+0621 ARABIC LETTER HAMZA: try adding one of: syriac, arabic
  * U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic
  * U+0623 ARABIC LETTER ALEF WITH HAMZA ABOVE: try adding arabic
  * U+0624 ARABIC LETTER WAW WITH HAMZA ABOVE: try adding arabic
  * U+0625 ARABIC LETTER ALEF WITH HAMZA BELOW: try adding arabic
  * U+0626 ARABIC LETTER YEH WITH HAMZA ABOVE: try adding arabic
- * U+0627 ARABIC LETTER ALEF: try adding one of: arabic, indic-siyaq-numbers
+ * U+0627 ARABIC LETTER ALEF: try adding one of: indic-siyaq-numbers, arabic
  * U+0628 ARABIC LETTER BEH: try adding arabic
  * U+0629 ARABIC LETTER TEH MARBUTA: try adding arabic
  * U+062A ARABIC LETTER TEH: try adding arabic
@@ -85,7 +292,7 @@ fontbakery version: 0.9.2
  * U+063D ARABIC LETTER FARSI YEH WITH INVERTED V: try adding arabic
  * U+063E ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE: try adding arabic
  * U+063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE: try adding arabic
- * U+0640 ARABIC TATWEEL: try adding one of: mandaic, psalter-pahlavi, arabic, syriac, adlam, manichaean, old-uyghur, hanifi-rohingya, sogdian
+ * U+0640 ARABIC TATWEEL: try adding one of: adlam, old-uyghur, sogdian, manichaean, psalter-pahlavi, mandaic, syriac, hanifi-rohingya, arabic
  * U+0641 ARABIC LETTER FEH: try adding arabic
  * U+0642 ARABIC LETTER QAF: try adding arabic
  * U+0643 ARABIC LETTER KAF: try adding arabic
@@ -96,17 +303,17 @@ fontbakery version: 0.9.2
  * U+0648 ARABIC LETTER WAW: try adding arabic
  * U+0649 ARABIC LETTER ALEF MAKSURA: try adding arabic
  * U+064A ARABIC LETTER YEH: try adding arabic
- * U+064B ARABIC FATHATAN: try adding one of: arabic, syriac
- * U+064C ARABIC DAMMATAN: try adding one of: arabic, syriac
- * U+064D ARABIC KASRATAN: try adding one of: arabic, syriac
- * U+064E ARABIC FATHA: try adding one of: arabic, syriac
- * U+064F ARABIC DAMMA: try adding one of: arabic, syriac
- * U+0650 ARABIC KASRA: try adding one of: arabic, syriac
- * U+0651 ARABIC SHADDA: try adding one of: arabic, syriac
- * U+0652 ARABIC SUKUN: try adding one of: arabic, syriac
- * U+0653 ARABIC MADDAH ABOVE: try adding one of: arabic, syriac
- * U+0654 ARABIC HAMZA ABOVE: try adding one of: arabic, syriac
- * U+0655 ARABIC HAMZA BELOW: try adding one of: arabic, syriac
+ * U+064B ARABIC FATHATAN: try adding one of: syriac, arabic
+ * U+064C ARABIC DAMMATAN: try adding one of: syriac, arabic
+ * U+064D ARABIC KASRATAN: try adding one of: syriac, arabic
+ * U+064E ARABIC FATHA: try adding one of: syriac, arabic
+ * U+064F ARABIC DAMMA: try adding one of: syriac, arabic
+ * U+0650 ARABIC KASRA: try adding one of: syriac, arabic
+ * U+0651 ARABIC SHADDA: try adding one of: syriac, arabic
+ * U+0652 ARABIC SUKUN: try adding one of: syriac, arabic
+ * U+0653 ARABIC MADDAH ABOVE: try adding one of: syriac, arabic
+ * U+0654 ARABIC HAMZA ABOVE: try adding one of: syriac, arabic
+ * U+0655 ARABIC HAMZA BELOW: try adding one of: syriac, arabic
  * U+0656 ARABIC SUBSCRIPT ALEF: try adding arabic
  * U+0657 ARABIC INVERTED DAMMA: try adding arabic
  * U+0658 ARABIC MARK NOON GHUNNA: try adding arabic
@@ -116,23 +323,23 @@ fontbakery version: 0.9.2
  * U+065D ARABIC REVERSED DAMMA: try adding arabic
  * U+065E ARABIC FATHA WITH TWO DOTS: try adding arabic
  * U+065F ARABIC WAVY HAMZA BELOW: try adding arabic
- * U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, syriac, thaana, hanifi-rohingya, indic-siyaq-numbers
- * U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: thaana, arabic, syriac, indic-siyaq-numbers
- * U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: thaana, arabic, syriac, indic-siyaq-numbers
- * U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: thaana, arabic, syriac, indic-siyaq-numbers
- * U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: thaana, arabic, syriac, indic-siyaq-numbers
- * U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: thaana, arabic, syriac, indic-siyaq-numbers
- * U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: thaana, arabic, syriac, indic-siyaq-numbers
- * U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: thaana, arabic, syriac, indic-siyaq-numbers
- * U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: thaana, arabic, syriac, indic-siyaq-numbers
- * U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: thaana, arabic, syriac, indic-siyaq-numbers
- * U+066A ARABIC PERCENT SIGN: try adding one of: arabic, syriac, thaana, nko
- * U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, syriac, thaana
- * U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, syriac, thaana
+ * U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, thaana, syriac, hanifi-rohingya, arabic
+ * U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, thaana, syriac, arabic
+ * U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, thaana, syriac, arabic
+ * U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, thaana, syriac, arabic
+ * U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, thaana, syriac, arabic
+ * U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, thaana, syriac, arabic
+ * U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, thaana, syriac, arabic
+ * U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, thaana, syriac, arabic
+ * U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, thaana, syriac, arabic
+ * U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, thaana, syriac, arabic
+ * U+066A ARABIC PERCENT SIGN: try adding one of: thaana, syriac, nko, arabic
+ * U+066B ARABIC DECIMAL SEPARATOR: try adding one of: thaana, syriac, arabic
+ * U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: thaana, syriac, arabic
  * U+066D ARABIC FIVE POINTED STAR: try adding arabic
  * U+066E ARABIC LETTER DOTLESS BEH: try adding arabic
  * U+066F ARABIC LETTER DOTLESS QAF: try adding arabic
- * U+0670 ARABIC LETTER SUPERSCRIPT ALEF: try adding one of: arabic, syriac
+ * U+0670 ARABIC LETTER SUPERSCRIPT ALEF: try adding one of: syriac, arabic
  * U+0671 ARABIC LETTER ALEF WASLA: try adding arabic
  * U+0672 ARABIC LETTER ALEF WITH WAVY HAMZA ABOVE: try adding arabic
  * U+0673 ARABIC LETTER ALEF WITH WAVY HAMZA BELOW: try adding arabic
@@ -225,7 +432,7 @@ fontbakery version: 0.9.2
  * U+06D1 ARABIC LETTER YEH WITH THREE DOTS BELOW: try adding arabic
  * U+06D2 ARABIC LETTER YEH BARREE: try adding arabic
  * U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic
- * U+06D4 ARABIC FULL STOP: try adding one of: hanifi-rohingya, arabic, yezidi
+ * U+06D4 ARABIC FULL STOP: try adding one of: yezidi, hanifi-rohingya, arabic
  * U+06D5 ARABIC LETTER AE: try adding arabic
  * U+06DD ARABIC END OF AYAH: try adding arabic
  * U+06DE ARABIC START OF RUB EL HIZB: try adding arabic
@@ -234,16 +441,16 @@ fontbakery version: 0.9.2
  * U+06E9 ARABIC PLACE OF SAJDAH: try adding arabic
  * U+06EE ARABIC LETTER DAL WITH INVERTED V: try adding arabic
  * U+06EF ARABIC LETTER REH WITH INVERTED V: try adding arabic
- * U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, indic-siyaq-numbers
- * U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: arabic, indic-siyaq-numbers
- * U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: arabic, indic-siyaq-numbers
- * U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: arabic, indic-siyaq-numbers
- * U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, indic-siyaq-numbers
- * U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, indic-siyaq-numbers
- * U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: arabic, indic-siyaq-numbers
- * U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, indic-siyaq-numbers
- * U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers
- * U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers
+ * U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, arabic
  * U+06FF ARABIC LETTER HEH WITH INVERTED V: try adding arabic
  * U+0750 ARABIC LETTER BEH WITH THREE DOTS HORIZONTALLY BELOW: try adding arabic
  * U+0751 ARABIC LETTER BEH WITH DOT BELOW AND THREE DOTS ABOVE: try adding arabic
@@ -359,14 +566,14 @@ fontbakery version: 0.9.2
  * U+08FD ARABIC RIGHT ARROWHEAD ABOVE WITH DOT: try adding arabic
  * U+08FE ARABIC DAMMA WITH DOT: try adding arabic
  * U+08FF ARABIC MARK SIDEWAYS NOON GHUNNA: try adding arabic
- * U+200C ZERO WIDTH NON-JOINER: try adding one of: mandaic, bengali, buhid, tagbanwa, warang-citi, malayalam, myanmar, oriya, dogra, cham, sundanese, duployan, buginese, newa, javanese, kaithi, batak, tibetan, chakma, devanagari, khmer, gujarati, hatran, thai, mahajani, pahawh-hmong, syloti-nagri, tai-viet, modi, kannada, kayah-li, gunjala-gondi, new-tai-lue, takri, yi, rejang, mongolian, sinhala, avestan, tirhuta, gurmukhi, grantha, khudawadi, tai-le, tamil, telugu, brahmi, limbu, tagalog, balinese, hanunoo, syriac, lepcha, nko, siddham, tai-tham, thaana, manichaean, saurashtra, sharada, tifinagh, khojki, phags-pa, psalter-pahlavi, hanifi-rohingya, kharoshthi, sogdian, meetei-mayek
- * U+200D ZERO WIDTH JOINER: try adding one of: mandaic, bengali, buhid, tagbanwa, warang-citi, malayalam, myanmar, oriya, dogra, tirhuta, cham, sundanese, duployan, buginese, newa, javanese, kaithi, batak, chakma, devanagari, gujarati, thai, mahajani, pahawh-hmong, syloti-nagri, tai-viet, modi, kannada, kayah-li, gunjala-gondi, new-tai-lue, takri, yi, rejang, mongolian, sinhala, avestan, old-hungarian, gurmukhi, grantha, khudawadi, tai-le, tamil, telugu, brahmi, limbu, tagalog, balinese, hanunoo, syriac, lepcha, nko, siddham, tai-tham, thaana, manichaean, saurashtra, sharada, tifinagh, khojki, phags-pa, psalter-pahlavi, hanifi-rohingya, kharoshthi, tibetan, meetei-mayek
- * U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, syriac, thaana, phags-pa
- * U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, thaana, phags-pa
- * U+2010 HYPHEN: try adding one of: kaithi, kayah-li, coptic, sora-sompeng, sundanese, yi, syloti-nagri, cham, kharoshthi, lisu
- * U+2011 NON-BREAKING HYPHEN: try adding one of: yi, syloti-nagri
+ * U+200C ZERO WIDTH NON-JOINER: try adding one of: chakma, duployan, lepcha, tai-tham, devanagari, modi, kayah-li, siddham, sogdian, kaithi, mandaic, thai, balinese, sundanese, khojki, pahawh-hmong, gujarati, kharoshthi, kannada, syloti-nagri, nko, cham, grantha, mahajani, meetei-mayek, rejang, malayalam, bengali, sharada, khudawadi, yi, javanese, brahmi, gurmukhi, khmer, limbu, phags-pa, newa, sinhala, tamil, myanmar, tagbanwa, manichaean, psalter-pahlavi, tai-viet, dogra, hanunoo, buhid, batak, syriac, warang-citi, tirhuta, oriya, telugu, hatran, mongolian, tagalog, takri, buginese, gunjala-gondi, new-tai-lue, saurashtra, avestan, thaana, tai-le, hanifi-rohingya, tifinagh, tibetan
+ * U+200D ZERO WIDTH JOINER: try adding one of: chakma, duployan, lepcha, old-hungarian, tai-tham, devanagari, modi, kayah-li, siddham, kaithi, mandaic, thai, balinese, sundanese, khojki, pahawh-hmong, gujarati, kharoshthi, kannada, syloti-nagri, nko, cham, grantha, mahajani, meetei-mayek, rejang, malayalam, bengali, sharada, khudawadi, yi, javanese, brahmi, gurmukhi, limbu, phags-pa, sinhala, newa, tamil, myanmar, tagbanwa, manichaean, psalter-pahlavi, tai-viet, dogra, hanunoo, buhid, batak, syriac, warang-citi, tirhuta, oriya, telugu, mongolian, tagalog, takri, buginese, gunjala-gondi, new-tai-lue, saurashtra, avestan, thaana, tai-le, hanifi-rohingya, tifinagh, tibetan
+ * U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, phags-pa, nko, thaana
+ * U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, phags-pa, nko, thaana
+ * U+2010 HYPHEN: try adding one of: kharoshthi, syloti-nagri, coptic, sora-sompeng, cham, kayah-li, kaithi, sundanese, yi, lisu
+ * U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, yi
  * U+2025 TWO DOT LEADER: try adding phags-pa
- * U+25CC DOTTED CIRCLE: try adding one of: music, myanmar, dogra, cham, sundanese, duployan, kaithi, zanabazar-square, caucasian-albanian, chakma, devanagari, kayah-li, new-tai-lue, bhaiksuki, telugu, brahmi, wancho, tagalog, hanunoo, syriac, siddham, elbasan, mandaic, tagbanwa, malayalam, buginese, khmer, old-permic, masaram-gondi, rejang, sinhala, tirhuta, tai-le, khudawadi, limbu, lepcha, nko, thaana, manichaean, sharada, tifinagh, phags-pa, psalter-pahlavi, kharoshthi, bassa-vah, bengali, symbols, oriya, javanese, batak, gujarati, tai-viet, kannada, takri, lao, yi, mongolian, tamil, balinese, mende-kikakui, coptic, math, khojki, hanifi-rohingya, sogdian, tibetan, buhid, osage, marchen, ahom, hebrew, newa, soyombo, thai, mahajani, pahawh-hmong, syloti-nagri, modi, gunjala-gondi, adlam, gurmukhi, grantha, miao, meetei-mayek
+ * U+25CC DOTTED CIRCLE: try adding one of: kayah-li, siddham, kaithi, mandaic, symbols, thai, marchen, pahawh-hmong, kharoshthi, kannada, nko, grantha, meetei-mayek, mende-kikakui, yi, brahmi, sinhala, miao, manichaean, psalter-pahlavi, batak, oriya, telugu, tai-le, tibetan, duployan, lepcha, modi, khojki, osage, zanabazar-square, mahajani, bengali, khudawadi, phags-pa, gurmukhi, tamil, bhaiksuki, hebrew, tagbanwa, wancho, hanunoo, tirhuta, math, tifinagh, chakma, caucasian-albanian, coptic, ahom, sogdian, bassa-vah, soyombo, gujarati, rejang, sharada, javanese, limbu, khmer, buhid, masaram-gondi, takri, gunjala-gondi, new-tai-lue, thaana, lao, adlam, devanagari, balinese, old-permic, sundanese, syloti-nagri, cham, malayalam, newa, myanmar, elbasan, tai-viet, dogra, music, syriac, mongolian, tagalog, buginese, hanifi-rohingya
  * U+FBB2 ARABIC SYMBOL DOT ABOVE: try adding arabic
  * U+FBB3 ARABIC SYMBOL DOT BELOW: try adding arabic
  * U+FBB4 ARABIC SYMBOL TWO DOTS ABOVE: try adding arabic
@@ -383,14 +590,14 @@ fontbakery version: 0.9.2
  * U+FBBF ARABIC SYMBOL RING: try adding arabic
  * U+FBC0 ARABIC SYMBOL SMALL TAH ABOVE: try adding arabic
  * U+FBC1 ARABIC SYMBOL SMALL TAH BELOW: try adding arabic
- * U+FD3E ORNATE LEFT PARENTHESIS: try adding one of: arabic, nko
- * U+FD3F ORNATE RIGHT PARENTHESIS: try adding one of: arabic, nko
- * U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM: try adding one of: arabic, thaana
+ * U+FD3E ORNATE LEFT PARENTHESIS: try adding one of: nko, arabic
+ * U+FD3F ORNATE RIGHT PARENTHESIS: try adding one of: nko, arabic
+ * U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM: try adding one of: thaana, arabic
  * U+FDF4 ARABIC LIGATURE MOHAMMAD ISOLATED FORM: try adding arabic
  * U+FDFA ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM: try adding arabic
  * U+FDFB ARABIC LIGATURE JALLAJALALOUHOU: try adding arabic
  * U+FDFC RIAL SIGN: try adding arabic
- * U+FDFD ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM: try adding one of: arabic, thaana
+ * U+FDFD ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM: try adding one of: thaana, arabic
 
 Or you can add the above codepoints to one of the subsets supported by the font: `latin`, `latin-ext` [code: unreachable-subsetting]
 </div></details><details><summary>⚠ <b>WARN:</b> Glyphs are similiar to Google Fonts version? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/production_glyphs_similarity">com.google.fonts/check/production_glyphs_similarity</a>)</summary><div>
@@ -420,11 +627,13 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 </div></details><details><summary>⚠ <b>WARN:</b> Detect any interpolation issues in the font. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/interpolation_issues">com.google.fonts/check/interpolation_issues</a>)</summary><div>
 
 
-* ⚠ **WARN** Interpolation issues were found in the font: 	- Contour 0 start point differs in glyph 'BehxMed.inT2outD2HS' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f2ff9dbad50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f2ff9dbb7d0>
+* ⚠ **WARN** Interpolation issues were found in the font:
 
-	- Contour 0 start point differs in glyph 'BehxMed.inT2outD2Y' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f2ff9dbad50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f2ff9dbb7d0>
+	- Contour 0 start point differs in glyph 'BehxMed.inT2outD2HS' between location wght=400 and location wght=700
 
-	- Contour 0 start point differs in glyph 'BehxMed.inT2outD2HF' between location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f2ff9dbad50> and location <fontTools.ttLib.ttGlyphSet._TTGlyphSetGlyf object at 0x7f2ff9dbb7d0> [code: interpolation-issues]
+	- Contour 0 start point differs in glyph 'RehFin.inD3MM' between location wght=400 and location wght=700
+
+	- Contour 0 start point differs in glyph 'BehxMed.inT2outD2HF' between location wght=400 and location wght=700 [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -441,17 +650,17 @@ greater, less
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́
 
-Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Kom (Latn, 360,685 speakers), Dutch (Latn, 31,709,104 speakers), Ebira (Latn, 2,200,000 speakers), Aghem (Latn, 38,843 speakers), Basaa (Latn, 332,940 speakers), Navajo (Latn, 166,319 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Dan (Latn, 1,099,244 speakers), Ma’di (Latn, 584,000 speakers), Koonzime (Latn, 40,000 speakers), Igbo (Latn, 27,823,640 speakers), Belarusian (Cyrl, 10,064,517 speakers), Lugbara (Latn, 2,200,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Dan (Latn, 1,099,244 speakers), Kom (Latn, 360,685 speakers), Belarusian (Cyrl, 10,064,517 speakers), Nateni (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ma’di (Latn, 584,000 speakers), Navajo (Latn, 166,319 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Basaa (Latn, 332,940 speakers), Igbo (Latn, 27,823,640 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 1 | 8 | 100 | 8 | 132 | 0 |
-| 0% | 0% | 3% | 40% | 3% | 53% | 0% |
+| 0 | 3 | 8 | 103 | 8 | 133 | 0 |
+| 0% | 1% | 3% | 40% | 3% | 52% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
