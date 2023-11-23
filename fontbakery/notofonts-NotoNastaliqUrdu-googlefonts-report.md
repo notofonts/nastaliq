@@ -9,20 +9,20 @@ fontbakery version: 0.10.4
 
 | Language | FAIL messages |
 | :--- | :--- |
-| ar_Arab (Arabic) | Shaper didn't attach FathaNS to None |
-|  ^  | Shaper didn't attach KasraNS to space |
+| ar_Arab (Arabic) | Shaper didn't attach AlefSuperiorNS to space |
+|  ^  | Shaper didn't attach DammatanNS to space |
+|  ^  | Shaper didn't attach ShaddaNS to space |
 |  ^  | Shaper didn't attach KasratanNS to space |
 |  ^  | Shaper didn't attach FathatanNS to space |
-|  ^  | Shaper didn't attach DammatanNS to space |
+|  ^  | Shaper didn't attach FathaNS to space |
 |  ^  | Shaper didn't attach DammaNS to space |
-|  ^  | Shaper didn't attach ShaddaNS to space |
+|  ^  | Shaper didn't attach KasraNS to space |
 |  ^  | Shaper didn't attach SukunJazmNS to space |
-|  ^  | Shaper didn't attach AlefSuperiorNS to space |
-| fa_Arab (Persian) | Shaper didn't attach KasratanNS to space |
-|  ^  | Shaper didn't attach FathatanNS to space |
+| fa_Arab (Persian) | Shaper didn't attach HamzaAboveNS to space |
 |  ^  | Shaper didn't attach DammatanNS to space |
+|  ^  | Shaper didn't attach KasratanNS to space |
 |  ^  | Shaper didn't attach ShaddaNS to space |
-|  ^  | Shaper didn't attach HamzaAboveNS to space |
+|  ^  | Shaper didn't attach FathatanNS to space |
 
  [code: failed-language-shaping]
 * 🔥 **FAIL** GF_Latin_Core glyphset:
@@ -48,16 +48,16 @@ fontbakery version: 0.10.4
 
 | Language | FAIL messages |
 | :--- | :--- |
-| ps_Arab (Pashto) | Shaper didn't attach FathaNS to None |
-|  ^  | Shaper didn't attach KasraNS to space |
+| ps_Arab (Pashto) | Shaper didn't attach HamzaAboveNS to space |
+|  ^  | Shaper didn't attach AlefSuperiorNS to space |
+|  ^  | Shaper didn't attach DammatanNS to space |
+|  ^  | Shaper didn't attach ShaddaNS to space |
 |  ^  | Shaper didn't attach KasratanNS to space |
 |  ^  | Shaper didn't attach FathatanNS to space |
-|  ^  | Shaper didn't attach DammatanNS to space |
+|  ^  | Shaper didn't attach FathaNS to space |
 |  ^  | Shaper didn't attach DammaNS to space |
-|  ^  | Shaper didn't attach ShaddaNS to space |
-|  ^  | Shaper didn't attach HamzaAboveNS to space |
+|  ^  | Shaper didn't attach KasraNS to space |
 |  ^  | Shaper didn't attach SukunJazmNS to space |
-|  ^  | Shaper didn't attach AlefSuperiorNS to space |
 | sd_Arab (Sindhi) | Some base glyphs were missing: ڪ |
 |  ^  | Shaper produced a .notdef |
 
@@ -222,18 +222,18 @@ fontbakery version: 0.10.4
     subset declarations to METADATA.pb, or by editing the glyphset
     definitions.
 
- * U+02C7 CARON: try adding one of: tifinagh, canadian-aboriginal, yi
+ * U+02C7 CARON: try adding one of: canadian-aboriginal, tifinagh, yi
  * U+02C9 MODIFIER LETTER MACRON: not included in any glyphset definition
- * U+02D8 BREVE: try adding one of: yi, canadian-aboriginal
- * U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal
- * U+02DB OGONEK: try adding one of: yi, canadian-aboriginal
+ * U+02D8 BREVE: try adding one of: canadian-aboriginal, yi
+ * U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi
+ * U+02DB OGONEK: try adding one of: canadian-aboriginal, yi
  * U+02DD DOUBLE ACUTE ACCENT: not included in any glyphset definition
- * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math
- * U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic
- * U+0307 COMBINING DOT ABOVE: try adding one of: canadian-aboriginal, tai-le, math, tifinagh, syriac, malayalam, old-permic, coptic
+ * U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic
+ * U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh
+ * U+0307 COMBINING DOT ABOVE: try adding one of: syriac, coptic, tifinagh, math, canadian-aboriginal, malayalam, old-permic, tai-le
  * U+030A COMBINING RING ABOVE: try adding syriac
  * U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage
- * U+030C COMBINING CARON: try adding one of: cherokee, tai-le
+ * U+030C COMBINING CARON: try adding one of: tai-le, cherokee
  * U+0312 COMBINING TURNED COMMA ABOVE: not included in any glyphset definition
  * U+0326 COMBINING COMMA BELOW: not included in any glyphset definition
  * U+0327 COMBINING CEDILLA: not included in any glyphset definition
@@ -246,7 +246,7 @@ fontbakery version: 0.10.4
  * U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic
  * U+060A ARABIC-INDIC PER TEN THOUSAND SIGN: try adding arabic
  * U+060B AFGHANI SIGN: try adding arabic
- * U+060C ARABIC COMMA: try adding one of: hanifi-rohingya, nko, syriac, yezidi, arabic, thaana
+ * U+060C ARABIC COMMA: try adding one of: syriac, arabic, yezidi, nko, hanifi-rohingya, thaana
  * U+060D ARABIC DATE SEPARATOR: try adding arabic
  * U+060E ARABIC POETIC VERSE SIGN: try adding arabic
  * U+060F ARABIC SIGN MISRA: try adding arabic
@@ -256,18 +256,18 @@ fontbakery version: 0.10.4
  * U+0613 ARABIC SIGN RADI ALLAHOU ANHU: try adding arabic
  * U+0614 ARABIC SIGN TAKHALLUS: try adding arabic
  * U+0615 ARABIC SMALL HIGH TAH: try adding arabic
- * U+061B ARABIC SEMICOLON: try adding one of: hanifi-rohingya, nko, syriac, yezidi, arabic, thaana
+ * U+061B ARABIC SEMICOLON: try adding one of: syriac, arabic, yezidi, nko, hanifi-rohingya, thaana
  * U+061C ARABIC LETTER MARK: try adding arabic
  * U+061E ARABIC TRIPLE DOT PUNCTUATION MARK: try adding arabic
- * U+061F ARABIC QUESTION MARK: try adding one of: adlam, hanifi-rohingya, nko, syriac, yezidi, arabic, thaana
+ * U+061F ARABIC QUESTION MARK: try adding one of: syriac, adlam, arabic, yezidi, nko, hanifi-rohingya, thaana
  * U+0620 ARABIC LETTER KASHMIRI YEH: try adding arabic
- * U+0621 ARABIC LETTER HAMZA: try adding one of: arabic, syriac
+ * U+0621 ARABIC LETTER HAMZA: try adding one of: syriac, arabic
  * U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic
  * U+0623 ARABIC LETTER ALEF WITH HAMZA ABOVE: try adding arabic
  * U+0624 ARABIC LETTER WAW WITH HAMZA ABOVE: try adding arabic
  * U+0625 ARABIC LETTER ALEF WITH HAMZA BELOW: try adding arabic
  * U+0626 ARABIC LETTER YEH WITH HAMZA ABOVE: try adding arabic
- * U+0627 ARABIC LETTER ALEF: try adding one of: arabic, indic-siyaq-numbers
+ * U+0627 ARABIC LETTER ALEF: try adding one of: indic-siyaq-numbers, arabic
  * U+0628 ARABIC LETTER BEH: try adding arabic
  * U+0629 ARABIC LETTER TEH MARBUTA: try adding arabic
  * U+062A ARABIC LETTER TEH: try adding arabic
@@ -292,7 +292,7 @@ fontbakery version: 0.10.4
  * U+063D ARABIC LETTER FARSI YEH WITH INVERTED V: try adding arabic
  * U+063E ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE: try adding arabic
  * U+063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE: try adding arabic
- * U+0640 ARABIC TATWEEL: try adding one of: adlam, hanifi-rohingya, mandaic, sogdian, old-uyghur, syriac, manichaean, psalter-pahlavi, arabic
+ * U+0640 ARABIC TATWEEL: try adding one of: old-uyghur, adlam, arabic, syriac, psalter-pahlavi, manichaean, hanifi-rohingya, mandaic, sogdian
  * U+0641 ARABIC LETTER FEH: try adding arabic
  * U+0642 ARABIC LETTER QAF: try adding arabic
  * U+0643 ARABIC LETTER KAF: try adding arabic
@@ -303,17 +303,17 @@ fontbakery version: 0.10.4
  * U+0648 ARABIC LETTER WAW: try adding arabic
  * U+0649 ARABIC LETTER ALEF MAKSURA: try adding arabic
  * U+064A ARABIC LETTER YEH: try adding arabic
- * U+064B ARABIC FATHATAN: try adding one of: arabic, syriac
- * U+064C ARABIC DAMMATAN: try adding one of: arabic, syriac
- * U+064D ARABIC KASRATAN: try adding one of: arabic, syriac
- * U+064E ARABIC FATHA: try adding one of: arabic, syriac
- * U+064F ARABIC DAMMA: try adding one of: arabic, syriac
- * U+0650 ARABIC KASRA: try adding one of: arabic, syriac
- * U+0651 ARABIC SHADDA: try adding one of: arabic, syriac
- * U+0652 ARABIC SUKUN: try adding one of: arabic, syriac
- * U+0653 ARABIC MADDAH ABOVE: try adding one of: arabic, syriac
- * U+0654 ARABIC HAMZA ABOVE: try adding one of: arabic, syriac
- * U+0655 ARABIC HAMZA BELOW: try adding one of: arabic, syriac
+ * U+064B ARABIC FATHATAN: try adding one of: syriac, arabic
+ * U+064C ARABIC DAMMATAN: try adding one of: syriac, arabic
+ * U+064D ARABIC KASRATAN: try adding one of: syriac, arabic
+ * U+064E ARABIC FATHA: try adding one of: syriac, arabic
+ * U+064F ARABIC DAMMA: try adding one of: syriac, arabic
+ * U+0650 ARABIC KASRA: try adding one of: syriac, arabic
+ * U+0651 ARABIC SHADDA: try adding one of: syriac, arabic
+ * U+0652 ARABIC SUKUN: try adding one of: syriac, arabic
+ * U+0653 ARABIC MADDAH ABOVE: try adding one of: syriac, arabic
+ * U+0654 ARABIC HAMZA ABOVE: try adding one of: syriac, arabic
+ * U+0655 ARABIC HAMZA BELOW: try adding one of: syriac, arabic
  * U+0656 ARABIC SUBSCRIPT ALEF: try adding arabic
  * U+0657 ARABIC INVERTED DAMMA: try adding arabic
  * U+0658 ARABIC MARK NOON GHUNNA: try adding arabic
@@ -323,23 +323,23 @@ fontbakery version: 0.10.4
  * U+065D ARABIC REVERSED DAMMA: try adding arabic
  * U+065E ARABIC FATHA WITH TWO DOTS: try adding arabic
  * U+065F ARABIC WAVY HAMZA BELOW: try adding arabic
- * U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: hanifi-rohingya, indic-siyaq-numbers, syriac, arabic, thaana
- * U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: arabic, indic-siyaq-numbers, syriac, thaana
- * U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: arabic, indic-siyaq-numbers, syriac, thaana
- * U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: arabic, indic-siyaq-numbers, syriac, thaana
- * U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, indic-siyaq-numbers, syriac, thaana
- * U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, indic-siyaq-numbers, syriac, thaana
- * U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: arabic, indic-siyaq-numbers, syriac, thaana
- * U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, indic-siyaq-numbers, syriac, thaana
- * U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers, syriac, thaana
- * U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers, syriac, thaana
- * U+066A ARABIC PERCENT SIGN: try adding one of: arabic, syriac, thaana, nko
- * U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, syriac, thaana
- * U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, syriac, thaana
+ * U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: syriac, arabic, indic-siyaq-numbers, hanifi-rohingya, thaana
+ * U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana
+ * U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana
+ * U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana
+ * U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana
+ * U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana
+ * U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana
+ * U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana
+ * U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana
+ * U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: syriac, indic-siyaq-numbers, arabic, thaana
+ * U+066A ARABIC PERCENT SIGN: try adding one of: syriac, arabic, nko, thaana
+ * U+066B ARABIC DECIMAL SEPARATOR: try adding one of: syriac, arabic, thaana
+ * U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: syriac, arabic, thaana
  * U+066D ARABIC FIVE POINTED STAR: try adding arabic
  * U+066E ARABIC LETTER DOTLESS BEH: try adding arabic
  * U+066F ARABIC LETTER DOTLESS QAF: try adding arabic
- * U+0670 ARABIC LETTER SUPERSCRIPT ALEF: try adding one of: arabic, syriac
+ * U+0670 ARABIC LETTER SUPERSCRIPT ALEF: try adding one of: syriac, arabic
  * U+0671 ARABIC LETTER ALEF WASLA: try adding arabic
  * U+0672 ARABIC LETTER ALEF WITH WAVY HAMZA ABOVE: try adding arabic
  * U+0673 ARABIC LETTER ALEF WITH WAVY HAMZA BELOW: try adding arabic
@@ -432,7 +432,7 @@ fontbakery version: 0.10.4
  * U+06D1 ARABIC LETTER YEH WITH THREE DOTS BELOW: try adding arabic
  * U+06D2 ARABIC LETTER YEH BARREE: try adding arabic
  * U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic
- * U+06D4 ARABIC FULL STOP: try adding one of: arabic, yezidi, hanifi-rohingya
+ * U+06D4 ARABIC FULL STOP: try adding one of: yezidi, arabic, hanifi-rohingya
  * U+06D5 ARABIC LETTER AE: try adding arabic
  * U+06DD ARABIC END OF AYAH: try adding arabic
  * U+06DE ARABIC START OF RUB EL HIZB: try adding arabic
@@ -441,16 +441,16 @@ fontbakery version: 0.10.4
  * U+06E9 ARABIC PLACE OF SAJDAH: try adding arabic
  * U+06EE ARABIC LETTER DAL WITH INVERTED V: try adding arabic
  * U+06EF ARABIC LETTER REH WITH INVERTED V: try adding arabic
- * U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, indic-siyaq-numbers
- * U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: arabic, indic-siyaq-numbers
- * U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: arabic, indic-siyaq-numbers
- * U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: arabic, indic-siyaq-numbers
- * U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, indic-siyaq-numbers
- * U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, indic-siyaq-numbers
- * U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: arabic, indic-siyaq-numbers
- * U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, indic-siyaq-numbers
- * U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers
- * U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers
+ * U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, arabic
+ * U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, arabic
  * U+06FF ARABIC LETTER HEH WITH INVERTED V: try adding arabic
  * U+0750 ARABIC LETTER BEH WITH THREE DOTS HORIZONTALLY BELOW: try adding arabic
  * U+0751 ARABIC LETTER BEH WITH DOT BELOW AND THREE DOTS ABOVE: try adding arabic
@@ -566,14 +566,14 @@ fontbakery version: 0.10.4
  * U+08FD ARABIC RIGHT ARROWHEAD ABOVE WITH DOT: try adding arabic
  * U+08FE ARABIC DAMMA WITH DOT: try adding arabic
  * U+08FF ARABIC MARK SIDEWAYS NOON GHUNNA: try adding arabic
- * U+200C ZERO WIDTH NON-JOINER: try adding one of: sogdian, chakma, nko, bengali, khudawadi, newa, syloti-nagri, sinhala, gujarati, malayalam, mongolian, modi, thai, lepcha, sundanese, mandaic, avestan, tamil, tifinagh, rejang, syriac, grantha, new-tai-lue, mahajani, khmer, kayah-li, yi, hanunoo, sharada, tirhuta, hatran, takri, hanifi-rohingya, khojki, devanagari, kaithi, batak, myanmar, tagalog, pahawh-hmong, saurashtra, balinese, gunjala-gondi, limbu, oriya, tagbanwa, telugu, dogra, tibetan, tai-tham, thaana, kannada, tai-le, buginese, brahmi, phags-pa, cham, siddham, manichaean, psalter-pahlavi, javanese, buhid, warang-citi, gurmukhi, kharoshthi, duployan, tai-viet, meetei-mayek
- * U+200D ZERO WIDTH JOINER: try adding one of: chakma, nko, bengali, khudawadi, newa, syloti-nagri, sinhala, gujarati, malayalam, mongolian, modi, thai, lepcha, sundanese, mandaic, avestan, tamil, tifinagh, rejang, syriac, grantha, new-tai-lue, mahajani, kayah-li, old-hungarian, yi, hanunoo, sharada, tirhuta, takri, hanifi-rohingya, khojki, devanagari, kaithi, batak, myanmar, tagalog, pahawh-hmong, saurashtra, balinese, gunjala-gondi, limbu, oriya, tagbanwa, telugu, dogra, tibetan, tai-tham, thaana, kannada, tai-le, buginese, brahmi, phags-pa, cham, siddham, manichaean, psalter-pahlavi, javanese, buhid, warang-citi, gurmukhi, kharoshthi, duployan, tai-viet, meetei-mayek
- * U+200E LEFT-TO-RIGHT MARK: try adding one of: phags-pa, syriac, thaana, nko
- * U+200F RIGHT-TO-LEFT MARK: try adding one of: phags-pa, syriac, thaana, nko
- * U+2010 HYPHEN: try adding one of: sora-sompeng, sundanese, kaithi, cham, syloti-nagri, lisu, kayah-li, yi, kharoshthi, coptic
- * U+2011 NON-BREAKING HYPHEN: try adding one of: yi, syloti-nagri
+ * U+200C ZERO WIDTH NON-JOINER: try adding one of: syriac, kannada, phags-pa, lepcha, new-tai-lue, rejang, thaana, modi, kharoshthi, newa, malayalam, mongolian, tai-viet, telugu, sharada, devanagari, pahawh-hmong, tai-le, siddham, khojki, avestan, javanese, sinhala, meetei-mayek, kaithi, tirhuta, oriya, brahmi, balinese, chakma, thai, tagalog, cham, duployan, tibetan, buhid, yi, hatran, gunjala-gondi, dogra, gujarati, hanunoo, mahajani, mandaic, myanmar, saurashtra, syloti-nagri, limbu, takri, tamil, psalter-pahlavi, warang-citi, bengali, buginese, manichaean, tagbanwa, sundanese, khudawadi, nko, tifinagh, gurmukhi, kayah-li, batak, tai-tham, khmer, grantha, hanifi-rohingya, sogdian
+ * U+200D ZERO WIDTH JOINER: try adding one of: syriac, kannada, phags-pa, lepcha, new-tai-lue, rejang, modi, kharoshthi, newa, malayalam, mongolian, tai-viet, telugu, sharada, devanagari, pahawh-hmong, tai-le, siddham, khojki, avestan, javanese, sinhala, meetei-mayek, kaithi, tirhuta, oriya, brahmi, balinese, chakma, thai, tagalog, cham, duployan, tibetan, buhid, old-hungarian, gunjala-gondi, dogra, mahajani, gujarati, hanunoo, mandaic, myanmar, saurashtra, syloti-nagri, takri, limbu, tamil, warang-citi, psalter-pahlavi, bengali, buginese, manichaean, tagbanwa, sundanese, khudawadi, nko, tifinagh, gurmukhi, kayah-li, batak, tai-tham, yi, grantha, hanifi-rohingya, thaana
+ * U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, phags-pa, nko, thaana
+ * U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, phags-pa, nko, thaana
+ * U+2010 HYPHEN: try adding one of: lisu, kaithi, coptic, sundanese, sora-sompeng, kharoshthi, cham, kayah-li, yi, syloti-nagri
+ * U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, yi
  * U+2025 TWO DOT LEADER: try adding phags-pa
- * U+25CC DOTTED CIRCLE: try adding one of: nko, sinhala, malayalam, zanabazar-square, thai, lao, rejang, kayah-li, miao, elbasan, gunjala-gondi, kannada, cham, manichaean, soyombo, duployan, bengali, newa, syloti-nagri, modi, lepcha, sundanese, symbols, new-tai-lue, osage, bhaiksuki, tirhuta, takri, khojki, limbu, old-permic, tibetan, coptic, thaana, mende-kikakui, tai-le, psalter-pahlavi, buhid, pahawh-hmong, caucasian-albanian, mongolian, tifinagh, bassa-vah, syriac, yi, hanunoo, music, sharada, kaithi, batak, tagalog, telugu, adlam, buginese, brahmi, siddham, javanese, meetei-mayek, sogdian, chakma, khudawadi, ahom, gujarati, marchen, mandaic, math, tamil, grantha, mahajani, khmer, hanifi-rohingya, masaram-gondi, wancho, devanagari, myanmar, balinese, oriya, dogra, hebrew, phags-pa, gurmukhi, kharoshthi, tagbanwa, tai-viet
+ * U+25CC DOTTED CIRCLE: try adding one of: lepcha, new-tai-lue, bhaiksuki, kharoshthi, newa, mongolian, telugu, javanese, masaram-gondi, brahmi, chakma, tagalog, myanmar, hanunoo, mandaic, limbu, bengali, buginese, tagbanwa, nko, kayah-li, khmer, sogdian, adlam, modi, tai-viet, sharada, mende-kikakui, elbasan, pahawh-hmong, siddham, bassa-vah, sinhala, wancho, soyombo, gunjala-gondi, syloti-nagri, tamil, tifinagh, khudawadi, grantha, marchen, rejang, ahom, miao, hebrew, meetei-mayek, lao, kaithi, zanabazar-square, music, thai, cham, buhid, dogra, symbols, manichaean, sundanese, batak, thaana, syriac, kannada, phags-pa, math, malayalam, caucasian-albanian, osage, devanagari, coptic, khojki, tirhuta, oriya, balinese, duployan, tibetan, mahajani, gujarati, takri, psalter-pahlavi, gurmukhi, yi, old-permic, tai-le, hanifi-rohingya
  * U+FBB2 ARABIC SYMBOL DOT ABOVE: try adding arabic
  * U+FBB3 ARABIC SYMBOL DOT BELOW: try adding arabic
  * U+FBB4 ARABIC SYMBOL TWO DOTS ABOVE: try adding arabic
@@ -629,11 +629,9 @@ Or you can add the above codepoints to one of the subsets supported by the font:
 
 * ⚠ **WARN** Interpolation issues were found in the font:
 
-	- Contour 0 start point differs in glyph 'BehxMed.inT2outD2HF' between location wght=400 and location wght=700
-
 	- Contour 0 start point differs in glyph 'BehxMed.inT2outD2HS' between location wght=400 and location wght=700
 
-	- Contour 0 start point differs in glyph 'RehFin.inD3MM' between location wght=400 and location wght=700 [code: interpolation-issues]
+	- Contour 0 start point differs in glyph 'BehxMed.inT2outD2HF' between location wght=400 and location wght=700 [code: interpolation-issues]
 </div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
 
 
@@ -650,9 +648,9 @@ greater, less
 
 The dot of soft dotted characters _should_ disappear in other cases, for example: į̆ į̇ į̈ į̊ į̋ į̒ į̦̀ į̦́ į̦̂ į̦̃ į̦̄ į̦̆ į̦̇ į̦̈ į̦̊ į̦̋ į̦̌ į̦̒ į̧̀ į̧́
 
-Your font fully covers the following languages that require the soft-dotted feature: Lithuanian (Latn, 2,357,094 speakers), Dutch (Latn, 31,709,104 speakers). 
+Your font fully covers the following languages that require the soft-dotted feature: Dutch (Latn, 31,709,104 speakers), Lithuanian (Latn, 2,357,094 speakers). 
 
-Your font does *not* cover the following languages that require the soft-dotted feature: Kom (Latn, 360,685 speakers), Ebira (Latn, 2,200,000 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers), Ma’di (Latn, 584,000 speakers), Belarusian (Cyrl, 10,064,517 speakers), Dan (Latn, 1,099,244 speakers), Navajo (Latn, 166,319 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Nateni (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Lugbara (Latn, 2,200,000 speakers), Igbo (Latn, 27,823,640 speakers), Avokaya (Latn, 100,000 speakers), Ejagham (Latn, 120,000 speakers). [code: soft-dotted]
+Your font does *not* cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Aghem (Latn, 38,843 speakers), Koonzime (Latn, 40,000 speakers), Avokaya (Latn, 100,000 speakers), Basaa (Latn, 332,940 speakers), Ebira (Latn, 2,200,000 speakers), Lugbara (Latn, 2,200,000 speakers), Ejagham (Latn, 120,000 speakers), Ma’di (Latn, 584,000 speakers), Navajo (Latn, 166,319 speakers), Kom (Latn, 360,685 speakers), Igbo (Latn, 27,823,640 speakers), Dan (Latn, 1,099,244 speakers), Belarusian (Cyrl, 10,064,517 speakers). [code: soft-dotted]
 </div></details><br></div></details>
 
 ### Summary
