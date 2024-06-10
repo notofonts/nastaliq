@@ -1957,6 +1957,19 @@ value = 0;
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = "meta Table";
+value = (
+{
+data = "ur-Arab, ks-Arabky-Arab, ug-Arab, bcc-Arab, bgn-Arab, bgp-Arab, crh-Arab";
+tag = dlng;
+},
+{
+data = "ar-Arab, fa-Arab, sd-Arab";
+tag = slng;
+}
+);
 }
 );
 date = "2022-01-28 04:19:37 +0000";
