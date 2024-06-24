@@ -21,14 +21,14 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; [@BEHm @BEHi hehg
 name = "*top.alt3";
 pos = (264,746);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; behDotless-ar.medi.inT2outT1wide @AllMarks * ";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; behDotless-ar.medi.alef.wide @AllMarks * ";
 };
 },
 {
 name = "*top.alt4";
 pos = (264,746);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; behDotless-ar.medi.inT2outT1wide @AllMarks @AllMarks * ";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; behDotless-ar.medi.alef.wide @AllMarks @AllMarks * ";
 };
 },
 {
@@ -126,14 +126,14 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; [@BEHm @BEHi hehg
 name = "*top.alt3";
 pos = (219,624);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; behDotless-ar.medi.inT2outT1wide @AllMarks * ";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; behDotless-ar.medi.alef.wide @AllMarks * ";
 };
 },
 {
 name = "*top.alt4";
 pos = (219,624);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; behDotless-ar.medi.inT2outT1wide @AllMarks @AllMarks * ";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; behDotless-ar.medi.alef.wide @AllMarks @AllMarks * ";
 };
 },
 {
