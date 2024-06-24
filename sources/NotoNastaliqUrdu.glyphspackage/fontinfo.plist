@@ -375,6 +375,8 @@ name = SEENm;
 },
 {
 code = "$[name contains \"sad-ar.init\"]
+$[name contains \"sad-ar.medi\"]
+
 #sad_reh-ar.rlig
 
 ";
@@ -915,7 +917,7 @@ name = HEHm;
 {
 code = "behDotless-ar.medi
 behDotless-ar.init
-hah-ar.medi
+#hah-ar.medi
 hah-ar.init
 seen-ar.medi
 seen-ar.init
@@ -929,9 +931,9 @@ kaf-ar.medi
 kaf-ar.init
 lam-ar.medi
 lam-ar.init
-meem-ar.medi
+#meem-ar.medi
 meem-ar.init
-heh-ar.medi
+#heh-ar.medi
 heh-ar.init
 hehgoal-ar.init
 hehDoachashmee-ar.init
@@ -5152,7 +5154,7 @@ lookup Connections {
 	sub @to.MEEMm' [@MEEMm meem-ar.fina] by @to.MEEMm.alt;
 	sub @to.NOONf' [noonghunna-ar.fina noonghunna-ar.fina] by @to.NOONf.alt;
 	sub @to.WAWf' [waw-ar.fina qafDotless-ar.fina qafDotless-ar] by @to.WAWf.alt;
-#	sub @to.HEHm' [@HEHm] by @to.HEHm.alt;
+	sub @to.HEHm' [@HEHm] by @to.HEHm.alt;
 	sub @to.DOHEHm' [@HEHDOCHi.m hehDoachashmee-ar.fina] by @to.DOHEHm.alt;
 	sub @to.YEHf' [alefMaksura-ar.fina] by @to.YEHf.alt;
 	sub @to.BARIYEHf' @BARIYEHf by @to.BARIYEHf.alt;
@@ -5200,523 +5202,523 @@ lookup BehFina {
 name = Connections;
 },
 {
-code = "lookup outS1 {
-    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.outS1;
-    sub behDotless-ar.init by behDotless-ar.init.alef;
-    sub fehDotless-ar.init by fehDotless-ar.init.outS1;
-    sub hehgoal-ar.init by hehgoal-ar.init.outS1;
-    sub meem-ar.init by meem-ar.init.outS1;
-    sub hah-ar.init by hah-ar.init.outS1;
-    sub seen-ar.init by seen-ar.init.outS1;
-    sub behDotless-ar.medi by behDotless-ar.medi.inT1outS1;
-    sub lam-ar.init by lam-ar.init.outS1;
-    sub kaf-ar.medi.V by kaf-ar.medi.VoutS1;
-    sub lam-ar.medi by lam-ar.medi.outS1;
-    sub sad-ar.init by sad-ar.init.outS1;
-    sub ain-ar.init by ain-ar.init.outS1;
-    sub heh-ar.init by heh-ar.init.outS1;
-    sub kaf-ar.init by kaf-ar.init.outS1;
-    sub kaf-ar.medi by kaf-ar.medi.outS1;
-    sub behDotless-ar.medi.inT1 by behDotless-ar.medi.inT1outS1;
-    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.inT2outS1;
-    sub seen-ar.medi.inT2 by seen-ar.medi.inT2outS1;
-    sub ain-ar.medi.inT3 by ain-ar.medi.inT3outS1;
-    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.inT3outS1;
-    sub sad-ar.medi.inD1 by sad-ar.medi.inD1outS1;
-    sub tah-ar.medi.inD1 by tah-ar.medi.inD1outS1;
-    sub hah-ar.medi.inD2 by hah-ar.medi.inD2outS1;
-    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.inD2outS1;
-    sub meem-ar.medi.inD2 by meem-ar.medi.inD2outS1;
-    sub heh-ar.medi.inD5 by heh-ar.medi.inD5outS1;
-} outS1;
-
-lookup inT2 {
-    sub behDotless-ar.medi.feh by behDotless-ar.medi.feh;
-    sub behDotless-ar.medi.cain by behDotless-ar.medi.fbeh;
-    sub behDotless-ar.medi by behDotless-ar.medi.inT2;
-    sub seen-ar.medi by seen-ar.medi.inT2;
-    sub behDotless-ar.medi.inT1outT1 by behDotless-ar.medi.alef;
-    sub behDotless-ar.medi.sad by behDotless-ar.medi.sad;
-    sub behDotless-ar.medi.sad by behDotless-ar.medi.sad;
-} inT2;
-
-lookup toN {
-    sub fehDotless-ar.init.fbeh by fehDotless-ar.init.noon;
-    sub behDotless-ar.init.fbeh by behDotless-ar.init.noon;
-    sub behDotless-ar.medi.cain by behDotless-ar.medi.cainN;
-    sub lam-ar.init.fbeh by lam-ar.init.noon;
-    sub kaf-ar.init.fbeh by kaf-ar.init.noon;
-} toN;
-
-lookup hehDoachashmee-ar.medi.kaf {
-    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.fbeh;
-    sub behDotless-ar.init by behDotless-ar.init.fbeh;
-    sub behDotless-ar.init.alef by behDotless-ar.init.fbeh;
-    sub fehDotless-ar.init by fehDotless-ar.init.fbeh;
-    sub tah-ar.init by tah-ar.init.fbeh;
-    sub hehgoal-ar.init by hehgoal-ar.init.fbeh;
-    sub meem-ar.init by meem-ar.init.fbeh;
-    sub kaf-ar.init.HRlow by kaf-ar.init.NhehDoachashmee-ar.medi.kaf;
-    sub behDotless-ar.medi.alef by behDotless-ar.medi.fbeh;
-    sub hah-ar.init by hah-ar.init.fbeh;
-    sub seen-ar.init by seen-ar.init.fbeh;
-    sub behDotless-ar.medi by behDotless-ar.medi.cain;
-    sub lam-ar.init by lam-ar.init.fbeh;
-    sub kaf-ar.medi.V by kaf-ar.medi.VhehDoachashmee-ar.medi.kaf;
-    sub lam-ar.init.low by lam-ar.init.lowKN;
-    sub lam-ar.medi by lam-ar.medi.fbeh;
-    sub lam-ar.medi.low by lam-ar.medi.lowKN;
-    sub hehDoachashmee-ar.medi by hehDoachashmee-ar.medi.fbeh;
-    sub sad-ar.init by sad-ar.init.fbeh;
-    sub ain-ar.init by ain-ar.init.fbeh;
-    sub heh-ar.init by heh-ar.init.fbeh;
-    sub kaf-ar.init by kaf-ar.init.fbeh;
-    sub kaf-ar.medi by kaf-ar.medi.fbeh;
-    sub behDotless-ar.medi.inT1 by behDotless-ar.medi.cain;
-    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.fbeh;
-    sub seen-ar.medi.inT2 by seen-ar.medi.fbeh;
-    sub ain-ar.medi.inT3 by ain-ar.medi.ain;
-    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.fbeh;
-    sub sad-ar.medi.inD1 by sad-ar.medi.inD1hehDoachashmee-ar.medi.kaf;
-    sub tah-ar.medi.inD1 by tah-ar.medi.fbeh;
-    sub hah-ar.medi.inD2 by hah-ar.medi.ain;
-    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.fbeh;
-    sub meem-ar.medi.inD2 by meem-ar.medi.fbeh;
-    sub heh-ar.medi.inD5 by heh-ar.medi.fbeh;
-    sub ain-ar.medi.alef by ain-ar.medi.ain;
-    sub fehDotless-ar.medi.alef by fehDotless-ar.medi.fbeh;
-    sub sad-ar.medi.inD1outT1 by sad-ar.medi.inD1hehDoachashmee-ar.medi.kaf;
-    sub tah-ar.medi.inD1outT1 by tah-ar.medi.fbeh;
-    sub hah-ar.medi.alef by hah-ar.medi.ain;
-    sub meem-ar.medi.alef by meem-ar.medi.fbeh;
-    sub heh-ar.medi.alef by heh-ar.medi.fbeh;
-    sub hehDoachashmee-ar.medi.inD2outT1 by hehDoachashmee-ar.medi.fbeh;
-    sub seen-ar.medi.alef by seen-ar.medi.fbeh;
-    sub behDotless-ar.medi.inT1outT1 by behDotless-ar.medi.cain;
-    sub kaf-ar.init.N by kaf-ar.init.NhehDoachashmee-ar.medi.kaf;
-} hehDoachashmee-ar.medi.kaf;
-
-lookup prereh-ar {
-    sub hehgoal-ar.init by hehgoal-ar.init.r;
-    sub meem-ar.init by meem-ar.init.r;
-    sub seen-ar.init by seen-ar.init.r;
-    sub behDotless-ar.medi by behDotless-ar.medi.inS1outS1;
-    sub seen-ar.medi by seen-ar.medi.r;
-    sub lam-ar.medi by lam-ar.medi.reh;
-    sub sad-ar.init by sad-ar.init.r;
-    sub sad-ar.medi by sad-ar.medi.r;
-    sub kaf-ar.medi by kaf-ar.medi.reh;
-    sub seen-ar.medi.inT2 by seen-ar.medi.r;
-    sub ain-ar.medi.inT3 by ain-ar.medi.reh1;
-    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.reh;
-    sub sad-ar.medi.inD1 by sad-ar.medi.r;
-    sub tah-ar.medi.inD1 by tah-ar.medi.inD1outD3;
-    sub hah-ar.medi.inD2 by hah-ar.medi.inD2outD3;
-    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.inD2outD3;
-    sub meem-ar.medi.inD2 by meem-ar.medi.inD2outD3;
-    sub heh-ar.medi.inD5 by heh-ar.medi.inD5outD3R;
-} prereh-ar;
-
-lookup toBari {
-    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.bari;
-    sub behDotless-ar.init by behDotless-ar.init.bari;
-    sub fehDotless-ar.init by fehDotless-ar.init.bari;
-    sub tah-ar.init by tah-ar.init.bari;
-    sub hehgoal-ar.init by hehgoal-ar.init.bari;
-    sub meem-ar.init by meem-ar.init.bari;
-    sub hah-ar.init by hah-ar.init.bari;
-    sub seen-ar.init by seen-ar.init.bari;
-    sub behDotless-ar.medi by behDotless-ar.medi.bari;
-    sub lam-ar.init by lam-ar.init.bari;
-    sub lam-ar.medi by lam-ar.medi.bari;
-    sub sad-ar.init by sad-ar.init.bari;
-    sub ain-ar.init by ain-ar.init.bari;
-    sub heh-ar.init by heh-ar.init.bari;
-    sub kaf-ar.init by kaf-ar.init.bari;
-    sub kaf-ar.medi by kaf-ar.medi.bari;
-    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.bari;
-    sub seen-ar.medi.inT2 by seen-ar.medi.bari;
-    sub ain-ar.medi.inT3 by ain-ar.medi.bari;
-    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.bari;
-    sub sad-ar.medi.inD1 by sad-ar.medi.bari;
-    sub tah-ar.medi.inD1 by tah-ar.medi.bari;
-    sub hah-ar.medi.inD2 by hah-ar.medi.bari;
-    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.bari;
-    sub meem-ar.medi.inD2 by meem-ar.medi.bari;
-    sub heh-ar.medi.inD5 by heh-ar.medi.bari;
-} toBari;
-
-lookup inD2 {
-    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.yeh;
-    sub behDotless-ar.init by behDotless-ar.init.yeh;
-    sub fehDotless-ar.init by fehDotless-ar.init.yeh;
-    sub hehgoal-ar.init by hehgoal-ar.init.yeh;
-    sub meem-ar.init by meem-ar.init.yeh;
-    sub hah-ar.init by hah-ar.init.yeh;
-    sub seen-ar.init by seen-ar.init.yeh;
-    sub lam-ar.init by lam-ar.init.yeh;
-    sub lam-ar.medi by lam-ar.medi.yeh;
-    sub sad-ar.init by sad-ar.init.yeh;
-    sub heh-ar.init by heh-ar.init.yeh;
-    sub kaf-ar.init by kaf-ar.init.yeh;
-    sub kaf-ar.medi by kaf-ar.medi.yeh;
-    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.yeh;
-    sub seen-ar.medi.inT2 by seen-ar.medi.yeh;
-    sub ain-ar.medi.inT3 by ain-ar.medi.yeh;
-    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.yeh;
-    sub sad-ar.medi.inD1 by sad-ar.medi.yeh;
-    sub tah-ar.medi.inD1 by tah-ar.medi.inD1outD2;
-    sub hah-ar.medi.inD2 by hah-ar.medi.yeh;
-    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.yeh;
-    sub meem-ar.medi.inD2 by meem-ar.medi.yeh;
-    sub heh-ar.medi.inD5 by heh-ar.medi.yeh;
-} inD2;
-
-lookup outD2M {
-    sub behDotless-ar.init by behDotless-ar.init.wawM;
-    sub tah-ar.init by tah-ar.init.wawM;
-    sub hehgoal-ar.init by hehgoal-ar.init.meem;
-    sub seen-ar.init by seen-ar.init.wawM;
-    sub lam-ar.medi by lam-ar.medi.doheh;
-    sub sad-ar.init by sad-ar.init.wawM;
-    sub kaf-ar.medi by kaf-ar.medi.doheh;
-    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.inT2outD2M;
-    sub seen-ar.medi.inT2 by seen-ar.medi.inT2outD2M;
-    sub ain-ar.medi.inT3 by ain-ar.medi.inT3outD2;
-    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.inT3outD2;
-    sub sad-ar.medi.inD1 by sad-ar.medi.inD1outD2M;
-    sub tah-ar.medi.inD1 by tah-ar.medi.inD1outD2M;
-    sub hah-ar.medi.inD2 by hah-ar.medi.inD2outD2;
-    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.inD2outD2;
-    sub meem-ar.medi.inD2 by meem-ar.medi.inD2outD2;
-    sub heh-ar.medi.inD5 by heh-ar.medi.inD5outD2;
-} outD2M;
-
-lookup outD2D {
-    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.doheh;
-    sub behDotless-ar.init by behDotless-ar.init.doheh;
-    sub fehDotless-ar.init by fehDotless-ar.init.doheh;
-    sub tah-ar.init by tah-ar.init.doheh;
-    sub hehgoal-ar.init by hehgoal-ar.init.doheh;
-    sub meem-ar.init by meem-ar.init.doheh;
-    sub hah-ar.init by hah-ar.init.doheh;
-    sub seen-ar.init by seen-ar.init.doheh;
-    sub lam-ar.init by lam-ar.init.doheh;
-    sub lam-ar.medi by lam-ar.medi.doheh;
-    sub sad-ar.init by sad-ar.init.doheh;
-    sub ain-ar.init by ain-ar.init.doheh;
-    sub heh-ar.init by heh-ar.init.doheh;
-    sub kaf-ar.init by kaf-ar.init.doheh;
-    sub kaf-ar.medi by kaf-ar.medi.doheh;
-    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.doheh;
-    sub seen-ar.medi.inT2 by seen-ar.medi.doheh;
-    sub ain-ar.medi.inT3 by ain-ar.medi.doheh;
-    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.doheh;
-    sub sad-ar.medi.inD1 by sad-ar.medi.doheh;
-    sub tah-ar.medi.inD1 by tah-ar.medi.doheh;
-    sub hah-ar.medi.inD2 by hah-ar.medi.doheh;
-    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.doheh;
-    sub meem-ar.medi.inD2 by meem-ar.medi.doheh;
-    sub heh-ar.medi.inD5 by heh-ar.medi.doheh;
-} outD2D;
-
-lookup outD2H {
-    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.jeem;
-    sub behDotless-ar.init by behDotless-ar.init.jeem;
-    sub fehDotless-ar.init by fehDotless-ar.init.jeem;
-    sub tah-ar.init by tah-ar.init.jeem;
-    sub hehgoal-ar.init by hehgoal-ar.init.jeem;
-    sub meem-ar.init by meem-ar.init.jeem;
-    sub hah-ar.init by hah-ar.init.jeem;
-    sub seen-ar.init by seen-ar.init.jeem;
-    sub lam-ar.init by lam-ar.init.jeem;
-    sub lam-ar.medi by lam-ar.medi.jeem;
-    sub sad-ar.init by sad-ar.init.jeem;
-    sub ain-ar.init by ain-ar.init.jeem;
-    sub heh-ar.init by heh-ar.init.jeem;
-    sub kaf-ar.init by kaf-ar.init.jeem;
-    sub kaf-ar.medi by kaf-ar.medi.jeem;
-    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.jeem;
-    sub seen-ar.medi.inT2 by seen-ar.medi.jeem;
-    sub ain-ar.medi.inT3 by ain-ar.medi.jeem;
-    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.jeem;
-    sub sad-ar.medi.inD1 by sad-ar.medi.jeem;
-    sub tah-ar.medi.inD1 by tah-ar.medi.jeem;
-    sub hah-ar.medi.inD2 by hah-ar.medi.jeem;
-    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.jeem;
-    sub meem-ar.medi.inD2 by meem-ar.medi.jeem;
-    sub heh-ar.medi.inD5 by heh-ar.medi.jeem;
-} outD2H;
-
-lookup Extension158 {
-    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.heh;
-    sub behDotless-ar.init by behDotless-ar.init.heh;
-    sub fehDotless-ar.init by fehDotless-ar.init.heh;
-    sub tah-ar.init by tah-ar.init.heh;
-    sub hehgoal-ar.init by hehgoal-ar.init.heh;
-    sub meem-ar.init by meem-ar.init.heh;
-    sub hah-ar.init by hah-ar.init.heh;
-    sub seen-ar.init by seen-ar.init.heh;
-    sub lam-ar.init by lam-ar.init.heh;
-    sub lam-ar.medi by lam-ar.medi.heh;
-    sub sad-ar.init by sad-ar.init.heh;
-    sub ain-ar.init by ain-ar.init.heh;
-    sub heh-ar.init by heh-ar.init.heh;
-    sub kaf-ar.init by kaf-ar.init.heh;
-    sub kaf-ar.medi by kaf-ar.medi.heh;
-    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.heh;
-    sub seen-ar.medi.inT2 by seen-ar.medi.heh;
-    sub ain-ar.medi.inT3 by ain-ar.medi.heh;
-    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.heh;
-    sub sad-ar.medi.inD1 by sad-ar.medi.inD1outD5;
-    sub tah-ar.medi.inD1 by tah-ar.medi.inD1outD5;
-    sub hah-ar.medi.inD2 by hah-ar.medi..heh;
-    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi..heh;
-    sub meem-ar.medi.inD2 by meem-ar.medi..heh;
-    sub heh-ar.medi.inD5 by heh-ar.medi.inD5outD5;
-} Extension158;
-
-lookup Extension142 {
-    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.meem;
-    sub behDotless-ar.init by behDotless-ar.init.meem;
-    sub fehDotless-ar.init by fehDotless-ar.init.meem;
-    sub tah-ar.init by tah-ar.init.meem;
-    sub hehgoal-ar.init by hehgoal-ar.init.meem;
-    sub meem-ar.init by meem-ar.init.meem;
-    sub hah-ar.init by hah-ar.init.meem;
-    sub seen-ar.init by seen-ar.init.meem;
-    sub lam-ar.init by lam-ar.init.meem;
-    sub lam-ar.medi by lam-ar.medi.meem;
-    sub sad-ar.init by sad-ar.init.meem;
-    sub ain-ar.init by ain-ar.init.meem;
-    sub heh-ar.init by heh-ar.init.meem;
-    sub kaf-ar.init by kaf-ar.init.meem;
-    sub kaf-ar.medi by kaf-ar.medi.meem;
-    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.meem;
-    sub seen-ar.medi.inT2 by seen-ar.medi.meem;
-    sub ain-ar.medi.inT3 by ain-ar.medi.meem;
-    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.meem;
-    sub sad-ar.medi.inD1 by sad-ar.medi.meem;
-    sub tah-ar.medi.inD1 by tah-ar.medi.meem;
-    sub hah-ar.medi.inD2 by hah-ar.medi.meem;
-    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.meem;
-    sub meem-ar.medi.inD2 by meem-ar.medi.meem;
-    sub heh-ar.medi.inD5 by heh-ar.medi.meem;
-} Extension142;
-
-lookup preLamLike {
-    sub kaf-ar.init by kaf-ar.init.alef;
-    sub kaf-ar.medi by kaf-ar.medi.alef;
-} preLamLike;
-
-lookup toLow {
-    sub tah-ar.init by tah-ar.init.low;
-    sub lam-ar.init by lam-ar.init.low;
-    sub kaf-ar.medi.V by kaf-ar.medi.Vlow;
-    sub lam-ar.medi by lam-ar.medi.low;
-    sub tah-ar.medi by tah-ar.medi.low;
-    sub kaf-ar.medi by kaf-ar.medi.low;
-} toLow;
-
-lookup preALK {
-    sub behDotless-ar.init by behDotless-ar.init.alef;
-    sub behDotless-ar.init.fbeh by behDotless-ar.init.fbehK;
-    sub behDotless-ar.medi.fbeh by behDotless-ar.medi.fbehK;
-} preALK;
-
-lookup toNarrow {
-    sub alef-ar.fina by alef-ar.fina.narrow;
-} toNarrow;
-
-lookup toSoft {
-    sub behDotless-ar.fina by behDotless-ar.fina.alt;
-} toSoft;
-
-lookup inD4 {
-    sub reh-ar.fina by reh-ar.fina.inD4;
-    sub rehLoop-ar.fina by rehLoop-ar.fina.inD4;
-} inD4;
-
-lookup outD2 {
-    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.waw;
-    sub fehDotless-ar.init by fehDotless-ar.init.waw;
-    sub tah-ar.init by tah-ar.init.waw;
-    sub meem-ar.init by meem-ar.init.waw;
-    sub hah-ar.init by hah-ar.init.waw;
-    sub lam-ar.init by lam-ar.init.waw;
-    sub ain-ar.init by ain-ar.init.waw;
-    sub heh-ar.init by heh-ar.init.waw;
-    sub kaf-ar.init by kaf-ar.init.waw;
-    sub ain-ar.medi.inT3 by ain-ar.medi.inT3outD2;
-    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.inT3outD2;
-    sub tah-ar.medi.inD1 by tah-ar.medi.inD1outD2;
-    sub hah-ar.medi.inD2 by hah-ar.medi.inD2outD2;
-    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.inD2outD2;
-    sub meem-ar.medi.inD2 by meem-ar.medi.inD2outD2;
-    sub heh-ar.medi.inD5 by heh-ar.medi.inD5outD2;
-} outD2;
-
-lookup outD1 {
-    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.sad;
-    sub behDotless-ar.init by behDotless-ar.init.sad;
-    sub fehDotless-ar.init by fehDotless-ar.init.kaf;
-    sub tah-ar.init by tah-ar.init.sad;
-    sub hehgoal-ar.init by hehgoal-ar.init.sad;
-    sub meem-ar.init by meem-ar.init.sad;
-    sub hah-ar.init by hah-ar.init.sad;
-    sub seen-ar.init by seen-ar.init.sad;
-    sub lam-ar.init by lam-ar.init.sad;
-    sub lam-ar.medi by lam-ar.medi.sad;
-    sub sad-ar.init by sad-ar.init.sad;
-    sub ain-ar.init by ain-ar.init.sad;
-    sub heh-ar.init by heh-ar.init.sad;
-    sub kaf-ar.init by kaf-ar.init.sad;
-    sub kaf-ar.medi by kaf-ar.medi.sad;
-    sub behDotless-ar.medi.inT1 by behDotless-ar.medi.sad;
-    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.sad;
-    sub seen-ar.medi.inT2 by seen-ar.medi.sad;
-    sub ain-ar.medi.inT3 by ain-ar.medi.sad;
-    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.sad;
-    sub sad-ar.medi.inD1 by sad-ar.medi.sad;
-    sub tah-ar.medi.inD1 by tah-ar.medi.sad;
-    sub hah-ar.medi.inD2 by hah-ar.medi.sad;
-    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.sad;
-    sub meem-ar.medi.inD2 by meem-ar.medi.sad;
-    sub heh-ar.medi.inD5 by heh-ar.medi.sad;
-} outD1;
-
-lookup outD2WQ {
-    sub alefMaksura-ar.fina by alefMaksura-ar.fina.alt;
-    sub qafDotless-ar.fina by qafDotless-ar.fina.inD2;
-    sub waw-ar.fina by waw-ar.fina.alt2;
-    sub meem-ar.medi by meem-ar.medi.inD2;
-    sub hehDoachashmee-ar.medi by hehDoachashmee-ar.medi.inD2;
-    sub hah-ar.medi by hah-ar.medi.inD2;
-    sub yehKashmiri-ar.fina by yehKashmiri-ar.fina.alt;
-    sub wawStraight-ar.fina by wawStraight-ar.fina.inD2;
-} outD2WQ;
-
-lookup toFeh {
-    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.feh;
-    sub behDotless-ar.init by behDotless-ar.init.feh;
-    sub fehDotless-ar.init by fehDotless-ar.init.feh;
-    sub tah-ar.init by tah-ar.init.feh;
-    sub hehgoal-ar.init by hehgoal-ar.init.feh;
-    sub meem-ar.init by meem-ar.init.ain;
-    sub hah-ar.init by hah-ar.init.feh;
-    sub seen-ar.init by seen-ar.init.feh;
-    sub behDotless-ar.medi by behDotless-ar.medi.feh;
-    sub lam-ar.init by lam-ar.init.feh;
-    sub lam-ar.medi by lam-ar.medi.feh;
-    sub sad-ar.init by sad-ar.init.feh;
-    sub ain-ar.init by ain-ar.init.feh;
-    sub heh-ar.init by heh-ar.init.feh;
-    sub kaf-ar.init by kaf-ar.init.feh;
-    sub kaf-ar.medi by kaf-ar.medi.feh;
-    sub behDotless-ar.medi.inT1 by behDotless-ar.medi.feh;
-    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.feh;
-    sub seen-ar.medi.inT2 by seen-ar.medi.feh;
-    sub ain-ar.medi.inT3 by ain-ar.medi.feh;
-    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.feh;
-    sub sad-ar.medi.inD1 by sad-ar.medi.feh;
-    sub tah-ar.medi.inD1 by tah-ar.medi.feh;
-    sub hah-ar.medi.inD2 by hah-ar.medi.feh;
-    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.feh;
-    sub meem-ar.medi.inD2 by meem-ar.medi.feh;
-    sub heh-ar.medi.inD5 by heh-ar.medi.feh;
-} toFeh;
-
-lookup Extension106 {
-    sub reh-ar.fina by reh-ar.fina.inD3;
-    sub rehLoop-ar.fina by rehLoop-ar.fina.inD3;
-} Extension106;
-
-lookup Extension154 {
-    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.outD3;
-    sub tah-ar.init by tah-ar.init.reh;
-    sub hah-ar.init by hah-ar.init.outD3;
-    sub ain-ar.init by ain-ar.init.outD3;
-    sub heh-ar.init by heh-ar.init.outD3;
-    sub ain-ar.medi.inT3 by ain-ar.medi.reh1;
-    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.reh;
-    sub tah-ar.medi.inD1 by tah-ar.medi.inD1outD3;
-    sub hah-ar.medi.inD2 by hah-ar.medi.inD2outD3;
-    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.inD2outD3;
-    sub meem-ar.medi.inD2 by meem-ar.medi.inD2outD3;
-    sub heh-ar.medi.inD5 by heh-ar.medi.inD5outD3R;
-} Extension154;
-
-lookup SecondVar {
-    sub seen-ar.fina by seen-ar.fina.2;
-    sub ain-ar.fina by ain-ar.fina.2;
-    sub yehbarree-ar.fina by yehbarree-ar.fina.2;
-    sub yehbarree-ar.fina.5 by yehbarree-ar.fina.2_5;
-    sub yehbarree-ar.fina.4 by yehbarree-ar.fina.2_4;
-    sub yehbarree-ar.fina.3 by yehbarree-ar.fina.2_3;
-    sub behDotless-ar.init.feh by behDotless-ar.init.fehEn;
-    sub hehgoal-ar.init.feh by hehgoal-ar.init.fehEn;
-} SecondVar;
-
-lookup toCut {
-    sub qafDotless-ar.fina by qafDotless-ar.fina.cut;
-    sub waw-ar.fina by waw-ar.fina.cut;
-    sub wawStraight-ar.fina by wawStraight-ar.fina.cut;
-} toCut;
-
-lookup Extension172 {
-    sub hehgoal-ar.fina by hehgoal-ar.fina.wide;
-    sub behDotless-ar.medi.alef by behDotless-ar.medi.alef.wide;
-    sub behDotless-ar.medi.cain by behDotless-ar.medi.cainwide;
-    sub behDotless-ar.medi.cainN by behDotless-ar.medi.cainNwide;
-    sub behDotless-ar.medi.cainseen-ar by behDotless-ar.medi.cainSeenWide;
-    sub behDotless-ar.medi.feh by behDotless-ar.medi.fehW;
-    sub behDotless-ar.medi.sad by behDotless-ar.medi.sad;
-    sub behDotless-ar.medi.jeem by behDotless-ar.medi.jeemwide;
-    sub behDotless-ar.medi.jeemF by behDotless-ar.medi.jeemwide;
-    sub behDotless-ar.medi.jeemS by behDotless-ar.medi.jeemwide;
-    sub hehDoachashmee-ar.init.fbeh by hehDoachashmee-ar.init.fbehwide;
-    sub hah-ar.init.jeem by hah-ar.init.jeemwide;
-    sub hehDoachashmee-ar.medi.fbeh by hehDoachashmee-ar.medi.fbehwide;
-    sub ain-ar.init.jeem by ain-ar.init.jeemwide;
-    sub fehDotless-ar.init.jeem by fehDotless-ar.init.jeemwide;
-    sub hehDoachashmee-ar.init.jeem by hehDoachashmee-ar.init.jeemwide;
-    sub heh-ar.init.jeem by heh-ar.init.jeemwide;
-    sub ain-ar.medi.jeem by ain-ar.medi.jeemwide;
-    sub fehDotless-ar.medi.jeem by fehDotless-ar.medi.jeemwide;
-    sub hah-ar.medi.jeem by hah-ar.medi.jeemwide;
-    sub hehDoachashmee-ar.medi.jeem by hehDoachashmee-ar.medi.jeemwide;
-} Extension172;
-
-lookup toWide {
-    sub @class41' lookup Extension172;
-    sub [hehDoachashmee-ar.init.fbeh fehDotless-ar.init.jeem hehDoachashmee-ar.init.jeem]' lookup Extension172 ybMk' @AllSpacers' lookup ReduceSpacerBy1;
-    sub [hehDoachashmee-ar.init.fbeh fehDotless-ar.init.jeem hehDoachashmee-ar.init.jeem]' lookup Extension172;
-    sub [hah-ar.init.jeem heh-ar.init.jeem]' lookup Extension172 ybMk' @AllSpacers' lookup ReduceSpacerBy2;
-    sub [hah-ar.init.jeem heh-ar.init.jeem]' lookup Extension172;
-    sub ain-ar.init.jeem' lookup Extension172 ybMk' @AllSpacers' lookup ReduceSpacerBy3;
-    sub ain-ar.init.jeem' lookup Extension172;
-} toWide;
-
-lookup toFehWQ {
-    sub ain-ar.init by ain-ar.init.fehWQ;
-} toFehWQ;
-
-lookup outD2Long {
-    sub ain-ar.init by ain-ar.init.wawlong;
-} outD2Long;
-
-lookup toTall {
-    sub behDotless-ar.init.fbeh by behDotless-ar.init.fbehtall;
-    sub ain-ar.init by ain-ar.init.tall;
-} toTall;
-
-lookup alt {
-    sub alefMaksura-ar.fina by alefMaksura-ar.fina.alt;
-    sub qafDotless-ar.fina by qafDotless-ar.fina.alt;
-    sub waw-ar.fina by waw-ar.fina.alt;
-    sub wawStraight-ar.fina by wawStraight-ar.fina.alt;
-} alt;
-
+code = "#lookup outS1 {
+#    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.outS1;
+#    sub behDotless-ar.init by behDotless-ar.init.alef;
+#    sub fehDotless-ar.init by fehDotless-ar.init.outS1;
+#    sub hehgoal-ar.init by hehgoal-ar.init.outS1;
+#    sub meem-ar.init by meem-ar.init.outS1;
+#    sub hah-ar.init by hah-ar.init.outS1;
+#    sub seen-ar.init by seen-ar.init.outS1;
+#    sub behDotless-ar.medi by behDotless-ar.medi.inT1outS1;
+#    sub lam-ar.init by lam-ar.init.outS1;
+#    sub kaf-ar.medi.V by kaf-ar.medi.VoutS1;
+#    sub lam-ar.medi by lam-ar.medi.outS1;
+#    sub sad-ar.init by sad-ar.init.outS1;
+#    sub ain-ar.init by ain-ar.init.outS1;
+#    sub heh-ar.init by heh-ar.init.outS1;
+#    sub kaf-ar.init by kaf-ar.init.outS1;
+#    sub kaf-ar.medi by kaf-ar.medi.outS1;
+#    sub behDotless-ar.medi.inT1 by behDotless-ar.medi.inT1outS1;
+#    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.inT2outS1;
+#    sub seen-ar.medi.inT2 by seen-ar.medi.inT2outS1;
+#    sub ain-ar.medi.inT3 by ain-ar.medi.inT3outS1;
+#    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.inT3outS1;
+#    sub sad-ar.medi.inD1 by sad-ar.medi.inD1outS1;
+#    sub tah-ar.medi.inD1 by tah-ar.medi.inD1outS1;
+#    sub hah-ar.medi.inD2 by hah-ar.medi.inD2outS1;
+#    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.inD2outS1;
+#    sub meem-ar.medi.inD2 by meem-ar.medi.inD2outS1;
+#    sub heh-ar.medi.inD5 by heh-ar.medi.inD5outS1;
+#} outS1;
+#
+#lookup inT2 {
+#    sub behDotless-ar.medi.feh by behDotless-ar.medi.feh;
+#    sub behDotless-ar.medi.cain by behDotless-ar.medi.fbeh;
+#    sub behDotless-ar.medi by behDotless-ar.medi.inT2;
+#    sub seen-ar.medi by seen-ar.medi.inT2;
+#    sub behDotless-ar.medi.inT1outT1 by behDotless-ar.medi.alef;
+#    sub behDotless-ar.medi.sad by behDotless-ar.medi.sad;
+#    sub behDotless-ar.medi.sad by behDotless-ar.medi.sad;
+#} inT2;
+#
+#lookup toN {
+#    sub fehDotless-ar.init.fbeh by fehDotless-ar.init.noon;
+#    sub behDotless-ar.init.fbeh by behDotless-ar.init.noon;
+#    sub behDotless-ar.medi.cain by behDotless-ar.medi.cainN;
+#    sub lam-ar.init.fbeh by lam-ar.init.noon;
+#    sub kaf-ar.init.fbeh by kaf-ar.init.noon;
+#} toN;
+#
+#lookup hehDoachashmee-ar.medi.kaf {
+#    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.fbeh;
+#    sub behDotless-ar.init by behDotless-ar.init.fbeh;
+#    sub behDotless-ar.init.alef by behDotless-ar.init.fbeh;
+#    sub fehDotless-ar.init by fehDotless-ar.init.fbeh;
+#    sub tah-ar.init by tah-ar.init.fbeh;
+#    sub hehgoal-ar.init by hehgoal-ar.init.fbeh;
+#    sub meem-ar.init by meem-ar.init.fbeh;
+#    sub kaf-ar.init.HRlow by kaf-ar.init.NhehDoachashmee-ar.medi.kaf;
+#    sub behDotless-ar.medi.alef by behDotless-ar.medi.fbeh;
+#    sub hah-ar.init by hah-ar.init.fbeh;
+#    sub seen-ar.init by seen-ar.init.fbeh;
+#    sub behDotless-ar.medi by behDotless-ar.medi.cain;
+#    sub lam-ar.init by lam-ar.init.fbeh;
+#    sub kaf-ar.medi.V by kaf-ar.medi.VhehDoachashmee-ar.medi.kaf;
+#    sub lam-ar.init.low by lam-ar.init.lowKN;
+#    sub lam-ar.medi by lam-ar.medi.fbeh;
+#    sub lam-ar.medi.low by lam-ar.medi.lowKN;
+#    sub hehDoachashmee-ar.medi by hehDoachashmee-ar.medi.fbeh;
+#    sub sad-ar.init by sad-ar.init.fbeh;
+#    sub ain-ar.init by ain-ar.init.fbeh;
+#    sub heh-ar.init by heh-ar.init.fbeh;
+#    sub kaf-ar.init by kaf-ar.init.fbeh;
+#    sub kaf-ar.medi by kaf-ar.medi.fbeh;
+#    sub behDotless-ar.medi.inT1 by behDotless-ar.medi.cain;
+#    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.fbeh;
+#    sub seen-ar.medi.inT2 by seen-ar.medi.fbeh;
+#    sub ain-ar.medi.inT3 by ain-ar.medi.ain;
+#    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.fbeh;
+#    sub sad-ar.medi.inD1 by sad-ar.medi.inD1hehDoachashmee-ar.medi.kaf;
+#    sub tah-ar.medi.inD1 by tah-ar.medi.fbeh;
+#    sub hah-ar.medi.inD2 by hah-ar.medi.ain;
+#    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.fbeh;
+#    sub meem-ar.medi.inD2 by meem-ar.medi.fbeh;
+#    sub heh-ar.medi.inD5 by heh-ar.medi.fbeh;
+#    sub ain-ar.medi.alef by ain-ar.medi.ain;
+#    sub fehDotless-ar.medi.alef by fehDotless-ar.medi.fbeh;
+#    sub sad-ar.medi.inD1outT1 by sad-ar.medi.inD1hehDoachashmee-ar.medi.kaf;
+#    sub tah-ar.medi.inD1outT1 by tah-ar.medi.fbeh;
+#    sub hah-ar.medi.alef by hah-ar.medi.ain;
+#    sub meem-ar.medi.alef by meem-ar.medi.fbeh;
+#    sub heh-ar.medi.alef by heh-ar.medi.fbeh;
+#    sub hehDoachashmee-ar.medi.inD2outT1 by hehDoachashmee-ar.medi.fbeh;
+#    sub seen-ar.medi.alef by seen-ar.medi.fbeh;
+#    sub behDotless-ar.medi.inT1outT1 by behDotless-ar.medi.cain;
+#    sub kaf-ar.init.N by kaf-ar.init.NhehDoachashmee-ar.medi.kaf;
+#} hehDoachashmee-ar.medi.kaf;
+#
+#lookup prereh-ar {
+#    sub hehgoal-ar.init by hehgoal-ar.init.r;
+#    sub meem-ar.init by meem-ar.init.r;
+#    sub seen-ar.init by seen-ar.init.r;
+#    sub behDotless-ar.medi by behDotless-ar.medi.inS1outS1;
+#    sub seen-ar.medi by seen-ar.medi.r;
+#    sub lam-ar.medi by lam-ar.medi.reh;
+#    sub sad-ar.init by sad-ar.init.r;
+#    sub sad-ar.medi by sad-ar.medi.r;
+#    sub kaf-ar.medi by kaf-ar.medi.reh;
+#    sub seen-ar.medi.inT2 by seen-ar.medi.r;
+#    sub ain-ar.medi.inT3 by ain-ar.medi.reh1;
+#    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.reh;
+#    sub sad-ar.medi.inD1 by sad-ar.medi.r;
+#    sub tah-ar.medi.inD1 by tah-ar.medi.inD1outD3;
+#    sub hah-ar.medi.inD2 by hah-ar.medi.inD2outD3;
+#    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.inD2outD3;
+#    sub meem-ar.medi.inD2 by meem-ar.medi.inD2outD3;
+#    sub heh-ar.medi.inD5 by heh-ar.medi.inD5outD3R;
+#} prereh-ar;
+#
+#lookup toBari {
+#    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.bari;
+#    sub behDotless-ar.init by behDotless-ar.init.bari;
+#    sub fehDotless-ar.init by fehDotless-ar.init.bari;
+#    sub tah-ar.init by tah-ar.init.bari;
+#    sub hehgoal-ar.init by hehgoal-ar.init.bari;
+#    sub meem-ar.init by meem-ar.init.bari;
+#    sub hah-ar.init by hah-ar.init.bari;
+#    sub seen-ar.init by seen-ar.init.bari;
+#    sub behDotless-ar.medi by behDotless-ar.medi.bari;
+#    sub lam-ar.init by lam-ar.init.bari;
+#    sub lam-ar.medi by lam-ar.medi.bari;
+#    sub sad-ar.init by sad-ar.init.bari;
+#    sub ain-ar.init by ain-ar.init.bari;
+#    sub heh-ar.init by heh-ar.init.bari;
+#    sub kaf-ar.init by kaf-ar.init.bari;
+#    sub kaf-ar.medi by kaf-ar.medi.bari;
+#    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.bari;
+#    sub seen-ar.medi.inT2 by seen-ar.medi.bari;
+#    sub ain-ar.medi.inT3 by ain-ar.medi.bari;
+#    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.bari;
+#    sub sad-ar.medi.inD1 by sad-ar.medi.bari;
+#    sub tah-ar.medi.inD1 by tah-ar.medi.bari;
+#    sub hah-ar.medi.inD2 by hah-ar.medi.bari;
+#    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.bari;
+#    sub meem-ar.medi.inD2 by meem-ar.medi.bari;
+#    sub heh-ar.medi.inD5 by heh-ar.medi.bari;
+#} toBari;
+#
+#lookup inD2 {
+#    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.yeh;
+#    sub behDotless-ar.init by behDotless-ar.init.yeh;
+#    sub fehDotless-ar.init by fehDotless-ar.init.yeh;
+#    sub hehgoal-ar.init by hehgoal-ar.init.yeh;
+#    sub meem-ar.init by meem-ar.init.yeh;
+#    sub hah-ar.init by hah-ar.init.yeh;
+#    sub seen-ar.init by seen-ar.init.yeh;
+#    sub lam-ar.init by lam-ar.init.yeh;
+#    sub lam-ar.medi by lam-ar.medi.yeh;
+#    sub sad-ar.init by sad-ar.init.yeh;
+#    sub heh-ar.init by heh-ar.init.yeh;
+#    sub kaf-ar.init by kaf-ar.init.yeh;
+#    sub kaf-ar.medi by kaf-ar.medi.yeh;
+#    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.yeh;
+#    sub seen-ar.medi.inT2 by seen-ar.medi.yeh;
+#    sub ain-ar.medi.inT3 by ain-ar.medi.yeh;
+#    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.yeh;
+#    sub sad-ar.medi.inD1 by sad-ar.medi.yeh;
+#    sub tah-ar.medi.inD1 by tah-ar.medi.inD1outD2;
+#    sub hah-ar.medi.inD2 by hah-ar.medi.yeh;
+#    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.yeh;
+#    sub meem-ar.medi.inD2 by meem-ar.medi.yeh;
+#    sub heh-ar.medi.inD5 by heh-ar.medi.yeh;
+#} inD2;
+#
+#lookup outD2M {
+#    sub behDotless-ar.init by behDotless-ar.init.wawM;
+#    sub tah-ar.init by tah-ar.init.wawM;
+#    sub hehgoal-ar.init by hehgoal-ar.init.meem;
+#    sub seen-ar.init by seen-ar.init.wawM;
+#    sub lam-ar.medi by lam-ar.medi.doheh;
+#    sub sad-ar.init by sad-ar.init.wawM;
+#    sub kaf-ar.medi by kaf-ar.medi.doheh;
+#    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.inT2outD2M;
+#    sub seen-ar.medi.inT2 by seen-ar.medi.inT2outD2M;
+#    sub ain-ar.medi.inT3 by ain-ar.medi.inT3outD2;
+#    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.inT3outD2;
+#    sub sad-ar.medi.inD1 by sad-ar.medi.inD1outD2M;
+#    sub tah-ar.medi.inD1 by tah-ar.medi.inD1outD2M;
+#    sub hah-ar.medi.inD2 by hah-ar.medi.inD2outD2;
+#    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.inD2outD2;
+#    sub meem-ar.medi.inD2 by meem-ar.medi.inD2outD2;
+#    sub heh-ar.medi.inD5 by heh-ar.medi.inD5outD2;
+#} outD2M;
+#
+#lookup outD2D {
+#    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.doheh;
+#    sub behDotless-ar.init by behDotless-ar.init.doheh;
+#    sub fehDotless-ar.init by fehDotless-ar.init.doheh;
+#    sub tah-ar.init by tah-ar.init.doheh;
+#    sub hehgoal-ar.init by hehgoal-ar.init.doheh;
+#    sub meem-ar.init by meem-ar.init.doheh;
+#    sub hah-ar.init by hah-ar.init.doheh;
+#    sub seen-ar.init by seen-ar.init.doheh;
+#    sub lam-ar.init by lam-ar.init.doheh;
+#    sub lam-ar.medi by lam-ar.medi.doheh;
+#    sub sad-ar.init by sad-ar.init.doheh;
+#    sub ain-ar.init by ain-ar.init.doheh;
+#    sub heh-ar.init by heh-ar.init.doheh;
+#    sub kaf-ar.init by kaf-ar.init.doheh;
+#    sub kaf-ar.medi by kaf-ar.medi.doheh;
+#    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.doheh;
+#    sub seen-ar.medi.inT2 by seen-ar.medi.doheh;
+#    sub ain-ar.medi.inT3 by ain-ar.medi.doheh;
+#    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.doheh;
+#    sub sad-ar.medi.inD1 by sad-ar.medi.doheh;
+#    sub tah-ar.medi.inD1 by tah-ar.medi.doheh;
+#    sub hah-ar.medi.inD2 by hah-ar.medi.doheh;
+#    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.doheh;
+#    sub meem-ar.medi.inD2 by meem-ar.medi.doheh;
+#    sub heh-ar.medi.inD5 by heh-ar.medi.doheh;
+#} outD2D;
+#
+#lookup outD2H {
+#    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.jeem;
+#    sub behDotless-ar.init by behDotless-ar.init.jeem;
+#    sub fehDotless-ar.init by fehDotless-ar.init.jeem;
+#    sub tah-ar.init by tah-ar.init.jeem;
+#    sub hehgoal-ar.init by hehgoal-ar.init.jeem;
+#    sub meem-ar.init by meem-ar.init.jeem;
+#    sub hah-ar.init by hah-ar.init.jeem;
+#    sub seen-ar.init by seen-ar.init.jeem;
+#    sub lam-ar.init by lam-ar.init.jeem;
+#    sub lam-ar.medi by lam-ar.medi.jeem;
+#    sub sad-ar.init by sad-ar.init.jeem;
+#    sub ain-ar.init by ain-ar.init.jeem;
+#    sub heh-ar.init by heh-ar.init.jeem;
+#    sub kaf-ar.init by kaf-ar.init.jeem;
+#    sub kaf-ar.medi by kaf-ar.medi.jeem;
+#    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.jeem;
+#    sub seen-ar.medi.inT2 by seen-ar.medi.jeem;
+#    sub ain-ar.medi.inT3 by ain-ar.medi.jeem;
+#    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.jeem;
+#    sub sad-ar.medi.inD1 by sad-ar.medi.jeem;
+#    sub tah-ar.medi.inD1 by tah-ar.medi.jeem;
+#    sub hah-ar.medi.inD2 by hah-ar.medi.jeem;
+#    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.jeem;
+#    sub meem-ar.medi.inD2 by meem-ar.medi.jeem;
+#    sub heh-ar.medi.inD5 by heh-ar.medi.jeem;
+#} outD2H;
+#
+#lookup Extension158 {
+#    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.heh;
+#    sub behDotless-ar.init by behDotless-ar.init.heh;
+#    sub fehDotless-ar.init by fehDotless-ar.init.heh;
+#    sub tah-ar.init by tah-ar.init.heh;
+#    sub hehgoal-ar.init by hehgoal-ar.init.heh;
+#    sub meem-ar.init by meem-ar.init.heh;
+#    sub hah-ar.init by hah-ar.init.heh;
+#    sub seen-ar.init by seen-ar.init.heh;
+#    sub lam-ar.init by lam-ar.init.heh;
+#    sub lam-ar.medi by lam-ar.medi.heh;
+#    sub sad-ar.init by sad-ar.init.heh;
+#    sub ain-ar.init by ain-ar.init.heh;
+#    sub heh-ar.init by heh-ar.init.heh;
+#    sub kaf-ar.init by kaf-ar.init.heh;
+#    sub kaf-ar.medi by kaf-ar.medi.heh;
+#    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.heh;
+#    sub seen-ar.medi.inT2 by seen-ar.medi.heh;
+#    sub ain-ar.medi.inT3 by ain-ar.medi.heh;
+#    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.heh;
+#    sub sad-ar.medi.inD1 by sad-ar.medi.inD1outD5;
+#    sub tah-ar.medi.inD1 by tah-ar.medi.inD1outD5;
+#    sub hah-ar.medi.inD2 by hah-ar.medi..heh;
+#    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi..heh;
+#    sub meem-ar.medi.inD2 by meem-ar.medi..heh;
+#    sub heh-ar.medi.inD5 by heh-ar.medi.inD5outD5;
+#} Extension158;
+#
+#lookup Extension142 {
+#    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.meem;
+#    sub behDotless-ar.init by behDotless-ar.init.meem;
+#    sub fehDotless-ar.init by fehDotless-ar.init.meem;
+#    sub tah-ar.init by tah-ar.init.meem;
+#    sub hehgoal-ar.init by hehgoal-ar.init.meem;
+#    sub meem-ar.init by meem-ar.init.meem;
+#    sub hah-ar.init by hah-ar.init.meem;
+#    sub seen-ar.init by seen-ar.init.meem;
+#    sub lam-ar.init by lam-ar.init.meem;
+#    sub lam-ar.medi by lam-ar.medi.meem;
+#    sub sad-ar.init by sad-ar.init.meem;
+#    sub ain-ar.init by ain-ar.init.meem;
+#    sub heh-ar.init by heh-ar.init.meem;
+#    sub kaf-ar.init by kaf-ar.init.meem;
+#    sub kaf-ar.medi by kaf-ar.medi.meem;
+#    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.meem;
+#    sub seen-ar.medi.inT2 by seen-ar.medi.meem;
+#    sub ain-ar.medi.inT3 by ain-ar.medi.meem;
+#    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.meem;
+#    sub sad-ar.medi.inD1 by sad-ar.medi.meem;
+#    sub tah-ar.medi.inD1 by tah-ar.medi.meem;
+#    sub hah-ar.medi.inD2 by hah-ar.medi.meem;
+#    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.meem;
+#    sub meem-ar.medi.inD2 by meem-ar.medi.meem;
+#    sub heh-ar.medi.inD5 by heh-ar.medi.meem;
+#} Extension142;
+#
+#lookup preLamLike {
+#    sub kaf-ar.init by kaf-ar.init.alef;
+#    sub kaf-ar.medi by kaf-ar.medi.alef;
+#} preLamLike;
+#
+#lookup toLow {
+#    sub tah-ar.init by tah-ar.init.low;
+#    sub lam-ar.init by lam-ar.init.low;
+#    sub kaf-ar.medi.V by kaf-ar.medi.Vlow;
+#    sub lam-ar.medi by lam-ar.medi.low;
+#    sub tah-ar.medi by tah-ar.medi.low;
+#    sub kaf-ar.medi by kaf-ar.medi.low;
+#} toLow;
+#
+#lookup preALK {
+#    sub behDotless-ar.init by behDotless-ar.init.alef;
+#    sub behDotless-ar.init.fbeh by behDotless-ar.init.fbehK;
+#    sub behDotless-ar.medi.fbeh by behDotless-ar.medi.fbehK;
+#} preALK;
+#
+#lookup toNarrow {
+#    sub alef-ar.fina by alef-ar.fina.narrow;
+#} toNarrow;
+#
+#lookup toSoft {
+#    sub behDotless-ar.fina by behDotless-ar.fina.alt;
+#} toSoft;
+#
+#lookup inD4 {
+#    sub reh-ar.fina by reh-ar.fina.inD4;
+#    sub rehLoop-ar.fina by rehLoop-ar.fina.inD4;
+#} inD4;
+#
+#lookup outD2 {
+#    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.waw;
+#    sub fehDotless-ar.init by fehDotless-ar.init.waw;
+#    sub tah-ar.init by tah-ar.init.waw;
+#    sub meem-ar.init by meem-ar.init.waw;
+#    sub hah-ar.init by hah-ar.init.waw;
+#    sub lam-ar.init by lam-ar.init.waw;
+#    sub ain-ar.init by ain-ar.init.waw;
+#    sub heh-ar.init by heh-ar.init.waw;
+#    sub kaf-ar.init by kaf-ar.init.waw;
+#    sub ain-ar.medi.inT3 by ain-ar.medi.inT3outD2;
+#    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.inT3outD2;
+#    sub tah-ar.medi.inD1 by tah-ar.medi.inD1outD2;
+#    sub hah-ar.medi.inD2 by hah-ar.medi.inD2outD2;
+#    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.inD2outD2;
+#    sub meem-ar.medi.inD2 by meem-ar.medi.inD2outD2;
+#    sub heh-ar.medi.inD5 by heh-ar.medi.inD5outD2;
+#} outD2;
+#
+#lookup outD1 {
+#    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.sad;
+#    sub behDotless-ar.init by behDotless-ar.init.sad;
+#    sub fehDotless-ar.init by fehDotless-ar.init.kaf;
+#    sub tah-ar.init by tah-ar.init.sad;
+#    sub hehgoal-ar.init by hehgoal-ar.init.sad;
+#    sub meem-ar.init by meem-ar.init.sad;
+#    sub hah-ar.init by hah-ar.init.sad;
+#    sub seen-ar.init by seen-ar.init.sad;
+#    sub lam-ar.init by lam-ar.init.sad;
+#    sub lam-ar.medi by lam-ar.medi.sad;
+#    sub sad-ar.init by sad-ar.init.sad;
+#    sub ain-ar.init by ain-ar.init.sad;
+#    sub heh-ar.init by heh-ar.init.sad;
+#    sub kaf-ar.init by kaf-ar.init.sad;
+#    sub kaf-ar.medi by kaf-ar.medi.sad;
+#    sub behDotless-ar.medi.inT1 by behDotless-ar.medi.sad;
+#    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.sad;
+#    sub seen-ar.medi.inT2 by seen-ar.medi.sad;
+#    sub ain-ar.medi.inT3 by ain-ar.medi.sad;
+#    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.sad;
+#    sub sad-ar.medi.inD1 by sad-ar.medi.sad;
+#    sub tah-ar.medi.inD1 by tah-ar.medi.sad;
+#    sub hah-ar.medi.inD2 by hah-ar.medi.sad;
+#    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.sad;
+#    sub meem-ar.medi.inD2 by meem-ar.medi.sad;
+#    sub heh-ar.medi.inD5 by heh-ar.medi.sad;
+#} outD1;
+#
+#lookup outD2WQ {
+#    sub alefMaksura-ar.fina by alefMaksura-ar.fina.alt;
+#    sub qafDotless-ar.fina by qafDotless-ar.fina.inD2;
+#    sub waw-ar.fina by waw-ar.fina.alt2;
+#    sub meem-ar.medi by meem-ar.medi.inD2;
+#    sub hehDoachashmee-ar.medi by hehDoachashmee-ar.medi.inD2;
+#    sub hah-ar.medi by hah-ar.medi.inD2;
+#    sub yehKashmiri-ar.fina by yehKashmiri-ar.fina.alt;
+#    sub wawStraight-ar.fina by wawStraight-ar.fina.inD2;
+#} outD2WQ;
+#
+#lookup toFeh {
+#    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.feh;
+#    sub behDotless-ar.init by behDotless-ar.init.feh;
+#    sub fehDotless-ar.init by fehDotless-ar.init.feh;
+#    sub tah-ar.init by tah-ar.init.feh;
+#    sub hehgoal-ar.init by hehgoal-ar.init.feh;
+#    sub meem-ar.init by meem-ar.init.ain;
+#    sub hah-ar.init by hah-ar.init.feh;
+#    sub seen-ar.init by seen-ar.init.feh;
+#    sub behDotless-ar.medi by behDotless-ar.medi.feh;
+#    sub lam-ar.init by lam-ar.init.feh;
+#    sub lam-ar.medi by lam-ar.medi.feh;
+#    sub sad-ar.init by sad-ar.init.feh;
+#    sub ain-ar.init by ain-ar.init.feh;
+#    sub heh-ar.init by heh-ar.init.feh;
+#    sub kaf-ar.init by kaf-ar.init.feh;
+#    sub kaf-ar.medi by kaf-ar.medi.feh;
+#    sub behDotless-ar.medi.inT1 by behDotless-ar.medi.feh;
+#    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.feh;
+#    sub seen-ar.medi.inT2 by seen-ar.medi.feh;
+#    sub ain-ar.medi.inT3 by ain-ar.medi.feh;
+#    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.feh;
+#    sub sad-ar.medi.inD1 by sad-ar.medi.feh;
+#    sub tah-ar.medi.inD1 by tah-ar.medi.feh;
+#    sub hah-ar.medi.inD2 by hah-ar.medi.feh;
+#    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.feh;
+#    sub meem-ar.medi.inD2 by meem-ar.medi.feh;
+#    sub heh-ar.medi.inD5 by heh-ar.medi.feh;
+#} toFeh;
+#
+#lookup Extension106 {
+#    sub reh-ar.fina by reh-ar.fina.inD3;
+#    sub rehLoop-ar.fina by rehLoop-ar.fina.inD3;
+#} Extension106;
+#
+#lookup Extension154 {
+#    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.outD3;
+#    sub tah-ar.init by tah-ar.init.reh;
+#    sub hah-ar.init by hah-ar.init.outD3;
+#    sub ain-ar.init by ain-ar.init.outD3;
+#    sub heh-ar.init by heh-ar.init.outD3;
+#    sub ain-ar.medi.inT3 by ain-ar.medi.reh1;
+#    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.reh;
+#    sub tah-ar.medi.inD1 by tah-ar.medi.inD1outD3;
+#    sub hah-ar.medi.inD2 by hah-ar.medi.inD2outD3;
+#    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.inD2outD3;
+#    sub meem-ar.medi.inD2 by meem-ar.medi.inD2outD3;
+#    sub heh-ar.medi.inD5 by heh-ar.medi.inD5outD3R;
+#} Extension154;
+#
+#lookup SecondVar {
+#    sub seen-ar.fina by seen-ar.fina.2;
+#    sub ain-ar.fina by ain-ar.fina.2;
+#    sub yehbarree-ar.fina by yehbarree-ar.fina.2;
+#    sub yehbarree-ar.fina.5 by yehbarree-ar.fina.2_5;
+#    sub yehbarree-ar.fina.4 by yehbarree-ar.fina.2_4;
+#    sub yehbarree-ar.fina.3 by yehbarree-ar.fina.2_3;
+#    sub behDotless-ar.init.feh by behDotless-ar.init.fehEn;
+#    sub hehgoal-ar.init.feh by hehgoal-ar.init.fehEn;
+#} SecondVar;
+#
+#lookup toCut {
+#    sub qafDotless-ar.fina by qafDotless-ar.fina.cut;
+#    sub waw-ar.fina by waw-ar.fina.cut;
+#    sub wawStraight-ar.fina by wawStraight-ar.fina.cut;
+#} toCut;
+#
+#lookup Extension172 {
+#    sub hehgoal-ar.fina by hehgoal-ar.fina.wide;
+#    sub behDotless-ar.medi.alef by behDotless-ar.medi.alef.wide;
+#    sub behDotless-ar.medi.cain by behDotless-ar.medi.cainwide;
+#    sub behDotless-ar.medi.cainN by behDotless-ar.medi.cainNwide;
+#    sub behDotless-ar.medi.cainseen-ar by behDotless-ar.medi.cainSeenWide;
+#    sub behDotless-ar.medi.feh by behDotless-ar.medi.fehW;
+#    sub behDotless-ar.medi.sad by behDotless-ar.medi.sad;
+#    sub behDotless-ar.medi.jeem by behDotless-ar.medi.jeemwide;
+#    sub behDotless-ar.medi.jeemF by behDotless-ar.medi.jeemwide;
+#    sub behDotless-ar.medi.jeemS by behDotless-ar.medi.jeemwide;
+#    sub hehDoachashmee-ar.init.fbeh by hehDoachashmee-ar.init.fbehwide;
+#    sub hah-ar.init.jeem by hah-ar.init.jeemwide;
+#    sub hehDoachashmee-ar.medi.fbeh by hehDoachashmee-ar.medi.fbehwide;
+#    sub ain-ar.init.jeem by ain-ar.init.jeemwide;
+#    sub fehDotless-ar.init.jeem by fehDotless-ar.init.jeemwide;
+#    sub hehDoachashmee-ar.init.jeem by hehDoachashmee-ar.init.jeemwide;
+#    sub heh-ar.init.jeem by heh-ar.init.jeemwide;
+#    sub ain-ar.medi.jeem by ain-ar.medi.jeemwide;
+#    sub fehDotless-ar.medi.jeem by fehDotless-ar.medi.jeemwide;
+#    sub hah-ar.medi.jeem by hah-ar.medi.jeemwide;
+#    sub hehDoachashmee-ar.medi.jeem by hehDoachashmee-ar.medi.jeemwide;
+#} Extension172;
+#
+#lookup toWide {
+#    sub @class41' lookup Extension172;
+#    sub [hehDoachashmee-ar.init.fbeh fehDotless-ar.init.jeem hehDoachashmee-ar.init.jeem]' lookup Extension172 ybMk' @AllSpacers' lookup ReduceSpacerBy1;
+#    sub [hehDoachashmee-ar.init.fbeh fehDotless-ar.init.jeem hehDoachashmee-ar.init.jeem]' lookup Extension172;
+#    sub [hah-ar.init.jeem heh-ar.init.jeem]' lookup Extension172 ybMk' @AllSpacers' lookup ReduceSpacerBy2;
+#    sub [hah-ar.init.jeem heh-ar.init.jeem]' lookup Extension172;
+#    sub ain-ar.init.jeem' lookup Extension172 ybMk' @AllSpacers' lookup ReduceSpacerBy3;
+#    sub ain-ar.init.jeem' lookup Extension172;
+#} toWide;
+#
+#lookup toFehWQ {
+#    sub ain-ar.init by ain-ar.init.fehWQ;
+#} toFehWQ;
+#
+#lookup outD2Long {
+#    sub ain-ar.init by ain-ar.init.wawlong;
+#} outD2Long;
+#
+#lookup toTall {
+#    sub behDotless-ar.init.fbeh by behDotless-ar.init.fbehtall;
+#    sub ain-ar.init by ain-ar.init.tall;
+#} toTall;
+#
+#lookup alt {
+#    sub alefMaksura-ar.fina by alefMaksura-ar.fina.alt;
+#    sub qafDotless-ar.fina by qafDotless-ar.fina.alt;
+#    sub waw-ar.fina by waw-ar.fina.alt;
+#    sub wawStraight-ar.fina by wawStraight-ar.fina.alt;
+#} alt;
+#
 lookup toShort {
     sub madda-ar by madda-ar.short;
     sub madda-ar.short by madda-ar.shorter;
@@ -5724,128 +5726,128 @@ lookup toShort {
     sub hah-ar.init.feh by hah-ar.init.fehshort;
     sub seen-ar.medi.fbeh by seen-ar.medi.fbehshort;
 } toShort;
-
-lookup prebeh-ar.fina {
-    sub behDotless-ar.init.fbeh by behDotless-ar.init.fbeh;
-    sub meem-ar.init.fbeh by meem-ar.init.fbeh;
-} prebeh-ar.fina;
-
-lookup outD4 {
-    sub behDotless-ar.init by behDotless-ar.init.reh;
-    sub fehDotless-ar.init by fehDotless-ar.init.outD4;
-    sub lam-ar.medi by lam-ar.medi.reh;
-    sub kaf-ar.medi by kaf-ar.medi.reh;
-} outD4;
-
-lookup Extension150 {
-    sub behDotless-ar.init by behDotless-ar.init.waw;
-    sub fehDotless-ar.init by fehDotless-ar.init.waw;
-    sub behDotless-ar.medi.feh by behDotless-ar.medi.waw;
-    sub behDotless-ar.medi.feh by behDotless-ar.medi.waw;
-    sub lam-ar.medi by lam-ar.medi.waw;
-    sub ain-ar.init by ain-ar.init.fehWQ;
-    sub kaf-ar.medi by kaf-ar.medi.waw;
-    sub behDotless-ar.medi.inT1 by behDotless-ar.medi.waw;
-} Extension150;
-
-lookup inD4B {
-    sub reh-ar.fina by reh-ar.fina.inD4B;
-    sub rehLoop-ar.fina by rehLoop-ar.fina.inD4B;
-} inD4B;
-
-lookup Extension132 {
-    sub behDotless-ar.init by behDotless-ar.init.fehf;
-} Extension132;
-
-lookup toPostheh-ar {
-    sub reh-ar.fina by reh-ar.fina.postheh-ar;
-    sub rehLoop-ar.fina by rehLoop-ar.fina.postheh-ar;
-} toPostheh-ar;
-
-lookup toInD3MM {
-    sub reh-ar.fina by reh-ar.fina.meem;
-    sub rehLoop-ar.fina by rehLoop-ar.fina.meem;
-} toInD3MM;
-
-lookup Extension118 {
-    sub behDotless-ar.medi by behDotless-ar.medi.inT1;
-} Extension118;
-
-lookup Extension114 {
-    sub heh-ar.medi by heh-ar.medi.inD5;
-} Extension114;
-
-lookup Extension100 {
-    sub sad-ar.medi by sad-ar.medi.inD1;
-    sub tah-ar.medi by tah-ar.medi.inD1;
-    sub tah-ar.medi.low by tah-ar.medi.inD1;
-} Extension100;
-
-lookup Extension122 {
-    sub fehDotless-ar.medi by fehDotless-ar.medi.inT3;
-    sub ain-ar.medi by ain-ar.medi.inT3;
-} Extension122;
-
-lookup Extension160 {
-    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.kaf;
-    sub behDotless-ar.init by behDotless-ar.init.kaf;
-    sub behDotless-ar.init.alef by behDotless-ar.init.kaf;
-    sub fehDotless-ar.init by fehDotless-ar.init.kaf;
-    sub tah-ar.init by tah-ar.init.kaf;
-    sub hehgoal-ar.init by hehgoal-ar.init.kaf;
-    sub meem-ar.init by meem-ar.init.kaf;
-    sub hah-ar.init by hah-ar.init.kaf;
-    sub seen-ar.init by seen-ar.init.kaf;
-    sub lam-ar.init by lam-ar.init.kaf;
-    sub lam-ar.init.low by lam-ar.init.kaf;
-    sub lam-ar.medi by lam-ar.medi.kaf;
-    sub lam-ar.medi.low by lam-ar.medi.kaf;
-    sub tah-ar.init.low by tah-ar.init.kaf;
-    sub sad-ar.init by sad-ar.init.kaf;
-    sub ain-ar.init by ain-ar.init.kaf;
-    sub heh-ar.init by heh-ar.init.kaf;
-    sub kaf-ar.init by kaf-ar.init.kaf;
-    sub kaf-ar.medi by kaf-ar.medi.kaf;
-    sub behDotless-ar.medi.inT1 by behDotless-ar.medi.sad;
-    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.sad;
-    sub seen-ar.medi.inT2 by seen-ar.medi.kaf;
-    sub ain-ar.medi.inT3 by ain-ar.medi.kaf;
-    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.kaf;
-    sub sad-ar.medi.inD1 by sad-ar.medi.kaf;
-    sub tah-ar.medi.inD1 by tah-ar.medi.sad;
-    sub hah-ar.medi.inD2 by hah-ar.medi.kaf;
-    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.kaf;
-    sub meem-ar.medi.inD2 by meem-ar.medi.kaf;
-    sub heh-ar.medi.inD5 by heh-ar.medi.kaf;
-} Extension160;
-
-lookup Extension128 {
-    sub behDotless-ar.medi.inT1 by behDotless-ar.medi.inT1outT1;
-    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.alef;
-    sub seen-ar.medi.inT2 by seen-ar.medi.alef;
-    sub ain-ar.medi.inT3 by ain-ar.medi.alef;
-    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.alef;
-    sub sad-ar.medi.inD1 by sad-ar.medi.inD1outT1;
-    sub tah-ar.medi.inD1 by tah-ar.medi.inD1outT1;
-    sub hah-ar.medi.inD2 by hah-ar.medi.alef;
-    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.inD2outT1;
-    sub meem-ar.medi.inD2 by meem-ar.medi.alef;
-    sub heh-ar.medi.inD5 by heh-ar.medi.alef;
-} Extension128;
-
-lookup preseen-ar {
-    sub behDotless-ar.medi.cain by behDotless-ar.medi.cainseen-ar;
-} preseen-ar;
-
-lookup preHahMed2 {
-    sub behDotless-ar.medi.jeem by behDotless-ar.medi.jeemS;
-} preHahMed2;
-
-lookup prehah-ar.fina {
-    sub behDotless-ar.medi.jeem by behDotless-ar.medi.jeemF;
-} prehah-ar.fina;
-
-
+#
+#lookup prebeh-ar.fina {
+#    sub behDotless-ar.init.fbeh by behDotless-ar.init.fbeh;
+#    sub meem-ar.init.fbeh by meem-ar.init.fbeh;
+#} prebeh-ar.fina;
+#
+#lookup outD4 {
+#    sub behDotless-ar.init by behDotless-ar.init.reh;
+#    sub fehDotless-ar.init by fehDotless-ar.init.outD4;
+#    sub lam-ar.medi by lam-ar.medi.reh;
+#    sub kaf-ar.medi by kaf-ar.medi.reh;
+#} outD4;
+#
+#lookup Extension150 {
+#    sub behDotless-ar.init by behDotless-ar.init.waw;
+#    sub fehDotless-ar.init by fehDotless-ar.init.waw;
+#    sub behDotless-ar.medi.feh by behDotless-ar.medi.waw;
+#    sub behDotless-ar.medi.feh by behDotless-ar.medi.waw;
+#    sub lam-ar.medi by lam-ar.medi.waw;
+#    sub ain-ar.init by ain-ar.init.fehWQ;
+#    sub kaf-ar.medi by kaf-ar.medi.waw;
+#    sub behDotless-ar.medi.inT1 by behDotless-ar.medi.waw;
+#} Extension150;
+#
+#lookup inD4B {
+#    sub reh-ar.fina by reh-ar.fina.inD4B;
+#    sub rehLoop-ar.fina by rehLoop-ar.fina.inD4B;
+#} inD4B;
+#
+#lookup Extension132 {
+#    sub behDotless-ar.init by behDotless-ar.init.fehf;
+#} Extension132;
+#
+#lookup toPostheh-ar {
+#    sub reh-ar.fina by reh-ar.fina.postheh-ar;
+#    sub rehLoop-ar.fina by rehLoop-ar.fina.postheh-ar;
+#} toPostheh-ar;
+#
+#lookup toInD3MM {
+#    sub reh-ar.fina by reh-ar.fina.meem;
+#    sub rehLoop-ar.fina by rehLoop-ar.fina.meem;
+#} toInD3MM;
+#
+#lookup Extension118 {
+#    sub behDotless-ar.medi by behDotless-ar.medi.inT1;
+#} Extension118;
+#
+#lookup Extension114 {
+#    sub heh-ar.medi by heh-ar.medi.inD5;
+#} Extension114;
+#
+#lookup Extension100 {
+#    sub sad-ar.medi by sad-ar.medi.inD1;
+#    sub tah-ar.medi by tah-ar.medi.inD1;
+#    sub tah-ar.medi.low by tah-ar.medi.inD1;
+#} Extension100;
+#
+#lookup Extension122 {
+#    sub fehDotless-ar.medi by fehDotless-ar.medi.inT3;
+#    sub ain-ar.medi by ain-ar.medi.inT3;
+#} Extension122;
+#
+#lookup Extension160 {
+#    sub hehDoachashmee-ar.init by hehDoachashmee-ar.init.kaf;
+#    sub behDotless-ar.init by behDotless-ar.init.kaf;
+#    sub behDotless-ar.init.alef by behDotless-ar.init.kaf;
+#    sub fehDotless-ar.init by fehDotless-ar.init.kaf;
+#    sub tah-ar.init by tah-ar.init.kaf;
+#    sub hehgoal-ar.init by hehgoal-ar.init.kaf;
+#    sub meem-ar.init by meem-ar.init.kaf;
+#    sub hah-ar.init by hah-ar.init.kaf;
+#    sub seen-ar.init by seen-ar.init.kaf;
+#    sub lam-ar.init by lam-ar.init.kaf;
+#    sub lam-ar.init.low by lam-ar.init.kaf;
+#    sub lam-ar.medi by lam-ar.medi.kaf;
+#    sub lam-ar.medi.low by lam-ar.medi.kaf;
+#    sub tah-ar.init.low by tah-ar.init.kaf;
+#    sub sad-ar.init by sad-ar.init.kaf;
+#    sub ain-ar.init by ain-ar.init.kaf;
+#    sub heh-ar.init by heh-ar.init.kaf;
+#    sub kaf-ar.init by kaf-ar.init.kaf;
+#    sub kaf-ar.medi by kaf-ar.medi.kaf;
+#    sub behDotless-ar.medi.inT1 by behDotless-ar.medi.sad;
+#    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.sad;
+#    sub seen-ar.medi.inT2 by seen-ar.medi.kaf;
+#    sub ain-ar.medi.inT3 by ain-ar.medi.kaf;
+#    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.kaf;
+#    sub sad-ar.medi.inD1 by sad-ar.medi.kaf;
+#    sub tah-ar.medi.inD1 by tah-ar.medi.sad;
+#    sub hah-ar.medi.inD2 by hah-ar.medi.kaf;
+#    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.kaf;
+#    sub meem-ar.medi.inD2 by meem-ar.medi.kaf;
+#    sub heh-ar.medi.inD5 by heh-ar.medi.kaf;
+#} Extension160;
+#
+#lookup Extension128 {
+#    sub behDotless-ar.medi.inT1 by behDotless-ar.medi.inT1outT1;
+#    sub behDotless-ar.medi.inT2 by behDotless-ar.medi.alef;
+#    sub seen-ar.medi.inT2 by seen-ar.medi.alef;
+#    sub ain-ar.medi.inT3 by ain-ar.medi.alef;
+#    sub fehDotless-ar.medi.inT3 by fehDotless-ar.medi.alef;
+#    sub sad-ar.medi.inD1 by sad-ar.medi.inD1outT1;
+#    sub tah-ar.medi.inD1 by tah-ar.medi.inD1outT1;
+#    sub hah-ar.medi.inD2 by hah-ar.medi.alef;
+#    sub hehDoachashmee-ar.medi.inD2 by hehDoachashmee-ar.medi.inD2outT1;
+#    sub meem-ar.medi.inD2 by meem-ar.medi.alef;
+#    sub heh-ar.medi.inD5 by heh-ar.medi.alef;
+#} Extension128;
+#
+#lookup preseen-ar {
+#    sub behDotless-ar.medi.cain by behDotless-ar.medi.cainseen-ar;
+#} preseen-ar;
+#
+#lookup preHahMed2 {
+#    sub behDotless-ar.medi.jeem by behDotless-ar.medi.jeemS;
+#} preHahMed2;
+#
+#lookup prehah-ar.fina {
+#    sub behDotless-ar.medi.jeem by behDotless-ar.medi.jeemF;
+#} prehah-ar.fina;
+#
+#
 ";
 name = "Routines for conversion";
 },
@@ -5882,67 +5884,67 @@ code = "lookup PreToothless {
 name = "Select init/medi forms before toothless seen";
 },
 {
-code = "lookup Toothless_A {
-    sub seen-ar.init.fbeh by seen-ar.init.SWhehDoachashmee-ar.medi.kaf;
-    sub seen-ar.medi.fbeh by seen-ar.medi.seen;
-} Toothless_A;
-
-lookup Toothless_B {
-    sub seen-ar.medi.fbeh by seen-ar.medi.seen.B;
-} Toothless_B;
-
-lookup Toothless_C {
-    sub seen-ar.medi.fbeh by seen-ar.medi.seen.C;
-} Toothless_C;
-
-lookup Toothless_D {
-    sub seen-ar.medi.fbeh by seen-ar.medi.seen.D;
-} Toothless_D;
-
-lookup Toothless_F {
-    sub seen-ar.medi.fbeh by seen-ar.medi.seen.F;
-} Toothless_F;
-
-lookup Toothless_FF {
-    sub seen-ar.medi.fbeh by seen-ar.medi.seen.FF;
-} Toothless_FF;
-
-lookup Toothless_G {
-    sub seen-ar.medi.fbeh by seen-ar.medi.seen.G;
-} Toothless_G;
+code = "#lookup Toothless_A {
+#    sub seen-ar.init.fbeh by seen-ar.init.SWhehDoachashmee-ar.medi.kaf;
+#    sub seen-ar.medi.fbeh by seen-ar.medi.seen;
+#} Toothless_A;
+#
+#lookup Toothless_B {
+#    sub seen-ar.medi.fbeh by seen-ar.medi.seen.B;
+#} Toothless_B;
+#
+#lookup Toothless_C {
+#    sub seen-ar.medi.fbeh by seen-ar.medi.seen.C;
+#} Toothless_C;
+#
+#lookup Toothless_D {
+#    sub seen-ar.medi.fbeh by seen-ar.medi.seen.D;
+#} Toothless_D;
+#
+#lookup Toothless_F {
+#    sub seen-ar.medi.fbeh by seen-ar.medi.seen.F;
+#} Toothless_F;
+#
+#lookup Toothless_FF {
+#    sub seen-ar.medi.fbeh by seen-ar.medi.seen.FF;
+#} Toothless_FF;
+#
+#lookup Toothless_G {
+#    sub seen-ar.medi.fbeh by seen-ar.medi.seen.G;
+#} Toothless_G;
 ";
 name = "Toothless medial seen-ar selection";
 },
 {
-code = "lookup RefineStage2 {
-    lookupflag IgnoreMarks;
-    ;
-    sub seen-ar.init.fbeh' lookup Toothless_A @SeenMeds [@SeenMeds seen-ar.fina];
-    sub [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_B [@SeenMeds seen-ar.fina];
-    sub seen-ar.init.fbeh' lookup Toothless_A @SeenMeds;
-    sub [behDotless-ar.init.fbehtall behDotless-ar.medi.fbeh kaf-ar.init.fbeh kaf-ar.medi.fbeh lam-ar.init.fbeh lam-ar.medi.fbeh]' [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_A @SeenMeds;
-    sub [behDotless-ar.init.fbehtall behDotless-ar.medi.fbeh kaf-ar.init.fbeh kaf-ar.medi.fbeh lam-ar.init.fbeh lam-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_A @SeenMeds;
-    sub [sad-ar.init.fbeh hah-ar.init.fbeh ain-ar.init.fbeh hah-ar.medi.ain sad-ar.medi.inD1hehDoachashmee-ar.medi.kaf]' [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_B @SeenMeds;
-    sub [sad-ar.init.fbeh hah-ar.init.fbeh ain-ar.init.fbeh hah-ar.medi.ain sad-ar.medi.inD1hehDoachashmee-ar.medi.kaf]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_B @SeenMeds;
-    sub [hehgoal-ar.init.fbeh meem-ar.init.fbeh heh-ar.medi.fbeh meem-ar.medi.fbeh]' [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_C @SeenMeds;
-    sub [hehgoal-ar.init.fbeh meem-ar.init.fbeh heh-ar.medi.fbeh meem-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_C @SeenMeds;
-    sub [tah-ar.init.fbeh hehDoachashmee-ar.init.fbeh hehDoachashmee-ar.medi.fbeh tah-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_D @SeenMeds;
-    sub [fehDotless-ar.medi.fbeh heh-ar.init.fbeh]' [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_F @SeenMeds;
-    sub [fehDotless-ar.medi.fbeh heh-ar.init.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_F @SeenMeds;
-    sub fehDotless-ar.init.fbeh' [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_FF @SeenMeds;
-    sub fehDotless-ar.init.fbeh' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_FF @SeenMeds;
-    sub ain-ar.medi.ain' [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_G @SeenMeds;
-    sub ain-ar.medi.ain' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_G @SeenMeds;
-    sub behDotless-ar.medi.jeem' lookup prehah-ar.fina hah-ar.fina;
-    sub behDotless-ar.medi.jeem' lookup preHahMed2 [hah-ar.medi.sad hah-ar.medi.kaf hah-ar.medi.inD2outD2 hah-ar.medi.doheh hah-ar.medi.jeem hah-ar.medi.meem hah-ar.medi.yeh hah-ar.medi.bari hah-ar.medi.inD2outD3 hah-ar.medi..heh hah-ar.medi.inD2outS1 hah-ar.medi.alef hah-ar.medi.ain hah-ar.medi.feh] hah-ar.fina;
-    sub behDotless-ar.medi.jeem' lookup preHahMed2 [hah-ar.medi.sad hah-ar.medi.kaf hah-ar.medi.inD2outD2 hah-ar.medi.doheh hah-ar.medi.jeem hah-ar.medi.meem hah-ar.medi.yeh hah-ar.medi.bari hah-ar.medi.inD2outD3 hah-ar.medi..heh hah-ar.medi.inD2outS1 hah-ar.medi.alef hah-ar.medi.ain hah-ar.medi.feh] [hah-ar.medi.sad hah-ar.medi.kaf hah-ar.medi.inD2outD2 hah-ar.medi.doheh hah-ar.medi.jeem hah-ar.medi.meem hah-ar.medi.yeh hah-ar.medi.bari hah-ar.medi.inD2outD3 hah-ar.medi..heh hah-ar.medi.inD2outS1 hah-ar.medi.alef hah-ar.medi.ain hah-ar.medi.feh];
-    sub behDotless-ar.medi.cain' [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_A @SeenMeds;
-    sub behDotless-ar.medi.cain' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_A @SeenMeds;
-    sub @class562 behDotless-ar.medi.cain' lookup preseen-ar lookup toWide @SeenMeds;
-    sub @class562 behDotless-ar.medi.cain' lookup toWide;
-    sub behDotless-ar.medi.cain' lookup preseen-ar @SeenMeds;
-    sub @class562 behDotless-ar.medi.cainN' lookup toWide;
-} RefineStage2;
+code = "#lookup RefineStage2 {
+#    lookupflag IgnoreMarks;
+#    ;
+#    sub seen-ar.init.fbeh' lookup Toothless_A @SeenMeds [@SeenMeds seen-ar.fina];
+#    sub [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_B [@SeenMeds seen-ar.fina];
+#    sub seen-ar.init.fbeh' lookup Toothless_A @SeenMeds;
+#    sub [behDotless-ar.init.fbehtall behDotless-ar.medi.fbeh kaf-ar.init.fbeh kaf-ar.medi.fbeh lam-ar.init.fbeh lam-ar.medi.fbeh]' [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_A @SeenMeds;
+#    sub [behDotless-ar.init.fbehtall behDotless-ar.medi.fbeh kaf-ar.init.fbeh kaf-ar.medi.fbeh lam-ar.init.fbeh lam-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_A @SeenMeds;
+#    sub [sad-ar.init.fbeh hah-ar.init.fbeh ain-ar.init.fbeh hah-ar.medi.ain sad-ar.medi.inD1hehDoachashmee-ar.medi.kaf]' [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_B @SeenMeds;
+#    sub [sad-ar.init.fbeh hah-ar.init.fbeh ain-ar.init.fbeh hah-ar.medi.ain sad-ar.medi.inD1hehDoachashmee-ar.medi.kaf]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_B @SeenMeds;
+#    sub [hehgoal-ar.init.fbeh meem-ar.init.fbeh heh-ar.medi.fbeh meem-ar.medi.fbeh]' [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_C @SeenMeds;
+#    sub [hehgoal-ar.init.fbeh meem-ar.init.fbeh heh-ar.medi.fbeh meem-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_C @SeenMeds;
+#    sub [tah-ar.init.fbeh hehDoachashmee-ar.init.fbeh hehDoachashmee-ar.medi.fbeh tah-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_D @SeenMeds;
+#    sub [fehDotless-ar.medi.fbeh heh-ar.init.fbeh]' [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_F @SeenMeds;
+#    sub [fehDotless-ar.medi.fbeh heh-ar.init.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_F @SeenMeds;
+#    sub fehDotless-ar.init.fbeh' [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_FF @SeenMeds;
+#    sub fehDotless-ar.init.fbeh' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_FF @SeenMeds;
+#    sub ain-ar.medi.ain' [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_G @SeenMeds;
+#    sub ain-ar.medi.ain' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_G @SeenMeds;
+#    sub behDotless-ar.medi.jeem' lookup prehah-ar.fina hah-ar.fina;
+#    sub behDotless-ar.medi.jeem' lookup preHahMed2 [hah-ar.medi.sad hah-ar.medi.kaf hah-ar.medi.inD2outD2 hah-ar.medi.doheh hah-ar.medi.jeem hah-ar.medi.meem hah-ar.medi.yeh hah-ar.medi.bari hah-ar.medi.inD2outD3 hah-ar.medi..heh hah-ar.medi.inD2outS1 hah-ar.medi.alef hah-ar.medi.ain hah-ar.medi.feh] hah-ar.fina;
+#    sub behDotless-ar.medi.jeem' lookup preHahMed2 [hah-ar.medi.sad hah-ar.medi.kaf hah-ar.medi.inD2outD2 hah-ar.medi.doheh hah-ar.medi.jeem hah-ar.medi.meem hah-ar.medi.yeh hah-ar.medi.bari hah-ar.medi.inD2outD3 hah-ar.medi..heh hah-ar.medi.inD2outS1 hah-ar.medi.alef hah-ar.medi.ain hah-ar.medi.feh] [hah-ar.medi.sad hah-ar.medi.kaf hah-ar.medi.inD2outD2 hah-ar.medi.doheh hah-ar.medi.jeem hah-ar.medi.meem hah-ar.medi.yeh hah-ar.medi.bari hah-ar.medi.inD2outD3 hah-ar.medi..heh hah-ar.medi.inD2outS1 hah-ar.medi.alef hah-ar.medi.ain hah-ar.medi.feh];
+#    sub behDotless-ar.medi.cain' [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_A @SeenMeds;
+#    sub behDotless-ar.medi.cain' lookup PreToothless [seen-ar.init.fbeh seen-ar.medi.fbeh]' lookup Toothless_A @SeenMeds;
+#    sub @class562 behDotless-ar.medi.cain' lookup preseen-ar lookup toWide @SeenMeds;
+#    sub @class562 behDotless-ar.medi.cain' lookup toWide;
+#    sub behDotless-ar.medi.cain' lookup preseen-ar @SeenMeds;
+#    sub @class562 behDotless-ar.medi.cainN' lookup toWide;
+#} RefineStage2;
 ";
 name = "Select toothless medial seen";
 },
