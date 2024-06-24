@@ -8,14 +8,14 @@ anchors = (
 name = "*bottom.alt";
 pos = (231,-260);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; behDotless-ar.init.outD11 @class9299 *";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; behDotless-ar.init.kaf @class9299 *";
 };
 },
 {
 name = "*bottom.alt2";
 pos = (231,-260);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; behDotless-ar.init.outD11 @class9299 @class9299 *";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; behDotless-ar.init.kaf @class9299 @class9299 *";
 };
 },
 {
@@ -136,14 +136,14 @@ anchors = (
 name = "*bottom.alt";
 pos = (81,-416);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; behDotless-ar.init.outD11 @class9299 *";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; behDotless-ar.init.kaf @class9299 *";
 };
 },
 {
 name = "*bottom.alt2";
 pos = (81,-416);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; behDotless-ar.init.outD11 @class9299 @class9299 *";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; behDotless-ar.init.kaf @class9299 @class9299 *";
 };
 },
 {

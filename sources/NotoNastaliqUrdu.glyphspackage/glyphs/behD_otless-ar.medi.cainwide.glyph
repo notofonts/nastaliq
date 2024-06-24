@@ -1,0 +1,210 @@
+{
+glyphname = "behDotless-ar.medi.cainwide";
+layers = (
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (266,-374);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @class9298 @class9299 ";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (266,-374);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @class9298 @class9299 @class9299 ";
+};
+},
+{
+name = "*bottom.alt3";
+pos = (266,-374);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @class9279 @class9259";
+};
+},
+{
+name = "*bottom.alt4";
+pos = (266,-374);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @class9258 @class9279 @class9259";
+};
+},
+{
+name = Bar;
+pos = (175,73);
+},
+{
+name = Ring;
+pos = (175,73);
+},
+{
+name = bottom;
+pos = (166,-232);
+},
+{
+name = entry;
+pos = (304,93);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (185,777);
+},
+{
+name = top.alt;
+pos = (150,876);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(80,0,o),
+(125,79,o),
+(150,179,c),
+(175,122,o),
+(227,93,o),
+(304,93,cs),
+(343,93,o),
+(398,122,o),
+(398,217,cs),
+(398,286,o),
+(383,321,o),
+(354,321,cs),
+(270,321,o),
+(227,357,o),
+(227,421,cs),
+(227,439,o),
+(228,452,o),
+(232,471,c),
+(207,476,l),
+(178,428,o),
+(161,377,o),
+(133,252,c),
+(131,241,o),
+(108,213,o),
+(96,206,cs),
+(77,195,o),
+(62,190,o),
+(34,190,cs),
+(-20,190,o),
+(-40,137,o),
+(-40,79,cs),
+(-40,26,o),
+(-27,0,o),
+(0,0,cs)
+);
+}
+);
+width = 304;
+},
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (263,-425);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @class9298 @class9299 ";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (263,-425);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @class9298 @class9299 @class9299 ";
+};
+},
+{
+name = "*bottom.alt3";
+pos = (263,-425);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @class9279 @class9259";
+};
+},
+{
+name = "*bottom.alt4";
+pos = (263,-425);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @class9258 @class9279 @class9259";
+};
+},
+{
+name = Bar;
+pos = (151,63);
+},
+{
+name = Ring;
+pos = (151,63);
+},
+{
+name = bottom;
+pos = (166,-232);
+},
+{
+name = entry;
+pos = (226,96);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (115,676);
+},
+{
+name = top.alt;
+pos = (80,775);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(72,0,o),
+(109,78,o),
+(122,146,c),
+(146,109,o),
+(182,97,o),
+(227,97,cs),
+(265,97,o),
+(320,121,o),
+(320,198,cs),
+(320,227,o),
+(309,255,o),
+(277,255,cs),
+(223,255,o),
+(160,278,o),
+(160,360,cs),
+(160,371,o),
+(162,387,o),
+(166,403,c),
+(145,408,l),
+(127,375,o),
+(99,283,o),
+(99,235,cs),
+(99,218,o),
+(101,203,o),
+(104,188,c),
+(94,134,o),
+(63,106,o),
+(33,106,cs),
+(5,106,o),
+(-29,82,o),
+(-29,39,cs),
+(-29,11,o),
+(-11,0,o),
+(0,0,cs)
+);
+}
+);
+width = 227;
+}
+);
+note = "behDotless-ar.medi.cainwide";
+}

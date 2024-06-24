@@ -1,0 +1,152 @@
+{
+glyphname = "behDotless-ar.init.behf";
+layers = (
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (237,-112);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9279 @class9259";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (237,-112);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 @class9279 @class9259";
+};
+},
+{
+name = "*top.alt";
+pos = (207,643);
+userData = {
+GPOS_Context = "lookupflag MarkAttachmentType @AllAboveMarks; * @class8927 @AllMarks";
+};
+},
+{
+name = "*top.alt2";
+pos = (208,641);
+userData = {
+GPOS_Context = "lookupflag MarkAttachmentType @AllAboveMarks; * @AllAboveMarks @class8927 @AllMarks";
+};
+},
+{
+name = Bar;
+pos = (101,-19);
+},
+{
+name = Ring;
+pos = (101,-19);
+},
+{
+name = bottom;
+pos = (101,-230);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (116,469);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(78,0,o),
+(140,66,o),
+(164,250,c),
+(136,256,l),
+(113,204,o),
+(80,190,o),
+(34,190,cs),
+(-12,190,o),
+(-45,167,o),
+(-45,101,cs),
+(-45,32,o),
+(-24,0,o),
+(0,0,cs)
+);
+}
+);
+width = 179;
+},
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (232,-162);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9279 @class9259";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (232,-162);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 @class9279 @class9259";
+};
+},
+{
+name = "*top.alt";
+pos = (206,532);
+userData = {
+GPOS_Context = "lookupflag MarkAttachmentType @AllAboveMarks; * @class8927 @AllMarks";
+};
+},
+{
+name = "*top.alt2";
+pos = (208,531);
+userData = {
+GPOS_Context = "lookupflag MarkAttachmentType @AllAboveMarks; * @AllAboveMarks @class8927 @AllMarks";
+};
+},
+{
+name = Bar;
+pos = (87,-14);
+},
+{
+name = Ring;
+pos = (87,-14);
+},
+{
+name = bottom;
+pos = (127,-250);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (101,400);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(55,0,o),
+(105,40,o),
+(131,151,c),
+(110,155,l),
+(93,121,o),
+(73,106,o),
+(33,106,cs),
+(2,106,o),
+(-29,80,o),
+(-29,39,cs),
+(-29,11,o),
+(-11,0,o),
+(0,0,cs)
+);
+}
+);
+width = 156;
+}
+);
+note = "behDotless-ar.init.behf";
+}
