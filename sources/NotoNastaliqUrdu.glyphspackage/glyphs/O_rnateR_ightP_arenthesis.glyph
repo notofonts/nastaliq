@@ -750,6 +750,5 @@ nodes = (
 width = 1272;
 }
 );
-note = OrnateRightParenthesis;
 unicode = 64831;
 }

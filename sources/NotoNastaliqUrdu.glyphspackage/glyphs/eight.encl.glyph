@@ -173,6 +173,5 @@ nodes = (
 width = 0;
 }
 );
-note = eight.encl;
 subCategory = Nonspacing;
 }

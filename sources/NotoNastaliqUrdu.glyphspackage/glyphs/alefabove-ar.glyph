@@ -83,7 +83,6 @@ nodes = (
 width = 0;
 }
 );
-note = "alefabove-ar";
 subCategory = Nonspacing;
 unicode = 1648;
 }

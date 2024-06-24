@@ -130,5 +130,4 @@ nodes = (
 width = 365;
 }
 );
-note = "lam-ar.init.HRlow";
 }

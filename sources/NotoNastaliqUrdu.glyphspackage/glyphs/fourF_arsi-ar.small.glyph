@@ -159,6 +159,5 @@ nodes = (
 width = 0;
 }
 );
-note = "fourFarsi-ar.small";
 subCategory = Nonspacing;
 }

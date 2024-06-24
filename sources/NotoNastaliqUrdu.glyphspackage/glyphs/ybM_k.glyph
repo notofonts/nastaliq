@@ -49,6 +49,5 @@ nodes = (
 width = 0;
 }
 );
-note = ybMk;
 subCategory = Nonspacing;
 }

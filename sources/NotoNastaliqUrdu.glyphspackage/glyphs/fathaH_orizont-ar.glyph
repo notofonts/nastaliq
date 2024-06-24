@@ -89,7 +89,6 @@ nodes = (
 width = 0;
 }
 );
-note = "fathaHorizont-ar";
 subCategory = Nonspacing;
 unicode = 1625;
 }

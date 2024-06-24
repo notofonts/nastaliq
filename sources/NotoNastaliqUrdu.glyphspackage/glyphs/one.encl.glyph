@@ -73,6 +73,5 @@ nodes = (
 width = 0;
 }
 );
-note = one.encl;
 subCategory = Nonspacing;
 }

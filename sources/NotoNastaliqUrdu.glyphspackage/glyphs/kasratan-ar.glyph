@@ -157,7 +157,6 @@ ref = "fatha-ar";
 width = 0;
 }
 );
-note = "kasratan-ar";
 subCategory = Nonspacing;
 unicode = 1613;
 }

@@ -125,7 +125,6 @@ nodes = (
 width = 0;
 }
 );
-note = "hamzabelow-ar";
 subCategory = Nonspacing;
 unicode = 1621;
 }

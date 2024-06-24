@@ -156,7 +156,6 @@ ref = "fatha-ar";
 width = 0;
 }
 );
-note = "fathatan-ar";
 subCategory = Nonspacing;
 unicode = 1611;
 }

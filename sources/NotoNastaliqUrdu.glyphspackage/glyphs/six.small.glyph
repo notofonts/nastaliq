@@ -141,6 +141,5 @@ nodes = (
 width = 0;
 }
 );
-note = six.small;
 subCategory = Nonspacing;
 }

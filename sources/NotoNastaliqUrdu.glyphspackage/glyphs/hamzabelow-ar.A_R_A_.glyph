@@ -133,6 +133,5 @@ nodes = (
 width = 0;
 }
 );
-note = "hamzabelow-ar.ARA";
 subCategory = Nonspacing;
 }

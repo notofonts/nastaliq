@@ -103,6 +103,5 @@ nodes = (
 width = 0;
 }
 );
-note = zero.encl;
 subCategory = Nonspacing;
 }

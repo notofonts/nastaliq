@@ -149,6 +149,5 @@ nodes = (
 width = 0;
 }
 );
-note = SevenSmallDotNS;
 subCategory = Nonspacing;
 }

@@ -41,6 +41,5 @@ ref = "samvat-ar";
 width = 2655;
 }
 );
-note = "samvat-ar.alt2";
 subCategory = Ligature;
 }

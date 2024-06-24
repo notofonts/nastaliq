@@ -155,7 +155,6 @@ ref = "damma-ar";
 width = 0;
 }
 );
-note = "damma-ar";
 subCategory = Nonspacing;
 unicode = 2302;
 }

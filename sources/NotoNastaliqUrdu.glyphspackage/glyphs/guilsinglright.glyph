@@ -58,6 +58,5 @@ nodes = (
 width = 305;
 }
 );
-note = guilsinglright;
 unicode = 8250;
 }

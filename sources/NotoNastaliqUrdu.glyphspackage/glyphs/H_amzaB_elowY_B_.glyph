@@ -84,6 +84,5 @@ ref = "hamzabelow-ar";
 width = 0;
 }
 );
-note = HamzaBelowYB;
 subCategory = Nonspacing;
 }

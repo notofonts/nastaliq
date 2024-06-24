@@ -228,6 +228,5 @@ ref = "twodotshorizontalcenter_tahabove-ar";
 width = 0;
 }
 );
-note = "twodotshorizontalbelow_tahabove-ar";
 subCategory = Nonspacing;
 }

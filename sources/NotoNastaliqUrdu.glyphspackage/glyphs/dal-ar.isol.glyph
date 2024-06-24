@@ -100,5 +100,4 @@ nodes = (
 width = 300;
 }
 );
-note = "dal-ar.isol";
 }

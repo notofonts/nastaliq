@@ -163,6 +163,5 @@ nodes = (
 width = 0;
 }
 );
-note = "tahbelow-ar";
 subCategory = Nonspacing;
 }

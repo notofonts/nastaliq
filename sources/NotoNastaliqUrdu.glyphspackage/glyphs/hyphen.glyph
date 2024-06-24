@@ -32,6 +32,5 @@ nodes = (
 width = 473;
 }
 );
-note = hyphen;
 unicode = 45;
 }

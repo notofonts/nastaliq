@@ -292,6 +292,5 @@ nodes = (
 width = 525;
 }
 );
-note = "asterisk-ar";
 unicode = 1645;
 }

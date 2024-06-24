@@ -110,6 +110,5 @@ nodes = (
 width = 567;
 }
 );
-note = "fourFarsi-ar.urdu";
 unicode = 1780;
 }

@@ -94,6 +94,5 @@ nodes = (
 width = 317;
 }
 );
-note = colon;
 unicode = 58;
 }

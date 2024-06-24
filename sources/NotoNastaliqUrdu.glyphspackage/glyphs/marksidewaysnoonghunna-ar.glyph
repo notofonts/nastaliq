@@ -93,7 +93,6 @@ nodes = (
 width = 0;
 }
 );
-note = "marksidewaysnoonghunna-ar";
 subCategory = Nonspacing;
 unicode = 2303;
 }

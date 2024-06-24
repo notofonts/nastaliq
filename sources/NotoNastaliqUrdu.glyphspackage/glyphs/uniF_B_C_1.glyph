@@ -38,6 +38,5 @@ ref = "tahbelow-ar";
 width = 325;
 }
 );
-note = uniFBC1;
 unicode = 64449;
 }

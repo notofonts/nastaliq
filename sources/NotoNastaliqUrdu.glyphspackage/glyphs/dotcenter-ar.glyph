@@ -67,6 +67,5 @@ nodes = (
 width = 0;
 }
 );
-note = "dotcenter-ar";
 subCategory = Nonspacing;
 }

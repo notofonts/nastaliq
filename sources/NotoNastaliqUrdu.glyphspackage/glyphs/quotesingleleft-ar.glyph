@@ -70,6 +70,5 @@ nodes = (
 width = 307;
 }
 );
-note = "quotesingleleft-ar";
 unicode = 8216;
 }

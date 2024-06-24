@@ -134,6 +134,5 @@ nodes = (
 width = 514;
 }
 );
-note = ThreeDotPunct;
 unicode = 1566;
 }

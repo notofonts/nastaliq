@@ -291,6 +291,5 @@ nodes = (
 width = 0;
 }
 );
-note = "twodotshorizontalcenter_tahabove-ar";
 subCategory = Nonspacing;
 }

@@ -88,6 +88,5 @@ nodes = (
 width = 366;
 }
 );
-note = comma;
 unicode = 44;
 }

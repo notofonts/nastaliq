@@ -50,6 +50,5 @@ ref = "quotesingleleft-ar";
 width = 526;
 }
 );
-note = quotedblleft;
 unicode = 8220;
 }

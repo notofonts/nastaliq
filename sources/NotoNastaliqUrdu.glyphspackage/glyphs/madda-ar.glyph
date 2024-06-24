@@ -93,7 +93,6 @@ nodes = (
 width = 0;
 }
 );
-note = "madda-ar";
 subCategory = Nonspacing;
 unicode = 1619;
 }

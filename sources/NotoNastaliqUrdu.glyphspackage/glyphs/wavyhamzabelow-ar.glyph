@@ -141,7 +141,6 @@ nodes = (
 width = 0;
 }
 );
-note = "wavyhamzabelow-ar";
 subCategory = Nonspacing;
 unicode = 1631;
 }

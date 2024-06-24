@@ -121,7 +121,6 @@ nodes = (
 width = 0;
 }
 );
-note = "damma-ar";
 subCategory = Nonspacing;
 unicode = 1615;
 }

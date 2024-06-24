@@ -93,6 +93,5 @@ nodes = (
 width = 0;
 }
 );
-note = "noonghunnaabove-ar.KSH";
 subCategory = Nonspacing;
 }

@@ -132,6 +132,5 @@ nodes = (
 width = 380;
 }
 );
-note = braceright;
 unicode = 125;
 }

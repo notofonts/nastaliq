@@ -91,6 +91,5 @@ nodes = (
 width = 0;
 }
 );
-note = hehgoal_comma.yb;
 subCategory = Nonspacing;
 }

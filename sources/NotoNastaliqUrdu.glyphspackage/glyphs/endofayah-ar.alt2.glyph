@@ -609,6 +609,5 @@ nodes = (
 width = 1724;
 }
 );
-note = "endofayah-ar.alt2";
 subCategory = Ligature;
 }

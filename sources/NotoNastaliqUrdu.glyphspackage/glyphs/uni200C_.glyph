@@ -32,6 +32,5 @@ nodes = (
 width = 0;
 }
 );
-note = uni200C;
 unicode = 8204;
 }

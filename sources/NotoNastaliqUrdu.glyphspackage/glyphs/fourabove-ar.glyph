@@ -141,6 +141,5 @@ nodes = (
 width = 0;
 }
 );
-note = "fourabove-ar";
 subCategory = Nonspacing;
 }

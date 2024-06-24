@@ -111,7 +111,6 @@ nodes = (
 width = 0;
 }
 );
-note = "sukunoval-ar";
 subCategory = Nonspacing;
 unicode = 1760;
 }

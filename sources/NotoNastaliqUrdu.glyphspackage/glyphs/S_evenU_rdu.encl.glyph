@@ -115,6 +115,5 @@ nodes = (
 width = 0;
 }
 );
-note = SevenUrdu.encl;
 subCategory = Nonspacing;
 }

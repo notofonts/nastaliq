@@ -156,5 +156,4 @@ nodes = (
 width = 255;
 }
 );
-note = "behDotless-ar.medi.inT1outT1";
 }

@@ -11,7 +11,6 @@ layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
 width = 851;
 }
 );
-note = "lam-ar.isol";
 script = arabic;
 unicode = 2247;
 }

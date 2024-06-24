@@ -109,7 +109,6 @@ nodes = (
 width = 0;
 }
 );
-note = SevenSmallNS;
 subCategory = Nonspacing;
 unicode = 1626;
 }

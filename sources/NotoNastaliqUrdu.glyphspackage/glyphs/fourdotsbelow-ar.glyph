@@ -243,6 +243,5 @@ nodes = (
 width = 0;
 }
 );
-note = "fourdotsbelow-ar";
 subCategory = Nonspacing;
 }

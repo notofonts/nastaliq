@@ -127,6 +127,5 @@ nodes = (
 width = 0;
 }
 );
-note = "kasratan-ar.yb";
 subCategory = Nonspacing;
 }

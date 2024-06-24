@@ -41,6 +41,5 @@ ref = "hamzabelow-ar.ARA";
 width = 0;
 }
 );
-note = HamzaBelowAF_YB;
 subCategory = Nonspacing;
 }

@@ -145,6 +145,5 @@ nodes = (
 width = 0;
 }
 );
-note = "sixFarsi-ar.small";
 subCategory = Nonspacing;
 }

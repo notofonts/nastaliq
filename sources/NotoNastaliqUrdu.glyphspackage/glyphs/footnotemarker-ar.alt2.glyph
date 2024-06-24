@@ -139,6 +139,5 @@ nodes = (
 width = 2045;
 }
 );
-note = "footnotemarker-ar.alt2";
 subCategory = Ligature;
 }

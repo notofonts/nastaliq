@@ -81,6 +81,5 @@ nodes = (
 width = 0;
 }
 );
-note = "zero-ar.encl";
 subCategory = Nonspacing;
 }

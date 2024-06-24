@@ -1,0 +1,195 @@
+{
+glyphname = "hah-ar.medi.yeh";
+layers = (
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (384,-422);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @class9298 @class9299 * alefMaksura-ar.fina";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (384,-422);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @class9298 @class9299 @class9299 * alefMaksura-ar.fina";
+};
+},
+{
+name = bottom;
+pos = (411,-130);
+},
+{
+name = entry;
+pos = (135,382);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (121,679);
+},
+{
+name = top.alt;
+pos = (81,745);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(20,-46,o),
+(36,-36,o),
+(48,-18,cs),
+(79,30,o),
+(129,63,o),
+(208,89,cs),
+(286,115,o),
+(351,141,o),
+(403,168,cs),
+(455,195,o),
+(495,241,o),
+(524,305,cs),
+(525,308,o),
+(527,311,o),
+(528,314,c),
+(526,329,l),
+(460,369,o),
+(296,383,o),
+(200,383,cs),
+(185,383,l),
+(185,388,ls),
+(185,399,o),
+(171,403,o),
+(163,403,cs),
+(148,403,o),
+(131,382,o),
+(113,340,cs),
+(95,298,o),
+(83,265,o),
+(78,241,c),
+(84,227,l),
+(98,227,o),
+(115,227,o),
+(132,226,cs),
+(207,223,o),
+(304,214,o),
+(361,201,c),
+(330,194,o),
+(268,172,o),
+(211,150,cs),
+(120,115,o),
+(77,91,o),
+(37,48,cs),
+(6,15,o),
+(-10,-12,o),
+(-10,-31,cs),
+(-10,-43,o),
+(-3,-46,o),
+(2,-46,cs)
+);
+}
+);
+width = 135;
+},
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (343,-403);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @class9298 @class9299 * alefMaksura-ar.fina";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (343,-403);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @class9298 @class9299 @class9299 * alefMaksura-ar.fina";
+};
+},
+{
+name = bottom;
+pos = (365,-139);
+},
+{
+name = entry;
+pos = (154,308);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (194,708);
+},
+{
+name = top.alt;
+pos = (181,844);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(18,-46,o),
+(32,-36,o),
+(44,-16,cs),
+(78,38,o),
+(122,52,o),
+(179,76,cs),
+(224,95,o),
+(282,118,o),
+(351,143,cs),
+(412,165,o),
+(460,192,o),
+(497,258,cs),
+(498,260,o),
+(500,263,o),
+(501,266,c),
+(500,273,l),
+(439,299,o),
+(306,310,o),
+(243,310,cs),
+(205,310,l),
+(205,315,l),
+(202,324,o),
+(195,330,o),
+(182,330,cs),
+(165,330,o),
+(150,303,o),
+(142,287,cs),
+(130,265,o),
+(119,238,o),
+(113,223,c),
+(121,213,l),
+(136,214,o),
+(151,214,o),
+(165,214,cs),
+(261,214,o),
+(341,201,o),
+(357,196,c),
+(296,177,o),
+(239,155,o),
+(186,131,cs),
+(131,106,o),
+(92,87,o),
+(68,71,cs),
+(14,35,o),
+(-13,-18,o),
+(-13,-33,cs),
+(-13,-41,o),
+(-8,-46,o),
+(2,-46,cs)
+);
+}
+);
+width = 155;
+}
+);
+}

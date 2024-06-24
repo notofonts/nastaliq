@@ -193,6 +193,5 @@ nodes = (
 width = 0;
 }
 );
-note = "dotabove_tahabove-ar";
 subCategory = Nonspacing;
 }

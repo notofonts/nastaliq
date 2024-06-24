@@ -93,7 +93,6 @@ nodes = (
 width = 0;
 }
 );
-note = "fathatan-ar";
 subCategory = Nonspacing;
 unicode = 2298;
 }

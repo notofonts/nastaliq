@@ -171,6 +171,5 @@ nodes = (
 width = 0;
 }
 );
-note = "fourdotsabove-ar";
 subCategory = Nonspacing;
 }

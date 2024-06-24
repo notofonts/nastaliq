@@ -169,7 +169,6 @@ nodes = (
 width = 0;
 }
 );
-note = "dammatan-ar";
 subCategory = Nonspacing;
 unicode = 1612;
 }

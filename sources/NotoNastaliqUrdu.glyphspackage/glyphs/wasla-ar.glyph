@@ -145,6 +145,5 @@ nodes = (
 width = 0;
 }
 );
-note = "wasla-ar";
 subCategory = Nonspacing;
 }

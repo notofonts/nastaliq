@@ -123,7 +123,6 @@ nodes = (
 width = 0;
 }
 );
-note = TahSmallNS;
 subCategory = Nonspacing;
 unicode = 2284;
 }

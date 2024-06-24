@@ -67,6 +67,5 @@ nodes = (
 width = 0;
 }
 );
-note = OneDotEnclTNS;
 subCategory = Nonspacing;
 }

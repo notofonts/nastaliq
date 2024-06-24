@@ -54,6 +54,5 @@ nodes = (
 width = 0;
 }
 );
-note = uni200D;
 unicode = 8205;
 }

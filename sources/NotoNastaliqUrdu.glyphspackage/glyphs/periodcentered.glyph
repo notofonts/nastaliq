@@ -54,6 +54,5 @@ nodes = (
 width = 258;
 }
 );
-note = periodcentered;
 unicode = 183;
 }

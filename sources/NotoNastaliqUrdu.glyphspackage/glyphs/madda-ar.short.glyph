@@ -93,6 +93,5 @@ nodes = (
 width = 0;
 }
 );
-note = "madda-ar.short";
 subCategory = Nonspacing;
 }

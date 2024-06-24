@@ -54,6 +54,5 @@ nodes = (
 width = 409;
 }
 );
-note = "zeroFarsi-ar";
 unicode = 1776;
 }

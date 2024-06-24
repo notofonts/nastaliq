@@ -52,6 +52,5 @@ nodes = (
 width = 543;
 }
 );
-note = backslash;
 unicode = 92;
 }

@@ -60,6 +60,5 @@ nodes = (
 width = 285;
 }
 );
-note = "decimalpoint-ar";
 unicode = 1643;
 }

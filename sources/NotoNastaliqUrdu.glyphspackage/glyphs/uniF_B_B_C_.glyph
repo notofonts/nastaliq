@@ -106,6 +106,5 @@ nodes = (
 width = 246;
 }
 );
-note = uniFBBC;
 unicode = 64444;
 }

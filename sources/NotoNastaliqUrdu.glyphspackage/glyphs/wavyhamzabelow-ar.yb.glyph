@@ -41,6 +41,5 @@ ref = "wavyhamzabelow-ar";
 width = 0;
 }
 );
-note = "wavyhamzabelow-ar.yb";
 subCategory = Nonspacing;
 }

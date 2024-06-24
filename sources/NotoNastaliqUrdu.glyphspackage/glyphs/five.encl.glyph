@@ -135,6 +135,5 @@ nodes = (
 width = 0;
 }
 );
-note = five.encl;
 subCategory = Nonspacing;
 }

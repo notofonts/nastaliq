@@ -151,6 +151,5 @@ ref = "tahbelow-ar";
 width = 0;
 }
 );
-note = "tahcenter-ar";
 subCategory = Nonspacing;
 }

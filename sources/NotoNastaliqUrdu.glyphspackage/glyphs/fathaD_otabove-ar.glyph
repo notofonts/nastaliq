@@ -129,7 +129,6 @@ nodes = (
 width = 0;
 }
 );
-note = "fathatwodots-ar.alt";
 subCategory = Nonspacing;
 unicode = 2293;
 }

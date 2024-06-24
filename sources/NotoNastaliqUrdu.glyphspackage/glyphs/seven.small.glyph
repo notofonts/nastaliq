@@ -113,6 +113,5 @@ nodes = (
 width = 0;
 }
 );
-note = seven.small;
 subCategory = Nonspacing;
 }

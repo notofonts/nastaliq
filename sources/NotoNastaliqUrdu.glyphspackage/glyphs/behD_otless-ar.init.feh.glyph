@@ -1,0 +1,167 @@
+{
+glyphname = "behDotless-ar.init.feh";
+layers = (
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (237,-110);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @AinFeh.medi @class9259";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (237,-110);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 @AinFeh.medi @class9259";
+};
+},
+{
+name = "*bottom.alt3";
+pos = (237,-110);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 ain-ar.fina";
+};
+},
+{
+name = Bar;
+pos = (202,86);
+},
+{
+name = Ring;
+pos = (202,86);
+},
+{
+name = bottom;
+pos = (157,-170);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (246,783);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(57,0,o),
+(106,24,o),
+(145,62,cs),
+(206,122,o),
+(243,217,o),
+(252,301,cs),
+(257,354,o),
+(263,407,o),
+(268,460,cs),
+(269,469,o),
+(270,480,o),
+(273,492,c),
+(248,500,l),
+(199,419,o),
+(193,399,o),
+(193,330,cs),
+(193,298,o),
+(192,268,o),
+(183,222,cs),
+(170,157,o),
+(80,136,o),
+(30,136,cs),
+(-5,136,o),
+(-40,113,o),
+(-40,60,cs),
+(-40,17,o),
+(-22,0,o),
+(0,0,cs)
+);
+}
+);
+width = 332;
+},
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (256,-121);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @AinFeh.medi @class9259";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (256,-121);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 @AinFeh.medi @class9259";
+};
+},
+{
+name = "*bottom.alt3";
+pos = (256,-121);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 ain-ar.fina";
+};
+},
+{
+name = Bar;
+pos = (151,14);
+},
+{
+name = Ring;
+pos = (151,14);
+},
+{
+name = bottom;
+pos = (151,-139);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (226,648);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(50,0,o),
+(95,20,o),
+(134,59,cs),
+(183,108,o),
+(201,160,o),
+(210,213,cs),
+(215,241,o),
+(217,270,o),
+(219,299,cs),
+(221,326,o),
+(225,359,o),
+(229,375,c),
+(208,382,l),
+(168,325,o),
+(156,297,o),
+(156,239,cs),
+(156,195,o),
+(152,164,o),
+(145,146,cs),
+(129,105,o),
+(61,87,o),
+(26,85,cs),
+(6,84,o),
+(-24,67,o),
+(-24,31,cs),
+(-24,8,o),
+(-9,0,o),
+(-1,0,cs)
+);
+}
+);
+width = 304;
+}
+);
+}

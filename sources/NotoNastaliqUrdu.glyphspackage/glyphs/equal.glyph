@@ -50,6 +50,5 @@ nodes = (
 width = 567;
 }
 );
-note = equal;
 unicode = 61;
 }

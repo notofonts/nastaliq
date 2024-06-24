@@ -129,7 +129,6 @@ nodes = (
 width = 0;
 }
 );
-note = "takhallusabove-ar";
 subCategory = Nonspacing;
 unicode = 1556;
 }

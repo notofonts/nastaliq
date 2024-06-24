@@ -163,7 +163,6 @@ nodes = (
 width = 0;
 }
 );
-note = "alayheAssallamcomb-ar";
 subCategory = Nonspacing;
 unicode = 1553;
 }

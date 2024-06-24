@@ -151,6 +151,5 @@ nodes = (
 width = 0;
 }
 );
-note = "threedotsupabove-ar.kaf";
 subCategory = Nonspacing;
 }

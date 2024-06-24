@@ -127,7 +127,6 @@ nodes = (
 width = 0;
 }
 );
-note = "dammareversed-ar";
 subCategory = Nonspacing;
 unicode = 1629;
 }

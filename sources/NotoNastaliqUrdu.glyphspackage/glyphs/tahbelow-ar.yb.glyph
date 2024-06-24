@@ -159,6 +159,5 @@ ref = "tahbelow-ar";
 width = 0;
 }
 );
-note = "tahbelow-ar.yb";
 subCategory = Nonspacing;
 }

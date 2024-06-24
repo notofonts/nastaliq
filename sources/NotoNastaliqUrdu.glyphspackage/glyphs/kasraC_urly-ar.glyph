@@ -101,7 +101,6 @@ nodes = (
 width = 0;
 }
 );
-note = "kasra-ar";
 subCategory = Nonspacing;
 unicode = 2278;
 }

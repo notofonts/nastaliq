@@ -49,6 +49,5 @@ ref = "year-ar.alt2";
 width = 2250;
 }
 );
-note = "year-ar.alt3";
 subCategory = Ligature;
 }

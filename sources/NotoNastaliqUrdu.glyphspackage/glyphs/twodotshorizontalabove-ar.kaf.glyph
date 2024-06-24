@@ -97,6 +97,5 @@ nodes = (
 width = 0;
 }
 );
-note = "twodotshorizontalabove-ar.kaf";
 subCategory = Nonspacing;
 }

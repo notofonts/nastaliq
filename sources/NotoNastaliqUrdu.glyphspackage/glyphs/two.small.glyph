@@ -135,6 +135,5 @@ nodes = (
 width = 0;
 }
 );
-note = two.small;
 subCategory = Nonspacing;
 }

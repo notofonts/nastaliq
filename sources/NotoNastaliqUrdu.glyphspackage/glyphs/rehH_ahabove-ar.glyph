@@ -149,7 +149,6 @@ nodes = (
 width = 0;
 }
 );
-note = "rehHahabove-ar";
 subCategory = Nonspacing;
 unicode = 1554;
 }

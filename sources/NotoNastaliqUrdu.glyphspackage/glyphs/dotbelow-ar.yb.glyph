@@ -75,6 +75,5 @@ nodes = (
 width = 0;
 }
 );
-note = "dotbelow-ar.yb";
 subCategory = Nonspacing;
 }

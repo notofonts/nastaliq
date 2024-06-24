@@ -1,9 +1,10 @@
 {
 displayStrings = (
-"/kaf-ar.fina/kaf-ar.fina.V",
-"/kaf-ar.medi.VoutD5",
-"/kaf-ar.medi.bari",
-"/kaf-ar.init.HRoutD2",
-"/kaf-ar.init.N/kaf-ar.fina"
+"/behDotless-ar.medi.sad.raised",
+"",
+"",
+"/kaf-ar.medi.feh.curly/kaf-ar.medi.feh2",
+"/lam-ar.medi.reh",
+"ﻮ/waw-ar.fina.alt2/waw-ar.fina.alt"
 );
 }

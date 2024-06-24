@@ -522,6 +522,5 @@ ref = "damma-ar";
 width = 2312;
 }
 );
-note = uniFDFB;
 unicode = 65019;
 }

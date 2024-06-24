@@ -113,7 +113,6 @@ nodes = (
 width = 0;
 }
 );
-note = CircumArabicNS;
 subCategory = Nonspacing;
 unicode = 1627;
 }

@@ -32,6 +32,5 @@ nodes = (
 width = 567;
 }
 );
-note = "minus-ar";
 unicode = 8722;
 }

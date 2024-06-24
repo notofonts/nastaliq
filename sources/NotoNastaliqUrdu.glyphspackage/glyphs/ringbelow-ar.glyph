@@ -101,6 +101,5 @@ nodes = (
 width = 0;
 }
 );
-note = "ringbelow-ar";
 subCategory = Nonspacing;
 }

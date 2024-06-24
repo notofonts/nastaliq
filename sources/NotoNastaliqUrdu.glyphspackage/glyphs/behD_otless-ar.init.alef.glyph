@@ -42,14 +42,14 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 [beh
 name = "*bottom.alt3";
 pos = (152,-173);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * [lam-ar.medi.outT3 lam-ar.medi.outD2Y kaf-ar.medi.outD2Y ]";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * [lam-ar.medi.feh lam-ar.medi.yeh kaf-ar.medi.yeh ]";
 };
 },
 {
 name = "*bottom.alt4";
 pos = (152,-173);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 [lam-ar.medi.outT3 lam-ar.medi.outD2Y kaf-ar.medi.outD2Y ]";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 [lam-ar.medi.feh lam-ar.medi.yeh kaf-ar.medi.yeh ]";
 };
 },
 {
@@ -185,14 +185,14 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 [beh
 name = "*bottom.alt3";
 pos = (118,-176);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * [lam-ar.medi.outT3 lam-ar.medi.outD2Y kaf-ar.medi.outD2Y ]";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * [lam-ar.medi.feh lam-ar.medi.yeh kaf-ar.medi.yeh ]";
 };
 },
 {
 name = "*bottom.alt4";
 pos = (118,-176);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 [lam-ar.medi.outT3 lam-ar.medi.outD2Y kaf-ar.medi.outD2Y ]";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 [lam-ar.medi.feh lam-ar.medi.yeh kaf-ar.medi.yeh ]";
 };
 },
 {
@@ -288,5 +288,4 @@ nodes = (
 width = 236;
 }
 );
-note = "behDotless-ar.init.A";
 }

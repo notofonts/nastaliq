@@ -784,6 +784,5 @@ nodes = (
 width = 1272;
 }
 );
-note = OrnateLeftParenthesis;
 unicode = 64830;
 }

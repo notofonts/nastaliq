@@ -52,6 +52,5 @@ nodes = (
 width = 65;
 }
 );
-note = Tatweel;
 unicode = 1600;
 }

@@ -83,7 +83,6 @@ nodes = (
 width = 0;
 }
 );
-note = "alefbelow-ar";
 subCategory = Nonspacing;
 unicode = 1622;
 }

@@ -151,6 +151,5 @@ nodes = (
 width = 0;
 }
 );
-note = "threedotsdownabove-ar";
 subCategory = Nonspacing;
 }

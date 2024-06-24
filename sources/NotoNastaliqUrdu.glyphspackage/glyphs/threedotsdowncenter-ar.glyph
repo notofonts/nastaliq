@@ -135,6 +135,5 @@ nodes = (
 width = 0;
 }
 );
-note = "threedotsdowncenter-ar";
 subCategory = Nonspacing;
 }

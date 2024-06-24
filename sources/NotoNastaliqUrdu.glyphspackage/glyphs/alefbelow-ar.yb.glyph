@@ -77,6 +77,5 @@ nodes = (
 width = 0;
 }
 );
-note = "alefbelow-ar.yb";
 subCategory = Nonspacing;
 }

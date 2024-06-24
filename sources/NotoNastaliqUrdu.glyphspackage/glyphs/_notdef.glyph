@@ -50,5 +50,4 @@ nodes = (
 width = 900;
 }
 );
-note = .notdef;
 }

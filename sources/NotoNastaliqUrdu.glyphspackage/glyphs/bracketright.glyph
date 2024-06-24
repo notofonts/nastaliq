@@ -40,6 +40,5 @@ nodes = (
 width = 397;
 }
 );
-note = bracketright;
 unicode = 93;
 }

@@ -41,6 +41,5 @@ ref = "fourdotsbelow-ar";
 width = 0;
 }
 );
-note = "fourdotsbelow-ar.yb";
 subCategory = Nonspacing;
 }

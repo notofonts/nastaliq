@@ -38,6 +38,5 @@ ref = "tahabove-ar";
 width = 325;
 }
 );
-note = uniFBC0;
 unicode = 64448;
 }

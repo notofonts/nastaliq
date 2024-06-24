@@ -102,6 +102,5 @@ nodes = (
 width = 481;
 }
 );
-note = guillemotright;
 unicode = 187;
 }

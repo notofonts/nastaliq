@@ -131,7 +131,6 @@ nodes = (
 width = 0;
 }
 );
-note = "dammainverted-ar";
 subCategory = Nonspacing;
 unicode = 1623;
 }

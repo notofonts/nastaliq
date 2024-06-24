@@ -52,6 +52,5 @@ nodes = (
 width = 380;
 }
 );
-note = parenleft;
 unicode = 40;
 }

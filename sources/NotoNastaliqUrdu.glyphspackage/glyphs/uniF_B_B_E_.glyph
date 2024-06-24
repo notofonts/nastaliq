@@ -82,6 +82,5 @@ nodes = (
 width = 229;
 }
 );
-note = uniFBBE;
 unicode = 64446;
 }

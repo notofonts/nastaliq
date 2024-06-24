@@ -243,7 +243,6 @@ nodes = (
 width = 0;
 }
 );
-note = "rehDadabove-ar";
 subCategory = Nonspacing;
 unicode = 1555;
 }

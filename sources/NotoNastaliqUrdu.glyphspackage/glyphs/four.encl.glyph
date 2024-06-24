@@ -121,6 +121,5 @@ nodes = (
 width = 0;
 }
 );
-note = four.encl;
 subCategory = Nonspacing;
 }

@@ -111,6 +111,5 @@ nodes = (
 width = 0;
 }
 );
-note = "twodotshorizontalabove-ar";
 subCategory = Nonspacing;
 }

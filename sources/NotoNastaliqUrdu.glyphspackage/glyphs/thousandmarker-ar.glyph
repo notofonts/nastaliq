@@ -60,6 +60,5 @@ nodes = (
 width = 285;
 }
 );
-note = "thousandmarker-ar";
 unicode = 1644;
 }

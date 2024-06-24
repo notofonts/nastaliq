@@ -111,6 +111,5 @@ nodes = (
 width = 0;
 }
 );
-note = "sukun-ar";
 subCategory = Nonspacing;
 }

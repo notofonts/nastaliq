@@ -147,6 +147,5 @@ nodes = (
 width = 0;
 }
 );
-note = "fourbelow-ar";
 subCategory = Nonspacing;
 }

@@ -119,6 +119,5 @@ nodes = (
 width = 0;
 }
 );
-note = "eight-ar.small";
 subCategory = Nonspacing;
 }

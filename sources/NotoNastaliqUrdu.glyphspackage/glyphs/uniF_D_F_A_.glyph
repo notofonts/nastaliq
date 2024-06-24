@@ -848,6 +848,5 @@ scale = (0.961,1.08);
 width = 2586;
 }
 );
-note = uniFDFA;
 unicode = 65018;
 }

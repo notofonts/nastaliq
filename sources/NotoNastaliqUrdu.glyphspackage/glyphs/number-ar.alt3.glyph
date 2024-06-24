@@ -165,6 +165,5 @@ nodes = (
 width = 2264;
 }
 );
-note = "number-ar.alt3";
 subCategory = Ligature;
 }

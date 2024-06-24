@@ -103,7 +103,6 @@ nodes = (
 width = 0;
 }
 );
-note = "hahabove-ar";
 subCategory = Nonspacing;
 unicode = 1761;
 }

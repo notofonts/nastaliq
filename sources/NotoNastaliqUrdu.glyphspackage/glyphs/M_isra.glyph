@@ -204,6 +204,5 @@ nodes = (
 width = 872;
 }
 );
-note = Misra;
 unicode = 1551;
 }

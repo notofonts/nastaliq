@@ -93,7 +93,6 @@ nodes = (
 width = 0;
 }
 );
-note = "noonghunnaabove-ar";
 subCategory = Nonspacing;
 unicode = 1624;
 }

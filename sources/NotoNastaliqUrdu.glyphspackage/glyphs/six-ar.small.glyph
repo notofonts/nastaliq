@@ -123,6 +123,5 @@ nodes = (
 width = 0;
 }
 );
-note = "six-ar.small";
 subCategory = Nonspacing;
 }
