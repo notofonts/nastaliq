@@ -1,5 +1,5 @@
 {
-glyphname = "lam-ar.init.behfN";
+glyphname = "lam-ar.init.fbehN";
 layers = (
 {
 anchors = (
@@ -142,5 +142,5 @@ nodes = (
 width = 354;
 }
 );
-note = "lam-ar.init.behfN";
+note = "lam-ar.init.fbehN";
 }

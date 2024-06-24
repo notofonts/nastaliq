@@ -1,5 +1,5 @@
 {
-glyphname = "hah-ar.init.behf";
+glyphname = "hah-ar.init.fbeh";
 layers = (
 {
 anchors = (
@@ -136,5 +136,5 @@ nodes = (
 width = 459;
 }
 );
-note = "hah-ar.init.behf";
+note = "hah-ar.init.fbeh";
 }

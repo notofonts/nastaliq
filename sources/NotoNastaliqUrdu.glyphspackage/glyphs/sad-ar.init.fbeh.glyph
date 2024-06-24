@@ -1,5 +1,5 @@
 {
-glyphname = "sad-ar.init.behf";
+glyphname = "sad-ar.init.fbeh";
 layers = (
 {
 anchors = (
@@ -180,5 +180,5 @@ nodes = (
 width = 760;
 }
 );
-note = "sad-ar.init.behf";
+note = "sad-ar.init.fbeh";
 }

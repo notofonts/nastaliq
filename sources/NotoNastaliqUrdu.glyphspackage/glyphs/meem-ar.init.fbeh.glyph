@@ -1,5 +1,5 @@
 {
-glyphname = "meem-ar.init.behf";
+glyphname = "meem-ar.init.fbeh";
 layers = (
 {
 anchors = (
@@ -124,5 +124,5 @@ nodes = (
 width = 533;
 }
 );
-note = "meem-ar.init.behf";
+note = "meem-ar.init.fbeh";
 }

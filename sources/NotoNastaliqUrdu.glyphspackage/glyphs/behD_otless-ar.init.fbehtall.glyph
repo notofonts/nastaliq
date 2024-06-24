@@ -1,5 +1,5 @@
 {
-glyphname = "behDotless-ar.init.behftall";
+glyphname = "behDotless-ar.init.fbehtall";
 layers = (
 {
 anchors = (
@@ -144,5 +144,5 @@ nodes = (
 width = 249;
 }
 );
-note = "behDotless-ar.init.behftall";
+note = "behDotless-ar.init.fbehtall";
 }

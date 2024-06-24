@@ -1,5 +1,5 @@
 {
-glyphname = "seen-ar.init.behf";
+glyphname = "seen-ar.init.fbeh";
 layers = (
 {
 anchors = (
@@ -162,5 +162,5 @@ nodes = (
 width = 638;
 }
 );
-note = "seen-ar.init.behf";
+note = "seen-ar.init.fbeh";
 }

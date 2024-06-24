@@ -1,6 +1,6 @@
 {
 color = 4;
-glyphname = "kaf-ar.init.behfN";
+glyphname = "kaf-ar.init.fbehN";
 layers = (
 {
 anchors = (
@@ -191,5 +191,5 @@ nodes = (
 width = 347;
 }
 );
-note = "kaf-ar.init.behfN";
+note = "kaf-ar.init.fbehN";
 }
