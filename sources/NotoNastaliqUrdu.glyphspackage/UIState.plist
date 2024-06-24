@@ -1,7 +1,7 @@
 {
 displayStrings = (
 "/hah-ar.isol",
-"/behDotless-ar.init.A ۋ",
+"ۋ",
 "",
 "/kaf-ar.isol/_gaf.sarkash/kaf-ar.fina",
 "/kaf-ar.fina.V/_gaf.sarkash.steep/kaf-ar.medi",
@@ -14,7 +14,9 @@ displayStrings = (
 "/_gaf.sarkash.thin/_gaf.sarkash.invthin",
 "/kaf-ar.medi.V",
 "/_gaf.sarkash.steep",
-"/behDotless-ar.init/behDotless-ar.init.outT2   /dotabove-ar.alt",
-"/behDotless-ar.medi.inT1outS1/meem-ar.medi.inD2outD11"
+"/behDotless-ar.init/behDotless-ar.init.outT2   ",
+"/behDotless-ar.medi.inT1outS1/meem-ar.medi.inD2outD11",
+"/behDotless-ar.medi.inT1outS1",
+"/hehgoal-ar.init.outD1"
 );
 }

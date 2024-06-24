@@ -7,14 +7,14 @@ anchors = (
 name = "*top.alt";
 pos = (264,746);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; @class8946 @AllMarks * ";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; [@BEHm @BEHi hehgoal-ar.init meem-ar.init] @AllMarks * ";
 };
 },
 {
 name = "*top.alt2";
 pos = (264,746);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; @class8946 @AllMarks @AllMarks * ";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; [@BEHm @BEHi hehgoal-ar.init meem-ar.init] @AllMarks @AllMarks * ";
 };
 },
 {
@@ -112,14 +112,14 @@ anchors = (
 name = "*top.alt";
 pos = (219,624);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; @class8946 @AllMarks * ";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; [@BEHm @BEHi hehgoal-ar.init meem-ar.init] @AllMarks * ";
 };
 },
 {
 name = "*top.alt2";
 pos = (219,624);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; @class8946 @AllMarks @AllMarks * ";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; [@BEHm @BEHi hehgoal-ar.init meem-ar.init] @AllMarks @AllMarks * ";
 };
 },
 {
