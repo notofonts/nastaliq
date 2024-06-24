@@ -1,0 +1,66 @@
+{
+category = Mark;
+glyphname = "bar-ar";
+layers = (
+{
+anchors = (
+{
+name = _Bar;
+pos = (0,292);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-15,255,o),
+(66,263,o),
+(85,272,cs),
+(104,281,o),
+(125,302,o),
+(147,337,c),
+(141,350,l),
+(105,344,o),
+(33,335,o),
+(-113,323,c),
+(-160,265,l),
+(-156,246,l)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = _Bar;
+pos = (0,291);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-11,259,o),
+(63,267,o),
+(79,274,cs),
+(94,281,o),
+(113,301,o),
+(133,333,c),
+(129,341,l),
+(93,333,o),
+(16,325,o),
+(-102,316,c),
+(-145,263,l),
+(-142,251,l)
+);
+}
+);
+width = 0;
+}
+);
+note = Crossbar;
+subCategory = Nonspacing;
+}

@@ -1,0 +1,32 @@
+{
+glyphname = uni0764;
+layers = (
+{
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = "kaf-ar.isol";
+},
+{
+pos = (496,-132);
+ref = "threedotsupbelow-ar";
+}
+);
+width = 1159;
+},
+{
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = "kaf-ar.isol";
+},
+{
+pos = (526,-225);
+ref = "threedotsupbelow-ar";
+}
+);
+width = 1226;
+}
+);
+unicode = 1892;
+}

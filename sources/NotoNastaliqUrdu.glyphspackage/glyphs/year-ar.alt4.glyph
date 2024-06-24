@@ -1,0 +1,62 @@
+{
+category = Letter;
+glyphname = "year-ar.alt4";
+layers = (
+{
+anchors = (
+{
+name = subtending_1;
+pos = (539,393);
+},
+{
+name = subtending_2;
+pos = (965,393);
+},
+{
+name = subtending_3;
+pos = (1391,393);
+},
+{
+name = subtending_4;
+pos = (1817,393);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = "year-ar.alt2";
+}
+);
+width = 2372;
+},
+{
+anchors = (
+{
+name = subtending_1;
+pos = (480,345);
+},
+{
+name = subtending_2;
+pos = (888,345);
+},
+{
+name = subtending_3;
+pos = (1294,345);
+},
+{
+name = subtending_4;
+pos = (1701,345);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = "year-ar.alt2";
+}
+);
+width = 2250;
+}
+);
+note = "year-ar.alt4";
+subCategory = Ligature;
+}

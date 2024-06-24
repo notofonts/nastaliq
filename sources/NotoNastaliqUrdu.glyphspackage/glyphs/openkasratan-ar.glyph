@@ -1,0 +1,66 @@
+{
+category = Mark;
+glyphname = "openkasratan-ar";
+layers = (
+{
+anchors = (
+{
+name = Anchor33;
+pos = (0,-328);
+},
+{
+name = _Anchor33;
+pos = (0,-44);
+},
+{
+name = _bottom;
+pos = (0,-82);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+alignment = -1;
+pos = (-68,-131);
+ref = "kasra-ar";
+},
+{
+alignment = -1;
+ref = "kasra-ar";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = Anchor33;
+pos = (0,-328);
+},
+{
+name = _Anchor33;
+pos = (0,-24);
+},
+{
+name = _bottom;
+pos = (0,-81);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+alignment = -1;
+pos = (-76,-142);
+ref = "kasra-ar";
+},
+{
+alignment = -1;
+ref = "kasra-ar";
+}
+);
+width = 0;
+}
+);
+subCategory = Nonspacing;
+unicode = 2290;
+}

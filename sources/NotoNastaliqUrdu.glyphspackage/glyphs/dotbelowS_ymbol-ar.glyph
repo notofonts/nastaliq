@@ -1,0 +1,43 @@
+{
+glyphname = "dotbelowSymbol-ar";
+layers = (
+{
+background = {
+shapes = (
+{
+pos = (116,-168);
+ref = "dotbelow-ar";
+}
+);
+};
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+pos = (116,-168);
+ref = "dotbelow-ar";
+}
+);
+width = 229;
+},
+{
+background = {
+shapes = (
+{
+pos = (115,-168);
+ref = "dotbelow-ar";
+}
+);
+};
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+pos = (115,-168);
+ref = "dotbelow-ar";
+}
+);
+width = 229;
+}
+);
+note = "dotbelowSymbol-ar";
+unicode = 64435;
+}

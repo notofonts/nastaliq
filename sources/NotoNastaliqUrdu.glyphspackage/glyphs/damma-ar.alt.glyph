@@ -1,0 +1,80 @@
+{
+category = Mark;
+glyphname = "damma-ar.alt";
+layers = (
+{
+anchors = (
+{
+name = Anchor31;
+pos = (0,1172);
+},
+{
+name = _top.alt;
+pos = (-2,958);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(37,1026,o),
+(28,1037,o),
+(28,1049,cs),
+(28,1063,o),
+(36,1076,o),
+(56,1076,cs),
+(74,1076,o),
+(83,1063,o),
+(83,1050,cs),
+(83,1033,o),
+(71,1020,o),
+(59,1009,c)
+);
+},
+{
+ref = "damma-ar";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = Anchor31;
+pos = (0,1172);
+},
+{
+name = _top.alt;
+pos = (-2,958);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(29,1029,o),
+(28,1033,o),
+(28,1041,cs),
+(28,1052,o),
+(35,1064,o),
+(54,1064,cs),
+(65,1064,o),
+(75,1059,o),
+(75,1044,cs),
+(75,1028,o),
+(63,1016,o),
+(53,1006,c)
+);
+},
+{
+ref = "damma-ar";
+}
+);
+width = 0;
+}
+);
+note = "damma-ar.alt";
+subCategory = Nonspacing;
+}

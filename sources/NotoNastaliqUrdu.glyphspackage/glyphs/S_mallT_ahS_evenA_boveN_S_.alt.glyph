@@ -1,0 +1,45 @@
+{
+category = Mark;
+glyphname = SmallTahSevenAboveNS.alt;
+layers = (
+{
+anchors = (
+{
+name = Anchor31;
+pos = (0,1243);
+},
+{
+name = _top.alt;
+pos = (0,934);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = SmallTahSevenAboveNS;
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = Anchor31;
+pos = (0,1243);
+},
+{
+name = _top.alt;
+pos = (0,934);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = SmallTahSevenAboveNS;
+}
+);
+width = 0;
+}
+);
+subCategory = Nonspacing;
+}

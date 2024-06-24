@@ -1,0 +1,122 @@
+{
+glyphname = "behDotless-ar.medi.inS1outS1";
+layers = (
+{
+anchors = (
+{
+name = Bar;
+pos = (65,-44);
+},
+{
+name = Ring;
+pos = (65,-44);
+},
+{
+name = bottom;
+pos = (32,-373);
+},
+{
+name = entry;
+pos = (106,-7);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (-9,653);
+},
+{
+name = top.alt;
+pos = (50,705);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(176,-7,o),
+(253,56,o),
+(253,135,cs),
+(253,192,o),
+(232,213,o),
+(213,213,cs),
+(177,213,o),
+(146,220,o),
+(107,220,cs),
+(36,220,o),
+(-40,157,o),
+(-40,78,cs),
+(-40,26,o),
+(-22,0,o),
+(0,0,cs),
+(26,0,o),
+(70,-7,o),
+(106,-7,cs)
+);
+}
+);
+width = 106;
+},
+{
+anchors = (
+{
+name = Bar;
+pos = (45,-48);
+},
+{
+name = Ring;
+pos = (45,-48);
+},
+{
+name = bottom;
+pos = (50,-330);
+},
+{
+name = entry;
+pos = (89,-6);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (7,522);
+},
+{
+name = top.alt;
+pos = (50,705);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(152,-5,o),
+(207,55,o),
+(207,121,cs),
+(207,145,o),
+(193,153,o),
+(174,153,cs),
+(141,153,o),
+(124,158,o),
+(84,158,cs),
+(22,158,o),
+(-33,98,o),
+(-33,32,cs),
+(-33,12,o),
+(-21,0,o),
+(0,0,cs),
+(8,0,o),
+(70,-5,o),
+(90,-5,cs)
+);
+}
+);
+width = 90;
+}
+);
+note = "behDotless-ar.medi.inS1outS1";
+}

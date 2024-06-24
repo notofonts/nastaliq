@@ -1,0 +1,148 @@
+{
+glyphname = "behDotless-ar.init.outT2tall";
+layers = (
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (181,-202);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9466 @class9259";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (181,-202);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 @class9466 @class9259";
+};
+},
+{
+name = Bar;
+pos = (128,35);
+},
+{
+name = Ring;
+pos = (128,35);
+},
+{
+name = bottom;
+pos = (-8,-300);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (166,776);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(54,0,o),
+(97,43,o),
+(130,130,cs),
+(163,216,o),
+(183,306,o),
+(192,399,cs),
+(201,492,o),
+(208,550,o),
+(214,573,c),
+(189,580,l),
+(131,485,o),
+(116,437,o),
+(116,377,cs),
+(116,347,o),
+(116,317,o),
+(116,287,cs),
+(116,215,o),
+(96,190,o),
+(34,190,cs),
+(1,190,o),
+(-40,163,o),
+(-40,80,cs),
+(-40,42,o),
+(-28,0,o),
+(0,0,cs)
+);
+}
+);
+width = 275;
+},
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (181,-203);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9466 @class9259";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (181,-203);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 @class9466 @class9259";
+};
+},
+{
+name = Bar;
+pos = (113,17);
+},
+{
+name = Ring;
+pos = (113,17);
+},
+{
+name = bottom;
+pos = (41,-300);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (139,639);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(42,0,o),
+(80,43,o),
+(110,111,cs),
+(140,177,o),
+(161,268,o),
+(168,367,cs),
+(170,393,o),
+(172,419,o),
+(178,446,c),
+(157,453,l),
+(107,374,o),
+(94,345,o),
+(92,285,cs),
+(91,251,o),
+(89,222,o),
+(87,200,cs),
+(81,124,o),
+(67,106,o),
+(33,106,cs),
+(2,106,o),
+(-29,80,o),
+(-29,39,cs),
+(-29,11,o),
+(-11,0,o),
+(0,0,cs)
+);
+}
+);
+width = 249;
+}
+);
+note = "behDotless-ar.init.outT2tall";
+}

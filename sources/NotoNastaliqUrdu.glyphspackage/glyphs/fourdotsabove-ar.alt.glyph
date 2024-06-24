@@ -1,0 +1,46 @@
+{
+category = Mark;
+glyphname = "fourdotsabove-ar.alt";
+layers = (
+{
+anchors = (
+{
+name = Anchor31;
+pos = (130,349);
+},
+{
+name = _top.alt;
+pos = (130,116);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = "fourdotsabove-ar";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = Anchor31;
+pos = (129,349);
+},
+{
+name = _top.alt;
+pos = (129,106);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = "fourdotsabove-ar";
+}
+);
+width = 0;
+}
+);
+note = "fourdotsabove-ar.alt";
+subCategory = Nonspacing;
+}

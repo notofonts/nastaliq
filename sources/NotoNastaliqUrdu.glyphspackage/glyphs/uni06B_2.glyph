@@ -1,0 +1,92 @@
+{
+glyphname = uni06B2;
+layers = (
+{
+anchors = (
+{
+name = Anchor15;
+pos = (779,1052);
+},
+{
+name = Bar;
+pos = (1238,1005);
+},
+{
+name = Ring;
+pos = (1238,1005);
+},
+{
+name = bottom;
+pos = (490,-182);
+},
+{
+name = enclosing;
+pos = (467,427);
+},
+{
+name = top;
+pos = (449,585);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = "kaf-ar.isol";
+},
+{
+pos = (663,-54);
+ref = _gaf.sarkash;
+},
+{
+pos = (496,-91);
+ref = "twodotshorizontalbelow-ar";
+}
+);
+width = 1159;
+},
+{
+anchors = (
+{
+name = Anchor15;
+pos = (925,1152);
+},
+{
+name = Bar;
+pos = (1412,1112);
+},
+{
+name = Ring;
+pos = (1412,1112);
+},
+{
+name = bottom;
+pos = (463,-266);
+},
+{
+name = enclosing;
+pos = (467,547);
+},
+{
+name = top;
+pos = (351,742);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = "kaf-ar.isol";
+},
+{
+pos = (743,-55);
+ref = _gaf.sarkash;
+},
+{
+pos = (523,-141);
+ref = "twodotshorizontalbelow-ar";
+}
+);
+width = 1226;
+}
+);
+unicode = 1714;
+}

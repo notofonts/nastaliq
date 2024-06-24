@@ -1,0 +1,158 @@
+{
+glyphname = "behDotless-ar.init.outS1";
+layers = (
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (256,-218);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9279 @class9259";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (256,-218);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 @class9279 @class9259";
+};
+},
+{
+name = "*top.alt";
+pos = (293,572);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; *  @class8927 @AllMarks";
+};
+},
+{
+name = "*top.alt1";
+pos = (297,572);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; *  @AllMarks @class8927 @AllMarks";
+};
+},
+{
+name = Bar;
+pos = (179,20);
+},
+{
+name = Ring;
+pos = (179,20);
+},
+{
+name = bottom;
+pos = (86,-300);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (193,664);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(65,0,o),
+(120,22,o),
+(163,65,cs),
+(206,108,o),
+(248,190,o),
+(287,311,c),
+(259,317,l),
+(225,246,o),
+(185,220,o),
+(107,220,cs),
+(36,220,o),
+(-40,157,o),
+(-40,78,cs),
+(-40,26,o),
+(-22,0,o),
+(0,0,cs)
+);
+}
+);
+width = 302;
+},
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (236,-166);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9279 @class9259";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (236,-166);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 @class9279 @class9259";
+};
+},
+{
+name = "*top.alt";
+pos = (222,416);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; *  @class8927 @AllMarks";
+};
+},
+{
+name = "*top.alt1";
+pos = (228,416);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; *  @AllMarks @class8927 @AllMarks";
+};
+},
+{
+name = Bar;
+pos = (136,9);
+},
+{
+name = Ring;
+pos = (136,9);
+},
+{
+name = bottom;
+pos = (151,-253);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (174,512);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(49,0,o),
+(88,23,o),
+(120,56,cs),
+(165,105,o),
+(194,175,o),
+(210,228,c),
+(189,235,l),
+(153,175,o),
+(123,158,o),
+(84,158,cs),
+(20,158,o),
+(-33,98,o),
+(-33,31,cs),
+(-33,11,o),
+(-22,0,o),
+(2,0,cs)
+);
+}
+);
+width = 235;
+}
+);
+note = "behDotless-ar.init.outS1";
+}

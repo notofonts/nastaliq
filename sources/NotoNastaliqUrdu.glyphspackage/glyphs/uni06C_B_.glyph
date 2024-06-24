@@ -1,0 +1,32 @@
+{
+glyphname = uni06CB;
+layers = (
+{
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = "waw-ar.isol";
+},
+{
+pos = (238,-266);
+ref = "threedotsupabove-ar";
+}
+);
+width = 600;
+},
+{
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = "waw-ar.isol";
+},
+{
+pos = (266,-125);
+ref = "threedotsupabove-ar";
+}
+);
+width = 485;
+}
+);
+unicode = 1739;
+}

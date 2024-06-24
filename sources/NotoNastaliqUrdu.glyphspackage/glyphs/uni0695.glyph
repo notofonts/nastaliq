@@ -1,0 +1,33 @@
+{
+glyphname = uni0695;
+layers = (
+{
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = "reh-ar.isol";
+},
+{
+pos = (284,-87);
+ref = "vbelow-ar";
+}
+);
+width = 406;
+},
+{
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = "reh-ar.isol";
+},
+{
+pos = (284,-87);
+ref = "vbelow-ar";
+}
+);
+width = 489;
+}
+);
+metricWidth = "=reh-ar.isol";
+unicode = 1685;
+}

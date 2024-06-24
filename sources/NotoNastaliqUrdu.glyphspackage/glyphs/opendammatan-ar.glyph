@@ -1,0 +1,68 @@
+{
+category = Mark;
+glyphname = "opendammatan-ar";
+layers = (
+{
+anchors = (
+{
+name = Anchor31;
+pos = (0,1140);
+},
+{
+name = _Anchor31;
+pos = (0,864);
+},
+{
+name = _top;
+pos = (0,967);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+alignment = -1;
+pos = (42,-1);
+ref = "damma-ar";
+},
+{
+alignment = -1;
+pos = (-97,0);
+ref = "damma-ar";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = Anchor31;
+pos = (0,1141);
+},
+{
+name = _Anchor31;
+pos = (0,968);
+},
+{
+name = _top;
+pos = (0,968);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+alignment = -1;
+pos = (63,0);
+ref = "damma-ar";
+},
+{
+alignment = -1;
+pos = (-88,0);
+ref = "damma-ar";
+}
+);
+width = 0;
+}
+);
+subCategory = Nonspacing;
+unicode = 2289;
+}

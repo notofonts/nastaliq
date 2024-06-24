@@ -1,0 +1,35 @@
+{
+glyphname = uniFBB4;
+layers = (
+{
+background = {
+shapes = (
+{
+pos = (204,-454);
+ref = "twodotshorizontalabove-ar";
+}
+);
+};
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+pos = (204,-454);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 378;
+},
+{
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+pos = (197,-451);
+ref = "twodotshorizontalabove-ar";
+}
+);
+width = 378;
+}
+);
+note = uniFBB4;
+unicode = 64436;
+}

@@ -1,0 +1,186 @@
+{
+glyphname = "fehDotless-ar.init";
+layers = (
+{
+anchors = (
+{
+name = "*top.alt";
+pos = (176,848);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * behDotless-ar.medi.inT1outT2wide @AllMarks";
+};
+},
+{
+name = "*top.alt2";
+pos = (176,848);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * @AllMarks behDotless-ar.medi.inT1outT2wide @AllMarks";
+};
+},
+{
+name = "*top.alt3";
+pos = (176,848);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * @KafMed.fina";
+};
+},
+{
+name = "*top.alt4";
+pos = (176,848);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * @AllMarks @KafMed.fina";
+};
+},
+{
+name = bottom;
+pos = (110,-295);
+},
+{
+name = bottom.alt;
+pos = (250,-135);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (179,838);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(96,0,o),
+(172,44,o),
+(227,132,cs),
+(282,220,o),
+(310,322,o),
+(310,438,cs),
+(310,520,o),
+(274,631,o),
+(174,631,cs),
+(141,631,o),
+(111,613,o),
+(89,570,cs),
+(55,505,ls),
+(39,474,o),
+(27,442,o),
+(27,412,cs),
+(27,353,o),
+(83,316,o),
+(137,316,cs),
+(177,316,o),
+(232,335,o),
+(244,345,c),
+(246,340,o),
+(247,335,o),
+(247,330,cs),
+(247,273,o),
+(147,228,o),
+(49,228,cs),
+(-14,228,o),
+(-45,176,o),
+(-45,101,cs),
+(-45,27,o),
+(-26,0,o),
+(0,0,cs)
+);
+}
+);
+width = 356;
+},
+{
+anchors = (
+{
+name = "*top.alt";
+pos = (181,741);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * behDotless-ar.medi.inT1outT2wide @AllMarks";
+};
+},
+{
+name = "*top.alt2";
+pos = (181,741);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * @AllMarks behDotless-ar.medi.inT1outT2wide @AllMarks";
+};
+},
+{
+name = "*top.alt3";
+pos = (181,741);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * @KafMed.fina";
+};
+},
+{
+name = "*top.alt4";
+pos = (181,741);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * @AllMarks @KafMed.fina";
+};
+},
+{
+name = bottom;
+pos = (153,-198);
+},
+{
+name = bottom.alt;
+pos = (199,-123);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (182,654);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(81,0,o),
+(143,33,o),
+(188,100,cs),
+(233,166,o),
+(256,246,o),
+(256,340,cs),
+(256,421,o),
+(216,486,o),
+(151,486,cs),
+(124,486,o),
+(103,471,o),
+(89,442,cs),
+(59,381,ls),
+(48,358,o),
+(41,335,o),
+(41,314,cs),
+(41,270,o),
+(83,244,o),
+(121,244,cs),
+(150,244,o),
+(175,250,o),
+(195,265,c),
+(198,259,o),
+(199,251,o),
+(199,243,cs),
+(199,200,o),
+(135,158,o),
+(49,158,cs),
+(12,158,o),
+(-43,132,o),
+(-43,57,cs),
+(-43,19,o),
+(-28,0,o),
+(0,0,cs)
+);
+}
+);
+width = 312;
+}
+);
+note = "fehDotless-ar.init";
+}

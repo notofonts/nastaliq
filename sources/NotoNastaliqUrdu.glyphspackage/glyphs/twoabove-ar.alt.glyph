@@ -1,0 +1,54 @@
+{
+category = Mark;
+glyphname = "twoabove-ar.alt";
+layers = (
+{
+anchors = (
+{
+name = Anchor31;
+pos = (0,771);
+},
+{
+name = _Anchor33;
+pos = (149,901);
+},
+{
+name = _top.alt;
+pos = (149,901);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = "twoabove-ar";
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = Anchor31;
+pos = (0,770);
+},
+{
+name = _Anchor33;
+pos = (150,889);
+},
+{
+name = _top.alt;
+pos = (0,560);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = "twoabove-ar";
+}
+);
+width = 0;
+}
+);
+note = "twoabove-ar.alt";
+subCategory = Nonspacing;
+}

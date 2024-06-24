@@ -1,0 +1,80 @@
+{
+category = Mark;
+glyphname = "toneonedotbelow-ar.alt";
+layers = (
+{
+anchors = (
+{
+name = Anchor33;
+pos = (0,-229);
+},
+{
+name = _bottom.alt;
+pos = (0,-81);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-1,-135,l),
+(28,-116,o),
+(44,-96,o),
+(44,-84,cs),
+(44,-72,o),
+(30,-56,o),
+(2,-38,c),
+(-3,-38,l),
+(-31,-66,o),
+(-39,-73,o),
+(-51,-91,c),
+(-51,-96,l),
+(-41,-104,o),
+(-19,-122,o),
+(-6,-135,c)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = Anchor33;
+pos = (0,-229);
+},
+{
+name = _bottom.alt;
+pos = (0,-82);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(0,-127,l),
+(27,-109,o),
+(41,-92,o),
+(41,-80,cs),
+(41,-66,o),
+(30,-55,o),
+(3,-38,c),
+(-2,-38,l),
+(-7,-43,o),
+(-28,-63,o),
+(-45,-86,c),
+(-45,-91,l),
+(-33,-101,o),
+(-14,-116,o),
+(-4,-127,c)
+);
+}
+);
+width = 0;
+}
+);
+note = "fathatwodots-ar.alt";
+subCategory = Nonspacing;
+}

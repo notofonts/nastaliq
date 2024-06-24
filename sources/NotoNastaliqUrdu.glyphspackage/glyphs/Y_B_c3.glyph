@@ -1,0 +1,32 @@
+{
+category = Mark;
+glyphname = YBc3;
+layers = (
+{
+anchors = (
+{
+name = Anchor28;
+},
+{
+name = _Anchor23;
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+width = 0;
+},
+{
+anchors = (
+{
+name = Anchor28;
+},
+{
+name = _Anchor23;
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+width = 0;
+}
+);
+note = YBc3;
+subCategory = Nonspacing;
+}

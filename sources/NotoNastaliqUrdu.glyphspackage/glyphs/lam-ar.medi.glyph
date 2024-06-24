@@ -1,0 +1,188 @@
+{
+glyphname = "lam-ar.medi";
+layers = (
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (261,-604);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @class9298 @class9299 *";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (261,-604);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @class9298 @class9299 @class9299 *";
+};
+},
+{
+name = Bar;
+pos = (229,705);
+},
+{
+name = Ring;
+pos = (229,705);
+},
+{
+name = bottom;
+pos = (207,-186);
+},
+{
+name = entry;
+pos = (336,105);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (264,1188);
+},
+{
+name = top.alt;
+pos = (265,1082);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(77,0,o),
+(154,51,o),
+(197,225,c),
+(217,146,o),
+(260,105,o),
+(336,105,cs),
+(384,105,o),
+(429,149,o),
+(429,246,cs),
+(429,303,o),
+(419,333,o),
+(385,333,cs),
+(279,333,o),
+(254,417,o),
+(254,538,cs),
+(254,700,o),
+(259,850,o),
+(280,964,c),
+(254,970,l),
+(226,899,o),
+(210,840,o),
+(203,772,cs),
+(193,677,o),
+(188,609,o),
+(184,534,cs),
+(180,468,o),
+(183,401,o),
+(173,336,cs),
+(164,275,o),
+(122,228,o),
+(49,228,cs),
+(-14,228,o),
+(-45,176,o),
+(-45,101,cs),
+(-45,27,o),
+(-26,0,o),
+(0,0,cs)
+);
+}
+);
+width = 336;
+},
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (261,-604);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @class9298 @class9299 *";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (261,-604);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @class9298 @class9299 @class9299 *";
+};
+},
+{
+name = Bar;
+pos = (219,643);
+},
+{
+name = Ring;
+pos = (219,643);
+},
+{
+name = bottom;
+pos = (198,-89);
+},
+{
+name = entry;
+pos = (295,99);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (255,1127);
+},
+{
+name = top.alt;
+pos = (256,1021);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(95,0,o),
+(153,97,o),
+(182,187,c),
+(195,150,o),
+(221,99,o),
+(295,99,cs),
+(333,99,o),
+(388,124,o),
+(388,200,cs),
+(388,238,o),
+(374,257,o),
+(345,257,cs),
+(238,257,o),
+(237,378,o),
+(237,496,cs),
+(237,680,o),
+(246,810,o),
+(262,888,c),
+(242,894,l),
+(202,802,o),
+(188,730,o),
+(182,623,cs),
+(177,539,o),
+(172,468,o),
+(169,410,cs),
+(166,352,o),
+(163,305,o),
+(157,268,cs),
+(145,195,o),
+(108,158,o),
+(48,158,cs),
+(11,158,o),
+(-44,132,o),
+(-44,57,cs),
+(-44,19,o),
+(-29,0,o),
+(-1,0,cs)
+);
+}
+);
+width = 295;
+}
+);
+note = "lam-ar.medi";
+}

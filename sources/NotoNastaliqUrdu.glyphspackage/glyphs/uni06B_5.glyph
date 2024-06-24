@@ -1,0 +1,34 @@
+{
+glyphname = uni06B5;
+layers = (
+{
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = "lam-ar.isol";
+},
+{
+pos = (772,414);
+ref = "vabove-ar";
+}
+);
+width = 922;
+},
+{
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = "lam-ar.isol";
+},
+{
+pos = (772,414);
+ref = "vabove-ar";
+}
+);
+width = 917;
+}
+);
+metricLeft = "lam-ar.isol";
+metricRight = "lam-ar.isol";
+unicode = 1717;
+}

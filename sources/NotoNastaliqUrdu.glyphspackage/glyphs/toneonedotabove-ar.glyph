@@ -1,0 +1,89 @@
+{
+category = Mark;
+glyphname = "toneonedotabove-ar";
+layers = (
+{
+anchors = (
+{
+name = Anchor31;
+pos = (0,1081);
+},
+{
+name = _Anchor31;
+pos = (-4,832);
+},
+{
+name = _top;
+pos = (0,921);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(20,918,l),
+(49,937,o),
+(65,957,o),
+(65,969,cs),
+(65,981,o),
+(51,997,o),
+(23,1015,c),
+(18,1015,l),
+(-10,987,o),
+(-18,980,o),
+(-30,962,c),
+(-30,957,l),
+(-20,949,o),
+(2,931,o),
+(15,918,c)
+);
+}
+);
+width = 0;
+},
+{
+anchors = (
+{
+name = Anchor31;
+pos = (0,1081);
+},
+{
+name = _Anchor31;
+pos = (-5,831);
+},
+{
+name = _top;
+pos = (0,920);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(2,929,l),
+(29,947,o),
+(43,964,o),
+(43,976,cs),
+(43,990,o),
+(32,1001,o),
+(5,1018,c),
+(0,1018,l),
+(-5,1013,o),
+(-26,993,o),
+(-43,970,c),
+(-43,965,l),
+(-31,955,o),
+(-12,940,o),
+(-2,929,c)
+);
+}
+);
+width = 0;
+}
+);
+note = "fathatwodots-ar.alt";
+subCategory = Nonspacing;
+unicode = 2282;
+}

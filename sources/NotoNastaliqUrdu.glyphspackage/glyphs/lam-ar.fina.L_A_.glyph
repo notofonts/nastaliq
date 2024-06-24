@@ -1,0 +1,180 @@
+{
+glyphname = "lam-ar.fina.LA";
+layers = (
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (91,-367);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @class9298 @class9299 *";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (91,-367);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @class9298 @class9299 @class9299 *";
+};
+},
+{
+name = Bar;
+pos = (67,651);
+},
+{
+name = Ring;
+pos = (67,651);
+},
+{
+name = bottom;
+pos = (92,-168);
+},
+{
+name = entry;
+pos = (173,96);
+},
+{
+name = top;
+pos = (112,1073);
+},
+{
+name = top.alt;
+pos = (191,1145);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-100,-57,o),
+(-83,-45,o),
+(-54,-21,cs),
+(-17,10,o),
+(22,66,o),
+(47,162,c),
+(71,118,o),
+(113,96,o),
+(173,96,cs),
+(234,96,o),
+(266,148,o),
+(266,226,cs),
+(266,287,o),
+(254,324,o),
+(222,324,cs),
+(145,324,o),
+(90,367,o),
+(90,532,cs),
+(90,644,o),
+(100,834,o),
+(119,915,c),
+(94,923,l),
+(45,804,o),
+(35,747,o),
+(27,591,cs),
+(10,245,ls),
+(5,151,o),
+(2,129,o),
+(-44,85,cs),
+(-80,51,o),
+(-152,20,o),
+(-239,13,c),
+(-244,-6,l),
+(-203,-23,o),
+(-163,-40,o),
+(-122,-57,c)
+);
+}
+);
+width = 173;
+},
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (90,-438);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @class9298 @class9299 *";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (90,-438);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @class9298 @class9299 @class9299 *";
+};
+},
+{
+name = Bar;
+pos = (87,625);
+},
+{
+name = Ring;
+pos = (87,625);
+},
+{
+name = bottom;
+pos = (82,-142);
+},
+{
+name = entry;
+pos = (201,95);
+},
+{
+name = top;
+pos = (129,1017);
+},
+{
+name = top.alt;
+pos = (120,1144);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(-52,-49,o),
+(-17,-16,o),
+(11,20,cs),
+(37,54,o),
+(57,100,o),
+(73,158,c),
+(95,111,o),
+(143,96,o),
+(190,96,cs),
+(227,96,o),
+(282,120,o),
+(282,197,cs),
+(282,229,o),
+(271,254,o),
+(239,254,cs),
+(139,254,o),
+(112,312,o),
+(112,464,cs),
+(112,673,o),
+(126,786,o),
+(136,831,c),
+(115,838,l),
+(72,735,o),
+(56,684,o),
+(48,513,cs),
+(35,235,ls),
+(31,157,o),
+(29,141,o),
+(9,113,cs),
+(-46,36,o),
+(-150,18,o),
+(-204,13,c),
+(-209,-6,l),
+(-188,-27,o),
+(-122,-57,o),
+(-91,-59,c)
+);
+}
+);
+width = 201;
+}
+);
+note = "lam-ar.fina.LA";
+}

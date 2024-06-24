@@ -1,0 +1,32 @@
+{
+glyphname = uni06B6;
+layers = (
+{
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+ref = "lam-ar.isol";
+},
+{
+pos = (766,459);
+ref = "dotabove-ar";
+}
+);
+width = 851;
+},
+{
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+ref = "lam-ar.isol";
+},
+{
+pos = (810,508);
+ref = "dotabove-ar";
+}
+);
+width = 890;
+}
+);
+unicode = 1718;
+}

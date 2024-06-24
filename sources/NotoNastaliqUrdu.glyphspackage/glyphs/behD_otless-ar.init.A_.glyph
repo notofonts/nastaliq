@@ -1,0 +1,292 @@
+{
+glyphname = "behDotless-ar.init.A";
+layers = (
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (152,-173);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * [behDotless-ar.medi.inT1outS1 behDotless-ar.medi.inT1outT2 behDotless-ar.medi.inT1outT2seen-ar] @class9259";
+};
+},
+{
+name = "*bottom.alt10";
+pos = (152,-173);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 @class9279 @class9259";
+};
+},
+{
+name = "*bottom.alt11";
+pos = (152,-173);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * dal-ar.fina @class9259";
+};
+},
+{
+name = "*bottom.alt12";
+pos = (152,-173);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 dal-ar.fina @class9259";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (152,-173);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 [behDotless-ar.medi.inT1outS1 behDotless-ar.medi.inT1outT2 behDotless-ar.medi.inT1outT2seen-ar] @class9259";
+};
+},
+{
+name = "*bottom.alt3";
+pos = (152,-173);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * [lam-ar.medi.outT3 lam-ar.medi.outD2Y kaf-ar.medi.outD2Y ]";
+};
+},
+{
+name = "*bottom.alt4";
+pos = (152,-173);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 [lam-ar.medi.outT3 lam-ar.medi.outD2Y kaf-ar.medi.outD2Y ]";
+};
+},
+{
+name = "*bottom.alt5";
+pos = (152,-173);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * alef-ar.fina.narrow";
+};
+},
+{
+name = "*bottom.alt6";
+pos = (152,-173);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 alef-ar.fina.narrow";
+};
+},
+{
+name = "*bottom.alt7";
+pos = (152,-173);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9272 @class9259";
+};
+},
+{
+name = "*bottom.alt8";
+pos = (152,-173);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 @class9272 @class9259";
+};
+},
+{
+name = "*bottom.alt9";
+pos = (152,-173);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9279 @class9259";
+};
+},
+{
+name = "*top.alt";
+pos = (202,545);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * [behDotless-ar.medi.inT1outS1 behDotless-ar.medi.inT1outT2 behDotless-ar.medi.inT1outT2N behDotless-ar.medi.inT1outT2seen-ar behDotless-ar.medi.inT2outD2MM @class8927 @KafMed.fina] @AllMarks";
+};
+},
+{
+name = "*top.alt2";
+pos = (206,545);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * @AllAboveMarks [behDotless-ar.medi.inT1outS1 behDotless-ar.medi.inT1outT2 behDotless-ar.medi.inT1outT2N behDotless-ar.medi.inT1outT2seen-ar behDotless-ar.medi.inT2outD2MM @class8927 @KafMed.fina] @AllMarks";
+};
+},
+{
+name = Bar;
+pos = (97,-11);
+},
+{
+name = Ring;
+pos = (97,-11);
+},
+{
+name = bottom;
+pos = (53,-277);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (196,574);
+}
+);
+layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
+shapes = (
+{
+closed = 1;
+nodes = (
+(109,0,o),
+(182,148,o),
+(203,313,c),
+(175,319,l),
+(149,258,o),
+(103,228,o),
+(49,228,cs),
+(-14,228,o),
+(-45,176,o),
+(-45,101,cs),
+(-45,27,o),
+(-26,0,o),
+(0,0,cs)
+);
+}
+);
+width = 248;
+},
+{
+anchors = (
+{
+name = "*bottom.alt";
+pos = (118,-176);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * [behDotless-ar.medi.inT1outS1 behDotless-ar.medi.inT1outT2 behDotless-ar.medi.inT1outT2seen-ar] @class9259";
+};
+},
+{
+name = "*bottom.alt10";
+pos = (118,-176);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 @class9279 @class9259";
+};
+},
+{
+name = "*bottom.alt11";
+pos = (118,-176);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * dal-ar.fina @class9259";
+};
+},
+{
+name = "*bottom.alt12";
+pos = (118,-176);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 dal-ar.fina @class9259";
+};
+},
+{
+name = "*bottom.alt2";
+pos = (118,-176);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 [behDotless-ar.medi.inT1outS1 behDotless-ar.medi.inT1outT2 behDotless-ar.medi.inT1outT2seen-ar] @class9259";
+};
+},
+{
+name = "*bottom.alt3";
+pos = (118,-176);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * [lam-ar.medi.outT3 lam-ar.medi.outD2Y kaf-ar.medi.outD2Y ]";
+};
+},
+{
+name = "*bottom.alt4";
+pos = (118,-176);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 [lam-ar.medi.outT3 lam-ar.medi.outD2Y kaf-ar.medi.outD2Y ]";
+};
+},
+{
+name = "*bottom.alt5";
+pos = (118,-176);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * alef-ar.fina.narrow";
+};
+},
+{
+name = "*bottom.alt6";
+pos = (118,-176);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 alef-ar.fina.narrow";
+};
+},
+{
+name = "*bottom.alt7";
+pos = (118,-176);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9272 @class9259";
+};
+},
+{
+name = "*bottom.alt8";
+pos = (118,-176);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 @class9272 @class9259";
+};
+},
+{
+name = "*bottom.alt9";
+pos = (118,-176);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9279 @class9259";
+};
+},
+{
+name = "*top.alt";
+pos = (178,442);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * [behDotless-ar.medi.inT1outS1 behDotless-ar.medi.inT1outT2 behDotless-ar.medi.inT1outT2N behDotless-ar.medi.inT1outT2seen-ar behDotless-ar.medi.inT2outD2MM @class8927 @KafMed.fina] @AllMarks";
+};
+},
+{
+name = "*top.alt2";
+pos = (184,441);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * @AllAboveMarks [behDotless-ar.medi.inT1outS1 behDotless-ar.medi.inT1outT2 behDotless-ar.medi.inT1outT2N behDotless-ar.medi.inT1outT2seen-ar behDotless-ar.medi.inT2outD2MM @class8927 @KafMed.fina] @AllMarks";
+};
+},
+{
+name = Bar;
+pos = (96,-11);
+},
+{
+name = Ring;
+pos = (96,-11);
+},
+{
+name = bottom;
+pos = (73,-264);
+},
+{
+name = exit;
+},
+{
+name = top;
+pos = (147,514);
+}
+);
+layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
+shapes = (
+{
+closed = 1;
+nodes = (
+(83,0,o),
+(147,83,o),
+(181,245,c),
+(160,250,l),
+(125,179,o),
+(88,158,o),
+(49,158,cs),
+(10,158,o),
+(-43,131,o),
+(-43,57,cs),
+(-43,19,o),
+(-28,0,o),
+(0,0,cs)
+);
+}
+);
+width = 236;
+}
+);
+note = "behDotless-ar.init.A";
+}
