@@ -1,5 +1,5 @@
 {
-glyphname = "hehgoal-ar.medi.inD5outD2Y";
+glyphname = "heh-ar.medi.inD5outD2Y";
 layers = (
 {
 anchors = (
@@ -152,5 +152,5 @@ nodes = (
 width = 407;
 }
 );
-note = "hehgoal-ar.medi.inD5outD2Y";
+note = "heh-ar.medi.inD5outD2Y";
 }
