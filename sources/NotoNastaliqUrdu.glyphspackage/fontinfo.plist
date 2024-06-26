@@ -248,6 +248,7 @@ name = to.BEHm.alt;
 {
 code = "behDotless-ar.medi.cain
 behDotless-ar.medi.cainwide
+behDotless-ar.medi.cainN
 #behDotless-ar.medi.calef
 #behDotless-ar.medi.cfeh
 #behDotless-ar.medi.cmeem
@@ -257,6 +258,7 @@ name = BEHm.raised;
 },
 {
 code = "behDotless-ar.medi
+behDotless-ar.init
 hah-ar.medi
 hah-ar.init
 seen-ar.medi
@@ -283,6 +285,7 @@ name = to.BEHf;
 },
 {
 code = "behDotless-ar.medi.fbeh
+behDotless-ar.init.fbeh
 hah-ar.medi.ain
 hah-ar.init.fbeh
 seen-ar.medi.fbeh
@@ -1195,6 +1198,7 @@ meem-ar.init
 heh-ar.medi
 heh-ar.init
 hehgoal-ar.init
+hehDoachashmee-ar.medi
 hehDoachashmee-ar.init
 ";
 name = to.YEHf;
@@ -1214,6 +1218,7 @@ meem-ar.init.yeh
 heh-ar.medi.yeh
 heh-ar.init.yeh
 hehgoal-ar.init.yeh
+hehDoachashmee-ar.medi.yeh
 hehDoachashmee-ar.init.yeh
 ";
 name = to.YEHf.alt;
@@ -6170,25 +6175,7 @@ code = "lookup Check_Kern_Spacing {
 name = Check_Kern_Spacing;
 },
 {
-code = "
-lookup SarkashSelection {
-	lookupflag UseMarkFilteringSet [_gaf.sarkash _gaf.sarkash.inv];
-	sub [kaf-ar.medi.Vlow kaf-ar.medi.VoutD11 kaf-ar.medi.VoutD2MD kaf-ar.medi..yeh kaf-ar.medi.VoutD4 kaf-ar.medi.VoutD5 kaf-ar.medi.VoutS1 kaf-ar.medi.feh2] _gaf.sarkash.inv' by _gaf.sarkash.inv2;
-	sub [kaf-ar.init.HRlow kaf-ar.init.HRoutD1 kaf-ar.init.HRoutD2 kaf-ar.init.HRoutD2H kaf-ar.init.HRoutD5 kaf-ar.init.HRhehDoachashmee-ar.medi.kaf kaf-ar.init.HRhehDoachashmee-ar.medi.kafN kaf-ar.init.NoutD1 kaf-ar.init.NoutD11 kaf-ar.init.NoutD2H kaf-ar.init.feh2 kaf-ar.init.bari kaf-ar.init.heh ] _gaf.sarkash.inv' by _gaf.sarkash.invfat;
-	sub [kaf-ar.medi.alef kaf-ar.init.alef]  _gaf.sarkash.inv' by _gaf.sarkash.invsteep;
-	sub [kaf-ar.init.N kaf-ar.init.NoutD2 kaf-ar.init.meem kaf-ar.init.NhehDoachashmee-ar.medi.kaf] _gaf.sarkash.inv' by _gaf.sarkash.invshort;
-	
-	sub [kaf-ar.init.HRk] _gaf.sarkash.inv' by _gaf.sarkash.invshorter;
-	sub [kaf-ar.fina.V kaf-ar.medi.VoutD1 kaf-ar.medi.VoutD2HYB kaf-ar.medi.waw kaf-ar.medi.VhehDoachashmee-ar.medi.kaf] _gaf.sarkash.inv' by _gaf.sarkash.invsteep;
-	sub [kaf-ar.medi.NoutD1 kaf-ar.medi.meem kaf-ar.medi.NhehDoachashmee-ar.medi.kaf ] _gaf.sarkash.inv' by _gaf.sarkash.invthin;
-	sub [kaf-ar.medi.NoutD11 kaf-ar.medi.NoutD2HYB kaf-ar.medi.NoutD2MD kaf-ar.medi.feh2] _gaf.sarkash.inv' by _gaf.sarkash.invshort2;
-
-	sub [ kaf-ar.medi.sad kaf-ar.medi.kaf kaf-ar.medi.jeem kaf-ar.medi.bari kaf-ar.medi.doheh kaf-ar.medi.meem kaf-ar.medi.waw kaf-ar.medi.yeh kaf-ar.medi.reh kaf-ar.medi.heh kaf-ar.medi.feh] _gaf.sarkash' by _gaf.sarkash.long;
-	sub [kaf-ar.fina.V kaf-ar.medi.VoutD1 kaf-ar.medi.VoutD11 kaf-ar.medi.VoutD2HYB kaf-ar.medi.VoutD2MD kaf-ar.medi.meem kaf-ar.medi.waw kaf-ar.medi..yeh kaf-ar.medi.VoutD4 kaf-ar.medi.VoutS1 kaf-ar.medi.VhehDoachashmee-ar.medi.kaf kaf-ar.medi.feh2 kaf-ar.medi.Vlow ] _gaf.sarkash' by _gaf.sarkash.steep;
-	sub [kaf-ar.medi.alef kaf-ar.init.alef] _gaf.sarkash' by _gaf.sarkash.steeper;
-	sub [kaf-ar.init.HRk] _gaf.sarkash' by _gaf.sarkash.thin;
-} SarkashSelection;
-";
+code = "";
 name = SelectSarkash;
 },
 {
@@ -6832,17 +6819,18 @@ lookup Alternates {
 	
 	sub [behDotless-ar.init.reh] [reh-ar.fina]' by [reh-ar.fina.short];
 
-	sub [fehDotless-ar.medi.reh ain-ar.medi.reh1 heh-ar.init.reh seen-ar.init.r seen-ar.medi.r meem-ar.init.r hehgoal-ar.init.r  behDotless-ar.medi.reh] [reh-ar.fina]' by [reh-ar.fina.long];	
-	sub [hah-ar.init.reh ain-ar.init.reh  hehDoachashmee-ar.init.reh tah-ar.init.reh hehDoachashmee-ar.medi.reh] [reh-ar.fina]' by [reh-ar.fina.longthin];	
+	sub [fehDotless-ar.medi.reh heh-ar.init.reh seen-ar.init.r seen-ar.medi.r meem-ar.init.r hehgoal-ar.init.r  behDotless-ar.medi.reh] [reh-ar.fina]' by [reh-ar.fina.long];	
+	sub [hah-ar.init.reh ain-ar.init.reh ain-ar.medi.reh1  hehDoachashmee-ar.init.reh tah-ar.init.reh hehDoachashmee-ar.medi.reh] [reh-ar.fina]' by [reh-ar.fina.longthin];	
 } Alternates;
+
 
 lookup BehFina {
    lookupflag IgnoreMarks;
 	sub [behDotless-ar.init.fbeh fehDotless-ar.init.fbeh lam-ar.init.fbeh lam-ar.medi.fbeh kaf-ar.init.fbeh kaf-ar.medi.fbeh] behDotless-ar.fina' by behDotless-ar.fina.alt;
 
     # This is not fina, but this is a good place to hang it.
-    ignore sub @BEHi' [@JEEMm @FEHm];
-    sub @BEHi' [@to.BEHf.alt] by behDotless-ar.init.fbehtall;
+#    ignore sub @BEHi' [@JEEMm @FEHm @BEHm @BEHm.raised @AINm];
+#    sub @BEHi' [@to.BEHf.alt] by behDotless-ar.init.fbehtall;
     sub @LAMi' [behDotless-ar.medi.reh] by lam-ar.init.outS1;
     sub @LAMi' @SEENm by lam-ar.init.fbeh;
     sub @BEHi' [behDotless-ar.medi.reh] by behDotless-ar.init.alef;
@@ -6854,7 +6842,7 @@ lookup Refinements {
 	sub [tah-ar.medi tah-ar.init @KAFm] hehgoal-ar.fina' by hehgoal-ar.fina.wide;
 	sub ain-ar.init' hehgoal-ar.fina by ain-ar.init.outS1;
 	sub hehgoal-ar.init' hehgoal-ar.fina by hehgoal-ar.init.outS1;
-	sub hah-ar.init' hehgoal-ar.fina by hah-ar.init.outS1;
+	sub @JEEMi' [hehgoal-ar.fina behDotless-ar.medi.reh] by hah-ar.init.outS1;
 } Refinements;
 
 lookup RaiseTooth {
@@ -6908,7 +6896,24 @@ lookup FixRaisedToothConnections {
 #    lookup YBcombis5m;
 #    lookup YBcombis4m;
 #    lookup Check_Kern_Spacing;
-    lookup SarkashSelection;
+
+lookup SarkashSelection {
+	lookupflag UseMarkFilteringSet [_gaf.sarkash _gaf.sarkash.inv];
+	sub [kaf-ar.medi.Vlow kaf-ar.medi.VoutD11 kaf-ar.medi.VoutD2MD kaf-ar.medi..yeh kaf-ar.medi.VoutD4 kaf-ar.medi.VoutD5 kaf-ar.medi.VoutS1 kaf-ar.medi.feh2] _gaf.sarkash.inv' by _gaf.sarkash.inv2;
+	sub [kaf-ar.init.HRlow kaf-ar.init.HRoutD1 kaf-ar.init.HRoutD2 kaf-ar.init.HRoutD2H kaf-ar.init.HRoutD5 kaf-ar.init.HRhehDoachashmee-ar.medi.kaf kaf-ar.init.HRhehDoachashmee-ar.medi.kafN kaf-ar.init.NoutD1 kaf-ar.init.NoutD11 kaf-ar.init.NoutD2H kaf-ar.init.feh2 kaf-ar.init.bari kaf-ar.init.heh ] _gaf.sarkash.inv' by _gaf.sarkash.invfat;
+	sub [kaf-ar.medi.alef kaf-ar.init.alef]  _gaf.sarkash.inv' by _gaf.sarkash.invsteep;
+	sub [kaf-ar.init.N kaf-ar.init.NoutD2 kaf-ar.init.meem kaf-ar.init.NhehDoachashmee-ar.medi.kaf] _gaf.sarkash.inv' by _gaf.sarkash.invshort;
+	
+	sub [kaf-ar.init.HRk] _gaf.sarkash.inv' by _gaf.sarkash.invshorter;
+	sub [kaf-ar.fina.V kaf-ar.medi.VoutD1 kaf-ar.medi.VoutD2HYB kaf-ar.medi.waw kaf-ar.medi.VhehDoachashmee-ar.medi.kaf] _gaf.sarkash.inv' by _gaf.sarkash.invsteep;
+	sub [kaf-ar.medi.NoutD1 kaf-ar.medi.meem kaf-ar.medi.NhehDoachashmee-ar.medi.kaf ] _gaf.sarkash.inv' by _gaf.sarkash.invthin;
+	sub [kaf-ar.medi.NoutD11 kaf-ar.medi.NoutD2HYB kaf-ar.medi.NoutD2MD kaf-ar.medi.feh2] _gaf.sarkash.inv' by _gaf.sarkash.invshort2;
+
+	sub [ kaf-ar.medi.sad kaf-ar.medi.kaf kaf-ar.medi.jeem kaf-ar.medi.bari kaf-ar.medi.doheh kaf-ar.medi.meem kaf-ar.medi.waw kaf-ar.medi.yeh kaf-ar.medi.reh kaf-ar.medi.heh kaf-ar.medi.feh] _gaf.sarkash' by _gaf.sarkash.long;
+	sub [kaf-ar.fina.V kaf-ar.medi.VoutD1 kaf-ar.medi.VoutD11 kaf-ar.medi.VoutD2HYB kaf-ar.medi.VoutD2MD kaf-ar.medi.meem kaf-ar.medi.waw kaf-ar.medi..yeh kaf-ar.medi.VoutD4 kaf-ar.medi.VoutS1 kaf-ar.medi.VhehDoachashmee-ar.medi.kaf kaf-ar.medi.feh2 kaf-ar.medi.Vlow ] _gaf.sarkash' by _gaf.sarkash.steep;
+	sub [kaf-ar.medi.alef kaf-ar.init.alef] _gaf.sarkash' by _gaf.sarkash.steeper;
+	sub [kaf-ar.init.HRk] _gaf.sarkash' by _gaf.sarkash.thin;
+} SarkashSelection;
 
 #    lookup KernIntro;
 #    lookup RemoveYBspFlag;
