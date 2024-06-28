@@ -2244,7 +2244,7 @@ lookup BehFina {
 lookup Refinements {
 	lookupflag IgnoreMarks;
 	sub [tah-ar.medi tah-ar.init @KAFm] hehgoal-ar.fina' by hehgoal-ar.fina.wide;
-	sub hehgoal-ar.init.heh' meem-ar.fina by hehgoal-ar.init.meemf;
+	sub hehgoal-ar.init.meem' meem-ar.fina by hehgoal-ar.init.meemf;
 	sub ain-ar.init' hehgoal-ar.fina by ain-ar.init.outS1;
 	sub hehgoal-ar.init' hehgoal-ar.fina by hehgoal-ar.init.outS1;
 	sub @JEEMi' [hehgoal-ar.fina behDotless-ar.medi.reh] by hah-ar.init.outS1;
