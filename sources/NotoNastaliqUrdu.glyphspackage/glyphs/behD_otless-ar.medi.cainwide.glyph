@@ -7,28 +7,28 @@ anchors = (
 name = "*bottom.alt";
 pos = (266,-374);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @class9298 @class9299 ";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * [ hehgoal-ar.init] @AllBelowMarks ";
 };
 },
 {
 name = "*bottom.alt2";
 pos = (266,-374);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @class9298 @class9299 @class9299 ";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * [ hehgoal-ar.init] @AllBelowMarks @AllBelowMarks ";
 };
 },
 {
 name = "*bottom.alt3";
 pos = (266,-374);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @class9279 @class9259";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @BEHm @AllBelowMarks";
 };
 },
 {
 name = "*bottom.alt4";
 pos = (266,-374);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @class9258 @class9279 @class9259";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @AllBelowMarks @BEHm @AllBelowMarks";
 };
 },
 {
@@ -109,28 +109,28 @@ anchors = (
 name = "*bottom.alt";
 pos = (263,-425);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @class9298 @class9299 ";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * [ hehgoal-ar.init] @AllBelowMarks ";
 };
 },
 {
 name = "*bottom.alt2";
 pos = (263,-425);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @class9298 @class9299 @class9299 ";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * [ hehgoal-ar.init] @AllBelowMarks @AllBelowMarks ";
 };
 },
 {
 name = "*bottom.alt3";
 pos = (263,-425);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @class9279 @class9259";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @BEHm @AllBelowMarks";
 };
 },
 {
 name = "*bottom.alt4";
 pos = (263,-425);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @class9258 @class9279 @class9259";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @AllBelowMarks @BEHm @AllBelowMarks";
 };
 },
 {

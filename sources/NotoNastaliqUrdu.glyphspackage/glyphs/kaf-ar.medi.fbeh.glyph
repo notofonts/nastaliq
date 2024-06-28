@@ -8,14 +8,14 @@ anchors = (
 name = "*bottom.alt";
 pos = (233,-447);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @class9298 @class9299 *";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; [ hehgoal-ar.init] @AllBelowMarks *";
 };
 },
 {
 name = "*bottom.alt2";
 pos = (233,-447);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @class9298 @class9299 @class9299 *";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; [ hehgoal-ar.init] @AllBelowMarks @AllBelowMarks *";
 };
 },
 {
@@ -126,14 +126,14 @@ anchors = (
 name = "*bottom.alt";
 pos = (230,-605);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @class9298 @class9299 *";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; [ hehgoal-ar.init] @AllBelowMarks *";
 };
 },
 {
 name = "*bottom.alt2";
 pos = (230,-605);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @class9298 @class9299 @class9299 *";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; [ hehgoal-ar.init] @AllBelowMarks @AllBelowMarks *";
 };
 },
 {

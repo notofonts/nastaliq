@@ -7,14 +7,14 @@ anchors = (
 name = "*bottom.alt";
 pos = (270,-196);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9279 @class9259";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @BEHm @AllBelowMarks";
 };
 },
 {
 name = "*bottom.alt2";
 pos = (270,-196);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 @class9279 @class9259";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @AllBelowMarks @BEHm @AllBelowMarks";
 };
 },
 {
@@ -85,14 +85,14 @@ anchors = (
 name = "*bottom.alt";
 pos = (270,-196);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9279 @class9259";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @BEHm @AllBelowMarks";
 };
 },
 {
 name = "*bottom.alt2";
 pos = (270,-196);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 @class9279 @class9259";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @AllBelowMarks @BEHm @AllBelowMarks";
 };
 },
 {

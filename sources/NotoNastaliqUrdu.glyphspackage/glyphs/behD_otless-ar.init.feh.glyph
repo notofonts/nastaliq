@@ -4,24 +4,10 @@ layers = (
 {
 anchors = (
 {
-name = "*bottom.alt";
-pos = (237,-110);
-userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @AinFeh.medi @class9259";
-};
-},
-{
-name = "*bottom.alt2";
-pos = (237,-110);
-userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 @AinFeh.medi @class9259";
-};
-},
-{
 name = "*bottom.alt3";
 pos = (237,-110);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 ain-ar.fina";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @AllBelowMarks ain-ar.fina";
 };
 },
 {
@@ -85,24 +71,10 @@ width = 332;
 {
 anchors = (
 {
-name = "*bottom.alt";
-pos = (256,-121);
-userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @AinFeh.medi @class9259";
-};
-},
-{
-name = "*bottom.alt2";
-pos = (256,-121);
-userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 @AinFeh.medi @class9259";
-};
-},
-{
 name = "*bottom.alt3";
 pos = (256,-121);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @class9258 ain-ar.fina";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @AllBelowMarks ain-ar.fina";
 };
 },
 {
