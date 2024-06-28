@@ -442,6 +442,7 @@ name = to.JEEMm.alt;
 code = "behDotless-ar.init
 behDotless-ar.medi
 tah-ar.init
+tah-ar.medi
 kaf-ar.medi
 kaf-ar.init
 lam-ar.medi
@@ -457,7 +458,9 @@ hehDoachashmee-ar.medi
 seen-ar.init
 seen-ar.medi
 hah-ar.init
+hah-ar.medi
 meem-ar.init
+meem-ar.medi
 hehgoal-ar.init
 tah-ar.medi
 sad-ar.medi
@@ -469,6 +472,7 @@ name = to.REHf;
 code = "behDotless-ar.init.reh
 behDotless-ar.medi.reh
 tah-ar.init.reh
+tah-ar.medi.reh
 kaf-ar.medi.reh
 kaf-ar.init.waw
 lam-ar.medi.reh
@@ -484,7 +488,9 @@ hehDoachashmee-ar.medi.reh
 seen-ar.init.r
 seen-ar.medi.r
 hah-ar.init.reh
+hah-ar.medi.reh
 meem-ar.init.r
+meem-ar.medi.reh
 hehgoal-ar.init.r
 tah-ar.medi.reh
 sad-ar.medi.r
@@ -1101,7 +1107,7 @@ sad-ar.init.feh
 tah-ar.medi.feh
 tah-ar.init.waw
 ain-ar.medi.feh
-ain-ar.init.waw
+ain-ar.init.fehWQ
 fehDotless-ar.medi.feh
 fehDotless-ar.init.waw
 kaf-ar.medi.waw
@@ -1119,8 +1125,7 @@ hehDoachashmee-ar.init.waw
 name = to.WAWf.alt;
 },
 {
-code = "$[name contains \"heh-ar.init\"]
-";
+code = "$[name contains \"heh-ar.init\"]";
 name = HEHi;
 },
 {
@@ -1246,7 +1251,9 @@ hah-ar.medi
 hah-ar.init
 seen-ar.medi
 seen-ar.init
+sad-ar.medi
 sad-ar.init
+tah-ar.medi
 tah-ar.init
 ain-ar.medi
 ain-ar.init
@@ -1273,7 +1280,9 @@ hah-ar.medi.bari
 hah-ar.init.bari
 seen-ar.medi.bari
 seen-ar.init.bari
+sad-ar.medi.bari
 sad-ar.init.bari
+tah-ar.medi.bari
 tah-ar.init.bari
 ain-ar.medi.bari
 ain-ar.init.bari
@@ -1335,6 +1344,57 @@ code = "@KAFm
 @LAMm
 alef-ar.fina";
 name = KAFLAMALEFm;
+},
+{
+code = "behDotless-ar.medi.reh
+fehDotless-ar.medi.reh
+heh-ar.init.reh
+hehgoal-ar.init.r
+meem-ar.init.r
+meem-ar.medi.reh
+sad-ar.init.r
+sad-ar.medi.r
+seen-ar.init.r
+seen-ar.medi.r
+";
+name = to.REHf.long;
+},
+{
+code = "ain-ar.init.reh
+ain-ar.medi.reh1
+hah-ar.init.reh
+hah-ar.medi.reh
+hehDoachashmee-ar.init.reh
+hehDoachashmee-ar.medi.reh
+tah-ar.init.reh
+tah-ar.medi.reh";
+name = to.REHf.longthin;
+},
+{
+code = "$[name contains \"-ar.init\"]";
+name = AllInitials;
+},
+{
+code = "$[name contains \"-ar.medi\"]";
+name = AllMedis;
+},
+{
+code = "ain-ar.init.bari
+ain-ar.medi.bari
+hah-ar.init.bari
+hah-ar.medi.bari
+hehDoachashmee-ar.init.bari
+hehDoachashmee-ar.medi.bari
+kaf-ar.medi.bari
+lam-ar.medi.bari
+fehDotless-ar.init.bari
+fehDotless-ar.medi.bari
+meem-ar.init.bari
+meem-ar.medi.bari
+tah-ar.init.bari
+tah-ar.medi.bari
+heh-ar.init.bari";
+name = to.BARIYEHf.short;
 }
 );
 customParameters = (
@@ -2222,8 +2282,8 @@ lookup Alternates {
 	
 	sub [behDotless-ar.init.reh] [reh-ar.fina]' by [reh-ar.fina.short];
 
-	sub [fehDotless-ar.medi.reh heh-ar.init.reh seen-ar.init.r seen-ar.medi.r meem-ar.init.r hehgoal-ar.init.r  behDotless-ar.medi.reh sad-ar.init.r sad-ar.medi.r] [reh-ar.fina]' by [reh-ar.fina.long];	
-	sub [hah-ar.init.reh ain-ar.init.reh ain-ar.medi.reh1  hehDoachashmee-ar.init.reh tah-ar.init.reh hehDoachashmee-ar.medi.reh] [reh-ar.fina]' by [reh-ar.fina.longthin];	
+	sub @to.REHf.long [reh-ar.fina]' by [reh-ar.fina.long];	
+	sub @to.REHf.longthin [reh-ar.fina]' by [reh-ar.fina.longthin];	
 	sub heh-ar.medi.rehR reh-ar.fina' by reh-ar.fina.postheh-ar;
 } Alternates;
 
@@ -2293,7 +2353,7 @@ lookup FixRaisedToothConnections {
 
 lookup YehBarreeSelection {
 	lookupflag IgnoreMarks;
-	sub [hah-ar.medi.bari hehDoachashmee-ar.medi.bari kaf-ar.medi.bari] yehbarree-ar.fina' by yehbarree-ar.fina.2;
+	sub @to.BARIYEHf.short yehbarree-ar.fina' by yehbarree-ar.fina.2;
 } YehBarreeSelection;
 
 lookup SarkashSelection {
@@ -2333,6 +2393,72 @@ tag = mark;
 code = "# Automatic Code Start
 ";
 tag = mkmk;
+},
+{
+code = "
+lookup YehBariKern {
+	lookupflag IgnoreMarks;
+
+	# Two glyph sequences don't need kerning because they are done by pair kerning.
+
+ 	# Three glyph sequences
+	pos [@BEHi @FEHi @LAMi @HEHi @HEHGOALi]' 600 [behDotless-ar.medi.bari ain-ar.medi.bari kaf-ar.medi.bari lam-ar.medi.bari meem-ar.medi.bari fehDotless-ar.medi.bari]; # ببے
+	pos [@BEHi @FEHi @LAMi]' 250 [seen-ar.medi.bari];
+
+	pos [@JEEMi @HEHGOALi]' 300 [behDotless-ar.medi.bari heh-ar.medi.bari kaf-ar.medi.bari lam-ar.medi.bari tah-ar.medi.bari];
+	pos @AllInitials' 220 [behDotless-ar.medi.bari]; 
+
+	pos @AllInitials' 0 [seen-ar.medi.bari]; 
+
+	pos @AllInitials' 450 [ain-ar.medi.bari tah-ar.medi.bari hah-ar.medi.bari fehDotless-ar.medi.bari kaf-ar.medi.bari lam-ar.medi.bari meem-ar.medi.bari]; 
+
+	pos [@HEHi @HEHGOALi]' 300 [heh-ar.medi.bari]; 
+	pos [@BEHi @FEHi @LAMi]' 450 [heh-ar.medi.bari]; 
+
+	pos @AllInitials' 50 [sad-ar.medi.bari]; 
+	pos @AllInitials' 250 [hehDoachashmee-ar.medi.bari]; 
+
+	pos [@SEENi @SADi.m]' 150 @to.BARIYEHf.alt'; 
+
+	pos @AllInitials' 550 @to.BARIYEHf.alt'; 
+
+
+	# Four glyph sequences
+	pos @AllInitials' 50 @AllMedis [sad-ar.medi.bari seen-ar.medi.bari]; 
+	pos [@BEHi]' 350 @BEHm [behDotless-ar.medi.bari tah-ar.medi.bari hehDoachashmee-ar.medi.bari]; 
+	pos [@BEHi]' 450 @BEHm [hah-ar.medi.bari  ain-ar.medi.bari fehDotless-ar.medi.bari]; 
+	pos [@BEHi]' 300 @BEHm [hah-ar.medi.bari ain-ar.medi.bari fehDotless-ar.medi.bari lam-ar.medi.bari kaf-ar.medi.bari meem-ar.medi.bari heh-ar.medi.bari]; 
+	pos [@JEEMi]' 100 @BEHm [hah-ar.medi.bari ain-ar.medi.bari fehDotless-ar.medi.bari lam-ar.medi.bari kaf-ar.medi.bari meem-ar.medi.bari heh-ar.medi.bari]; 
+	pos @AllInitials' 100 @BEHm [behDotless-ar.medi.bari]; 
+	pos [@JEEMi @BEHi @HEHGOALi]' 100 [@BEHm @HEHm] [hah-ar.medi.bari meem-ar.medi.bari heh-ar.medi.bari ain-ar.medi.bari fehDotless-ar.medi.bari];
+	pos [@JEEMi @BEHi @HEHGOALi]' 100 [@BEHm @HEHm] [lam-ar.medi.bari kaf-ar.medi.bari];
+
+	pos [@JEEMi @BEHi hehgoal-ar.init.jeem]' 100 @JEEMm  @to.BARIYEHf.alt;
+	pos @AllInitials' 50 @JEEMm [hehDoachashmee-ar.medi.bari];
+
+	pos @AllInitials' 200 [@BEHm @JEEMm] [hah-ar.medi.bari kaf-ar.medi.bari lam-ar.medi.bari];
+	pos @AllInitials' 450 [@BEHm @JEEMm] [meem-ar.medi.bari heh-ar.medi.bari]; 
+#	pos @AllInitials' 300 [@BEHm @MEEMm] [hah-ar.medi.bari]; 
+#	pos @AllInitials' 450 @AllMedis [hah-ar.medi.bari]; 
+#	pos @AllInitials' 350 @AllMedis [kaf-ar.medi.bari]; 
+#	pos @AllInitials' 250 @AllMedis [hehDoachashmee-ar.medi.bari]; 
+#	pos @AllInitials' 300 @BEHm ain-ar.medi.bari; 
+#	pos @AllInitials' 150 @KAFm @to.BARIYEHf.alt; 
+#	pos [@KAFi @LAMi]' 300 @BEHm @to.BARIYEHf.alt; 
+#	pos @AllInitials' 350 @BEHm @to.BARIYEHf.alt; 
+#	pos @KAFi' 150 @HEHDOCHi.m @to.BARIYEHf.alt; 
+#	pos @AllInitials' 250 @AllMedis @to.BARIYEHf.alt;
+
+	# Five glyph sequences 
+	pos [@BEHi]' 0 @BEHm @BEHm [seen-ar.medi.bari];
+	pos [@BEHi]' 50 @BEHm @BEHm [hah-ar.medi.bari]; 
+	pos [@BEHi]' 100 @BEHm @BEHm @to.BARIYEHf.alt; 
+
+	# Ain kerning
+	pos [@FEHi @BEHi @LAMi @KAFi]' 100 ain-ar.fina;
+} YehBariKern;
+";
+tag = dist;
 }
 );
 fontMaster = (
