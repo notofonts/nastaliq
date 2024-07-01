@@ -4,6 +4,13 @@ layers = (
 {
 anchors = (
 {
+name = "*enclosing.alt";
+pos = (372,136);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@AllBelowMarks @AllCenterMarks]; [hah-ar.medi.jeem behDotless-ar.medi.jeem] @AllBelowMarks *";
+};
+},
+{
 name = bottom;
 pos = (375,-576);
 },
@@ -83,6 +90,13 @@ width = 241;
 },
 {
 anchors = (
+{
+name = "*enclosing.alt";
+pos = (355,109);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@AllBelowMarks @AllCenterMarks]; [hah-ar.medi.jeem behDotless-ar.medi.jeem] @AllBelowMarks *";
+};
+},
 {
 name = bottom;
 pos = (366,-462);

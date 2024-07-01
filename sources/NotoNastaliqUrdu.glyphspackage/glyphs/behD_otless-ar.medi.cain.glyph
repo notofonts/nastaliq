@@ -5,9 +5,9 @@ layers = (
 anchors = (
 {
 name = "*bottom.alt";
-pos = (282,-455);
+pos = (282,-520);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * [ hehgoal-ar.init] @AllBelowMarks ";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;[ hehgoal-ar.init behDotless-ar.init.alef behDotless-ar.medi.alef] @AllBelowMarks  *";
 };
 },
 {
@@ -184,14 +184,14 @@ width = 260;
 anchors = (
 {
 name = "*bottom.alt";
-pos = (231,-436);
+pos = (231,-507);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * [ hehgoal-ar.init] @AllBelowMarks ";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;[ hehgoal-ar.init behDotless-ar.init.alef behDotless-ar.medi.alef] @AllBelowMarks  *";
 };
 },
 {
 name = "*bottom.alt2";
-pos = (231,-436);
+pos = (231,-448);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * [ hehgoal-ar.init] @AllBelowMarks @AllBelowMarks ";
 };
@@ -205,7 +205,7 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @BEHm @AllBelo
 },
 {
 name = "*bottom.alt4";
-pos = (231,-436);
+pos = (274,-436);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @AllBelowMarks @BEHm @AllBelowMarks";
 };

@@ -11,12 +11,15 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf
 };
 },
 {
-name = bottom;
-pos = (251,-153);
+name = "*bottom.beforepeh";
+pos = (241,-82);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @BEHm threedotsdownbelow-ar";
+};
 },
 {
-name = bottom.alt;
-pos = (346,-386);
+name = bottom;
+pos = (251,-153);
 },
 {
 name = entry;
@@ -93,12 +96,15 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf
 };
 },
 {
-name = bottom;
-pos = (196,-183);
+name = "*bottom.beforepeh";
+pos = (184,-106);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @BEHm threedotsdownbelow-ar";
+};
 },
 {
-name = bottom.alt;
-pos = (246,-297);
+name = bottom;
+pos = (196,-183);
 },
 {
 name = entry;

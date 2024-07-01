@@ -4,6 +4,13 @@ layers = (
 {
 anchors = (
 {
+name = "*bottom.afterpeh";
+pos = (148,-213);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; threedotsdownbelow-ar *";
+};
+},
+{
 name = "*bottom.bari";
 pos = (153,-466);
 userData = {
@@ -15,6 +22,20 @@ name = "*bottom.behbehbari";
 pos = (200,-68);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; * @BEHm @BelowMarksForYB @to.BARIYEHf.alt";
+};
+},
+{
+name = "*top.feh";
+pos = (90,632);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [threedotsupabove-ar]; fehDotless-ar.init.fbeh *";
+};
+},
+{
+name = "*top.jeem";
+pos = (120,692);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [threedotsupabove-ar twodotshorizontalabove-ar]; hah-ar.init.fbeh *";
 };
 },
 {
@@ -43,10 +64,6 @@ name = exit;
 {
 name = top;
 pos = (182,634);
-},
-{
-name = top.alt;
-pos = (207,724);
 }
 );
 layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
@@ -102,6 +119,13 @@ width = 277;
 {
 anchors = (
 {
+name = "*bottom.afterpeh";
+pos = (160,-221);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; threedotsdownbelow-ar *";
+};
+},
+{
 name = "*bottom.bari";
 pos = (173,-486);
 userData = {
@@ -113,6 +137,20 @@ name = "*bottom.behbehbari";
 pos = (210,-58);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; * @BEHm @BelowMarksForYB @to.BARIYEHf.alt";
+};
+},
+{
+name = "*top.feh";
+pos = (100,512);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [threedotsupabove-ar]; fehDotless-ar.init.fbeh *";
+};
+},
+{
+name = "*top.jeem";
+pos = (137,619);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [threedotsupabove-ar twodotshorizontalabove-ar]; hah-ar.init.fbeh *";
 };
 },
 {
@@ -141,10 +179,6 @@ name = exit;
 {
 name = top;
 pos = (187,509);
-},
-{
-name = top.alt;
-pos = (213,636);
 }
 );
 layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";

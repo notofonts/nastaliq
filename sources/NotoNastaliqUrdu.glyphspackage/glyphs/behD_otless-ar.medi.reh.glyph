@@ -4,6 +4,13 @@ layers = (
 {
 anchors = (
 {
+name = "*bottom.afterpeh";
+pos = (-85,-400);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; threedotsdownbelow-ar *";
+};
+},
+{
 name = Bar;
 pos = (65,-44);
 },
@@ -61,6 +68,13 @@ width = 106;
 },
 {
 anchors = (
+{
+name = "*bottom.afterpeh";
+pos = (-85,-361);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; threedotsdownbelow-ar *";
+};
+},
 {
 name = Bar;
 pos = (45,-48);

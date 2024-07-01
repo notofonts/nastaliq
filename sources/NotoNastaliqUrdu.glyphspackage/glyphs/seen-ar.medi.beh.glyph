@@ -1,6 +1,5 @@
 {
-export = 0;
-glyphname = "seen-ar.medi.inT2outS1";
+glyphname = "seen-ar.medi.beh";
 layers = (
 {
 anchors = (

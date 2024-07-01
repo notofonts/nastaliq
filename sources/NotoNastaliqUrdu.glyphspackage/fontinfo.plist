@@ -221,7 +221,7 @@ code = "behDotless-ar.medi.fbeh
 behDotless-ar.init.fbeh
 hah-ar.medi.ain
 hah-ar.init.fbeh
-seen-ar.medi.fbeh
+seen-ar.medi.beh
 seen-ar.init.fbeh
 sad-ar.medi
 sad-ar.init.fbeh
@@ -1391,6 +1391,23 @@ tah-ar.init.bari
 tah-ar.medi.bari
 heh-ar.init.bari";
 name = to.BARIYEHf.short;
+},
+{
+code = "$[name contains \"-ar.fina\"]
+";
+name = AllFinas;
+},
+{
+code = "$[name contains \"dal-ar\"]
+$[name contains \"reh-ar\"]
+$[name contains \"waw-ar\"]
+";
+name = REH.WAW.DAL;
+},
+{
+code = "reh-ar.fina.long
+reh-ar.fina.longthin";
+name = LongRe;
 }
 );
 customParameters = (
@@ -2273,14 +2290,16 @@ lookup Alternates {
 	
 	sub @to.KAFm.alt' [kaf-ar.init.alef kaf-ar.medi.alef] by @to.KAFALEF.alt;
 	
+	sub [lam-ar.medi.meem kaf-ar.medi.meem]' meem-ar.fina by [lam-ar.medi.doheh kaf-ar.medi.doheh];
+
 	sub [behDotless-ar.init hah-ar.init fehDotless-ar.init kaf-ar.medi kaf-ar.init lam-ar.medi lam-ar.init]' alefMaksura-ar.fina by [behDotless-ar.init.yeh hah-ar.init.yeh fehDotless-ar.init.yeh kaf-ar.medi.yeh kaf-ar.init.yeh lam-ar.medi.yeh lam-ar.init.yeh];
 	sub [behDotless-ar.init.yeh hah-ar.init.yeh fehDotless-ar.init.yeh kaf-ar.init.yeh lam-ar.medi.yeh lam-ar.init.yeh] alefMaksura-ar.fina' by alefMaksura-ar.fina.alt;
 	
 	sub [behDotless-ar.init.reh] [reh-ar.fina]' by [reh-ar.fina.short];
-
 	sub @to.REHf.long [reh-ar.fina]' by [reh-ar.fina.long];	
 	sub @to.REHf.longthin [reh-ar.fina]' by [reh-ar.fina.longthin];	
 	sub heh-ar.medi.reh reh-ar.fina' by reh-ar.fina.postheh-ar;
+
 } Alternates;
 
 
@@ -2796,6 +2815,38 @@ name = Bold;
 weightClass = 700;
 }
 );
+kerningRTL = {
+"0A5D7F3A-D11E-4113-AD15-39410F1DC5C2" = {
+"dal-ar.fina" = {
+"behDotless-ar.init.reh" = -90;
+};
+"reh-ar.fina" = {
+"behDotless-ar.init.fbeh" = -60;
+};
+"reh-ar.isol" = {
+"behDotless-ar.init.fbeh" = -60;
+"behDotless-ar.init.reh" = -80;
+};
+"yehbarree-ar.fina" = {
+"behDotless-ar.init.fbeh" = 60;
+};
+};
+"67C28EBA-5AA6-4F74-BBA1-5BB358529C60" = {
+"dal-ar.fina" = {
+"behDotless-ar.init.reh" = -100;
+};
+"reh-ar.fina" = {
+"behDotless-ar.init.fbeh" = -60;
+};
+"reh-ar.isol" = {
+"behDotless-ar.init.fbeh" = -40;
+"behDotless-ar.init.reh" = -80;
+};
+"yehbarree-ar.fina" = {
+"behDotless-ar.init.fbeh" = 60;
+};
+};
+};
 metrics = (
 {
 type = ascender;

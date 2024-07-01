@@ -4,6 +4,13 @@ layers = (
 {
 anchors = (
 {
+name = "*bottom.rehwawdal";
+pos = (-11,-661);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @REH.WAW.DAL *";
+};
+},
+{
 name = Bar;
 pos = (64,-104);
 },
@@ -66,6 +73,13 @@ width = 223;
 },
 {
 anchors = (
+{
+name = "*bottom.rehwawdal";
+pos = (5,-564);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @REH.WAW.DAL *";
+};
+},
 {
 name = Bar;
 pos = (-12,-103);
