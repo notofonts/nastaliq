@@ -478,23 +478,23 @@ kaf-ar.init.waw
 lam-ar.medi.reh
 lam-ar.init.waw
 ain-ar.init.reh
-fehDotless-ar.init.reh1
+fehDotless-ar.init.reh
 fehDotless-ar.medi.reh
 ain-ar.medi.reh1
-heh-ar.medi.rehR
+heh-ar.medi.reh
 heh-ar.init.reh
 hehDoachashmee-ar.init.reh
 hehDoachashmee-ar.medi.reh
-seen-ar.init.r
-seen-ar.medi.r
+seen-ar.init.reh
+seen-ar.medi.reh
 hah-ar.init.reh
 hah-ar.medi.reh
-meem-ar.init.r
+meem-ar.init.reh
 meem-ar.medi.reh
-hehgoal-ar.init.r
+hehgoal-ar.init.reh
 tah-ar.medi.reh
-sad-ar.medi.r
-sad-ar.init.r
+sad-ar.medi.reh
+sad-ar.init.reh
 ";
 name = to.REHf.alt;
 },
@@ -1164,12 +1164,12 @@ name = to.HEHm;
 {
 code = "behDotless-ar.medi.heh
 behDotless-ar.init.heh
-hah-ar.medi..heh
+hah-ar.medi.heh
 hah-ar.init.heh
 seen-ar.medi.heh
 seen-ar.init.heh
 sad-ar.init.heh
-tah-ar.medi.inD1outD5
+tah-ar.medi.heh
 tah-ar.init.heh
 ain-ar.medi.heh
 ain-ar.init.heh
@@ -1184,7 +1184,7 @@ meem-ar.init.heh
 heh-ar.medi.inD5outD5
 heh-ar.init.heh
 hehgoal-ar.init.heh
-hehDoachashmee-ar.medi..heh
+hehDoachashmee-ar.medi.heh
 hehDoachashmee-ar.init.heh
 ";
 name = to.HEHm.alt;
@@ -1344,13 +1344,13 @@ name = KAFLAMALEFm;
 code = "behDotless-ar.medi.reh
 fehDotless-ar.medi.reh
 heh-ar.init.reh
-hehgoal-ar.init.r
-meem-ar.init.r
+hehgoal-ar.init.reh
+meem-ar.init.reh
 meem-ar.medi.reh
-sad-ar.init.r
-sad-ar.medi.r
-seen-ar.init.r
-seen-ar.medi.r
+sad-ar.init.reh
+sad-ar.medi.reh
+seen-ar.init.reh
+seen-ar.medi.reh
 ";
 name = to.REHf.long;
 },
@@ -2278,7 +2278,7 @@ lookup Alternates {
 
 	sub @to.REHf.long [reh-ar.fina]' by [reh-ar.fina.long];	
 	sub @to.REHf.longthin [reh-ar.fina]' by [reh-ar.fina.longthin];	
-	sub heh-ar.medi.rehR reh-ar.fina' by reh-ar.fina.postheh-ar;
+	sub heh-ar.medi.reh reh-ar.fina' by reh-ar.fina.postheh-ar;
 } Alternates;
 
 
@@ -2292,7 +2292,7 @@ lookup BehFina {
     sub @LAMi' [behDotless-ar.medi.reh] by lam-ar.init.outS1;
     sub @LAMi' @SEENm by lam-ar.init.fbeh;
     sub @BEHi' [behDotless-ar.medi.reh] by behDotless-ar.init.alef;
-    sub @to.AINm.alt' seen-ar.medi.r by @to.ALEFf.ext.alt;
+    sub @to.AINm.alt' seen-ar.medi.reh by @to.ALEFf.ext.alt;
 } BehFina;
 
 lookup Refinements {
