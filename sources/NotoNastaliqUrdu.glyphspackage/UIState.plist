@@ -1,7 +1,6 @@
 {
 displayStrings = (
 "/reh-ar.fina.short",
-"/behDotless-ar.init.feh",
-"/behDotless-ar.medi.alef/heh-ar.medi.meem/seen-ar.medi.bari"
+"/behDotless-ar.init.feh"
 );
 }
