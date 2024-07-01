@@ -1,4 +1,5 @@
 {
+export = 0;
 glyphname = "hah-ar.medi.inD2outS1";
 layers = (
 {

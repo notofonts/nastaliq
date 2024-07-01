@@ -7,7 +7,7 @@ anchors = (
 name = "*bottom.alt";
 pos = (261,-70);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * [behDotless-ar.medi.inT1outS1 behDotless-ar.medi.cain behDotless-ar.medi.cainseen-ar] @AllBelowMarks";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * [ behDotless-ar.medi.cain ] @AllBelowMarks";
 };
 },
 {
@@ -35,7 +35,7 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @AllBelowMarks 
 name = "*bottom.alt2";
 pos = (261,-70);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @AllBelowMarks [behDotless-ar.medi.inT1outS1 behDotless-ar.medi.cain behDotless-ar.medi.cainseen-ar] @AllBelowMarks";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @AllBelowMarks [ behDotless-ar.medi.cain ] @AllBelowMarks";
 };
 },
 {
@@ -91,14 +91,14 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @BEHm @AllBelow
 name = "*top.alt";
 pos = (235,899);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * [behDotless-ar.medi.inT1outS1 behDotless-ar.medi.cain behDotless-ar.medi.cainN behDotless-ar.medi.cainseen-ar behDotless-ar.medi.meem @BEHm @KAFm kaf-ar.fina] @AllMarks";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * [ behDotless-ar.medi.cain behDotless-ar.medi.cainN  behDotless-ar.medi.meem @BEHm @KAFm kaf-ar.fina] @AllMarks";
 };
 },
 {
 name = "*top.alt2";
 pos = (241,900);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * @AllAboveMarks [behDotless-ar.medi.inT1outS1 behDotless-ar.medi.cain behDotless-ar.medi.cainN behDotless-ar.medi.cainseen-ar behDotless-ar.medi.meem @BEHm @KAFm kaf-ar.fina] @AllMarks";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * @AllAboveMarks [ behDotless-ar.medi.cain behDotless-ar.medi.cainN  behDotless-ar.medi.meem @BEHm @KAFm kaf-ar.fina] @AllMarks";
 };
 },
 {
@@ -148,7 +148,7 @@ anchors = (
 name = "*bottom.alt";
 pos = (182,-114);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * [behDotless-ar.medi.inT1outS1 behDotless-ar.medi.cain behDotless-ar.medi.cainseen-ar] @AllBelowMarks";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * [ behDotless-ar.medi.cain ] @AllBelowMarks";
 };
 },
 {
@@ -176,7 +176,7 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @AllBelowMarks 
 name = "*bottom.alt2";
 pos = (182,-114);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @AllBelowMarks [behDotless-ar.medi.inT1outS1 behDotless-ar.medi.cain behDotless-ar.medi.cainseen-ar] @AllBelowMarks";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @AllBelowMarks [ behDotless-ar.medi.cain ] @AllBelowMarks";
 };
 },
 {
@@ -232,14 +232,14 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @BEHm @AllBelow
 name = "*top.alt";
 pos = (220,430);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * [behDotless-ar.medi.inT1outS1 behDotless-ar.medi.cain behDotless-ar.medi.cainN behDotless-ar.medi.cainseen-ar behDotless-ar.medi.meem @BEHm @KAFm kaf-ar.fina] @AllMarks";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * [ behDotless-ar.medi.cain behDotless-ar.medi.cainN  behDotless-ar.medi.meem @BEHm @KAFm kaf-ar.fina] @AllMarks";
 };
 },
 {
 name = "*top.alt2";
 pos = (228,431);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * @AllAboveMarks [behDotless-ar.medi.inT1outS1 behDotless-ar.medi.cain behDotless-ar.medi.cainN behDotless-ar.medi.cainseen-ar behDotless-ar.medi.meem @BEHm @KAFm kaf-ar.fina] @AllMarks";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * @AllAboveMarks [ behDotless-ar.medi.cain behDotless-ar.medi.cainN  behDotless-ar.medi.meem @BEHm @KAFm kaf-ar.fina] @AllMarks";
 };
 },
 {

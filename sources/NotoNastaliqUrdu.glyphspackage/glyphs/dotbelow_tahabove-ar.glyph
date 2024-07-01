@@ -1,5 +1,6 @@
 {
 category = Mark;
+export = 0;
 glyphname = "dotbelow_tahabove-ar";
 layers = (
 {

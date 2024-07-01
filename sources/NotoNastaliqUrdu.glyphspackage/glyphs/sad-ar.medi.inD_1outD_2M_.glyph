@@ -1,4 +1,5 @@
 {
+export = 0;
 glyphname = "sad-ar.medi.inD1outD2M";
 layers = (
 {

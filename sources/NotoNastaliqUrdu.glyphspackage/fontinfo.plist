@@ -1303,7 +1303,8 @@ hehDoachashmee-ar.init.bari
 name = to.BARIYEHf.alt;
 },
 {
-code = "OneDotEnclTNS SmallTahSevenAboveNS TwoDotsSevenAboveNS alayheAssallamcomb-ar alefabove-ar damma-ar dammaCurly-ar dammaDot-ar dammainverted-ar dammareversed-ar dammatan-ar dammatanCurly-ar dotabove-ar dotabove_tahabove-ar dotabove_vabove-ar dotbelow_tahabove-ar doublerightarrowheadDotabove-ar doublerightarrowheadabove-ar fatha-ar fathaCurly-ar fathaDotabove-ar fathaHorizont-ar fathaRing-ar fathatan-ar fathatanCurly-ar fathatwodots-ar fourabove-ar fourdotsabove-ar hahabove-ar hamzaabove-ar hamzaabove-ar.ARA hamzaaboveSukun-ar leftarrowheadabove-ar madda-ar madda-ar.short madda-ar.shorter marksidewaysnoonghunna-ar meemnear-ar noonabove-ar noonghunnaabove-ar noonghunnaabove-ar.KSH opendammatan-ar openfathatan-ar rehDadabove-ar rehHahabove-ar rightarrowheadDotabove-ar rightarrowheadabove-ar sallallahouAlayheWassallamcomb-ar shadda-ar sukun-ar sukunoval-ar tahabove-ar takhallusabove-ar tehabove-ar threeabove-ar threedotsdownabove-ar threedotsupabove-ar toneloopabove-ar toneonedotabove-ar tonetwodotsabove-ar twoabove-ar twodotshorizontalabove-ar twodotshorizontalabove_tahabove-ar twodotsverticalabove-ar vabove-ar vinvertedabove-ar wasla-ar wavyhamzaabove-ar wawHigh-ar";
+code = "OneDotEnclTNS SmallTahSevenAboveNS TwoDotsSevenAboveNS alayheAssallamcomb-ar alefabove-ar damma-ar dammaCurly-ar dammaDot-ar dammainverted-ar dammareversed-ar dammatan-ar dammatanCurly-ar dotabove-ar dotabove_tahabove-ar dotabove_vabove-ar doublerightarrowheadDotabove-ar doublerightarrowheadabove-ar fatha-ar fathaCurly-ar fathaDotabove-ar fathaHorizont-ar fathaRing-ar fathatan-ar fathatanCurly-ar fathatwodots-ar fourabove-ar fourdotsabove-ar hahabove-ar hamzaabove-ar hamzaabove-ar.ARA hamzaaboveSukun-ar leftarrowheadabove-ar madda-ar madda-ar.shorter marksidewaysnoonghunna-ar meemnear-ar noonabove-ar noonghunnaabove-ar noonghunnaabove-ar.KSH opendammatan-ar openfathatan-ar rehDadabove-ar rehHahabove-ar rightarrowheadDotabove-ar rightarrowheadabove-ar sallallahouAlayheWassallamcomb-ar shadda-ar sukun-ar sukunoval-ar tahabove-ar takhallusabove-ar tehabove-ar threeabove-ar threedotsdownabove-ar threedotsupabove-ar toneloopabove-ar toneonedotabove-ar tonetwodotsabove-ar twoabove-ar twodotshorizontalabove-ar twodotshorizontalabove_tahabove-ar twodotsverticalabove-ar vabove-ar vinvertedabove-ar wasla-ar wavyhamzaabove-ar wawHigh-ar
+";
 name = AllAboveMarks;
 },
 {
@@ -1646,16 +1647,17 @@ code = "lookup Extension180 {
 lookup SelectShortMaddas {
     lookupflag MarkAttachmentType @AllAboveMarks;
     ;
-    sub [alef-ar.isol alef-ar.fina alef-ar.fina.narrow]' madda-ar' lookup Extension180 [alef-ar.isol alef-ar.fina alef-ar.fina.narrow] madda-ar;
-    sub [alef-ar.isol alef-ar.fina alef-ar.fina.narrow]' madda-ar' lookup Extension180 [alefabove-ar damma-ar dammatan-ar fatha-ar]' [alef-ar.isol alef-ar.fina alef-ar.fina.narrow] madda-ar;
-    sub [alef-ar.isol alef-ar.fina alef-ar.fina.narrow] [madda-ar.short madda-ar.shorter] [alef-ar.isol alef-ar.fina alef-ar.fina.narrow]' madda-ar' lookup Extension180;
-    sub [alef-ar.isol alef-ar.fina alef-ar.fina.narrow] [madda-ar.short madda-ar.shorter] [alefabove-ar damma-ar dammatan-ar fatha-ar] [alef-ar.isol alef-ar.fina alef-ar.fina.narrow]' madda-ar' lookup Extension180;
-    sub alef-ar.isol.LA [madda-ar.short madda-ar.shorter] [alef-ar.isol alef-ar.fina alef-ar.fina.narrow]' madda-ar' lookup Extension180;
-    sub alef-ar.isol.LA [madda-ar.short madda-ar.shorter] [alefabove-ar damma-ar dammatan-ar fatha-ar] [alef-ar.isol alef-ar.fina alef-ar.fina.narrow]' madda-ar' lookup Extension180;
-    sub [alef-ar.isol alef-ar.fina alef-ar.fina.narrow]' madda-ar' lookup Extension180 [alef-ar.isol alef-ar.fina alef-ar.fina.narrow] [wasla-ar hamzaabove-ar fatha-ar fathatan-ar];
-    sub alef-ar.isol.LA' madda-ar' lookup Extension180 [alef-ar.isol alef-ar.fina alef-ar.fina.narrow] madda-ar;
-    sub alef-ar.isol.LA' madda-ar' lookup Extension180 [alefabove-ar damma-ar dammatan-ar fatha-ar]' [alef-ar.isol alef-ar.fina alef-ar.fina.narrow] madda-ar;
-} SelectShortMaddas;";
+    sub [alef-ar.isol alef-ar.fina]' madda-ar' lookup Extension180 [alef-ar.isol alef-ar.fina] madda-ar;
+    sub [alef-ar.isol alef-ar.fina ]' madda-ar' lookup Extension180 [alefabove-ar damma-ar dammatan-ar fatha-ar]' [alef-ar.isol alef-ar.fina] madda-ar;
+    sub [alef-ar.isol alef-ar.fina] [madda-ar.shorter] [alef-ar.isol alef-ar.fina]' madda-ar' lookup Extension180;
+    sub [alef-ar.isol alef-ar.fina] [madda-ar.shorter] [alefabove-ar damma-ar dammatan-ar fatha-ar] [alef-ar.isol alef-ar.fina]' madda-ar' lookup Extension180;
+    sub alef-ar.isol.LA [madda-ar.shorter] [alef-ar.isol alef-ar.fina ]' madda-ar' lookup Extension180;
+    sub alef-ar.isol.LA [madda-ar.shorter] [alefabove-ar damma-ar dammatan-ar fatha-ar] [alef-ar.isol alef-ar.fina]' madda-ar' lookup Extension180;
+    sub [alef-ar.isol alef-ar.fina]' madda-ar' lookup Extension180 [alef-ar.isol alef-ar.fina] [wasla-ar hamzaabove-ar fatha-ar fathatan-ar];
+    sub alef-ar.isol.LA' madda-ar' lookup Extension180 [alef-ar.isol alef-ar.fina] madda-ar;
+    sub alef-ar.isol.LA' madda-ar' lookup Extension180 [alefabove-ar damma-ar dammatan-ar fatha-ar]' [alef-ar.isol alef-ar.fina] madda-ar;
+} SelectShortMaddas;
+";
 name = ShortenMaddas;
 }
 );
@@ -2272,7 +2274,7 @@ lookup Alternates {
 	sub @to.KAFm.alt' [kaf-ar.init.alef kaf-ar.medi.alef] by @to.KAFALEF.alt;
 	
 	sub [behDotless-ar.init hah-ar.init fehDotless-ar.init kaf-ar.medi kaf-ar.init lam-ar.medi lam-ar.init]' alefMaksura-ar.fina by [behDotless-ar.init.yeh hah-ar.init.yeh fehDotless-ar.init.yeh kaf-ar.medi.yeh kaf-ar.init.yeh lam-ar.medi.yeh lam-ar.init.yeh];
-	sub [behDotless-ar.init.yeh hah-ar.init.yeh fehDotless-ar.init.yeh kaf-ar.medi.yeh kaf-ar.init.yeh lam-ar.medi.yeh lam-ar.init.yeh] alefMaksura-ar.fina' by alefMaksura-ar.fina.alt;
+	sub [behDotless-ar.init.yeh hah-ar.init.yeh fehDotless-ar.init.yeh kaf-ar.init.yeh lam-ar.medi.yeh lam-ar.init.yeh] alefMaksura-ar.fina' by alefMaksura-ar.fina.alt;
 	
 	sub [behDotless-ar.init.reh] [reh-ar.fina]' by [reh-ar.fina.short];
 
@@ -2352,20 +2354,19 @@ lookup YehBarreeSelection {
 
 lookup SarkashSelection {
 	lookupflag UseMarkFilteringSet [_gaf.sarkash _gaf.sarkash.inv];
-	sub [kaf-ar.medi.Vlow kaf-ar.medi.VoutD11 kaf-ar.medi.VoutD2MD kaf-ar.medi..yeh kaf-ar.medi.VoutD4 kaf-ar.medi.VoutD5 kaf-ar.medi.VoutS1 kaf-ar.medi.feh2] _gaf.sarkash.inv' by _gaf.sarkash.inv2;
-	sub [kaf-ar.init.HRlow kaf-ar.init.HRoutD1 kaf-ar.init.HRoutD2 kaf-ar.init.HRoutD2H kaf-ar.init.HRoutD5 kaf-ar.init.HRhehDoachashmee-ar.medi.kaf kaf-ar.init.HRhehDoachashmee-ar.medi.kafN kaf-ar.init.NoutD1 kaf-ar.init.NoutD11 kaf-ar.init.NoutD2H kaf-ar.init.feh2 kaf-ar.init.bari kaf-ar.init.heh ] _gaf.sarkash.inv' by _gaf.sarkash.invfat;
+	sub [kaf-ar.init.bari kaf-ar.init.heh ] _gaf.sarkash.inv' by _gaf.sarkash.invfat;
 	sub [kaf-ar.medi.alef kaf-ar.init.alef]  _gaf.sarkash.inv' by _gaf.sarkash.invsteep;
-	sub [kaf-ar.init.N kaf-ar.init.NoutD2 kaf-ar.init.meem kaf-ar.init.NhehDoachashmee-ar.medi.kaf] _gaf.sarkash.inv' by _gaf.sarkash.invshort;
+	sub [kaf-ar.init.meem] _gaf.sarkash.inv' by _gaf.sarkash.invshort;
 	
-	sub [kaf-ar.init.HRk] _gaf.sarkash.inv' by _gaf.sarkash.invshorter;
-	sub [kaf-ar.fina.V kaf-ar.medi.VoutD1 kaf-ar.medi.VoutD2HYB kaf-ar.medi.waw kaf-ar.medi.VhehDoachashmee-ar.medi.kaf] _gaf.sarkash.inv' by _gaf.sarkash.invsteep;
-	sub [kaf-ar.medi.NoutD1 kaf-ar.medi.meem kaf-ar.medi.NhehDoachashmee-ar.medi.kaf ] _gaf.sarkash.inv' by _gaf.sarkash.invthin;
-	sub [kaf-ar.medi.NoutD11 kaf-ar.medi.NoutD2HYB kaf-ar.medi.NoutD2MD kaf-ar.medi.feh2] _gaf.sarkash.inv' by _gaf.sarkash.invshort2;
+#	sub [kaf-ar.init.HRk] _gaf.sarkash.inv' by _gaf.sarkash.invshorter;
+	sub [kaf-ar.medi.waw] _gaf.sarkash.inv' by _gaf.sarkash.invsteep;
+	sub [kaf-ar.medi.meem ] _gaf.sarkash.inv' by _gaf.sarkash.invthin;
+#	sub [kaf-ar.medi.NoutD11 kaf-ar.medi.NoutD2HYB kaf-ar.medi.NoutD2MD kaf-ar.medi.feh2] _gaf.sarkash.inv' by _gaf.sarkash.invshort2;
 
 	sub [ kaf-ar.medi.sad kaf-ar.medi.kaf kaf-ar.medi.jeem kaf-ar.medi.bari kaf-ar.medi.doheh kaf-ar.medi.meem kaf-ar.medi.waw kaf-ar.medi.yeh kaf-ar.medi.reh kaf-ar.medi.heh kaf-ar.medi.feh] _gaf.sarkash' by _gaf.sarkash.long;
-	sub [kaf-ar.fina.V kaf-ar.medi.VoutD1 kaf-ar.medi.VoutD11 kaf-ar.medi.VoutD2HYB kaf-ar.medi.VoutD2MD kaf-ar.medi.meem kaf-ar.medi.waw kaf-ar.medi..yeh kaf-ar.medi.VoutD4 kaf-ar.medi.VoutS1 kaf-ar.medi.VhehDoachashmee-ar.medi.kaf kaf-ar.medi.feh2 kaf-ar.medi.Vlow ] _gaf.sarkash' by _gaf.sarkash.steep;
+	sub [kaf-ar.medi.meem kaf-ar.medi.waw] _gaf.sarkash' by _gaf.sarkash.steep;
 	sub [kaf-ar.medi.alef kaf-ar.init.alef] _gaf.sarkash' by _gaf.sarkash.steeper;
-	sub [kaf-ar.init.HRk] _gaf.sarkash' by _gaf.sarkash.thin;
+#	sub [kaf-ar.init.HRk] _gaf.sarkash' by _gaf.sarkash.thin;
 } SarkashSelection;
 ";
 tag = rlig;
