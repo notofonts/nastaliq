@@ -4,6 +4,20 @@ layers = (
 {
 anchors = (
 {
+name = "*bottom.bari";
+pos = (153,-466);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf.alt";
+};
+},
+{
+name = "*bottom.behbehbari";
+pos = (200,-68);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; * @BEHm @BelowMarksForYB @to.BARIYEHf.alt";
+};
+},
+{
 name = Bar;
 pos = (201,116);
 },
@@ -87,6 +101,20 @@ width = 277;
 },
 {
 anchors = (
+{
+name = "*bottom.bari";
+pos = (173,-486);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf.alt";
+};
+},
+{
+name = "*bottom.behbehbari";
+pos = (210,-58);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; * @BEHm @BelowMarksForYB @to.BARIYEHf.alt";
+};
+},
 {
 name = Bar;
 pos = (198,115);

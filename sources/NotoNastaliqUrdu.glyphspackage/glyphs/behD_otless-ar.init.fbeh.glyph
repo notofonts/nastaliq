@@ -4,6 +4,20 @@ layers = (
 {
 anchors = (
 {
+name = "*bottom.bari2";
+pos = (161,-115);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @BEHm @BelowMarksForYB @to.BARIYEHf.alt";
+};
+},
+{
+name = "*bottom.bari3";
+pos = (265,-593);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  [behDotless-ar.medi.alef behDotless-ar.medi.feh behDotless-ar.medi.heh] @BelowMarksForYB @to.BARIYEHf.alt";
+};
+},
+{
 name = "*bottom.behbari";
 pos = (286,-684);
 userData = {
@@ -20,7 +34,7 @@ pos = (101,-19);
 },
 {
 name = bottom;
-pos = (-4,-349);
+pos = (142,-170);
 },
 {
 name = exit;
@@ -56,6 +70,20 @@ width = 179;
 {
 anchors = (
 {
+name = "*bottom.bari2";
+pos = (131,-115);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @BEHm @BelowMarksForYB @to.BARIYEHf.alt";
+};
+},
+{
+name = "*bottom.bari3";
+pos = (275,-633);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  [behDotless-ar.medi.alef behDotless-ar.medi.feh behDotless-ar.medi.heh] @BelowMarksForYB @to.BARIYEHf.alt";
+};
+},
+{
 name = "*bottom.behbari";
 pos = (260,-636);
 userData = {
@@ -72,7 +100,7 @@ pos = (87,-14);
 },
 {
 name = bottom;
-pos = (-24,-339);
+pos = (124,-189);
 },
 {
 name = exit;

@@ -12,7 +12,7 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @AllBelowMarks 
 },
 {
 name = "*bottom.bari";
-pos = (147,-651);
+pos = (208,-566);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf.alt";
 };
@@ -86,7 +86,7 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @AllBelowMarks 
 },
 {
 name = "*bottom.bari";
-pos = (147,-651);
+pos = (147,-576);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf.alt";
 };

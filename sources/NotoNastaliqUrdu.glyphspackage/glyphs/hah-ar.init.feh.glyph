@@ -4,6 +4,13 @@ layers = (
 {
 anchors = (
 {
+name = "*bottom.bari";
+pos = (194,-571);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf.alt";
+};
+},
+{
 name = bottom;
 pos = (265,-66);
 },
@@ -68,6 +75,13 @@ width = 617;
 },
 {
 anchors = (
+{
+name = "*bottom.bari";
+pos = (194,-571);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf.alt";
+};
+},
 {
 name = bottom;
 pos = (312,-107);

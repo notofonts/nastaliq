@@ -88,6 +88,13 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @BEHm @AllBelow
 };
 },
 {
+name = "*bottom.bari";
+pos = (68,-316);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf.alt";
+};
+},
+{
 name = "*top.alt";
 pos = (233,895);
 userData = {
@@ -225,6 +232,13 @@ name = "*bottom.alt9";
 pos = (132,6);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @BEHm @AllBelowMarks";
+};
+},
+{
+name = "*bottom.bari";
+pos = (58,-366);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf.alt";
 };
 },
 {

@@ -88,6 +88,27 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @BEHm @AllBelow
 };
 },
 {
+name = "*bottom.bari";
+pos = (147,-576);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf.alt";
+};
+},
+{
+name = "*bottom.bari2";
+pos = (189,-49);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @BEHm @BelowMarksForYB @to.BARIYEHf.alt";
+};
+},
+{
+name = "*bottom.behcain";
+pos = (224,-62);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  behDotless-ar.medi.cain @BelowMarksForYB @BEHm @BelowMarksForYB @to.BARIYEHf.alt";
+};
+},
+{
 name = "*top.alt";
 pos = (202,545);
 userData = {
@@ -228,6 +249,27 @@ name = "*bottom.alt9";
 pos = (118,-176);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @BEHm @AllBelowMarks";
+};
+},
+{
+name = "*bottom.bari";
+pos = (147,-576);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf.alt";
+};
+},
+{
+name = "*bottom.bari2";
+pos = (182,-90);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @BEHm @BelowMarksForYB @to.BARIYEHf.alt";
+};
+},
+{
+name = "*bottom.behcain";
+pos = (214,-72);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  behDotless-ar.medi.cain @BelowMarksForYB @BEHm @BelowMarksForYB @to.BARIYEHf.alt";
 };
 },
 {
