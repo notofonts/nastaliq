@@ -33,9 +33,9 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @AllBelowMarks
 },
 {
 name = "*bottom.bari";
-pos = (233,-596);
+pos = (181,-713);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf.alt";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; *  [behDotless-ar.medi.bari behDotless-ar.init.bari hah-ar.medi.bari hah-ar.init.bari seen-ar.medi.bari seen-ar.init.bari sad-ar.medi.bari sad-ar.init.bari tah-ar.medi.bari tah-ar.init.bari ain-ar.medi.bari ain-ar.init.bari fehDotless-ar.medi.bari fehDotless-ar.init.bari kaf-ar.medi.bari kaf-ar.init.bari lam-ar.medi.bari lam-ar.init.bari meem-ar.medi.bari meem-ar.init.bari heh-ar.medi.bari heh-ar.init.bari hehgoal-ar.init.bari hehDoachashmee-ar.medi.bari hehDoachashmee-ar.init.bari ]";
 };
 },
 {
@@ -212,9 +212,9 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks;  * @AllBelowMarks
 },
 {
 name = "*bottom.bari";
-pos = (183,-596);
+pos = (156,-704);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf.alt";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; *  [behDotless-ar.medi.bari behDotless-ar.init.bari hah-ar.medi.bari hah-ar.init.bari seen-ar.medi.bari seen-ar.init.bari sad-ar.medi.bari sad-ar.init.bari tah-ar.medi.bari tah-ar.init.bari ain-ar.medi.bari ain-ar.init.bari fehDotless-ar.medi.bari fehDotless-ar.init.bari kaf-ar.medi.bari kaf-ar.init.bari lam-ar.medi.bari lam-ar.init.bari meem-ar.medi.bari meem-ar.init.bari heh-ar.medi.bari heh-ar.init.bari hehgoal-ar.init.bari hehDoachashmee-ar.medi.bari hehDoachashmee-ar.init.bari ]";
 };
 },
 {
