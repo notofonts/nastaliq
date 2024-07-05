@@ -1,6 +1,5 @@
 {
-export = 0;
-glyphname = "meem-ar.init.outS1";
+glyphname = "meem-ar.init.beh";
 layers = (
 {
 anchors = (

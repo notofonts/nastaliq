@@ -236,7 +236,7 @@ kaf-ar.init.fbeh
 lam-ar.medi.fbeh
 lam-ar.init.fbeh
 meem-ar.medi.fbeh
-meem-ar.init.fbeh
+meem-ar.init.beh
 heh-ar.medi.fbeh
 heh-ar.init.fbeh
 hehgoal-ar.init.fbeh
@@ -609,7 +609,7 @@ behDotless-ar.init.fbehtall
 hah-ar.medi.ain
 hah-ar.init.fbeh
 seen-ar.medi.fbeh
-seen-ar.init.fbeh
+seen-ar.init.seen
 sad-ar.init.fbeh
 tah-ar.medi.fbeh
 tah-ar.init.fbeh
@@ -1001,9 +1001,9 @@ ain-ar.medi.meem
 ain-ar.init.meem
 fehDotless-ar.medi.meem
 fehDotless-ar.init.meem
-kaf-ar.medi.meem
+kaf-ar.medi.heh
 kaf-ar.init.meem
-lam-ar.medi.meem
+lam-ar.medi.heh
 lam-ar.init.meem
 meem-ar.medi.meem
 meem-ar.init.meem
@@ -1151,7 +1151,7 @@ kaf-ar.medi
 kaf-ar.init
 lam-ar.medi
 lam-ar.init
-#meem-ar.medi
+meem-ar.medi
 meem-ar.init
 heh-ar.medi
 heh-ar.init
@@ -1179,7 +1179,7 @@ kaf-ar.medi.heh
 kaf-ar.init.heh
 lam-ar.medi.heh
 lam-ar.init.heh
-#meem-ar.medi.heh
+meem-ar.medi.heh
 meem-ar.init.heh
 heh-ar.medi.heh
 heh-ar.init.heh
@@ -2290,7 +2290,7 @@ lookup Alternates {
 	
 	sub @to.KAFm.alt' [kaf-ar.init.alef kaf-ar.medi.alef] by @to.KAFALEF.alt;
 	
-	sub [lam-ar.medi.meem kaf-ar.medi.meem]' meem-ar.fina by [lam-ar.medi.doheh kaf-ar.medi.doheh];
+	sub [lam-ar.medi.doheh kaf-ar.medi.doheh]' meem-ar.fina by [lam-ar.medi.meem kaf-ar.medi.meem];
 
 	sub [behDotless-ar.init hah-ar.init fehDotless-ar.init kaf-ar.medi kaf-ar.init lam-ar.medi lam-ar.init]' alefMaksura-ar.fina by [behDotless-ar.init.yeh hah-ar.init.yeh fehDotless-ar.init.yeh kaf-ar.medi.yeh kaf-ar.init.yeh lam-ar.medi.yeh lam-ar.init.yeh];
 	sub [behDotless-ar.init.yeh hah-ar.init.yeh fehDotless-ar.init.yeh kaf-ar.init.yeh lam-ar.medi.yeh lam-ar.init.yeh] alefMaksura-ar.fina' by alefMaksura-ar.fina.alt;
@@ -2323,6 +2323,7 @@ lookup Refinements {
 	sub ain-ar.init' hehgoal-ar.fina by ain-ar.init.outS1;
 	sub hehgoal-ar.init' hehgoal-ar.fina by hehgoal-ar.init.outS1;
 	sub @JEEMi' [hehgoal-ar.fina behDotless-ar.medi.reh] by hah-ar.init.outS1;
+	sub [@FEHm @FEHi] behDotless-ar.medi.cainN' by behDotless-ar.medi.cainwide;
 } Refinements;
 
 lookup RaiseTooth {
@@ -2409,7 +2410,8 @@ code = "# Automatic Code Start
 tag = mkmk;
 },
 {
-code = "
+code = "# Automatic Code Start
+
 lookup YehBariKern {
 	lookupflag IgnoreMarks;
 
@@ -2817,8 +2819,15 @@ weightClass = 700;
 );
 kerningRTL = {
 "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2" = {
+"alef-ar.isol" = {
+"waw-ar.isol" = -40;
+};
 "dal-ar.fina" = {
+"alef-ar.isol" = -120;
 "behDotless-ar.init.reh" = -90;
+};
+"dal-ar.isol" = {
+"alef-ar.isol" = -30;
 };
 "reh-ar.fina" = {
 "behDotless-ar.init.fbeh" = -60;
@@ -2827,13 +2836,23 @@ kerningRTL = {
 "behDotless-ar.init.fbeh" = -60;
 "behDotless-ar.init.reh" = -80;
 };
+"waw-ar.isol" = {
+"reh-ar.isol" = -60;
+};
 "yehbarree-ar.fina" = {
 "behDotless-ar.init.fbeh" = 60;
 };
 };
 "67C28EBA-5AA6-4F74-BBA1-5BB358529C60" = {
+"alef-ar.isol" = {
+"waw-ar.isol" = -40;
+};
 "dal-ar.fina" = {
+"alef-ar.isol" = -120;
 "behDotless-ar.init.reh" = -100;
+};
+"dal-ar.isol" = {
+"alef-ar.isol" = -30;
 };
 "reh-ar.fina" = {
 "behDotless-ar.init.fbeh" = -60;
@@ -2841,6 +2860,9 @@ kerningRTL = {
 "reh-ar.isol" = {
 "behDotless-ar.init.fbeh" = -40;
 "behDotless-ar.init.reh" = -80;
+};
+"waw-ar.isol" = {
+"reh-ar.isol" = -70;
 };
 "yehbarree-ar.fina" = {
 "behDotless-ar.init.fbeh" = 60;
