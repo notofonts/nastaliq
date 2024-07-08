@@ -13,7 +13,7 @@ pos = (226,692);
 },
 {
 name = bottom;
-pos = (133,-171);
+pos = (234,-115);
 },
 {
 name = bottom.alt;
@@ -79,7 +79,7 @@ pos = (210,643);
 },
 {
 name = bottom;
-pos = (132,-171);
+pos = (233,-113);
 },
 {
 name = bottom.alt;

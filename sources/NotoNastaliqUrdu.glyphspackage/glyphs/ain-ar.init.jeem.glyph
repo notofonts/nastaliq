@@ -4,6 +4,13 @@ layers = (
 {
 anchors = (
 {
+name = "*top.jeemkaf";
+pos = (243,1088);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * hah-ar.medi.alef [@KAFm kaf-ar.fina]";
+};
+},
+{
 name = bottom;
 pos = (395,-41);
 },
@@ -89,6 +96,13 @@ width = 616;
 },
 {
 anchors = (
+{
+name = "*top.jeemkaf";
+pos = (243,1088);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; * hah-ar.medi.alef [@KAFm kaf-ar.fina]";
+};
+},
 {
 name = bottom;
 pos = (394,-42);

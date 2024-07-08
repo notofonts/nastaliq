@@ -4,6 +4,13 @@ layers = (
 {
 anchors = (
 {
+name = "*Anchor19.aftermarks";
+pos = (382,851);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; @AllAboveMarks *";
+};
+},
+{
 name = Anchor19;
 pos = (398,763);
 },
@@ -118,6 +125,13 @@ width = 126;
 },
 {
 anchors = (
+{
+name = "*Anchor19.aftermarks";
+pos = (370,832);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; @AllAboveMarks *";
+};
+},
 {
 name = Anchor19;
 pos = (364,753);

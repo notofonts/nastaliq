@@ -1,11 +1,6 @@
 {
 displayStrings = (
-"/reh-ar.fina.short",
-"/behDotless-ar.init.feh",
-"/reh-ar.fina.long/dal-ar.fina/seen-ar.medi.beh ﺮ",
-"/meem-ar.init.beh/meem-ar.init.reh/reh-ar.fina.long/alef-ar.isol/waw-ar.isol/reh-ar.isol  ",
-"/kaf-ar.medi.meem",
-"/kaf-ar.medi.heh/meem-ar.medi",
-"/kaf-ar.medi.heh/meem-ar.medi/behDotless-ar.init.waw"
+"ﺮد/dal-ar.fina/reh-ar.fina.short/behDotless-ar.init.fbeh/alef-ar.isol/reh-ar.fina.short/hah-ar.init.bari/meem-ar.fina/behDotless-ar.medi.yeh/alefMaksura-ar.fina",
+"/behDotless-ar.init.waw/qafDotless-ar.fina"
 );
 }

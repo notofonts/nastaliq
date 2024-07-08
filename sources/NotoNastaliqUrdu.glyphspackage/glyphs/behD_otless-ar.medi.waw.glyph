@@ -4,10 +4,24 @@ layers = (
 {
 anchors = (
 {
-name = "*bottom.afterpeh";
-pos = (240,-261);
+name = "*bottom.afterkasra";
+pos = (240,-374);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; threedotsdownbelow-ar *";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; kasra-ar *";
+};
+},
+{
+name = "*bottom.alt";
+pos = (181,-333);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @AllBelowMarks *";
+};
+},
+{
+name = "*top.feh";
+pos = (107,775);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; [@FEHi @FEHm] @AllAboveMarks *";
 };
 },
 {
@@ -32,10 +46,6 @@ name = exit;
 {
 name = top;
 pos = (198,673);
-},
-{
-name = top.alt;
-pos = (108,773);
 }
 );
 layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
@@ -87,10 +97,24 @@ width = 331;
 {
 anchors = (
 {
-name = "*bottom.afterpeh";
-pos = (228,-315);
+name = "*bottom.afterkasra";
+pos = (228,-407);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; threedotsdownbelow-ar *";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; kasra-ar *";
+};
+},
+{
+name = "*bottom.alt";
+pos = (181,-333);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @AllBelowMarks *";
+};
+},
+{
+name = "*top.feh";
+pos = (107,623);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; [@FEHi @FEHm] @AllAboveMarks *";
 };
 },
 {
@@ -115,10 +139,6 @@ name = exit;
 {
 name = top;
 pos = (195,535);
-},
-{
-name = top.alt;
-pos = (107,623);
 }
 );
 layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";

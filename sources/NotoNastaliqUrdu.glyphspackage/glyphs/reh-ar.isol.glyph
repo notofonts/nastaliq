@@ -1,5 +1,6 @@
 {
 glyphname = "reh-ar.isol";
+kernLeft = REH.WAW.DAL;
 layers = (
 {
 anchors = (

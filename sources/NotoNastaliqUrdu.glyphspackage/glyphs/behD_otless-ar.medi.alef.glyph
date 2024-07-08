@@ -5,9 +5,9 @@ layers = (
 anchors = (
 {
 name = "*bottom.afterpeh";
-pos = (148,-213);
+pos = (104,-284);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; threedotsdownbelow-ar *";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; [kasra-ar threedotsdownbelow-ar] *";
 };
 },
 {
@@ -25,10 +25,31 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; * @BEHm @BelowM
 };
 },
 {
+name = "*bottom.kafbehbari";
+pos = (202,-634);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; * [@KAFm @LAMm] @to.BARIYEHf.alt";
+};
+},
+{
+name = "*bottom.kafyeh";
+pos = (190,-120);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * [kaf-ar.medi.yeh lam-ar.medi.yeh]";
+};
+},
+{
 name = "*top.feh";
 pos = (90,632);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet [threedotsupabove-ar]; fehDotless-ar.init.fbeh *";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; fehDotless-ar.init.fbeh *";
+};
+},
+{
+name = "*top.feh2";
+pos = (109,633);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; fehDotless-ar.init.fbeh @AllAboveMarks *";
 };
 },
 {
@@ -49,10 +70,6 @@ pos = (201,116);
 {
 name = bottom;
 pos = (189,-180);
-},
-{
-name = bottom.alt;
-pos = (321,-170);
 },
 {
 name = entry;
@@ -120,9 +137,9 @@ width = 277;
 anchors = (
 {
 name = "*bottom.afterpeh";
-pos = (160,-221);
+pos = (121,-270);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; threedotsdownbelow-ar *";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; [kasra-ar threedotsdownbelow-ar] *";
 };
 },
 {
@@ -140,10 +157,31 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; * @BEHm @BelowM
 };
 },
 {
+name = "*bottom.kafbehbari";
+pos = (202,-644);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; * [@KAFm @LAMm] @to.BARIYEHf.alt";
+};
+},
+{
+name = "*bottom.kafyeh";
+pos = (202,-103);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * [kaf-ar.medi.yeh lam-ar.medi.yeh]";
+};
+},
+{
 name = "*top.feh";
 pos = (100,512);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet [threedotsupabove-ar]; fehDotless-ar.init.fbeh *";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; fehDotless-ar.init.fbeh *";
+};
+},
+{
+name = "*top.feh2";
+pos = (109,514);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllAboveMarks; fehDotless-ar.init.fbeh @AllAboveMarks *";
 };
 },
 {
@@ -164,10 +202,6 @@ pos = (198,115);
 {
 name = bottom;
 pos = (211,-183);
-},
-{
-name = bottom.alt;
-pos = (324,-183);
 },
 {
 name = entry;

@@ -4,6 +4,20 @@ layers = (
 {
 anchors = (
 {
+name = "*bottom.longre.r0";
+pos = (191,-116);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; @LongRe *";
+};
+},
+{
+name = "*bottom.longremark";
+pos = (204,-133);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; @LongRe @BelowMarksForYB *";
+};
+},
+{
 name = Bar;
 pos = (121,-5);
 },
@@ -48,6 +62,20 @@ width = 272;
 },
 {
 anchors = (
+{
+name = "*bottom.longre.r0";
+pos = (189,-153);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; @LongRe *";
+};
+},
+{
+name = "*bottom.longremark";
+pos = (204,-160);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; @LongRe @BelowMarksForYB *";
+};
+},
 {
 name = Bar;
 pos = (107,-23);

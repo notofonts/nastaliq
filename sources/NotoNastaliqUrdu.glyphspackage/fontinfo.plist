@@ -622,7 +622,7 @@ kaf-ar.init.fbeh
 lam-ar.medi.fbeh
 lam-ar.init.feh
 meem-ar.medi.feh
-meem-ar.init.ain
+meem-ar.init.fbeh
 heh-ar.medi.fbeh
 heh-ar.init.fbeh
 hehgoal-ar.init.feh
@@ -1343,7 +1343,6 @@ name = KAFLAMALEFm;
 },
 {
 code = "behDotless-ar.medi.reh
-fehDotless-ar.medi.reh
 heh-ar.init.reh
 hehgoal-ar.init.reh
 meem-ar.init.reh
@@ -1358,12 +1357,14 @@ name = to.REHf.long;
 {
 code = "ain-ar.init.reh
 ain-ar.medi.reh1
+fehDotless-ar.medi.reh
 hah-ar.init.reh
 hah-ar.medi.reh
 hehDoachashmee-ar.init.reh
 hehDoachashmee-ar.medi.reh
 tah-ar.init.reh
-tah-ar.medi.reh";
+tah-ar.medi.reh
+";
 name = to.REHf.longthin;
 },
 {
@@ -1399,15 +1400,44 @@ name = AllFinas;
 },
 {
 code = "$[name contains \"dal-ar\"]
-$[name contains \"reh-ar\"]
+reh-ar.isol
+reh-ar.fina
+reh-ar.fina.short
 $[name contains \"waw-ar\"]
 ";
 name = REH.WAW.DAL;
 },
 {
 code = "reh-ar.fina.long
-reh-ar.fina.longthin";
+reh-ar.fina.longthin
+reh-ar.fina.postheh-ar
+";
 name = LongRe;
+},
+{
+code = "r0
+r100
+r150
+r200
+r250
+r300
+r350
+r400
+r450
+r50
+r500
+r550
+r600
+r650
+r700
+r750
+";
+name = HeightCounters;
+},
+{
+code = "$[name contains \"sarkash\"]
+";
+name = Sarkash;
 }
 );
 customParameters = (
@@ -1660,22 +1690,164 @@ name = RaiseOneTooth;
 code = "lookup Extension180 {
     sub madda-ar by madda-ar.shorter;
 } Extension180;
-
-lookup SelectShortMaddas {
-    lookupflag MarkAttachmentType @AllAboveMarks;
-    ;
-    sub [alef-ar.isol alef-ar.fina]' madda-ar' lookup Extension180 [alef-ar.isol alef-ar.fina] madda-ar;
-    sub [alef-ar.isol alef-ar.fina ]' madda-ar' lookup Extension180 [alefabove-ar damma-ar dammatan-ar fatha-ar]' [alef-ar.isol alef-ar.fina] madda-ar;
-    sub [alef-ar.isol alef-ar.fina] [madda-ar.shorter] [alef-ar.isol alef-ar.fina]' madda-ar' lookup Extension180;
-    sub [alef-ar.isol alef-ar.fina] [madda-ar.shorter] [alefabove-ar damma-ar dammatan-ar fatha-ar] [alef-ar.isol alef-ar.fina]' madda-ar' lookup Extension180;
-    sub alef-ar.isol.LA [madda-ar.shorter] [alef-ar.isol alef-ar.fina ]' madda-ar' lookup Extension180;
-    sub alef-ar.isol.LA [madda-ar.shorter] [alefabove-ar damma-ar dammatan-ar fatha-ar] [alef-ar.isol alef-ar.fina]' madda-ar' lookup Extension180;
-    sub [alef-ar.isol alef-ar.fina]' madda-ar' lookup Extension180 [alef-ar.isol alef-ar.fina] [wasla-ar hamzaabove-ar fatha-ar fathatan-ar];
-    sub alef-ar.isol.LA' madda-ar' lookup Extension180 [alef-ar.isol alef-ar.fina] madda-ar;
-    sub alef-ar.isol.LA' madda-ar' lookup Extension180 [alefabove-ar damma-ar dammatan-ar fatha-ar]' [alef-ar.isol alef-ar.fina] madda-ar;
-} SelectShortMaddas;
 ";
 name = ShortenMaddas;
+},
+{
+code = "lookup toZero {
+sub @HeightCounters by r0;
+} toZero;
+lookup add0 {
+ sub r0 by r0;
+} add0;
+lookup add50 {
+ sub r0 by r50;
+ sub r50 by r100;
+ sub r100 by r150;
+ sub r150 by r200;
+ sub r200 by r250;
+ sub r250 by r300;
+ sub r300 by r350;
+ sub r350 by r400;
+ sub r400 by r450;
+ sub r450 by r500;
+ sub r500 by r550;
+ sub r550 by r600;
+ sub r600 by r650;
+ sub r650 by r700;
+} add50;
+
+lookup add100 {
+ sub r0 by r100;
+ sub r50 by r150;
+ sub r100 by r200;
+ sub r150 by r250;
+ sub r200 by r300;
+ sub r250 by r350;
+ sub r300 by r400;
+ sub r350 by r450;
+ sub r400 by r500;
+ sub r450 by r550;
+ sub r500 by r600;
+ sub r550 by r650;
+ sub r600 by r700;
+ sub r650 by r700;
+} add100;
+
+lookup add150 {
+ sub r0 by r150;
+ sub r50 by r200;
+ sub r100 by r250;
+ sub r150 by r300;
+ sub r200 by r350;
+ sub r250 by r400;
+ sub r300 by r450;
+ sub r350 by r500;
+ sub r400 by r550;
+ sub r450 by r600;
+ sub r500 by r650;
+ sub [r550 r600 r650] by r700;
+} add150;
+
+lookup add200 {
+ sub r0 by r200;
+ sub r50 by r250;
+ sub r100 by r300;
+ sub r150 by r350;
+ sub r200 by r400;
+ sub r250 by r450;
+ sub r300 by r500;
+ sub r350 by r550;
+ sub r400 by r600;
+ sub r450 by r650;
+ sub [r500 r550 r600 r650] by r700;
+} add200;
+
+lookup add250 {
+ sub r0 by r250;
+ sub r50 by r300;
+ sub r100 by r350;
+ sub r150 by r400;
+ sub r200 by r450;
+ sub r250 by r500;
+ sub r300 by r550;
+ sub r350 by r600;
+ sub r400 by r550;
+ sub [r450 r500 r550 r600 r650] by r700;
+} add250;
+
+lookup add300 {
+ sub r0 by r300;
+ sub r50 by r350;
+ sub r100 by r400;
+ sub r150 by r450;
+ sub r200 by r500;
+ sub r250 by r550;
+ sub r300 by r600;
+ sub r350 by r650;
+ sub [r400 r500 r550 r600 r650] by r700;
+} add300;
+
+lookup add350 {
+ sub r0 by r350;
+ sub r50 by r400;
+ sub r100 by r450;
+ sub r150 by r500;
+ sub r200 by r550;
+ sub r250 by r600;
+ sub r300 by r650;
+ sub [r350 r400 r500 r550 r600 r650] by r700;
+} add350;
+
+lookup add400 {
+ sub r0 by r400;
+ sub r50 by r450;
+ sub r100 by r500;
+ sub r150 by r550;
+ sub r200 by r600;
+ sub r250 by r650;
+} add400;
+
+lookup add450 {
+ sub r0 by r450;
+ sub r50 by r500;
+ sub r100 by r550;
+ sub r150 by r600;
+ sub r200 by r650;
+ sub [r250 r300 r350 r400 r500 r550 r600 r650] by r700;
+} add450;
+
+lookup add500 {
+ sub r0 by r500;
+ sub r50 by r500;
+ sub r100 by r600;
+ sub r150 by r650;
+ sub [r200 r250 r300 r350 r400 r500 r550 r600 r650] by r700;
+} add500;
+
+lookup add550 {
+ sub r0 by r550;
+ sub r50 by r600;
+ sub r100 by r650;
+ sub [r150 r200 r250 r300 r350 r400 r500 r550 r600 r650] by r700;
+} add550;
+
+lookup add600 {
+ sub r0 by r600;
+ sub r50 by r650;
+ sub [r100 r150 r200 r250 r300 r350 r400 r500 r550 r600 r650] by r700;
+} add600;
+
+lookup add650 {
+ sub r0 by r650;
+ sub [r50 r100 r150 r200 r250 r300 r350 r400 r500 r550 r600 r650] by r700;
+} add650;
+
+lookup add700 {
+ sub @HeightCounters by r700;
+} add700;
+";
+name = Calculator;
 }
 );
 features = (
@@ -2299,6 +2471,10 @@ lookup Alternates {
 	sub @to.REHf.long [reh-ar.fina]' by [reh-ar.fina.long];	
 	sub @to.REHf.longthin [reh-ar.fina]' by [reh-ar.fina.longthin];	
 	sub heh-ar.medi.reh reh-ar.fina' by reh-ar.fina.postheh-ar;
+	sub hah-ar.init.meem' meem-ar.fina by hah-ar.init.bari;
+	sub behDotless-ar.init.meem' meem-ar.fina by behDotless-ar.init.doheh;
+
+#	sub heh-ar.medi.fbeh' behDotless-ar.medi.
 
 } Alternates;
 
@@ -2334,6 +2510,13 @@ lookup RaiseTooth {
 	# SIN[im] BEm BE[mf]
 	sub [seen-ar.init.fbeh seen-ar.medi.fbeh] behDotless-ar.medi.fbeh' by behDotless-ar.medi.cain;
 
+	# MEEM[im] BEm BE[mf]
+	sub [meem-ar.init.beh meem-ar.medi.fbeh] behDotless-ar.medi.fbeh' by behDotless-ar.medi.cain;
+	
+	# KAF/LAM[im] BEm BE[mf]
+	sub [@KAFi @KAFm @LAMi @LAMm] behDotless-ar.medi.fbeh' by behDotless-ar.medi.cain;
+
+
 	# SIN[im] BEm SAD[mf]/TOE[mf]
     sub [seen-ar.init.fbeh seen-ar.medi.fbeh] behDotless-ar.medi.sad' by behDotless-ar.medi.sad.raised;
 
@@ -2343,9 +2526,12 @@ lookup RaiseTooth {
 
     # SIN[im] BEm QAFf/VAOf
     sub [seen-ar.init.fbeh seen-ar.medi.fbeh] behDotless-ar.medi.waw' by behDotless-ar.medi.cain;
+
 	sub hehgoal-ar.init.fbeh behDotless-ar.medi.feh' seen-ar.fina by behDotless-ar.medi.cain;
-	# BE[im] BEm' BEm REf
-#	sub [@BEHi @BEHm] @BEHm' behDotless_reh-ar.fina.rlig by behDotless-ar.medi.calef;
+
+	# JEEMi BEm BEm
+	sub [@JEEMi] behDotless-ar.medi.fbeh' by behDotless-ar.medi.cain;
+
 } RaiseTooth;
 
 lookup RaiseTooth2 {
@@ -2365,7 +2551,22 @@ lookup FixRaisedToothConnections {
 #    # BEm-raised BE[mf]
 #    sub @BEHm.raised behDotless-ar.fina' by behDotless-ar.fina.alt;
 } FixRaisedToothConnections;
-    lookup SelectShortMaddas;
+
+
+lookup SelectShortMaddas {
+    lookupflag MarkAttachmentType @AllAboveMarks;
+    ;
+    sub [alef-ar.isol alef-ar.fina]' madda-ar' lookup Extension180 [alef-ar.isol alef-ar.fina] madda-ar;
+    sub [alef-ar.isol alef-ar.fina ]' madda-ar' lookup Extension180 [alefabove-ar damma-ar dammatan-ar fatha-ar]' [alef-ar.isol alef-ar.fina] madda-ar;
+    sub [alef-ar.isol alef-ar.fina] [madda-ar.shorter] [alef-ar.isol alef-ar.fina]' madda-ar' lookup Extension180;
+    sub [alef-ar.isol alef-ar.fina] [madda-ar.shorter] [alefabove-ar damma-ar dammatan-ar fatha-ar] [alef-ar.isol alef-ar.fina]' madda-ar' lookup Extension180;
+    sub alef-ar.isol.LA [madda-ar.shorter] [alef-ar.isol alef-ar.fina ]' madda-ar' lookup Extension180;
+    sub alef-ar.isol.LA [madda-ar.shorter] [alefabove-ar damma-ar dammatan-ar fatha-ar] [alef-ar.isol alef-ar.fina]' madda-ar' lookup Extension180;
+    sub [alef-ar.isol alef-ar.fina]' madda-ar' lookup Extension180 [alef-ar.isol alef-ar.fina] [wasla-ar hamzaabove-ar fatha-ar fathatan-ar];
+    sub alef-ar.isol.LA' madda-ar' lookup Extension180 [alef-ar.isol alef-ar.fina] madda-ar;
+    sub alef-ar.isol.LA' madda-ar' lookup Extension180 [alefabove-ar damma-ar dammatan-ar fatha-ar]' [alef-ar.isol alef-ar.fina] madda-ar;
+
+} SelectShortMaddas;
 
 lookup YehBarreeSelection {
 	lookupflag IgnoreMarks;
@@ -2383,11 +2584,439 @@ lookup SarkashSelection {
 	sub [kaf-ar.medi.meem ] _gaf.sarkash.inv' by _gaf.sarkash.invthin;
 #	sub [kaf-ar.medi.NoutD11 kaf-ar.medi.NoutD2HYB kaf-ar.medi.NoutD2MD kaf-ar.medi.feh2] _gaf.sarkash.inv' by _gaf.sarkash.invshort2;
 
-	sub [ kaf-ar.medi.sad kaf-ar.medi.kaf kaf-ar.medi.jeem kaf-ar.medi.bari kaf-ar.medi.doheh kaf-ar.medi.meem kaf-ar.medi.waw kaf-ar.medi.yeh kaf-ar.medi.reh kaf-ar.medi.heh kaf-ar.medi.feh] _gaf.sarkash' by _gaf.sarkash.long;
+	sub [ kaf-ar.medi.sad kaf-ar.medi.kaf kaf-ar.medi.jeem kaf-ar.medi.bari kaf-ar.medi.doheh kaf-ar.medi.meem kaf-ar.medi.yeh kaf-ar.medi.reh kaf-ar.medi.heh kaf-ar.medi.feh] _gaf.sarkash' by _gaf.sarkash.long;
 	sub [kaf-ar.medi.meem kaf-ar.medi.waw] _gaf.sarkash' by _gaf.sarkash.steep;
 	sub [kaf-ar.medi.alef kaf-ar.init.alef] _gaf.sarkash' by _gaf.sarkash.steeper;
 #	sub [kaf-ar.init.HRk] _gaf.sarkash' by _gaf.sarkash.thin;
 } SarkashSelection;
+
+# This list generated by 
+# import math
+# for g in Glyphs.font.glyphs:
+# 	l = g.layers[0]
+# 	name = g.name
+# 	if not l.anchors[\"entry\"] or \"init\" in g.name or \"-ar\" not in g.name:
+# 		continue
+# 	exit = 0
+# 	if l.anchors[\"exit\"]:
+# 		exit = l.anchors[\"exit\"].position.y
+# 	rise = l.anchors[\"entry\"].position.y - exit
+# 	markname = f\"r{math.ceil(rise/50)*50}\"
+# 	print(f\"sub {name} by {markname} {name};\")
+
+lookup AddRiseMarkers {
+sub alef-ar.fina by r0 alef-ar.fina;
+sub alef-ar.fina.narrow by r0 alef-ar.fina.narrow;
+sub behDotless-ar.fina by r250 behDotless-ar.fina;
+sub behDotless-ar.fina.alt by r300 behDotless-ar.fina.alt;
+sub behDotless-ar.medi by r150 behDotless-ar.medi;
+sub behDotless-ar.medi.alef by r150 behDotless-ar.medi.alef;
+sub behDotless-ar.medi.alef.wide by r200 behDotless-ar.medi.alef.wide;
+sub behDotless-ar.medi.bari by r0 behDotless-ar.medi.bari;
+sub behDotless-ar.medi.cain by r100 behDotless-ar.medi.cain;
+sub behDotless-ar.medi.cainN by r0 behDotless-ar.medi.cainN;
+sub behDotless-ar.medi.cainseen-ar by r50 behDotless-ar.medi.cainseen-ar;
+sub behDotless-ar.medi.cainwide by r100 behDotless-ar.medi.cainwide;
+sub behDotless-ar.medi.doheh by r100 behDotless-ar.medi.doheh;
+sub behDotless-ar.medi.fbeh by r150 behDotless-ar.medi.fbeh;
+sub behDotless-ar.medi.feh by r150 behDotless-ar.medi.feh;
+sub behDotless-ar.medi.heh by r50 behDotless-ar.medi.heh;
+sub behDotless-ar.medi.inT1outS1 by r150 behDotless-ar.medi.inT1outS1;
+sub behDotless-ar.medi.jeem by r150 behDotless-ar.medi.jeem;
+sub behDotless-ar.medi.meem by r100 behDotless-ar.medi.meem;
+sub behDotless-ar.medi.reh by r0 behDotless-ar.medi.reh;
+sub behDotless-ar.medi.sad by r250 behDotless-ar.medi.sad;
+sub behDotless-ar.medi.sad.raised by r100 behDotless-ar.medi.sad.raised;
+sub behDotless-ar.medi.waw by r200 behDotless-ar.medi.waw;
+sub behDotless-ar.medi.yeh by r50 behDotless-ar.medi.yeh;
+sub hah-ar.fina by r750 hah-ar.fina;
+sub hah-ar.medi by r450 hah-ar.medi;
+sub hah-ar.medi.ain by r400 hah-ar.medi.ain;
+sub hah-ar.medi.alef by r450 hah-ar.medi.alef;
+sub hah-ar.medi.bari by r350 hah-ar.medi.bari;
+sub hah-ar.medi.doheh by r350 hah-ar.medi.doheh;
+sub hah-ar.medi.feh by r400 hah-ar.medi.feh;
+sub hah-ar.medi.heh by r350 hah-ar.medi.heh;
+sub hah-ar.medi.jeem by r350 hah-ar.medi.jeem;
+sub hah-ar.medi.kaf by r500 hah-ar.medi.kaf;
+sub hah-ar.medi.meem by r400 hah-ar.medi.meem;
+sub hah-ar.medi.reh by r300 hah-ar.medi.reh;
+sub hah-ar.medi.sad by r500 hah-ar.medi.sad;
+sub hah-ar.medi.yeh by r350 hah-ar.medi.yeh;
+sub dal-ar.fina by r0 dal-ar.fina;
+sub reh-ar.fina by r400 reh-ar.fina;
+sub reh-ar.fina.long by r150 reh-ar.fina.long;
+sub reh-ar.fina.longthin by r250 reh-ar.fina.longthin;
+sub reh-ar.fina.postheh-ar by r150 reh-ar.fina.postheh-ar;
+sub reh-ar.fina.short by r400 reh-ar.fina.short;
+sub rehLoop-ar.fina by r150 rehLoop-ar.fina;
+sub seen-ar.fina by r500 seen-ar.fina;
+sub seen-ar.medi by r250 seen-ar.medi;
+sub seen-ar.medi.alef by r250 seen-ar.medi.alef;
+sub seen-ar.medi.bari by r100 seen-ar.medi.bari;
+sub seen-ar.medi.beh by r200 seen-ar.medi.beh;
+sub seen-ar.medi.doheh by r150 seen-ar.medi.doheh;
+sub seen-ar.medi.fbeh by r250 seen-ar.medi.fbeh;
+sub seen-ar.medi.feh by r200 seen-ar.medi.feh;
+sub seen-ar.medi.heh by r150 seen-ar.medi.heh;
+sub seen-ar.medi.jeem by r200 seen-ar.medi.jeem;
+sub seen-ar.medi.kaf by r250 seen-ar.medi.kaf;
+sub seen-ar.medi.meem by r200 seen-ar.medi.meem;
+sub seen-ar.medi.reh by r200 seen-ar.medi.reh;
+sub seen-ar.medi.sad by r250 seen-ar.medi.sad;
+sub seen-ar.medi.seen by r50 seen-ar.medi.seen;
+sub seen-ar.medi.yeh by r150 seen-ar.medi.yeh;
+sub sad-ar.fina by r300 sad-ar.fina;
+sub sad-ar.medi by r150 sad-ar.medi;
+sub sad-ar.medi.bari by r0 sad-ar.medi.bari;
+sub sad-ar.medi.doheh by r100 sad-ar.medi.doheh;
+sub sad-ar.medi.fbeh by r150 sad-ar.medi.fbeh;
+sub sad-ar.medi.feh by r100 sad-ar.medi.feh;
+sub sad-ar.medi.jeem by r150 sad-ar.medi.jeem;
+sub sad-ar.medi.reh by r0 sad-ar.medi.reh;
+sub sad-ar.medi.sad by r150 sad-ar.medi.sad;
+sub tah-ar.fina by r0 tah-ar.fina;
+sub tah-ar.medi by r50 tah-ar.medi;
+sub tah-ar.medi.bari by r100 tah-ar.medi.bari;
+sub tah-ar.medi.doheh by r100 tah-ar.medi.doheh;
+sub tah-ar.medi.fbeh by r0 tah-ar.medi.fbeh;
+sub tah-ar.medi.feh by r50 tah-ar.medi.feh;
+sub tah-ar.medi.heh by r100 tah-ar.medi.heh;
+sub tah-ar.medi.inD1outD2 by r100 tah-ar.medi.inD1outD2;
+sub tah-ar.medi.jeem by r100 tah-ar.medi.jeem;
+sub tah-ar.medi.meem by r150 tah-ar.medi.meem;
+sub tah-ar.medi.reh by r50 tah-ar.medi.reh;
+sub tah-ar.medi.sad by r100 tah-ar.medi.sad;
+sub ain-ar.fina by r400 ain-ar.fina;
+sub ain-ar.medi by r100 ain-ar.medi;
+sub ain-ar.medi.ain by r100 ain-ar.medi.ain;
+sub ain-ar.medi.alef by r100 ain-ar.medi.alef;
+sub ain-ar.medi.bari by r150 ain-ar.medi.bari;
+sub ain-ar.medi.doheh by r150 ain-ar.medi.doheh;
+sub ain-ar.medi.feh by r100 ain-ar.medi.feh;
+sub ain-ar.medi.heh by r150 ain-ar.medi.heh;
+sub ain-ar.medi.jeem by r150 ain-ar.medi.jeem;
+sub ain-ar.medi.kaf by r150 ain-ar.medi.kaf;
+sub ain-ar.medi.meem by r100 ain-ar.medi.meem;
+sub ain-ar.medi.reh1 by r50 ain-ar.medi.reh1;
+sub ain-ar.medi.sad by r200 ain-ar.medi.sad;
+sub ain-ar.medi.yeh by r50 ain-ar.medi.yeh;
+sub fehDotless-ar.fina by r250 fehDotless-ar.fina;
+sub fehDotless-ar.medi by r100 fehDotless-ar.medi;
+sub fehDotless-ar.medi.alef by r100 fehDotless-ar.medi.alef;
+sub fehDotless-ar.medi.bari by r200 fehDotless-ar.medi.bari;
+sub fehDotless-ar.medi.doheh by r200 fehDotless-ar.medi.doheh;
+sub fehDotless-ar.medi.fbeh by r150 fehDotless-ar.medi.fbeh;
+sub fehDotless-ar.medi.feh by r150 fehDotless-ar.medi.feh;
+sub fehDotless-ar.medi.heh by r200 fehDotless-ar.medi.heh;
+sub fehDotless-ar.medi.jeem by r200 fehDotless-ar.medi.jeem;
+sub fehDotless-ar.medi.kaf by r200 fehDotless-ar.medi.kaf;
+sub fehDotless-ar.medi.meem by r150 fehDotless-ar.medi.meem;
+sub fehDotless-ar.medi.reh by r50 fehDotless-ar.medi.reh;
+sub fehDotless-ar.medi.sad by r200 fehDotless-ar.medi.sad;
+sub fehDotless-ar.medi.yeh by r100 fehDotless-ar.medi.yeh;
+sub qafDotless-ar.fina by r300 qafDotless-ar.fina;
+sub kaf-ar.fina by r100 kaf-ar.fina;
+sub kaf-ar.medi by r100 kaf-ar.medi;
+sub kaf-ar.medi.alef by r0 kaf-ar.medi.alef;
+sub kaf-ar.medi.bari by r100 kaf-ar.medi.bari;
+sub kaf-ar.medi.doheh by r0 kaf-ar.medi.doheh;
+sub kaf-ar.medi.fbeh by r100 kaf-ar.medi.fbeh;
+sub kaf-ar.medi.feh by r100 kaf-ar.medi.feh;
+sub kaf-ar.medi.heh by r0 kaf-ar.medi.heh;
+sub kaf-ar.medi.jeem by r100 kaf-ar.medi.jeem;
+sub kaf-ar.medi.kaf by r100 kaf-ar.medi.kaf;
+sub kaf-ar.medi.meem by r100 kaf-ar.medi.meem;
+sub kaf-ar.medi.reh by r0 kaf-ar.medi.reh;
+sub kaf-ar.medi.sad by r100 kaf-ar.medi.sad;
+sub kaf-ar.medi.waw by r50 kaf-ar.medi.waw;
+sub kaf-ar.medi.yeh by r0 kaf-ar.medi.yeh;
+sub lam-ar.fina by r400 lam-ar.fina;
+sub lam-ar.fina.LA by r100 lam-ar.fina.LA;
+sub lam-ar.medi by r100 lam-ar.medi;
+sub lam-ar.medi.bari by r100 lam-ar.medi.bari;
+sub lam-ar.medi.doheh by r0 lam-ar.medi.doheh;
+sub lam-ar.medi.fbeh by r100 lam-ar.medi.fbeh;
+sub lam-ar.medi.feh by r100 lam-ar.medi.feh;
+sub lam-ar.medi.heh by r0 lam-ar.medi.heh;
+sub lam-ar.medi.jeem by r100 lam-ar.medi.jeem;
+sub lam-ar.medi.kaf by r100 lam-ar.medi.kaf;
+sub lam-ar.medi.low by r100 lam-ar.medi.low;
+sub lam-ar.medi.meem by r100 lam-ar.medi.meem;
+sub lam-ar.medi.reh by r0 lam-ar.medi.reh;
+sub lam-ar.medi.sad by r100 lam-ar.medi.sad;
+sub lam-ar.medi.waw by r50 lam-ar.medi.waw;
+sub lam-ar.medi.yeh by r0 lam-ar.medi.yeh;
+sub meem-ar.fina by r600 meem-ar.fina;
+sub meem-ar.medi by r350 meem-ar.medi;
+sub meem-ar.medi.alef by r350 meem-ar.medi.alef;
+sub meem-ar.medi.bari by r300 meem-ar.medi.bari;
+sub meem-ar.medi.doheh by r300 meem-ar.medi.doheh;
+sub meem-ar.medi.fbeh by r350 meem-ar.medi.fbeh;
+sub meem-ar.medi.feh by r350 meem-ar.medi.feh;
+sub meem-ar.medi.heh by r250 meem-ar.medi.heh;
+sub meem-ar.medi.jeem by r300 meem-ar.medi.jeem;
+sub meem-ar.medi.kaf by r400 meem-ar.medi.kaf;
+sub meem-ar.medi.meem by r300 meem-ar.medi.meem;
+sub meem-ar.medi.reh by r150 meem-ar.medi.reh;
+sub meem-ar.medi.sad by r450 meem-ar.medi.sad;
+sub meem-ar.medi.yeh by r200 meem-ar.medi.yeh;
+sub noonghunna-ar.fina by r350 noonghunna-ar.fina;
+sub heh-ar.medi by r200 heh-ar.medi;
+sub heh-ar.medi.alef by r200 heh-ar.medi.alef;
+sub heh-ar.medi.bari by r0 heh-ar.medi.bari;
+sub heh-ar.medi.doheh by r150 heh-ar.medi.doheh;
+sub heh-ar.medi.fbeh by r150 heh-ar.medi.fbeh;
+sub heh-ar.medi.feh by r150 heh-ar.medi.feh;
+sub heh-ar.medi.heh by r50 heh-ar.medi.heh;
+sub heh-ar.medi.jeem by r150 heh-ar.medi.jeem;
+sub heh-ar.medi.kaf by r150 heh-ar.medi.kaf;
+sub heh-ar.medi.meem by r100 heh-ar.medi.meem;
+sub heh-ar.medi.reh by r0 heh-ar.medi.reh;
+sub heh-ar.medi.sad by r200 heh-ar.medi.sad;
+sub heh-ar.medi.yeh by r50 heh-ar.medi.yeh;
+sub hehgoal-ar.fina by r0 hehgoal-ar.fina;
+sub hehgoal-ar.fina.wide by r0 hehgoal-ar.fina.wide;
+sub hehDoachashmee-ar.fina by r350 hehDoachashmee-ar.fina;
+sub hehDoachashmee-ar.medi by r400 hehDoachashmee-ar.medi;
+sub hehDoachashmee-ar.medi.bari by r450 hehDoachashmee-ar.medi.bari;
+sub hehDoachashmee-ar.medi.fbeh by r350 hehDoachashmee-ar.medi.fbeh;
+sub hehDoachashmee-ar.medi.feh by r400 hehDoachashmee-ar.medi.feh;
+sub hehDoachashmee-ar.medi.heh by r450 hehDoachashmee-ar.medi.heh;
+sub hehDoachashmee-ar.medi.jeem by r450 hehDoachashmee-ar.medi.jeem;
+sub hehDoachashmee-ar.medi.reh by r350 hehDoachashmee-ar.medi.reh;
+sub hehDoachashmee-ar.medi.sad by r450 hehDoachashmee-ar.medi.sad;
+sub hehDoachashmee-ar.medi.yeh by r450 hehDoachashmee-ar.medi.yeh;
+sub waw-ar.fina by r250 waw-ar.fina;
+sub wawStraight-ar.fina by r200 wawStraight-ar.fina;
+sub alefMaksura-ar.fina by r400 alefMaksura-ar.fina;
+sub alefMaksura-ar.fina.alt by r400 alefMaksura-ar.fina.alt;
+sub yehKashmiri-ar.fina by r400 yehKashmiri-ar.fina;
+sub yehbarree-ar.fina by r450 yehbarree-ar.fina;
+sub yehbarree-ar.fina.2 by r200 yehbarree-ar.fina.2;
+sub yehRohingya-ar.fina by r50 yehRohingya-ar.fina;
+#sub behDotless-ar.medi.cainNwide by r0 behDotless-ar.medi.cainNwide;
+#sub behDotless-ar.medi.cainSeenWide by r50 behDotless-ar.medi.cainSeenWide;
+#sub behDotless-ar.medi.fbehK by r150 behDotless-ar.medi.fbehK;
+#sub behDotless-ar.medi.feh.raised by r50 behDotless-ar.medi.feh.raised;
+#sub behDotless-ar.medi.fehW by r200 behDotless-ar.medi.fehW;
+#sub behDotless-ar.medi.inT1outT1 by r100 behDotless-ar.medi.inT1outT1;
+#sub behDotless-ar.medi.inT2outD2M by r200 behDotless-ar.medi.inT2outD2M;
+#sub behDotless-ar.medi.jeemF by r150 behDotless-ar.medi.jeemF;
+#sub behDotless-ar.medi.jeemS by r150 behDotless-ar.medi.jeemS;
+#sub behDotless-ar.medi.jeemwide by r150 behDotless-ar.medi.jeemwide;
+#sub behDotless-ar.medi.raised by r150 behDotless-ar.medi.raised;
+#sub behDotless-ar.medi.waw.raised by r100 behDotless-ar.medi.waw.raised;
+#sub hah-ar.medi.inD2outD2 by r350 hah-ar.medi.inD2outD2;
+#sub hah-ar.medi.inD2outS1 by r450 hah-ar.medi.inD2outS1;
+#sub hah-ar.medi.jeemwide by r400 hah-ar.medi.jeemwide;
+#sub reh-ar.fina.meem by r150 reh-ar.fina.meem;
+#sub rehLoop-ar.fina.inD3 by r250 rehLoop-ar.fina.inD3;
+#sub rehLoop-ar.fina.inD4 by r400 rehLoop-ar.fina.inD4;
+#sub rehLoop-ar.fina.inD4B by r400 rehLoop-ar.fina.inD4B;
+#sub rehLoop-ar.fina.meem by r150 rehLoop-ar.fina.meem;
+#sub rehLoop-ar.fina.postheh-ar by r150 rehLoop-ar.fina.postheh-ar;
+#sub seen-ar.fina.2 by r500 seen-ar.fina.2;
+#sub seen-ar.medi.fbehshort by r150 seen-ar.medi.fbehshort;
+#sub seen-ar.medi.inT2outD2M by r250 seen-ar.medi.inT2outD2M;
+#sub seen-ar.medi.seen.B by r50 seen-ar.medi.seen.B;
+#sub seen-ar.medi.seen.C by r50 seen-ar.medi.seen.C;
+#sub seen-ar.medi.seen.D by r50 seen-ar.medi.seen.D;
+#sub seen-ar.medi.seen.F by r50 seen-ar.medi.seen.F;
+#sub seen-ar.medi.seen.FF by r50 seen-ar.medi.seen.FF;
+#sub seen-ar.medi.seen.G by r50 seen-ar.medi.seen.G;
+#sub sad-ar.medi.heh by r50 sad-ar.medi.heh;
+#sub sad-ar.medi.inD1outD2M by r150 sad-ar.medi.inD1outD2M;
+#sub sad-ar.medi.inD1outS1 by r150 sad-ar.medi.inD1outS1;
+#sub sad-ar.medi.inD1outT1 by r150 sad-ar.medi.inD1outT1;
+#sub sad-ar.medi.kaf by r100 sad-ar.medi.kaf;
+#sub sad-ar.medi.meem by r100 sad-ar.medi.meem;
+#sub sad-ar.medi.yeh by r50 sad-ar.medi.yeh;
+#sub tah-ar.medi.HRlow by r50 tah-ar.medi.HRlow;
+#sub tah-ar.medi.inD1outD2M by r150 tah-ar.medi.inD1outD2M;
+#sub tah-ar.medi.inD1outS1 by r50 tah-ar.medi.inD1outS1;
+#sub tah-ar.medi.inD1outT1 by r50 tah-ar.medi.inD1outT1;
+#sub tah-ar.medi.low by r50 tah-ar.medi.low;
+#sub ain-ar.fina.2 by r350 ain-ar.fina.2;
+#sub ain-ar.medi.inT3outD2 by r150 ain-ar.medi.inT3outD2;
+#sub ain-ar.medi.inT3outS1 by r100 ain-ar.medi.inT3outS1;
+#sub ain-ar.medi.jeemwide by r150 ain-ar.medi.jeemwide;
+#sub fehDotless-ar.medi.inT3outD2 by r200 fehDotless-ar.medi.inT3outD2;
+#sub fehDotless-ar.medi.inT3outS1 by r100 fehDotless-ar.medi.inT3outS1;
+#sub fehDotless-ar.medi.jeemwide by r200 fehDotless-ar.medi.jeemwide;
+#sub qafDotless-ar.fina.alt by r350 qafDotless-ar.fina.alt;
+#sub qafDotless-ar.fina.inD2 by r300 qafDotless-ar.fina.inD2;
+#sub kaf-ar.fina.HR by r100 kaf-ar.fina.HR;
+#sub kaf-ar.fina.V by r100 kaf-ar.fina.V;
+#sub kaf-ar.medi..yeh by r0 kaf-ar.medi..yeh;
+#sub kaf-ar.medi.NhehDoachashmee-ar.medi.kaf by r150 kaf-ar.medi.NhehDoachashmee-ar.medi.kaf;
+#sub kaf-ar.medi.NoutD1 by r350 kaf-ar.medi.NoutD1;
+#sub kaf-ar.medi.NoutD11 by r300 kaf-ar.medi.NoutD11;
+#sub kaf-ar.medi.NoutD2HYB by r250 kaf-ar.medi.NoutD2HYB;
+#sub kaf-ar.medi.NoutD2MD by r150 kaf-ar.medi.NoutD2MD;
+#sub kaf-ar.medi.V by r100 kaf-ar.medi.V;
+#sub kaf-ar.medi.VhehDoachashmee-ar.medi.kaf by r100 kaf-ar.medi.VhehDoachashmee-ar.medi.kaf;
+#sub kaf-ar.medi.Vlow by r100 kaf-ar.medi.Vlow;
+#sub kaf-ar.medi.VoutD1 by r100 kaf-ar.medi.VoutD1;
+#sub kaf-ar.medi.VoutD11 by r100 kaf-ar.medi.VoutD11;
+#sub kaf-ar.medi.VoutD2HYB by r100 kaf-ar.medi.VoutD2HYB;
+#sub kaf-ar.medi.VoutD2MD by r0 kaf-ar.medi.VoutD2MD;
+#sub kaf-ar.medi.VoutD4 by r0 kaf-ar.medi.VoutD4;
+#sub kaf-ar.medi.VoutD5 by r0 kaf-ar.medi.VoutD5;
+#sub kaf-ar.medi.VoutS1 by r100 kaf-ar.medi.VoutS1;
+#sub kaf-ar.medi.feh.curly by r250 kaf-ar.medi.feh.curly;
+#sub kaf-ar.medi.feh2 by r100 kaf-ar.medi.feh2;
+#sub kaf-ar.medi.outS1 by r100 kaf-ar.medi.outS1;
+#sub lam-ar.medi.HRlow by r100 lam-ar.medi.HRlow;
+#sub lam-ar.medi.lowKN by r100 lam-ar.medi.lowKN;
+#sub lam-ar.medi.outS1 by r100 lam-ar.medi.outS1;
+#sub meem-ar.medi.inD2outD2 by r300 meem-ar.medi.inD2outD2;
+#sub meem-ar.medi.inD2outS1 by r350 meem-ar.medi.inD2outS1;
+#sub heh-ar.medi.inD5 by r200 heh-ar.medi.inD5;
+#sub heh-ar.medi.inD5outD2 by r150 heh-ar.medi.inD5outD2;
+#sub heh-ar.medi.inD5outS1 by r200 heh-ar.medi.inD5outS1;
+#sub hehDoachashmee-ar.medi.doheh by r450 hehDoachashmee-ar.medi.doheh;
+#sub hehDoachashmee-ar.medi.fbehwide by r400 hehDoachashmee-ar.medi.fbehwide;
+#sub hehDoachashmee-ar.medi.inD2 by r400 hehDoachashmee-ar.medi.inD2;
+#sub hehDoachashmee-ar.medi.inD2outD2 by r450 hehDoachashmee-ar.medi.inD2outD2;
+#sub hehDoachashmee-ar.medi.inD2outS1 by r400 hehDoachashmee-ar.medi.inD2outS1;
+#sub hehDoachashmee-ar.medi.inD2outT1 by r400 hehDoachashmee-ar.medi.inD2outT1;
+#sub hehDoachashmee-ar.medi.jeemwide by r450 hehDoachashmee-ar.medi.jeemwide;
+#sub hehDoachashmee-ar.medi.kaf by r450 hehDoachashmee-ar.medi.kaf;
+#sub hehDoachashmee-ar.medi.meem by r450 hehDoachashmee-ar.medi.meem;
+#sub waw-ar.fina.alt by r250 waw-ar.fina.alt;
+#sub waw-ar.fina.alt2 by r200 waw-ar.fina.alt2;
+#sub waw-ar.fina.cut by r250 waw-ar.fina.cut;
+#sub wawStraight-ar.fina.alt by r250 wawStraight-ar.fina.alt;
+#sub wawStraight-ar.fina.cut by r250 wawStraight-ar.fina.cut;
+#sub wawStraight-ar.fina.inD2 by r250 wawStraight-ar.fina.inD2;
+#sub yehKashmiri-ar.fina.alt by r400 yehKashmiri-ar.fina.alt;
+} AddRiseMarkers;
+
+
+lookup add_medi_heights {
+	lookupflag UseMarkFilteringSet @HeightCounters;
+	sub  @HeightCounters' lookup add50 @AllMedis' r50' lookup toZero;
+	sub  @HeightCounters' lookup add100 @AllMedis' r100' lookup toZero;
+	sub  @HeightCounters' lookup add150 @AllMedis' r150' lookup toZero;
+	sub  @HeightCounters' lookup add200 @AllMedis' r200' lookup toZero;
+	sub  @HeightCounters' lookup add250 @AllMedis' r250' lookup toZero;
+	sub  @HeightCounters' lookup add300 @AllMedis' r300' lookup toZero;
+	sub  @HeightCounters' lookup add350 @AllMedis' r350' lookup toZero;
+	sub  @HeightCounters' lookup add400 @AllMedis' r400' lookup toZero;
+	sub  @HeightCounters' lookup add450 @AllMedis' r450' lookup toZero;
+	sub  @HeightCounters' lookup add500 @AllMedis' r500' lookup toZero;
+	sub  @HeightCounters' lookup add550 @AllMedis' r550' lookup toZero;
+	sub  @HeightCounters' lookup add600 @AllMedis' r600' lookup toZero;
+	sub  @HeightCounters' lookup add650 @AllMedis' r650' lookup toZero;
+	sub  @HeightCounters' lookup add700 @AllMedis' r700' lookup toZero;
+} add_medi_heights;
+
+
+lookup add_medi_heights2 {
+	lookupflag UseMarkFilteringSet @HeightCounters;
+	sub  @HeightCounters' lookup add50 @AllMedis' r50' lookup toZero;
+	sub  @HeightCounters' lookup add100 @AllMedis' r100' lookup toZero;
+	sub  @HeightCounters' lookup add150 @AllMedis' r150' lookup toZero;
+	sub  @HeightCounters' lookup add200 @AllMedis' r200' lookup toZero;
+	sub  @HeightCounters' lookup add250 @AllMedis' r250' lookup toZero;
+	sub  @HeightCounters' lookup add300 @AllMedis' r300' lookup toZero;
+	sub  @HeightCounters' lookup add350 @AllMedis' r350' lookup toZero;
+	sub  @HeightCounters' lookup add400 @AllMedis' r400' lookup toZero;
+	sub  @HeightCounters' lookup add450 @AllMedis' r450' lookup toZero;
+	sub  @HeightCounters' lookup add500 @AllMedis' r500' lookup toZero;
+	sub  @HeightCounters' lookup add550 @AllMedis' r550' lookup toZero;
+	sub  @HeightCounters' lookup add600 @AllMedis' r600' lookup toZero;
+	sub  @HeightCounters' lookup add650 @AllMedis' r650' lookup toZero;
+	sub  @HeightCounters' lookup add700 @AllMedis' r700' lookup toZero;
+} add_medi_heights2;
+
+lookup add_medi_heights3 {
+	lookupflag UseMarkFilteringSet @HeightCounters;
+	sub  @HeightCounters' lookup add50 @AllMedis' r50' lookup toZero;
+	sub  @HeightCounters' lookup add100 @AllMedis' r100' lookup toZero;
+	sub  @HeightCounters' lookup add150 @AllMedis' r150' lookup toZero;
+	sub  @HeightCounters' lookup add200 @AllMedis' r200' lookup toZero;
+	sub  @HeightCounters' lookup add250 @AllMedis' r250' lookup toZero;
+	sub  @HeightCounters' lookup add300 @AllMedis' r300' lookup toZero;
+	sub  @HeightCounters' lookup add350 @AllMedis' r350' lookup toZero;
+	sub  @HeightCounters' lookup add400 @AllMedis' r400' lookup toZero;
+	sub  @HeightCounters' lookup add450 @AllMedis' r450' lookup toZero;
+	sub  @HeightCounters' lookup add500 @AllMedis' r500' lookup toZero;
+	sub  @HeightCounters' lookup add550 @AllMedis' r550' lookup toZero;
+	sub  @HeightCounters' lookup add600 @AllMedis' r600' lookup toZero;
+	sub  @HeightCounters' lookup add650 @AllMedis' r650' lookup toZero;
+	sub  @HeightCounters' lookup add700 @AllMedis' r700' lookup toZero;
+} add_medi_heights3;
+
+lookup add_medi_heights4 {
+	lookupflag UseMarkFilteringSet @HeightCounters;
+	sub  @HeightCounters' lookup add50 @AllMedis' r50' lookup toZero;
+	sub  @HeightCounters' lookup add100 @AllMedis' r100' lookup toZero;
+	sub  @HeightCounters' lookup add150 @AllMedis' r150' lookup toZero;
+	sub  @HeightCounters' lookup add200 @AllMedis' r200' lookup toZero;
+	sub  @HeightCounters' lookup add250 @AllMedis' r250' lookup toZero;
+	sub  @HeightCounters' lookup add300 @AllMedis' r300' lookup toZero;
+	sub  @HeightCounters' lookup add350 @AllMedis' r350' lookup toZero;
+	sub  @HeightCounters' lookup add400 @AllMedis' r400' lookup toZero;
+	sub  @HeightCounters' lookup add450 @AllMedis' r450' lookup toZero;
+	sub  @HeightCounters' lookup add500 @AllMedis' r500' lookup toZero;
+	sub  @HeightCounters' lookup add550 @AllMedis' r550' lookup toZero;
+	sub  @HeightCounters' lookup add600 @AllMedis' r600' lookup toZero;
+	sub  @HeightCounters' lookup add650 @AllMedis' r650' lookup toZero;
+	sub  @HeightCounters' lookup add700 @AllMedis' r700' lookup toZero;
+} add_medi_heights4;
+
+
+lookup add_medi_heights5 {
+	lookupflag UseMarkFilteringSet @HeightCounters;
+	sub  @HeightCounters' lookup add50 @AllMedis' r50' lookup toZero;
+	sub  @HeightCounters' lookup add100 @AllMedis' r100' lookup toZero;
+	sub  @HeightCounters' lookup add150 @AllMedis' r150' lookup toZero;
+	sub  @HeightCounters' lookup add200 @AllMedis' r200' lookup toZero;
+	sub  @HeightCounters' lookup add250 @AllMedis' r250' lookup toZero;
+	sub  @HeightCounters' lookup add300 @AllMedis' r300' lookup toZero;
+	sub  @HeightCounters' lookup add350 @AllMedis' r350' lookup toZero;
+	sub  @HeightCounters' lookup add400 @AllMedis' r400' lookup toZero;
+	sub  @HeightCounters' lookup add450 @AllMedis' r450' lookup toZero;
+	sub  @HeightCounters' lookup add500 @AllMedis' r500' lookup toZero;
+	sub  @HeightCounters' lookup add550 @AllMedis' r550' lookup toZero;
+	sub  @HeightCounters' lookup add600 @AllMedis' r600' lookup toZero;
+	sub  @HeightCounters' lookup add650 @AllMedis' r650' lookup toZero;
+	sub  @HeightCounters' lookup add700 @AllMedis' r700' lookup toZero;
+} add_medi_heights5;
+
+lookup add_medi_heights6 {
+	lookupflag UseMarkFilteringSet @HeightCounters;
+	sub  @HeightCounters' lookup add50 @AllMedis' r50' lookup toZero;
+	sub  @HeightCounters' lookup add100 @AllMedis' r100' lookup toZero;
+	sub  @HeightCounters' lookup add150 @AllMedis' r150' lookup toZero;
+	sub  @HeightCounters' lookup add200 @AllMedis' r200' lookup toZero;
+	sub  @HeightCounters' lookup add250 @AllMedis' r250' lookup toZero;
+	sub  @HeightCounters' lookup add300 @AllMedis' r300' lookup toZero;
+	sub  @HeightCounters' lookup add350 @AllMedis' r350' lookup toZero;
+	sub  @HeightCounters' lookup add400 @AllMedis' r400' lookup toZero;
+	sub  @HeightCounters' lookup add450 @AllMedis' r450' lookup toZero;
+	sub  @HeightCounters' lookup add500 @AllMedis' r500' lookup toZero;
+	sub  @HeightCounters' lookup add550 @AllMedis' r550' lookup toZero;
+	sub  @HeightCounters' lookup add600 @AllMedis' r600' lookup toZero;
+	sub  @HeightCounters' lookup add650 @AllMedis' r650' lookup toZero;
+	sub  @HeightCounters' lookup add700 @AllMedis' r700' lookup toZero;
+} add_medi_heights6;
+
+sub @AllMedis r0' by NULL;
+
+# Bariye marker glyph
+# This has to go before the sequre to avoid splitting inits + marks
+sub @AllInitials by nobari @AllInitials;
+lookup AddBariYeMarker {
+	lookupflag UseMarkFilteringSet [nobari];
+	sub nobari' @to.BARIYEHf.alt by hasbari;
+	sub nobari' @AllInitials @to.BARIYEHf.alt by hasbari;
+	sub nobari' @AllInitials @AllMedis @to.BARIYEHf.alt by hasbari;
+	sub nobari' @AllInitials @AllMedis @AllMedis @to.BARIYEHf.alt by hasbari;
+	sub nobari' @AllInitials @AllMedis @AllMedis @AllMedis @to.BARIYEHf.alt by hasbari;
+} AddBariYeMarker;
 ";
 tag = rlig;
 },
@@ -2473,6 +3102,30 @@ lookup YehBariKern {
 	# Ain kerning
 	pos [@FEHi @BEHi @LAMi @KAFi]' 100 ain-ar.fina;
 } YehBariKern;
+
+lookup MaddaKern {
+	lookupflag UseMarkFilteringSet @AllAboveMarks;
+    pos [alef-ar.isol alef-ar.fina] madda-ar @BEHi' [hamzaabove-ar tahabove-ar] 120;
+} MaddaKern;
+
+# Some gentle space kerning
+lookup SpaceKerning {
+	lookupflag UseMarkFilteringSet @HeightCounters;
+	pos space' @AllInitials [r500 r550 r600 r650 r700] -100;
+	pos @AllFinas  @AllInitials' [r500 r550 r600 r650 r700] -50;
+	pos space' @AllInitials [r300 r350 r400 r450] -50;
+	pos @AllFinas @AllInitials' [r300 r350 r400 r450] -20;
+} SpaceKerning;
+
+lookup OtherKerns {
+	lookupflag IgnoreMarks;
+	pos @REH.WAW.DAL @AllInitials' 250 hah-ar.fina;
+} OtherKerns;
+lookup OtherKernsWithMarks {
+	lookupflag UseMarkFilteringSet @AllAboveMarks;
+	pos parenright @AllInitials' 150 @AllAboveMarks;
+} OtherKernsWithMarks;
+
 ";
 tag = dist;
 }
@@ -2819,7 +3472,15 @@ weightClass = 700;
 );
 kerningRTL = {
 "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2" = {
+"@MMK_R_REH.WAW.DAL" = {
+"behDotless-ar.init.doheh" = -50;
+"behDotless-ar.init.fbeh" = -30;
+"behDotless-ar.init.feh" = -40;
+"behDotless-ar.init.heh" = -60;
+"meem-ar.init" = -50;
+};
 "alef-ar.isol" = {
+"behDotless-ar.init.fbeh" = 30;
 "waw-ar.isol" = -40;
 };
 "dal-ar.fina" = {
@@ -2828,12 +3489,10 @@ kerningRTL = {
 };
 "dal-ar.isol" = {
 "alef-ar.isol" = -30;
-};
-"reh-ar.fina" = {
-"behDotless-ar.init.fbeh" = -60;
+"behDotless-ar.init.alef" = 20;
+"behDotless-ar.init.fbeh" = 30;
 };
 "reh-ar.isol" = {
-"behDotless-ar.init.fbeh" = -60;
 "behDotless-ar.init.reh" = -80;
 };
 "waw-ar.isol" = {
@@ -2844,7 +3503,16 @@ kerningRTL = {
 };
 };
 "67C28EBA-5AA6-4F74-BBA1-5BB358529C60" = {
+"@MMK_R_REH.WAW.DAL" = {
+"behDotless-ar.init.alef" = -80;
+"behDotless-ar.init.doheh" = -40;
+"behDotless-ar.init.fbeh" = -20;
+"behDotless-ar.init.feh" = -40;
+"behDotless-ar.init.heh" = -75;
+"meem-ar.init" = -80;
+};
 "alef-ar.isol" = {
+"behDotless-ar.init.fbeh" = 50;
 "waw-ar.isol" = -40;
 };
 "dal-ar.fina" = {
@@ -2853,15 +3521,14 @@ kerningRTL = {
 };
 "dal-ar.isol" = {
 "alef-ar.isol" = -30;
-};
-"reh-ar.fina" = {
-"behDotless-ar.init.fbeh" = -60;
+"behDotless-ar.init.alef" = 20;
+"behDotless-ar.init.fbeh" = 20;
 };
 "reh-ar.isol" = {
-"behDotless-ar.init.fbeh" = -40;
 "behDotless-ar.init.reh" = -80;
 };
 "waw-ar.isol" = {
+"behDotless-ar.init.heh" = -75;
 "reh-ar.isol" = -70;
 };
 "yehbarree-ar.fina" = {

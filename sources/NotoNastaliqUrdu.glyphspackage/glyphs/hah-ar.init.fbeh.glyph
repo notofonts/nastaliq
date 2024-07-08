@@ -11,17 +11,24 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf
 };
 },
 {
+name = "*bottom.bari.r550.marks";
+pos = (314,-719);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [hasbari @HeightCounters @BelowMarksForYB]; hasbari * @BelowMarksForYB [r550 r600]";
+};
+},
+{
+name = "*bottom.bari.r600";
+pos = (393,-739);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [hasbari @HeightCounters @BelowMarksForYB]; hasbari * [r600]";
+};
+},
+{
 name = "*bottom.behlambari";
 pos = (310,-583);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  [behDotless-ar.medi.alef]@BelowMarksForYB @to.BARIYEHf.alt";
-};
-},
-{
-name = "*bottom.behmeembari";
-pos = (393,-739);
-userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  [behDotless-ar.medi.meem]@BelowMarksForYB @to.BARIYEHf.alt";
 };
 },
 {
@@ -99,17 +106,24 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf
 };
 },
 {
+name = "*bottom.bari.r550.marks";
+pos = (322,-719);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [hasbari @HeightCounters @BelowMarksForYB]; hasbari * @BelowMarksForYB [r550 r600]";
+};
+},
+{
+name = "*bottom.bari.r600";
+pos = (353,-729);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [hasbari @HeightCounters @BelowMarksForYB]; hasbari * [r600]";
+};
+},
+{
 name = "*bottom.behlambari";
 pos = (270,-573);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  [behDotless-ar.medi.alef]@BelowMarksForYB @to.BARIYEHf.alt";
-};
-},
-{
-name = "*bottom.behmeembari";
-pos = (353,-729);
-userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  [behDotless-ar.medi.meem]@BelowMarksForYB @to.BARIYEHf.alt";
 };
 },
 {

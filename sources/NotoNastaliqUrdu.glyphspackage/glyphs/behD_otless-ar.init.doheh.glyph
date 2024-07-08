@@ -4,6 +4,20 @@ layers = (
 {
 anchors = (
 {
+name = "*bottom.REHWAWDAL";
+pos = (195,-444);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters]; @REH.WAW.DAL *";
+};
+},
+{
+name = "*bottom.REHWAWDAL.r400";
+pos = (344,12);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters]; @REH.WAW.DAL * [r400 r450 r500]";
+};
+},
+{
 name = "*bottom.bari";
 pos = (375,20);
 userData = {
@@ -61,6 +75,20 @@ width = 449;
 },
 {
 anchors = (
+{
+name = "*bottom.REHWAWDAL";
+pos = (154,-435);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters]; @REH.WAW.DAL *";
+};
+},
+{
+name = "*bottom.REHWAWDAL.r400";
+pos = (344,14);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters]; @REH.WAW.DAL * [r400 r450 r500]";
+};
+},
 {
 name = "*bottom.bari";
 pos = (375,20);

@@ -4,6 +4,13 @@ layers = (
 {
 anchors = (
 {
+name = "*bottom.alt";
+pos = (181,-333);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @AllBelowMarks *";
+};
+},
+{
 name = "*bottom.bari";
 pos = (230,-596);
 userData = {
@@ -21,10 +28,6 @@ pos = (239,102);
 {
 name = bottom;
 pos = (230,-190);
-},
-{
-name = bottom.alt;
-pos = (261,-348);
 },
 {
 name = entry;
@@ -84,6 +87,13 @@ width = 336;
 {
 anchors = (
 {
+name = "*bottom.alt";
+pos = (195,-319);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; @AllBelowMarks *";
+};
+},
+{
 name = "*bottom.bari";
 pos = (200,-596);
 userData = {
@@ -101,10 +111,6 @@ pos = (233,100);
 {
 name = bottom;
 pos = (229,-188);
-},
-{
-name = bottom.alt;
-pos = (261,-348);
 },
 {
 name = entry;

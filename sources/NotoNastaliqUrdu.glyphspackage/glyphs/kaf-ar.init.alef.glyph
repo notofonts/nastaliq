@@ -5,6 +5,13 @@ layers = (
 {
 anchors = (
 {
+name = "*top.sarkash";
+pos = (423,1260);
+userData = {
+GPOS_Context = "* @Sarkash &";
+};
+},
+{
 name = Anchor15;
 pos = (123,989);
 },
@@ -38,10 +45,6 @@ pos = (110,788);
 {
 name = top;
 pos = (368,1176);
-},
-{
-name = top.alt;
-pos = (423,1448);
 }
 );
 layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
@@ -114,6 +117,13 @@ width = 296;
 {
 anchors = (
 {
+name = "*top.sarkash";
+pos = (394,1200);
+userData = {
+GPOS_Context = "* @Sarkash &";
+};
+},
+{
 name = Anchor15;
 pos = (155,917);
 },
@@ -147,10 +157,6 @@ pos = (80,671);
 {
 name = top;
 pos = (357,1125);
-},
-{
-name = top.alt;
-pos = (423,1448);
 }
 );
 layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";

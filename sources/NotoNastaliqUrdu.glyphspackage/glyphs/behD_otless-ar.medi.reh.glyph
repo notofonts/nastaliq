@@ -7,7 +7,7 @@ anchors = (
 name = "*bottom.afterpeh";
 pos = (-85,-400);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; threedotsdownbelow-ar *";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; [kasra-ar threedotsdownbelow-ar] *";
 };
 },
 {
@@ -72,7 +72,7 @@ anchors = (
 name = "*bottom.afterpeh";
 pos = (-85,-361);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; threedotsdownbelow-ar *";
+GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; [kasra-ar threedotsdownbelow-ar] *";
 };
 },
 {
