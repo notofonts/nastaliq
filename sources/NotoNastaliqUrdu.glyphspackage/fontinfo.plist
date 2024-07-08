@@ -3478,6 +3478,7 @@ kerningRTL = {
 "behDotless-ar.init.feh" = -40;
 "behDotless-ar.init.heh" = -60;
 "meem-ar.init" = -50;
+"reh-ar.isol" = -60;
 };
 "alef-ar.isol" = {
 "behDotless-ar.init.fbeh" = 30;
@@ -3495,9 +3496,6 @@ kerningRTL = {
 "reh-ar.isol" = {
 "behDotless-ar.init.reh" = -80;
 };
-"waw-ar.isol" = {
-"reh-ar.isol" = -60;
-};
 "yehbarree-ar.fina" = {
 "behDotless-ar.init.fbeh" = 60;
 };
@@ -3510,6 +3508,7 @@ kerningRTL = {
 "behDotless-ar.init.feh" = -40;
 "behDotless-ar.init.heh" = -75;
 "meem-ar.init" = -80;
+"reh-ar.isol" = -70;
 };
 "alef-ar.isol" = {
 "behDotless-ar.init.fbeh" = 50;
@@ -3529,7 +3528,6 @@ kerningRTL = {
 };
 "waw-ar.isol" = {
 "behDotless-ar.init.heh" = -75;
-"reh-ar.isol" = -70;
 };
 "yehbarree-ar.fina" = {
 "behDotless-ar.init.fbeh" = 60;
