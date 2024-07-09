@@ -236,7 +236,7 @@ kaf-ar.init.fbeh
 lam-ar.medi.fbeh
 lam-ar.init.fbeh
 meem-ar.medi.fbeh
-meem-ar.init.beh
+meem-ar.init.fbeh
 heh-ar.medi.fbeh
 heh-ar.init.fbeh
 hehgoal-ar.init.fbeh
@@ -1120,7 +1120,7 @@ heh-ar.medi.feh
 heh-ar.init.waw
 hehgoal-ar.init.feh
 hehDoachashmee-ar.medi.feh
-hehDoachashmee-ar.init.waw
+hehDoachashmee-ar.init.feh
 ";
 name = to.WAWf.alt;
 },
@@ -2473,6 +2473,7 @@ lookup Alternates {
 	sub heh-ar.medi.reh reh-ar.fina' by reh-ar.fina.postheh-ar;
 	sub hah-ar.init.meem' meem-ar.fina by hah-ar.init.bari;
 	sub behDotless-ar.init.meem' meem-ar.fina by behDotless-ar.init.doheh;
+	sub hehDoachashmee-ar.init.feh waw-ar.fina' by waw-ar.fina.low;
 
 #	sub heh-ar.medi.fbeh' behDotless-ar.medi.
 
@@ -2499,7 +2500,9 @@ lookup Refinements {
 	sub ain-ar.init' hehgoal-ar.fina by ain-ar.init.outS1;
 	sub hehgoal-ar.init' hehgoal-ar.fina by hehgoal-ar.init.outS1;
 	sub @JEEMi' [hehgoal-ar.fina behDotless-ar.medi.reh] by hah-ar.init.outS1;
-	sub [@FEHm @FEHi] behDotless-ar.medi.cainN' by behDotless-ar.medi.cainwide;
+	sub [@FEHm]' behDotless-ar.medi.cainN by fehDotless-ar.medi.alef;
+	sub [@FEHi]' behDotless-ar.medi.cainN by fehDotless-ar.init;
+	sub [@FEHm @FEHi] behDotless-ar.medi.cainN' by behDotless-ar.medi.cainNwide;
 } Refinements;
 
 lookup RaiseTooth {
