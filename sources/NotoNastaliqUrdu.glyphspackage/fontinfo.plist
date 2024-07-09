@@ -129,48 +129,48 @@ name = to.ALEFf.ext.alt;
 code = "behDotless-ar.medi
 behDotless-ar.init
 hah-ar.medi
-hah-ar.init
+#hah-ar.init
 seen-ar.medi
 seen-ar.init
-sad-ar.init
-tah-ar.init
+#sad-ar.init
+#tah-ar.init
 ain-ar.medi
-ain-ar.init
+#ain-ar.init
 fehDotless-ar.medi
-fehDotless-ar.init
-kaf-ar.medi
-kaf-ar.init
-lam-ar.medi
-lam-ar.init
+#fehDotless-ar.init
+#kaf-ar.medi
+#kaf-ar.init
+#lam-ar.medi
+#lam-ar.init
 meem-ar.medi
-meem-ar.init
+#meem-ar.init
 heh-ar.medi
-heh-ar.init
-hehgoal-ar.init
-hehDoachashmee-ar.init
+#heh-ar.init
+#hehgoal-ar.init
+#hehDoachashmee-ar.init
 ";
 name = to.ALEFf2.ext;
 },
 {
-code = "#behDotless-ar.medi.alef
-#behDotless-ar.init.alef
-#hah-ar.medi.alef
+code = "behDotless-ar.medi.alef
+behDotless-ar.init.alef
+hah-ar.medi.alef
 #hah-ar.init.alef
-#seen-ar.medi.alef
-#seen-ar.init.alef
+seen-ar.medi.alef
+seen-ar.init.alef
 #sad-ar.init.alef
 #tah-ar.init.alef
-#ain-ar.medi.alef
+ain-ar.medi.alef
 #ain-ar.init.alef
-#fehDotless-ar.medi.alef
+fehDotless-ar.medi.alef
 #fehDotless-ar.init.alef
 #kaf-ar.medi.alef1
 #kaf-ar.init.alef1
 #lam-ar.medi.alef
 #lam-ar.init.alef
-#meem-ar.medi.alef
+meem-ar.medi.alef
 #meem-ar.init.alef1
-#heh-ar.medi.alef
+heh-ar.medi.alef
 #heh-ar.init.alef
 #hehgoal-ar.init.alef1
 #hehDoachashmee-ar.init.alef
@@ -2431,7 +2431,7 @@ lookup Connections {
 	lookupflag IgnoreMarks;
 	sub @to.ALEFf' [@ALEFf ] by @to.ALEFf.alt;
 #	sub @to.ALEFf.ext' [heh-ar.fina behDotless_reh-ar.fina.rlig] by @to.ALEFf.ext.alt;
-#	sub @to.ALEFf2.ext' [dal-ar.fina] by @to.ALEFf2.ext.alt;
+	sub @to.ALEFf2.ext' [dal-ar.fina] by @to.ALEFf2.ext.alt;
 	sub @to.BEHm' @BEHm by @to.BEHm.alt;
 	sub @to.BEHf' [behDotless-ar.fina] by @to.BEHf.alt;
 	sub @to.JEEMm' [@JEEMm hah-ar.fina] by @to.JEEMm.alt; 
