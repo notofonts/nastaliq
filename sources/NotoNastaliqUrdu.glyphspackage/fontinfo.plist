@@ -3050,7 +3050,10 @@ lookup YehBariKern {
 	# Two glyph sequences don't need kerning because they are done by pair kerning.
 
  	# Three glyph sequences
-	pos [@BEHi @FEHi @LAMi @HEHi @HEHGOALi]' 600 [behDotless-ar.medi.bari ain-ar.medi.bari kaf-ar.medi.bari lam-ar.medi.bari meem-ar.medi.bari fehDotless-ar.medi.bari]; # ببے
+	pos [@BEHi @FEHi @LAMi @KAFi]' 600 [behDotless-ar.medi.bari ain-ar.medi.bari kaf-ar.medi.bari lam-ar.medi.bari meem-ar.medi.bari fehDotless-ar.medi.bari]; # ببے
+	pos [@HEHi @HEHGOALi]' 400 [behDotless-ar.medi.bari];
+	pos [@BEHi @FEHi @LAMi @HEHi @HEHGOALi @KAFi]' 380 [hehDoachashmee-ar.medi.bari];
+
 	pos [@BEHi @FEHi @LAMi]' 250 [seen-ar.medi.bari];
 
 	pos [@JEEMi @HEHGOALi]' 300 [behDotless-ar.medi.bari heh-ar.medi.bari kaf-ar.medi.bari lam-ar.medi.bari tah-ar.medi.bari];
@@ -3073,7 +3076,7 @@ lookup YehBariKern {
 
 	# Four glyph sequences
 	pos @AllInitials' 50 @AllMedis [sad-ar.medi.bari seen-ar.medi.bari]; 
-	pos [@BEHi]' 350 @BEHm [behDotless-ar.medi.bari tah-ar.medi.bari hehDoachashmee-ar.medi.bari]; 
+	pos [@BEHi]' 350 [@BEHm @KAFm] [behDotless-ar.medi.bari tah-ar.medi.bari hehDoachashmee-ar.medi.bari]; 
 	pos [@BEHi]' 450 @BEHm [hah-ar.medi.bari  ain-ar.medi.bari fehDotless-ar.medi.bari]; 
 	pos [@BEHi]' 300 @BEHm [hah-ar.medi.bari ain-ar.medi.bari fehDotless-ar.medi.bari lam-ar.medi.bari kaf-ar.medi.bari meem-ar.medi.bari heh-ar.medi.bari]; 
 	pos [@JEEMi]' 100 @BEHm [hah-ar.medi.bari ain-ar.medi.bari fehDotless-ar.medi.bari lam-ar.medi.bari kaf-ar.medi.bari meem-ar.medi.bari heh-ar.medi.bari]; 
