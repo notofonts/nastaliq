@@ -281,6 +281,7 @@ hehDoachashmee-ar.init
 lam-ar.medi
 lam-ar.init
 kaf-ar.medi
+kaf-ar.init
 ";
 name = to.BEHf;
 },
@@ -309,7 +310,7 @@ hehDoachashmee-ar.init.fbeh
 lam-ar.medi.fbeh
 lam-ar.init.fbeh
 kaf-ar.medi.fbeh
-";
+kaf-ar.init.fbeh";
 name = to.BEHf.alt;
 },
 {
@@ -356,7 +357,7 @@ ain-ar.init.doheh
 fehDotless-ar.medi.doheh
 fehDotless-ar.init.doheh
 kaf-ar.medi.doheh
-kaf-ar.init.doheh
+kaf-ar.init.doheh2 # Curly
 lam-ar.medi.doheh
 lam-ar.init.doheh
 meem-ar.medi.doheh
@@ -620,12 +621,12 @@ fehDotless-ar.init.fbeh
 kaf-ar.medi.fbeh
 kaf-ar.init.fbeh
 lam-ar.medi.fbeh
-lam-ar.init.feh
+lam-ar.init.fbeh
 meem-ar.medi.feh
 meem-ar.init.fbeh
 heh-ar.medi.fbeh
 heh-ar.init.fbeh
-hehgoal-ar.init.feh
+hehgoal-ar.init.fbeh
 hehDoachashmee-ar.medi.fbeh
 hehDoachashmee-ar.init.fbeh
 ";
@@ -1022,6 +1023,7 @@ hah-ar.init
 seen-ar.medi
 seen-ar.init
 sad-ar.init
+tah-ar.medi
 tah-ar.init
 ain-ar.medi
 ain-ar.init
@@ -1036,6 +1038,7 @@ meem-ar.init
 heh-ar.medi
 heh-ar.init
 hehgoal-ar.init
+hehDoachashmee-ar.medi
 hehDoachashmee-ar.init
 ";
 name = to.NOONf;
@@ -1048,6 +1051,7 @@ hah-ar.init.fbeh
 seen-ar.medi.fbeh
 seen-ar.init.fbeh
 sad-ar.init.fbeh
+tah-ar.medi.fbeh
 tah-ar.init.fbeh
 ain-ar.medi.ain
 ain-ar.init.fbeh
@@ -1062,6 +1066,7 @@ meem-ar.init.fbeh
 heh-ar.medi.fbeh
 heh-ar.init.fbeh
 hehgoal-ar.init.fbeh
+hehDoachashmee-ar.medi.fbeh
 hehDoachashmee-ar.init.fbeh
 ";
 name = to.NOONf.alt;
@@ -1204,7 +1209,9 @@ code = "behDotless-ar.medi
 hah-ar.medi
 seen-ar.medi
 seen-ar.init
+sad-ar.medi
 sad-ar.init
+tah-ar.medi
 tah-ar.init
 ain-ar.medi
 ain-ar.init
@@ -1224,7 +1231,9 @@ code = "behDotless-ar.medi.yeh
 hah-ar.medi.yeh
 seen-ar.medi.yeh
 seen-ar.init.yeh
+sad-ar.medi.doheh
 sad-ar.init.yeh
+tah-ar.medi.yeh
 tah-ar.init.waw
 ain-ar.medi.yeh
 ain-ar.init.waw
@@ -1238,6 +1247,64 @@ hehDoachashmee-ar.medi.yeh
 hehDoachashmee-ar.init.yeh
 ";
 name = to.YEHf.alt;
+},
+{
+code = "behDotless-ar.medi
+behDotless-ar.init
+hah-ar.medi
+hah-ar.init
+seen-ar.medi
+seen-ar.init
+sad-ar.medi
+sad-ar.init
+tah-ar.medi
+tah-ar.init
+ain-ar.medi
+ain-ar.init
+fehDotless-ar.medi
+fehDotless-ar.init
+kaf-ar.medi
+kaf-ar.init
+lam-ar.medi
+lam-ar.init
+meem-ar.medi
+meem-ar.init
+heh-ar.medi
+heh-ar.init
+hehgoal-ar.init
+hehDoachashmee-ar.medi
+hehDoachashmee-ar.init
+";
+name = to.QAFf;
+},
+{
+code = "behDotless-ar.medi.waw
+behDotless-ar.init.waw
+hah-ar.medi.feh
+hah-ar.init.fehshort
+seen-ar.medi.feh
+seen-ar.init.feh
+sad-ar.medi.feh
+sad-ar.init.feh
+tah-ar.medi.feh
+tah-ar.init.feh
+ain-ar.medi.feh
+ain-ar.init.fehWQ
+fehDotless-ar.medi.feh
+fehDotless-ar.init.waw
+kaf-ar.medi.waw
+kaf-ar.init.waw
+lam-ar.medi.feh
+lam-ar.init.feh
+meem-ar.medi.feh
+meem-ar.init.ain
+heh-ar.medi.feh
+heh-ar.init.waw
+hehgoal-ar.init.feh
+hehDoachashmee-ar.medi.feh
+hehDoachashmee-ar.init.feh
+";
+name = to.QAFf.alt;
 },
 {
 code = "$[name contains \"yehbarree-ar.fina\"]
@@ -2434,7 +2501,7 @@ lookup Connections {
 	sub @to.ALEFf2.ext' [dal-ar.fina] by @to.ALEFf2.ext.alt;
 	sub @to.BEHm' @BEHm by @to.BEHm.alt;
 	sub @to.BEHf' [behDotless-ar.fina] by @to.BEHf.alt;
-	sub @to.JEEMm' [@JEEMm hah-ar.fina] by @to.JEEMm.alt; 
+	sub @to.JEEMm' [@JEEMm hah-ar.fina  meem-ar.fina] by @to.JEEMm.alt; 
 	sub @to.REHf' [reh-ar.fina] by @to.REHf.alt;
 	sub @to.SADm' [@SADi.m sad-ar.fina @TAHi.m tah-ar.fina] by @to.SADm.alt;
 	sub @to.FEHm' [@FEHm fehDotless-ar.fina] by @to.FEHm.alt;
@@ -2442,9 +2509,10 @@ lookup Connections {
     sub @to.SEENm' [@SEENm seen-ar.fina] by @to.SEENm.alt;
 	sub @to.KAFm' [@KAFm kaf-ar.fina] by @to.KAFm.alt; 
 	sub @to.LAMm' [@LAMm lam-ar.fina kaf-ar.fina] by @to.LAMm.alt; 
-	sub @to.MEEMm' [@MEEMm meem-ar.fina] by @to.MEEMm.alt;
+	sub @to.MEEMm' [@MEEMm] by @to.MEEMm.alt;
 	sub @to.NOONf' [noonghunna-ar.fina noonghunna-ar.fina] by @to.NOONf.alt;
-	sub @to.WAWf' [waw-ar.fina qafDotless-ar.fina qafDotless-ar] by @to.WAWf.alt;
+	sub @to.WAWf' [waw-ar.fina] by @to.WAWf.alt;
+	sub @to.QAFf' [qafDotless-ar.fina] by @to.QAFf.alt;
 	sub @to.HEHm' [@HEHm] by @to.HEHm.alt;
 	sub @to.DOHEHm' [@HEHDOCHi.m hehDoachashmee-ar.fina] by @to.DOHEHm.alt;
 	sub @to.YEHf' [alefMaksura-ar.fina] by @to.YEHf.alt;
@@ -2453,7 +2521,7 @@ lookup Connections {
 
 lookup MakeKafCurly {
 	lookupflag IgnoreMarks;
-	sub [kaf-ar.init kaf-ar.medi]' [@ALEFf @KAFm kaf-ar.fina] by [kaf-ar.init.alef kaf-ar.medi.alef];
+	sub [kaf-ar.init kaf-ar.medi]' [@ALEFf @KAFm] by [kaf-ar.init.alef kaf-ar.medi.alef];
 	sub [kaf-ar.init kaf-ar.medi]' [lam-ar.fina @LAMm lam-ar.fina.LA] by [kaf-ar.init.alef kaf-ar.medi.alef];
 } MakeKafCurly;
 
@@ -2465,7 +2533,7 @@ lookup Alternates {
 	sub [lam-ar.medi.doheh kaf-ar.medi.doheh]' meem-ar.fina by [lam-ar.medi.meem kaf-ar.medi.meem];
 
 	sub [behDotless-ar.init hah-ar.init fehDotless-ar.init kaf-ar.medi kaf-ar.init lam-ar.medi lam-ar.init]' alefMaksura-ar.fina by [behDotless-ar.init.yeh hah-ar.init.yeh fehDotless-ar.init.yeh kaf-ar.medi.yeh kaf-ar.init.yeh lam-ar.medi.yeh lam-ar.init.yeh];
-	sub [behDotless-ar.init.yeh hah-ar.init.yeh fehDotless-ar.init.yeh kaf-ar.init.yeh lam-ar.medi.yeh lam-ar.init.yeh] alefMaksura-ar.fina' by alefMaksura-ar.fina.alt;
+	sub [behDotless-ar.init.yeh hah-ar.init.yeh fehDotless-ar.init.yeh kaf-ar.init.yeh lam-ar.init.yeh] alefMaksura-ar.fina' by alefMaksura-ar.fina.alt;
 	
 	sub [behDotless-ar.init.reh] [reh-ar.fina]' by [reh-ar.fina.short];
 	sub @to.REHf.long [reh-ar.fina]' by [reh-ar.fina.long];	
@@ -2473,8 +2541,8 @@ lookup Alternates {
 	sub heh-ar.medi.reh reh-ar.fina' by reh-ar.fina.postheh-ar;
 	sub hah-ar.init.meem' meem-ar.fina by hah-ar.init.bari;
 	sub behDotless-ar.init.meem' meem-ar.fina by behDotless-ar.init.doheh;
-	sub hehDoachashmee-ar.init.feh waw-ar.fina' by waw-ar.fina.low;
-
+	sub [hehDoachashmee-ar.init.feh behDotless-ar.medi.waw]  waw-ar.fina' by waw-ar.fina.low;
+	sub kaf-ar.init.jeem' meem-ar.fina by kaf-ar.init.doheh;
 #	sub heh-ar.medi.fbeh' behDotless-ar.medi.
 
 } Alternates;
@@ -2500,9 +2568,11 @@ lookup Refinements {
 	sub ain-ar.init' hehgoal-ar.fina by ain-ar.init.outS1;
 	sub hehgoal-ar.init' hehgoal-ar.fina by hehgoal-ar.init.outS1;
 	sub @JEEMi' [hehgoal-ar.fina behDotless-ar.medi.reh] by hah-ar.init.outS1;
+	sub @JEEMi' behDotless-ar.medi.cainN by hah-ar.init;
 	sub [@FEHm]' behDotless-ar.medi.cainN by fehDotless-ar.medi.alef;
 	sub [@FEHi]' behDotless-ar.medi.cainN by fehDotless-ar.init;
-	sub [@FEHm @FEHi] behDotless-ar.medi.cainN' by behDotless-ar.medi.cainNwide;
+	sub [@FEHm @FEHi @JEEMi] behDotless-ar.medi.cainN' by behDotless-ar.medi.cainNwide;
+	sub [seen-ar.init.fbeh tah-ar.init.fbeh ain-ar.init.fbeh fehDotless-ar.init.fbeh kaf-ar.init.fbeh hehgoal-ar.init.fbeh]' behDotless-ar.medi.reh by [seen-ar.init.alef tah-ar.init ain-ar.init.outS1 fehDotless-ar.init kaf-ar.init.outS1 hehgoal-ar.init.outS1];
 } Refinements;
 
 lookup RaiseTooth {
@@ -2525,7 +2595,8 @@ lookup RaiseTooth {
 
     # SIN[im] BEm FE[mf]
     sub [seen-ar.init.fbeh seen-ar.medi.fbeh ain-ar.init.fbeh kaf-ar.init.fbeh lam-ar.init.fbeh] behDotless-ar.medi.feh' by behDotless-ar.medi.cain; # XXX
-    sub [tah-ar.init.fbeh] behDotless-ar.medi.feh' by behDotless-ar.medi.cainwide; # XXX
+    
+	sub [tah-ar.init.fbeh] behDotless-ar.medi.fbeh' by behDotless-ar.medi.cainwide;
 
     # SIN[im] BEm QAFf/VAOf
     sub [seen-ar.init.fbeh seen-ar.medi.fbeh] behDotless-ar.medi.waw' by behDotless-ar.medi.cain;
@@ -2533,7 +2604,7 @@ lookup RaiseTooth {
 	sub hehgoal-ar.init.fbeh behDotless-ar.medi.feh' seen-ar.fina by behDotless-ar.medi.cain;
 
 	# JEEMi BEm BEm
-	sub [@JEEMi] behDotless-ar.medi.fbeh' by behDotless-ar.medi.cain;
+	sub [@JEEMi] behDotless-ar.medi.fbeh' seen-ar.fina by behDotless-ar.medi.cainwide;
 
 } RaiseTooth;
 

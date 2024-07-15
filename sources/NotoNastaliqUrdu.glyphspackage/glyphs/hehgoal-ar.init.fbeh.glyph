@@ -4,6 +4,13 @@ layers = (
 {
 anchors = (
 {
+name = "*bottom.behbari";
+pos = (314,-496);
+userData = {
+GPOS_Context = "hasbari * r450";
+};
+},
+{
 name = bottom;
 pos = (326,90);
 },
@@ -70,6 +77,13 @@ width = 548;
 },
 {
 anchors = (
+{
+name = "*bottom.behbari";
+pos = (314,-510);
+userData = {
+GPOS_Context = "hasbari * r450";
+};
+},
 {
 name = bottom;
 pos = (333,68);

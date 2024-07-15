@@ -2,6 +2,9 @@
 displayStrings = (
 "ﺮد/dal-ar.fina/reh-ar.fina.short/behDotless-ar.init.fbeh/alef-ar.isol/reh-ar.fina.short/hah-ar.init.bari/meem-ar.fina/behDotless-ar.medi.yeh/alefMaksura-ar.fina",
 "/waw-ar.isol ﻮ/reh-ar.isol/qafDotless-ar.fina",
-"/hehDoachashmee-ar.init.feh/waw-ar.fina.low"
+"/hehDoachashmee-ar.init.feh/waw-ar.fina.low",
+"/hehgoal-ar.init.fbeh",
+"/fehDotless-ar.init.jeem/meem-ar.fina",
+"/sad-ar.medi.doheh"
 );
 }
