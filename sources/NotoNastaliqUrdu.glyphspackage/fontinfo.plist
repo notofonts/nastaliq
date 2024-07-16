@@ -2558,9 +2558,6 @@ lookup BehFina {
    lookupflag IgnoreMarks;
 	sub [behDotless-ar.init.fbeh fehDotless-ar.init.fbeh lam-ar.init.fbeh lam-ar.medi.fbeh kaf-ar.init.fbeh kaf-ar.medi.fbeh] behDotless-ar.fina' by behDotless-ar.fina.alt;
 
-    # This is not fina, but this is a good place to hang it.
-#    ignore sub @BEHi' [@JEEMm @FEHm @BEHm @BEHm.raised @AINm];
-#    sub @BEHi' [@to.BEHf.alt] by behDotless-ar.init.fbehtall;
     sub @LAMi' [behDotless-ar.medi.reh] by lam-ar.init.outS1;
     sub @LAMi' @SEENm by lam-ar.init.fbeh;
     sub @BEHi' [behDotless-ar.medi.reh] by behDotless-ar.init.alef;
@@ -2578,7 +2575,7 @@ lookup Refinements {
 	sub [@FEHm]' behDotless-ar.medi.cainN by fehDotless-ar.medi.alef;
 	sub [@FEHi]' behDotless-ar.medi.cainN by fehDotless-ar.init;
 	sub [@FEHm @FEHi @JEEMi] behDotless-ar.medi.cainN' by behDotless-ar.medi.cainNwide;
-	sub [seen-ar.init.fbeh tah-ar.init.fbeh ain-ar.init.fbeh fehDotless-ar.init.fbeh kaf-ar.init.fbeh hehgoal-ar.init.fbeh meem-ar.init.fbeh]' behDotless-ar.medi.reh by [seen-ar.init.alef tah-ar.init ain-ar.init.outS1 fehDotless-ar.init kaf-ar.init.outS1 hehgoal-ar.init.outS1 meem-ar.init.beh];
+	sub [seen-ar.init.fbeh tah-ar.init.fbeh ain-ar.init.fbeh fehDotless-ar.init.fbeh kaf-ar.init.fbeh hehgoal-ar.init.fbeh meem-ar.init.fbeh hehDoachashmee-ar.medi.fbeh]' behDotless-ar.medi.reh by [seen-ar.init.alef tah-ar.init ain-ar.init.outS1 fehDotless-ar.init kaf-ar.init.outS1 hehgoal-ar.init.outS1 meem-ar.init.beh hehDoachashmee-ar.medi];
 } Refinements;
 
 lookup RaiseTooth {
