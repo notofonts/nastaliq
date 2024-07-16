@@ -221,7 +221,7 @@ code = "behDotless-ar.medi.fbeh
 behDotless-ar.init.fbeh
 hah-ar.medi.ain
 hah-ar.init.fbeh
-seen-ar.medi.beh
+seen-ar.medi.fbeh
 seen-ar.init.fbeh
 sad-ar.medi
 sad-ar.init.fbeh
@@ -2587,6 +2587,7 @@ lookup RaiseTooth {
 
 	# SIN[im] BEm AIN[mf]
 	# SIN[im] BEm BE[mf]
+	ignore sub [@SEENi @SEENm] behDotless-ar.medi.fbeh' @BEHm @BEHm;
 	sub [seen-ar.init.fbeh seen-ar.medi.fbeh] behDotless-ar.medi.fbeh' by behDotless-ar.medi.cain;
 
 	# MEEM[im] BEm BE[mf]

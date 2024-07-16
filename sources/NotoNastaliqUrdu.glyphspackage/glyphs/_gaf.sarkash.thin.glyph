@@ -1,5 +1,6 @@
 {
 category = Mark;
+export = 0;
 glyphname = _gaf.sarkash.thin;
 layers = (
 {
