@@ -2607,16 +2607,22 @@ lookup RaiseTooth {
 	sub hehgoal-ar.init.fbeh behDotless-ar.medi.feh' seen-ar.fina by behDotless-ar.medi.cain;
 
 	# JEEMi BEm BEm
-	sub [@JEEMi] behDotless-ar.medi.fbeh' @BEHm by behDotless-ar.medi.cain;
+	sub [@JEEMi @JEEMm] behDotless-ar.medi.fbeh' @BEHm @BEHm @BEHm by behDotless-ar.medi.cainwide;
+	ignore sub [@JEEMi @JEEMm] behDotless-ar.medi.fbeh' @BEHm @BEHm;
+	sub [@JEEMi @JEEMm] behDotless-ar.medi.fbeh' @BEHm by behDotless-ar.medi.cainwide;
 
 	sub [@JEEMi] behDotless-ar.medi.fbeh' seen-ar.fina by behDotless-ar.medi.cainwide;
+
+	# Between HEHDO and BEH...
+	sub @HEHDOCHi.m @BEHm' @BEHm by behDotless-ar.medi.cain;
+	sub hehgoal-ar.init.fbeh @BEHm' @BEHm by behDotless-ar.medi.cain;
 
 } RaiseTooth;
 
 lookup RaiseTooth2 {
 	lookupflag IgnoreMarks;
-    ignore sub @BEHm' behDotless-ar.medi.cain;
-    ignore sub behDotless-ar.medi.cain @BEHm';
+    ignore sub @BEHm' [behDotless-ar.medi.cain behDotless-ar.medi.cainwide];
+    ignore sub [behDotless-ar.medi.cain behDotless-ar.medi.cainwide] @BEHm';
     sub @BEHi @BEHm' lookup RaiseOneTooth [@BEHm @SEENm seen-ar.fina];
     sub @BEHm @BEHm' lookup RaiseOneTooth [@BEHm @SEENm seen-ar.fina];
 } RaiseTooth2;
@@ -3168,6 +3174,7 @@ lookup YehBariKern {
 	pos [@BEHi]' 100 [@HEHDOCHi.m] [hah-ar.medi.bari ain-ar.medi.bari fehDotless-ar.medi.bari lam-ar.medi.bari kaf-ar.medi.bari meem-ar.medi.bari heh-ar.medi.bari]; 
 
 	pos [@JEEMi]' 100 @BEHm [hah-ar.medi.bari ain-ar.medi.bari fehDotless-ar.medi.bari lam-ar.medi.bari meem-ar.medi.bari heh-ar.medi.bari]; 
+	pos @HEHGOALi' 350 @BEHm [behDotless-ar.medi.bari]; 
 	pos @AllInitials' 100 @BEHm [behDotless-ar.medi.bari]; 
 	pos [@JEEMi @BEHi @HEHGOALi]' 100 [@BEHm @HEHm] [hah-ar.medi.bari meem-ar.medi.bari heh-ar.medi.bari ain-ar.medi.bari fehDotless-ar.medi.bari];
 	pos [@JEEMi @BEHi @HEHGOALi]' 100 [@HEHm] [lam-ar.medi.bari kaf-ar.medi.bari];
