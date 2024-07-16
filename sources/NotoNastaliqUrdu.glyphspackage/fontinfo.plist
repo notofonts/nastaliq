@@ -2088,12 +2088,15 @@ sub uni08C2 by kaf-ar vabove-ar.kaf;
 sub uni08C3 by ain-ar dotabove-ar threedotsupabove-ar;
 sub uni08C7 by lam-ar tahabove-ar;
 
-lookup GafIsKaf {
+# Gaf and graf are variants of kaf
 sub gaf-ar by kaf-ar _gaf.sarkash;
-} GafIsKaf;
+sub uni08C8 by kaf-ar _graf.sarkash;
 
 # See \"Localizations\" prefix
 script arab;
+language URD;
+    sub decimalpoint-ar by decimalpoint-ar.URD;
+
 language ARA;
     sub hamzaabove-ar by hamzaabove-ar.ARA;
     sub hamzabelow-ar by hamzabelow-ar.ARA;
@@ -2659,7 +2662,7 @@ lookup YehBarreeSelection {
 } YehBarreeSelection;
 
 lookup SarkashSelection {
-	lookupflag UseMarkFilteringSet [_gaf.sarkash _gaf.sarkash.inv];
+	lookupflag UseMarkFilteringSet [_gaf.sarkash _gaf.sarkash.inv _graf.sarkash];
 	sub [kaf-ar.init.bari kaf-ar.init.heh ] _gaf.sarkash.inv' by _gaf.sarkash.invfat;
 	sub [kaf-ar.medi.alef kaf-ar.init.alef]  _gaf.sarkash.inv' by _gaf.sarkash.invsteep;
 	sub [kaf-ar.init.meem] _gaf.sarkash.inv' by _gaf.sarkash.invshort;
@@ -2669,9 +2672,9 @@ lookup SarkashSelection {
 	sub [kaf-ar.medi.meem ] _gaf.sarkash.inv' by _gaf.sarkash.invthin;
 #	sub [kaf-ar.medi.NoutD11 kaf-ar.medi.NoutD2HYB kaf-ar.medi.NoutD2MD kaf-ar.medi.feh2] _gaf.sarkash.inv' by _gaf.sarkash.invshort2;
 
-	sub [ kaf-ar.medi.sad kaf-ar.medi.kaf kaf-ar.medi.jeem kaf-ar.medi.bari kaf-ar.medi.doheh kaf-ar.medi.meem kaf-ar.medi.yeh kaf-ar.medi.reh kaf-ar.medi.heh kaf-ar.medi.feh] _gaf.sarkash' by _gaf.sarkash.long;
-	sub [kaf-ar.medi.meem kaf-ar.medi.waw] _gaf.sarkash' by _gaf.sarkash.steep;
-	sub [kaf-ar.medi.alef kaf-ar.init.alef] _gaf.sarkash' by _gaf.sarkash.steeper;
+	sub [ kaf-ar.medi.sad kaf-ar.medi.kaf kaf-ar.medi.jeem kaf-ar.medi.bari kaf-ar.medi.doheh kaf-ar.medi.meem kaf-ar.medi.yeh kaf-ar.medi.reh kaf-ar.medi.heh kaf-ar.medi.feh] [_gaf.sarkash _graf.sarkash]' by [_gaf.sarkash.long _graf.sarkash.long];
+	sub [kaf-ar.medi.meem kaf-ar.medi.waw] [_gaf.sarkash _graf.sarkash]' by [_gaf.sarkash.steep _graf.sarkash.steep];
+	sub [kaf-ar.medi.alef kaf-ar.init.alef] [_gaf.sarkash _graf.sarkash]' by [_gaf.sarkash.steeper _graf.sarkash.steeper];
 #	sub [kaf-ar.init.HRk] _gaf.sarkash' by _gaf.sarkash.thin;
 } SarkashSelection;
 
