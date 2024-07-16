@@ -11,10 +11,17 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf
 };
 },
 {
+name = "*bottom.bari.doublemark";
+pos = (361,-643);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB hasbari @HeightCounters]; hasbari * @BelowMarksForYB [r500 r550]";
+};
+},
+{
 name = "*bottom.barimarks";
 pos = (340,-648);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB hasbari @HeightCounters]; hasbari *  @BelowMarksForYB [r500 r550]";
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB hasbari @HeightCounters]; hasbari * [r500 r550]";
 };
 },
 {
@@ -99,10 +106,17 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf
 };
 },
 {
+name = "*bottom.bari.doublemark";
+pos = (361,-643);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB hasbari @HeightCounters]; hasbari * @BelowMarksForYB [r500 r550]";
+};
+},
+{
 name = "*bottom.barimarks";
 pos = (356,-630);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB hasbari @HeightCounters]; hasbari *  @BelowMarksForYB [r500 r550]";
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB hasbari @HeightCounters]; hasbari * [r500 r550]";
 };
 },
 {

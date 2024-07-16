@@ -1,7 +1,6 @@
 {
 color = 4;
-export = 0;
-glyphname = "kaf-ar.init.HRhehDoachashmee-ar.medi.kaf";
+glyphname = "kaf-ar.init.low";
 layers = (
 {
 anchors = (

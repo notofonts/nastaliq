@@ -4,6 +4,20 @@ layers = (
 {
 anchors = (
 {
+name = "*bottom.650.behdots";
+pos = (130,-962);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [hasbari @BelowMarksForYB @HeightCounters]; hasbari * [r650] @BEHm @BelowMarksForYB";
+};
+},
+{
+name = "*bottom.REHWAWDAL.r250";
+pos = (172,-471);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters]; @REH.WAW.DAL * [r250]";
+};
+},
+{
 name = "*bottom.alt";
 pos = (192,-183);
 userData = {
@@ -102,6 +116,20 @@ GPOS_Context = "lookupflag UseMarkFilteringSet [hasbari @BelowMarksForYB @Height
 };
 },
 {
+name = "*bottom.bari.650";
+pos = (131,-729);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [hasbari @BelowMarksForYB @HeightCounters]; hasbari * [r650]";
+};
+},
+{
+name = "*bottom.bari.700";
+pos = (108,-826);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [hasbari @BelowMarksForYB @HeightCounters]; hasbari * [r700]";
+};
+},
+{
 name = "*bottom.bari.r550.2";
 pos = (313,-683);
 userData = {
@@ -123,6 +151,13 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  behDotless-a
 };
 },
 {
+name = "*bottom.longre.onedot";
+pos = (84,-158);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [ dotbelow-ar @HeightCounters]; @LongRe * r0";
+};
+},
+{
 name = "*bottom.longre.r0";
 pos = (134,-610);
 userData = {
@@ -137,17 +172,31 @@ GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters
 };
 },
 {
+name = "*bottom.r400.bari";
+pos = (102,-564);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters hasbari];  hasbari * r400";
+};
+},
+{
+name = "*bottom.r700.behdots";
+pos = (267,-1033);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [hasbari @BelowMarksForYB @HeightCounters]; hasbari * [r700] @BEHm @BelowMarksForYB";
+};
+},
+{
 name = "*bottom.rehwawdal";
-pos = (100,-336);
+pos = (200,-336);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters]; @REH.WAW.DAL * [r0 r50 r100 r150 r200]";
 };
 },
 {
-name = "*bottom.rehwawdal.250";
-pos = (114,-476);
+name = "*bottom.rehwawdal.300";
+pos = (83,-253);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters]; @REH.WAW.DAL * [r250 r300 r350]";
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters]; @REH.WAW.DAL * [r300 r350]";
 };
 },
 {
@@ -216,6 +265,20 @@ width = 248;
 },
 {
 anchors = (
+{
+name = "*bottom.650.behdots";
+pos = (146,-942);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [hasbari @BelowMarksForYB @HeightCounters]; hasbari * [r650] @BEHm @BelowMarksForYB";
+};
+},
+{
+name = "*bottom.REHWAWDAL.r250";
+pos = (172,-471);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters]; @REH.WAW.DAL * [r250]";
+};
+},
 {
 name = "*bottom.alt";
 pos = (178,-176);
@@ -315,6 +378,20 @@ GPOS_Context = "lookupflag UseMarkFilteringSet [hasbari @BelowMarksForYB @Height
 };
 },
 {
+name = "*bottom.bari.650";
+pos = (131,-749);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [hasbari @BelowMarksForYB @HeightCounters]; hasbari * [r650]";
+};
+},
+{
+name = "*bottom.bari.700";
+pos = (108,-826);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [hasbari @BelowMarksForYB @HeightCounters]; hasbari * [r700]";
+};
+},
+{
 name = "*bottom.bari.r550.2";
 pos = (297,-667);
 userData = {
@@ -336,6 +413,13 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  behDotless-a
 };
 },
 {
+name = "*bottom.longre.onedot";
+pos = (94,-141);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [ dotbelow-ar @HeightCounters]; @LongRe * r0";
+};
+},
+{
 name = "*bottom.longre.r0";
 pos = (134,-600);
 userData = {
@@ -350,17 +434,31 @@ GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters
 };
 },
 {
+name = "*bottom.r400.bari";
+pos = (102,-534);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters hasbari];  hasbari * r400";
+};
+},
+{
+name = "*bottom.r700.behdots";
+pos = (267,-1033);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [hasbari @BelowMarksForYB @HeightCounters]; hasbari * [r700] @BEHm @BelowMarksForYB";
+};
+},
+{
 name = "*bottom.rehwawdal";
-pos = (100,-336);
+pos = (200,-336);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters]; @REH.WAW.DAL * [r0 r50 r100 r150 r200]";
 };
 },
 {
-name = "*bottom.rehwawdal.250";
-pos = (114,-488);
+name = "*bottom.rehwawdal.300";
+pos = (57,-213);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters]; @REH.WAW.DAL * [r250 r300 r350]";
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters]; @REH.WAW.DAL * [r300 r350]";
 };
 },
 {

@@ -5,16 +5,23 @@ layers = (
 anchors = (
 {
 name = "*bottom.REHWALDAL.500";
-pos = (119,-699);
+pos = (99,-699);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet [@AllBelowMarks @HeightCounters]; @REH.WAW.DAL * [r500 r550 r600] ";
 };
 },
 {
 name = "*bottom.REHWAWDAL";
-pos = (116,-505);
+pos = (164,-505);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet [@AllBelowMarks @HeightCounters]; @REH.WAW.DAL * [r0 r50 r100 r150 r200 r250 r300] ";
+GPOS_Context = "lookupflag UseMarkFilteringSet [@AllBelowMarks @HeightCounters]; @REH.WAW.DAL * [r0 r50 r100 r150] ";
+};
+},
+{
+name = "*bottom.REHWAWDAL.r250";
+pos = (112,-574);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@AllBelowMarks @HeightCounters]; @REH.WAW.DAL * [ r200 r250 r300]";
 };
 },
 {
@@ -47,7 +54,7 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  [behDotless-
 },
 {
 name = "*bottom.beforepeh";
-pos = (186,-130);
+pos = (186,-174);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB;  * @BEHm [twodotshorizontalbelow-ar threedotsdownbelow-ar]";
 };
@@ -68,16 +75,9 @@ GPOS_Context = "lookupflag UseMarkFilteringSet [@AllBelowMarks @HeightCounters];
 },
 {
 name = "*bottom.reh2";
-pos = (118,-506);
+pos = (154,-510);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet [@AllBelowMarks @HeightCounters]; @REH.WAW.DAL @AllBelowMarks * [r0 r50 r100 r150 r300] ";
-};
-},
-{
-name = "*bottom.rehmarks.r150";
-pos = (73,-390);
-userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet [@HeightCounters @AllBelowMarks]; @REH.WAW.DAL @AllBelowMarks * r150";
 };
 },
 {
@@ -104,7 +104,7 @@ name = exit;
 },
 {
 name = top;
-pos = (-12,495);
+pos = (78,495);
 }
 );
 layerId = "67C28EBA-5AA6-4F74-BBA1-5BB358529C60";
@@ -134,7 +134,7 @@ width = 179;
 anchors = (
 {
 name = "*bottom.REHWALDAL.500";
-pos = (119,-699);
+pos = (79,-699);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet [@AllBelowMarks @HeightCounters]; @REH.WAW.DAL * [r500 r550 r600] ";
 };
@@ -143,7 +143,14 @@ GPOS_Context = "lookupflag UseMarkFilteringSet [@AllBelowMarks @HeightCounters];
 name = "*bottom.REHWAWDAL";
 pos = (116,-505);
 userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet [@AllBelowMarks @HeightCounters]; @REH.WAW.DAL * [r0 r50 r100 r150 r200 r250 r300] ";
+GPOS_Context = "lookupflag UseMarkFilteringSet [@AllBelowMarks @HeightCounters]; @REH.WAW.DAL * [r0 r50 r100 r150] ";
+};
+},
+{
+name = "*bottom.REHWAWDAL.r250";
+pos = (102,-574);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@AllBelowMarks @HeightCounters]; @REH.WAW.DAL * [ r200 r250 r300]";
 };
 },
 {
@@ -176,7 +183,7 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  [behDotless-
 },
 {
 name = "*bottom.beforepeh";
-pos = (155,-130);
+pos = (155,-180);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB;  * @BEHm [twodotshorizontalbelow-ar threedotsdownbelow-ar]";
 };
@@ -197,16 +204,9 @@ GPOS_Context = "lookupflag UseMarkFilteringSet [@AllBelowMarks @HeightCounters];
 },
 {
 name = "*bottom.reh2";
-pos = (118,-506);
+pos = (158,-506);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet [@AllBelowMarks @HeightCounters]; @REH.WAW.DAL @AllBelowMarks * [r0 r50 r100 r150 r300] ";
-};
-},
-{
-name = "*bottom.rehmarks.r150";
-pos = (65,-383);
-userData = {
-GPOS_Context = "lookupflag UseMarkFilteringSet [@HeightCounters @AllBelowMarks]; @REH.WAW.DAL @AllBelowMarks * r150";
 };
 },
 {
@@ -233,7 +233,7 @@ name = exit;
 },
 {
 name = top;
-pos = (-21,439);
+pos = (97,476);
 }
 );
 layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";

@@ -34,7 +34,7 @@ pos = (164,103);
 },
 {
 name = bottom;
-pos = (214,-262);
+pos = (189,-433);
 },
 {
 name = exit;
@@ -110,7 +110,7 @@ pos = (132,66);
 },
 {
 name = bottom;
-pos = (139,-344);
+pos = (139,-444);
 },
 {
 name = exit;

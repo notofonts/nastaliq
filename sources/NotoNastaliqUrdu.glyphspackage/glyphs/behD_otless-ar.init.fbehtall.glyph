@@ -25,6 +25,20 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf
 };
 },
 {
+name = "*bottom.r550.bari";
+pos = (134,-623);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters hasbari];  hasbari * [r550]";
+};
+},
+{
+name = "*bottom.r650.bari";
+pos = (127,-737);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters hasbari];  hasbari * [r600 r650]";
+};
+},
+{
 name = Bar;
 pos = (128,35);
 },
@@ -97,9 +111,23 @@ GPOS_Context = "lookupflag UseMarkFilteringSet @AllBelowMarks; * @AllBelowMarks 
 },
 {
 name = "*bottom.bari";
-pos = (147,-651);
+pos = (132,-651);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet @BelowMarksForYB; *  @to.BARIYEHf.alt";
+};
+},
+{
+name = "*bottom.r550.bari";
+pos = (107,-614);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters hasbari];  hasbari * [r550]";
+};
+},
+{
+name = "*bottom.r650.bari";
+pos = (107,-737);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters hasbari];  hasbari * [r600 r650]";
 };
 },
 {

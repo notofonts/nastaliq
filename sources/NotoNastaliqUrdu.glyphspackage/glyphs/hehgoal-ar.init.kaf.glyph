@@ -4,6 +4,13 @@ layers = (
 {
 anchors = (
 {
+name = "*bottom.r300.bari";
+pos = (574,-366);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters hasbari];  hasbari * [r300 r350]";
+};
+},
+{
 name = bottom;
 pos = (610,155);
 },
@@ -76,6 +83,13 @@ width = 837;
 },
 {
 anchors = (
+{
+name = "*bottom.r300.bari";
+pos = (534,-356);
+userData = {
+GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters hasbari];  hasbari * [r300 r350]";
+};
+},
 {
 name = bottom;
 pos = (525,143);

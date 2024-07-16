@@ -824,8 +824,8 @@ ain-ar.medi.alef
 ain-ar.init
 fehDotless-ar.medi.alef
 fehDotless-ar.init
-kaf-ar.medi.alef
-kaf-ar.init.alef
+kaf-ar.medi.kaf
+kaf-ar.init.HRlow
 lam-ar.medi.low
 lam-ar.init.low
 meem-ar.medi.alef
@@ -1022,6 +1022,7 @@ hah-ar.medi
 hah-ar.init
 seen-ar.medi
 seen-ar.init
+sad-ar.medi
 sad-ar.init
 tah-ar.medi
 tah-ar.init
@@ -1050,6 +1051,7 @@ hah-ar.medi.ain
 hah-ar.init.fbeh
 seen-ar.medi.fbeh
 seen-ar.init.fbeh
+sad-ar.medi.fbeh
 sad-ar.init.fbeh
 tah-ar.medi.fbeh
 tah-ar.init.fbeh
@@ -1881,7 +1883,7 @@ lookup add450 {
  sub r100 by r550;
  sub r150 by r600;
  sub r200 by r650;
- sub [r250 r300 r350 r400 r500 r550 r600 r650] by r700;
+ sub [r250 r300 r350 r400 r450 r500 r550 r600 r650] by r700;
 } add450;
 
 lookup add500 {
@@ -1889,25 +1891,25 @@ lookup add500 {
  sub r50 by r500;
  sub r100 by r600;
  sub r150 by r650;
- sub [r200 r250 r300 r350 r400 r500 r550 r600 r650] by r700;
+ sub [r200 r250 r300 r350 r400 r450 r500 r550 r600 r650] by r700;
 } add500;
 
 lookup add550 {
  sub r0 by r550;
  sub r50 by r600;
  sub r100 by r650;
- sub [r150 r200 r250 r300 r350 r400 r500 r550 r600 r650] by r700;
+ sub [r150 r200 r250 r300 r350 r400 r450 r500 r550 r600 r650] by r700;
 } add550;
 
 lookup add600 {
  sub r0 by r600;
  sub r50 by r650;
- sub [r100 r150 r200 r250 r300 r350 r400 r500 r550 r600 r650] by r700;
+ sub [r100 r150 r200 r250 r300 r350 r400 r450 r500 r550 r600 r650] by r700;
 } add600;
 
 lookup add650 {
  sub r0 by r650;
- sub [r50 r100 r150 r200 r250 r300 r350 r400 r500 r550 r600 r650] by r700;
+ sub [r50 r100 r150 r200 r250 r300 r350 r400 r450 r500 r550 r600 r650] by r700;
 } add650;
 
 lookup add700 {
@@ -2521,7 +2523,7 @@ lookup Connections {
 
 lookup MakeKafCurly {
 	lookupflag IgnoreMarks;
-	sub [kaf-ar.init kaf-ar.medi]' [@ALEFf @KAFm] by [kaf-ar.init.alef kaf-ar.medi.alef];
+	sub [kaf-ar.init kaf-ar.medi]' [@ALEFf] by [kaf-ar.init.alef kaf-ar.medi.alef];
 	sub [kaf-ar.init kaf-ar.medi]' [lam-ar.fina @LAMm lam-ar.fina.LA] by [kaf-ar.init.alef kaf-ar.medi.alef];
 } MakeKafCurly;
 
@@ -2543,6 +2545,7 @@ lookup Alternates {
 	sub behDotless-ar.init.meem' meem-ar.fina by behDotless-ar.init.doheh;
 	sub [hehDoachashmee-ar.init.feh behDotless-ar.medi.waw]  waw-ar.fina' by waw-ar.fina.low;
 	sub kaf-ar.init.jeem' meem-ar.fina by kaf-ar.init.doheh;
+	sub [@FEHi @JEEMi] behDotless-ar.medi.alef' by behDotless-ar.medi.alef.wide;
 #	sub heh-ar.medi.fbeh' behDotless-ar.medi.
 
 } Alternates;
@@ -2572,7 +2575,7 @@ lookup Refinements {
 	sub [@FEHm]' behDotless-ar.medi.cainN by fehDotless-ar.medi.alef;
 	sub [@FEHi]' behDotless-ar.medi.cainN by fehDotless-ar.init;
 	sub [@FEHm @FEHi @JEEMi] behDotless-ar.medi.cainN' by behDotless-ar.medi.cainNwide;
-	sub [seen-ar.init.fbeh tah-ar.init.fbeh ain-ar.init.fbeh fehDotless-ar.init.fbeh kaf-ar.init.fbeh hehgoal-ar.init.fbeh]' behDotless-ar.medi.reh by [seen-ar.init.alef tah-ar.init ain-ar.init.outS1 fehDotless-ar.init kaf-ar.init.outS1 hehgoal-ar.init.outS1];
+	sub [seen-ar.init.fbeh tah-ar.init.fbeh ain-ar.init.fbeh fehDotless-ar.init.fbeh kaf-ar.init.fbeh hehgoal-ar.init.fbeh meem-ar.init.fbeh]' behDotless-ar.medi.reh by [seen-ar.init.alef tah-ar.init ain-ar.init.outS1 fehDotless-ar.init kaf-ar.init.outS1 hehgoal-ar.init.outS1 meem-ar.init.beh];
 } Refinements;
 
 lookup RaiseTooth {
@@ -2584,7 +2587,7 @@ lookup RaiseTooth {
 	sub [seen-ar.init.fbeh seen-ar.medi.fbeh] behDotless-ar.medi.fbeh' by behDotless-ar.medi.cain;
 
 	# MEEM[im] BEm BE[mf]
-	sub [meem-ar.init.beh meem-ar.medi.fbeh] behDotless-ar.medi.fbeh' by behDotless-ar.medi.cain;
+	sub [meem-ar.init.fbeh meem-ar.medi.fbeh] behDotless-ar.medi.fbeh' by behDotless-ar.medi.cain;
 	
 	# KAF/LAM[im] BEm BE[mf]
 	sub [@KAFi @KAFm @LAMi @LAMm] behDotless-ar.medi.fbeh' by behDotless-ar.medi.cain;
@@ -2604,6 +2607,8 @@ lookup RaiseTooth {
 	sub hehgoal-ar.init.fbeh behDotless-ar.medi.feh' seen-ar.fina by behDotless-ar.medi.cain;
 
 	# JEEMi BEm BEm
+	sub [@JEEMi] behDotless-ar.medi.fbeh' @BEHm by behDotless-ar.medi.cain;
+
 	sub [@JEEMi] behDotless-ar.medi.fbeh' seen-ar.fina by behDotless-ar.medi.cainwide;
 
 } RaiseTooth;
@@ -3123,21 +3128,31 @@ lookup YehBariKern {
  	# Three glyph sequences
 	pos [@BEHi @FEHi @LAMi @KAFi]' 600 [behDotless-ar.medi.bari ain-ar.medi.bari kaf-ar.medi.bari lam-ar.medi.bari meem-ar.medi.bari fehDotless-ar.medi.bari]; # ببے
 	pos [@HEHi @HEHGOALi]' 400 [behDotless-ar.medi.bari];
-	pos [@BEHi @FEHi @LAMi @HEHi @HEHGOALi @KAFi]' 380 [hehDoachashmee-ar.medi.bari];
 
 	pos [@BEHi @FEHi @LAMi]' 250 [seen-ar.medi.bari];
 
 	pos [@JEEMi @HEHGOALi]' 300 [behDotless-ar.medi.bari heh-ar.medi.bari kaf-ar.medi.bari lam-ar.medi.bari tah-ar.medi.bari];
-	pos @AllInitials' 220 [behDotless-ar.medi.bari]; 
+	pos @AllInitials' 250 [behDotless-ar.medi.bari]; 
 
 	pos @AllInitials' 0 [seen-ar.medi.bari]; 
 
-	pos @AllInitials' 450 [ain-ar.medi.bari tah-ar.medi.bari hah-ar.medi.bari fehDotless-ar.medi.bari kaf-ar.medi.bari lam-ar.medi.bari meem-ar.medi.bari]; 
+	pos @AllInitials' 530 hah-ar.medi.bari;
+
+	pos sad-ar.init' 0 [ain-ar.medi.bari tah-ar.medi.bari fehDotless-ar.medi.bari kaf-ar.medi.bari lam-ar.medi.bari meem-ar.medi.bari];
+	pos [hehDoachashmee-ar.init.sad sad-ar.init.feh]' 120 [ain-ar.medi.bari tah-ar.medi.bari fehDotless-ar.medi.bari kaf-ar.medi.bari lam-ar.medi.bari meem-ar.medi.bari]; 
+	pos [seen-ar.init.feh seen-ar.init tah-ar.init.feh  hehDoachashmee-ar.init]' 220 [ain-ar.medi.bari tah-ar.medi.bari fehDotless-ar.medi.bari kaf-ar.medi.bari lam-ar.medi.bari meem-ar.medi.bari]; 
+	pos @AllInitials' 450 [ain-ar.medi.bari tah-ar.medi.bari fehDotless-ar.medi.bari kaf-ar.medi.bari lam-ar.medi.bari meem-ar.medi.bari]; 
 
 	pos [@HEHi @HEHGOALi]' 300 [heh-ar.medi.bari]; 
 	pos [@BEHi @FEHi @LAMi]' 450 [heh-ar.medi.bari]; 
 
 	pos @AllInitials' 50 [sad-ar.medi.bari]; 
+
+	pos [@BEHi @FEHi @HEHi @HEHGOALi @KAFi]' 380 [hehDoachashmee-ar.medi.bari];
+	pos [@LAMi]' 480 [hehDoachashmee-ar.medi.bari];
+	pos [sad-ar.init.doheh]' 20 [hehDoachashmee-ar.medi.bari]; 
+	pos [seen-ar.init.doheh]' 80 [hehDoachashmee-ar.medi.bari]; 
+	pos [lam-ar.init.doheh]' 350 [hehDoachashmee-ar.medi.bari]; 
 	pos @AllInitials' 250 [hehDoachashmee-ar.medi.bari]; 
 
 	pos [@SEENi @SADi.m]' 150 @to.BARIYEHf.alt'; 
@@ -3147,19 +3162,29 @@ lookup YehBariKern {
 
 	# Four glyph sequences
 	pos @AllInitials' 50 @AllMedis [sad-ar.medi.bari seen-ar.medi.bari]; 
-	pos [@BEHi]' 350 [@BEHm @KAFm] [behDotless-ar.medi.bari tah-ar.medi.bari hehDoachashmee-ar.medi.bari]; 
+	pos [@BEHi]' 350 [@BEHm @KAFm @LAMm] [behDotless-ar.medi.bari tah-ar.medi.bari hehDoachashmee-ar.medi.bari kaf-ar.medi.bari]; 
 	pos [@BEHi]' 450 @BEHm [hah-ar.medi.bari  ain-ar.medi.bari fehDotless-ar.medi.bari]; 
-	pos [@BEHi]' 300 @BEHm [hah-ar.medi.bari ain-ar.medi.bari fehDotless-ar.medi.bari lam-ar.medi.bari kaf-ar.medi.bari meem-ar.medi.bari heh-ar.medi.bari]; 
-	pos [@JEEMi]' 100 @BEHm [hah-ar.medi.bari ain-ar.medi.bari fehDotless-ar.medi.bari lam-ar.medi.bari kaf-ar.medi.bari meem-ar.medi.bari heh-ar.medi.bari]; 
+	pos [@BEHi]' 300 [@BEHm] [hah-ar.medi.bari ain-ar.medi.bari fehDotless-ar.medi.bari lam-ar.medi.bari kaf-ar.medi.bari meem-ar.medi.bari heh-ar.medi.bari]; 
+	pos [@BEHi]' 100 [@HEHDOCHi.m] [hah-ar.medi.bari ain-ar.medi.bari fehDotless-ar.medi.bari lam-ar.medi.bari kaf-ar.medi.bari meem-ar.medi.bari heh-ar.medi.bari]; 
+
+	pos [@JEEMi]' 100 @BEHm [hah-ar.medi.bari ain-ar.medi.bari fehDotless-ar.medi.bari lam-ar.medi.bari meem-ar.medi.bari heh-ar.medi.bari]; 
 	pos @AllInitials' 100 @BEHm [behDotless-ar.medi.bari]; 
 	pos [@JEEMi @BEHi @HEHGOALi]' 100 [@BEHm @HEHm] [hah-ar.medi.bari meem-ar.medi.bari heh-ar.medi.bari ain-ar.medi.bari fehDotless-ar.medi.bari];
-	pos [@JEEMi @BEHi @HEHGOALi]' 100 [@BEHm @HEHm] [lam-ar.medi.bari kaf-ar.medi.bari];
+	pos [@JEEMi @BEHi @HEHGOALi]' 100 [@HEHm] [lam-ar.medi.bari kaf-ar.medi.bari];
+	pos [@JEEMi @BEHi @HEHGOALi]' 100 [@BEHm] [lam-ar.medi.bari];
+	pos [@JEEMi @BEHi @HEHGOALi]' 300 [@KAFm @LAMm] [behDotless-ar.medi.bari];
+	pos [@JEEMi @BEHi @HEHGOALi]' 0 [@BEHm] [kaf-ar.medi.bari];
 
 	pos [@JEEMi @BEHi hehgoal-ar.init.jeem]' 100 @JEEMm  @to.BARIYEHf.alt;
 	pos @AllInitials' 50 @JEEMm [hehDoachashmee-ar.medi.bari];
 
 	pos @AllInitials' 200 [@BEHm @JEEMm] [hah-ar.medi.bari kaf-ar.medi.bari lam-ar.medi.bari];
 	pos @AllInitials' 450 [@BEHm @JEEMm] [meem-ar.medi.bari heh-ar.medi.bari]; 
+	pos @AllInitials' 200 [@KAFm @LAMm] [hah-ar.medi.bari kaf-ar.medi.bari lam-ar.medi.bari];
+
+	pos [@LAMi @KAFi]' 400 @MEEMm hah-ar.medi.bari;
+	pos [@LAMi @KAFi]' 200 @HEHDOCHi.m behDotless-ar.medi.bari;
+
 #	pos @AllInitials' 300 [@BEHm @MEEMm] [hah-ar.medi.bari]; 
 #	pos @AllInitials' 450 @AllMedis [hah-ar.medi.bari]; 
 #	pos @AllInitials' 350 @AllMedis [kaf-ar.medi.bari]; 
@@ -3175,6 +3200,8 @@ lookup YehBariKern {
 	pos [@BEHi]' 0 @BEHm @BEHm [seen-ar.medi.bari];
 	pos [@BEHi]' 50 @BEHm @BEHm [hah-ar.medi.bari]; 
 	pos [@BEHi]' 100 @BEHm @BEHm @to.BARIYEHf.alt; 
+	pos [@BEHi]' 75 @BEHm [@KAFm @LAMm] @to.BARIYEHf.alt; 
+	pos [@BEHi]' 100 @BEHm @JEEMm @to.BARIYEHf.alt; 
 
 	# Ain kerning
 	pos [@FEHi @BEHi @LAMi @KAFi]' 100 ain-ar.fina;
@@ -3202,6 +3229,10 @@ lookup OtherKernsWithMarks {
 	lookupflag UseMarkFilteringSet @AllAboveMarks;
 	pos parenright @AllInitials' 150 @AllAboveMarks;
 } OtherKernsWithMarks;
+lookup OtherKernsWithAllMarks {
+	lookupflag 0;
+	pos @REH.WAW.DAL hasbari behDotless-ar.init.alef @BelowMarksForYB' <0 -150 0 0> [r650 r700];
+} OtherKernsWithAllMarks;
 
 ";
 tag = dist;
