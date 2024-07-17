@@ -7,8 +7,9 @@ width = 150;
 },
 {
 layerId = "0A5D7F3A-D11E-4113-AD15-39410F1DC5C2";
-width = 132;
+width = 180;
 }
 );
+metricWidth = "=space";
 unicode = 160;
 }
