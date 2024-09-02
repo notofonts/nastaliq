@@ -3250,7 +3250,7 @@ lookup OtherKernsWithAllMarks {
 lookup KafMarginKerning {
 	lookupflag IgnoreMarks;
 	ignore pos @All @All';
-	pos [kaf-ar.init.yeh kaf-ar.init.feh kaf-ar.init.fbeh kaf-ar.init.noon kaf-ar.init.doheh kaf-ar.init.waw kaf-ar.init kaf-ar.init.low kaf-ar.init.meem kaf-ar.init.heh kaf-ar.init.kaf kaf-ar.init.outS1 kaf-ar.init.sad kaf-ar.init.HRlow kaf-ar.init.jeem]' (wght=400:370 wght=700:440);
+	pos [kaf-ar.init.yeh kaf-ar.init.feh kaf-ar.init.fbeh kaf-ar.init.noon kaf-ar.init.doheh kaf-ar.init.waw kaf-ar.init kaf-ar.init.low kaf-ar.init.meem kaf-ar.init.heh kaf-ar.init.kaf kaf-ar.init.outS1 kaf-ar.init.sad kaf-ar.init.HRlow kaf-ar.init.jeem]' $kaf_margin;
 	pos kaf-ar.init.doheh2' 250;
 	pos kaf-ar.init.alef' 130;
 } KafMarginKerning;
@@ -3348,7 +3348,7 @@ pos = -596;
 );
 name = Regular;
 numberValues = (
-61
+370
 );
 stemValues = (
 179,
@@ -3448,7 +3448,7 @@ pos = -596;
 );
 name = Bold;
 numberValues = (
-100
+440
 );
 stemValues = (
 235,
@@ -3686,7 +3686,7 @@ type = "italic angle";
 );
 numbers = (
 {
-name = spacer;
+name = kaf_margin;
 }
 );
 properties = (
