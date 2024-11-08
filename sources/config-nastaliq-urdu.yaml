@@ -6,5 +6,6 @@ googleFonts: true
 includeSubsets:
 - from: Noto Serif
   name: GF_Latin_Core
+recipeProvider: noto
 sources:
 - NotoNastaliqUrdu.glyphspackage
