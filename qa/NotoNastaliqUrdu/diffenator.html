@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Diffenator3</title>
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+		crossorigin="anonymous"></script>
+	<style type="text/css">
+		@font-face {
+      font-family: "Font Before";
+      src: url();
+    }
+
+    @font-face {
+      font-family: "Font After";
+      src: url();
+    }
+
+    .font-before, .font-after {
+      font-variation-settings: "wght" 400, "wdth" 100;
+    }
+
+    .font-before {
+      font-family: "Font Before", "Adobe Notdef";
+    }
+
+    .font-after {
+      font-family: "Font After", "Adobe Notdef";
+    }
+
+	:root {
+	--node-pt-size: 40px;
+	}
+
+	@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #b3d4f5 !important;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
+    background-color: #ced9e4 !important;
+}
+.nav-item {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 2px;
+}
+
+.nav-pills .nav-link{
+    background-color: #9fcaf5 !important;
+}
+h4 {
+    color: #6f7882 !important;
+}
+
+@font-face {
+    font-family: "Adobe NotDef";
+    src: url(https://cdn.jsdelivr.net/gh/adobe-fonts/adobe-notdef/AND-Regular.ttf);
+}
+
+.box-title {
+    width: 100%;
+    font-size: 8pt;
+    font-weight: 700;
+    border-top: 1px solid black;
+    padding-top: 5px;
+    margin-bottom: 10pt;
+    display: block;
+}
+
+.box {
+    margin-bottom: 20pt;
+    width: 100%;
+    float: left;
+}
+
+.box-text {}
+
+#ui-nav {
+    position: fixed;
+    right: 20px;
+    z-index: 100;
+}
+
+#font-toggle {}
+
+.ui-nav-item {
+    display: block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+    text-align: center;
+    color: white;
+    background-color: black;
+    display: block;
+    font-size: 14pt;
+    padding: 5px;
+    margin: 2px;
+}
+
+/* Stuff needed for the table differ */
+body {
+    font-family: Helvetica;
+}
+
+.node {
+    font-family: courier;
+    cursor: pointer;
+    position: relative;
+    left: 30px;
+    padding: 5px;
+    display: block;
+    border: 1px dashed grey;
+    background-color: #e9e9ee;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.attr-before {
+    color: green;
+    cursor: text;
+}
+
+.attr-after {
+    color: red;
+    cursor: text;
+}
+
+.leaf {
+    font-weight: bold;
+}
+
+.old .cell .new {
+    display: none;
+}
+
+.new .cell .old {
+    display: none;
+}
+
+.both .cell .old {
+    opacity: 0.75;
+    color: red;
+}
+
+.both .cell .new {
+    opacity: 0.75;
+    position: absolute;
+    top: 0;
+    color: green;
+}
+
+.spacer {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+#ot-panel {
+    max-height: 400px;
+    overflow-y: scroll;
+    background: white;
+    padding: 10px;
+    display: none;
+   }
+
+   .cell{
+    z-index: -100;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 5pt;
+    margin: 5pt;
+    width: 50pt;
+    font-size: var(--node-pt-size);
+    line-height: calc(var(--node-pt-size) * 1.5);
+  }
+  .cell-word{
+    z-index: -100;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 5pt;
+    margin: 5pt;
+    font-size: var(--node-pt-size);
+    line-height: calc(var(--node-pt-size) * 1.5);
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
+  .cell-glyph{
+    z-index: -100;
+    float: left;
+    display: block;
+    text-align: center;
+    border-radius: 5pt;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 5pt;
+    margin: 5pt;
+    width: calc(var(--node-pt-size) * 2);
+    min-height: calc(var(--node-pt-size) * 2);
+    font-size: var(--node-pt-size);
+  }
+  .cell-glyph.font-before, .cell-word.font-before {
+    background: #eff6f2;
+  }
+  .cell-glyph.font-after, .cell-word.font-after {
+    background: #f7f4f4;
+  }
+
+  .cell-glyph:hover {
+    box-shadow: none;
+    background: #f0f0f5;
+  }
+  .cat-strings .cell {
+    clear: both;
+    position: static;
+    float: none;
+    text-align: left;
+  }
+  .codepoint {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 10pt;
+    line-height: 10pt;
+  }
+  .box-title {
+    clear: both;
+  }
+  .node.closed::before {
+    content: "+";
+    margin-right: 5pt;
+  }
+  .node.open::before {
+    content: "-";
+    margin-right: 5pt;
+  }
+
+  .tooltip pre {
+    background-color: #6f7882;
+    padding: 5px;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+  .tooltip {
+    line-height: 1em;
+  }
+  .tooltip-inner {
+    max-width: 300px;
+  }
+
+  h1,h2,h3,h4,h5 {
+    clear: both;
+  }
+
+  #locationnav li {
+    white-space: wrap;
+  }
+
+  #userdefined div { width: 100%; }
+  
+/* The following rules are used in the WASM version, not in the CLI version.
+   But we keep them here so we can share them between the two versions. */
+
+   .modal-dialog {
+    max-width: 100% !important;
+    margin: 0 !important;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+  }
+
+  .fontdrop {
+    padding: 30px;
+    border-radius: 20px;
+    outline: 3px dashed #ffffffff;
+    outline-offset: -20px;
+  }
+
+  #fontbefore {
+    background-color: #ddffdddd;
+  }
+
+  #fontafter {
+    background-color: #ffdddddd;
+  }
+
+  .dragging {
+    background-image: linear-gradient(rgb(0 0 0/5%) 0 0);
+    outline: 5px dashed #ffffffff;
+  }
+
+  #diffkerns {
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+		</style>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+	integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+		<div id="ui-nav">
+		  <div class="ui-nav-item" id="fonttoggle">Old</div>
+		  <div class="ui-nav-item" id="fontanimate">Animate</div>
+		  <div id="axes">
+		  </div>
+		</div>
+	
+	<div class="row">
+		<div class="col-2">
+			<ul class="nav nav-pills" id="locationnav">
+			</ul>
+		</div>
+		<div class="col-9 mt-3">
+			<div id="title"></div>
+			<div id="cmapdiff"> </div>
+			<div id="main"></div>
+			<div id="userdefined">
+				<h4>User defined sample text</h4>
+				<div contenteditable="true" class="font-before cell-word">
+					You can type your own text here to see it previewed in the fonts.
+				</div>
+				<div style="clear: both"></div>
+			</div>
+			<div id="diffkerns"> </div>
+			<div id="difftable"> </div>
+		</div>
+	</div>
+	<script type="module">
+		function renderTableDiff(node, toplevel) {
+  var wrapper = $("<div> </div>");
+  if (!node) {
+    return wrapper;
+  }
+  if (Array.isArray(node) && node.length == 2) {
+    var before = $("<span/>");
+    before.addClass("attr-before");
+    before.html(" " + node[0] + " ");
+    var after = $("<span/>");
+    after.addClass("attr-after");
+    after.append(renderTableDiff(node[1], true).children());
+    wrapper.append(before);
+    wrapper.append(after);
+    return wrapper;
+  }
+  if (node.constructor != Object) {
+    var thing = $("<span/>");
+    thing.html(node);
+    wrapper.append(thing);
+    return wrapper;
+  }
+  for (const [key, value] of Object.entries(node)) {
+    var display = $("<div/>");
+    display.addClass("node");
+    if (!toplevel) {
+      display.hide();
+    }
+    display.append(key);
+    display.append(renderTableDiff(value, false).children());
+    if (display.children(".node").length > 0) {
+      display.addClass("closed");
+    }
+    wrapper.append(display);
+  }
+  return wrapper;
+}
+
+function addAGlyph(glyph, where) {
+  let title = "";
+  if (glyph.name) {
+    title = "name: " + glyph.name;
+  }
+  let cp =
+    "<br>U+" +
+    glyph.string.codePointAt(0).toString(16).padStart(4, "0").toUpperCase();
+  where.append(`
+        <div class="cell-glyph font-before">
+        <div data-toggle="tooltip" data-html="true" data-title="${glyph.differing_pixels} pixels"> ${glyph.string}
+        <div class="codepoint" data-toggle="tooltip" data-html="true" data-title="${title}">
+		${cp}
+        </div>
+        </div>
+    `);
+}
+
+function addAWord(diff, where) {
+  if (!diff.buffer_b) {
+    diff.buffer_b = diff.buffer_a;
+  }
+  where.append(`
+		<div class="cell-word font-before">
+		<span data-toggle="tooltip" data-html="true" data-title="Before: <pre>${diff.buffer_a}</pre>After: <pre>${diff.buffer_b}</pre><br>difference: ${diff.differing_pixels} pixels">
+		${diff.word}
+		</span>
+		</div>
+	`);
+}
+
+function diffTables(report) {
+  $("#difftable").empty();
+  $("#difftable").append(`<h4 class="mt-2 box-title">Table-level details</h4>`);
+  $("#difftable").append(
+    renderTableDiff({ tables: report["tables"] }, true).children()
+  );
+  $("#difftable .node").on("click", function (e) {
+    $(this).toggleClass("closed open");
+    $(this).children(".node").toggle();
+    e.stopPropagation();
+  });
+}
+function diffKerns(report) {
+  $("#diffkerns").empty();
+  $("#diffkerns").append(`<h4 class="mt-2">Modified Kerns</h4>`);
+  $("#diffkerns").append(
+    `<table class="table table-striped" id="diffkerns"><tr><th>Pair</th><th>Old</old><th>New</th></table>`
+  );
+  for (let [pair, value] of Object.entries(report["kerns"])) {
+    if (pair == "error") {
+      $("#diffkerns").append(`<p class="text-danger">Error: ${value}</p>`);
+      continue;
+    } else {
+      let row = $("<tr>");
+      row.append(`<td>${pair}</td>`);
+      row.append(`<td>${serializeKernBefore(value)}</td>`);
+      row.append(`<td>${serializeKernAfter(value)}</td>`);
+      $("#diffkerns table").append(row);
+    }
+  }
+}
+
+function serializeKernBefore(kern) {
+  if (Array.isArray(kern)) {
+    return serializeKern(kern[0], -1);
+  }
+  return serializeKern(kern, 0);
+}
+
+function serializeKernAfter(kern) {
+  if (Array.isArray(kern)) {
+    return serializeKern(kern[1], -1);
+  }
+  return serializeKern(kern, 1);
+}
+
+function serializeKern(kern, index) {
+  let string = "";
+  if (kern === null || kern === undefined) {
+    return "(null)";
+  }
+  if (kern.x) {
+    string += serializeKernValue(kern.x, index);
+  } else if (kern.y) {
+    string = "0";
+  }
+
+  if (kern.y) {
+    string += "," + serializeKernValue(kern.y, index);
+  }
+  if (!kern.x_placement && !kern.y_placement) {
+    return string;
+  }
+  string += "@";
+  if (kern.x_placement) {
+    string += serializeKernValue(kern.x_placement, index);
+  } else if (kern.y_placement) {
+    string += "0";
+  }
+  if (kern.y_placement) {
+    string += "," + serializeKernValue(kern.y_placement, index);
+  }
+  return string;
+}
+
+function serializeKernValue(kern, index) {
+  if (typeof kern == "number") {
+    return kern;
+  }
+  let string = "(";
+  let verybig = Object.entries(kern).length > 5;
+  for (let [key, value] of Object.entries(kern)) {
+    if (key == "default") {
+      string += value[index] + " ";
+    } else {
+      string += value[index] + "@" + key + " ";
+    }
+    if (verybig) {
+      string += "<br>";
+    }
+  }
+  return string.trim() + ")";
+}
+
+function cmapDiff(report) {
+  if (report.cmap_diff && (report.cmap_diff.new || report.cmap_diff.missing)) {
+    $("#cmapdiff").append(
+      `<h4 class="mt-2">Added and Removed Encoded Glyphs</h4>`
+    );
+    if (report["cmap_diff"]["new"]) {
+      $("#cmapdiff").append(`<h4 class="box-title">Added Glyphs</h4>`);
+      let added = $("<div>");
+      for (let glyph of report["cmap_diff"]["new"]) {
+        addAGlyph(glyph, added);
+      }
+      $("#cmapdiff").append(added);
+    }
+
+    if (report["cmap_diff"]["missing"]) {
+      $("#cmapdiff").append(`<h4 class="box-title">Removed Glyphs</h4>`);
+      let missing = $("<div>");
+      for (let glyph of report["cmap_diff"]["missing"]) {
+        addAGlyph(glyph, missing);
+      }
+      $("#cmapdiff").append(missing);
+    }
+  } else {
+    $("#cmapdiff").append(`<p>No changes to encoded glyphs</p>`);
+  }
+}
+
+function setupAnimation() {
+  $("#fonttoggle").click(function () {
+    if ($(this).text() == "Old") {
+      $(this).text("New");
+      $(".font-before").removeClass("font-before").addClass("font-after");
+    } else {
+      $(this).text("Old");
+      $(".font-after").removeClass("font-after").addClass("font-before");
+    }
+  });
+
+  let animationHandle;
+  function animate() {
+    $("#fonttoggle").click();
+    animationHandle = setTimeout(animate, 1000);
+  }
+  $("#fontanimate").click(function () {
+    if ($(this).text() == "Animate") {
+      $(this).text("Stop");
+      animate();
+    } else {
+      $(this).text("Animate");
+      clearTimeout(animationHandle);
+    }
+  });
+}
+
+export {
+  renderTableDiff,
+  addAGlyph,
+  addAWord,
+  cmapDiff,
+  diffTables,
+  diffKerns,
+  setupAnimation,
+};
+
+	var report = {"tables":{"GDEF":{"glyph_classes":{"uniFDFB":[null,"Ligature"],"uniFBC1":[null,"Base"],"uniFBB3":[null,"Base"],"uniFBB4":[null,"Base"],"uniFBB5":[null,"Base"],"uniFBB8":[null,"Base"],"uniFBB9":[null,"Base"],"uniFBB6":[null,"Base"],"uniFBB7":[null,"Base"],"uniFBBA":[null,"Base"],"uniFBBB":[null,"Base"],"uniFBC0":[null,"Base"]},"mark_glyph_sets":{"15":{"4":["twodotshorizontalbelow_tahabovear","twodotshorizontalcenterar"],"5":["twodotshorizontalcenterar","twodotshorizontalcenter_tahabovear"],"6":["twodotshorizontalcenter_tahabovear","threedotsdowncenterar"],"7":["threedotsdowncenterar","threedotsupcenterar"],"8":["threedotsupcenterar","fourdotscenterar"],"9":["fourdotscenterar","fourcenterar"],"10":["fourcenterar","miniKehehar"],"11":["miniKehehar",null]}}},"GPOS":{"feature_list":{"dist":{"0":[190,194],"1":[205,209],"2":[207,211],"3":[210,214],"4":[212,216],"5":[214,218],"6":[null,220]},"kern":{"0":[216,222]},"mark":{"17":[172,18],"18":[173,19],"19":[174,20],"20":[175,21],"32":[null,187],"33":[null,188],"34":[null,189],"35":[null,190]},"mkmk":{"0":[187,191],"1":[188,192],"2":[189,193]}},"lookup_list":{"error":"There are 212 changes, check manually!"}},"STAT":{"offset_to_axis_value_offsets":{"axis_value_offsets":{"1":{"value_name_id":["258","259"]},"2":{"value_name_id":["259","261"]},"3":{"value_name_id":["260","263"]}}}},"fvar":{"axis_instance_arrays_offset":{"instances":{"0":{"post_script_name_id":[null,"258"]},"1":{"subfamily_name_id":["258","259"],"post_script_name_id":[null,"260"]},"2":{"subfamily_name_id":["259","261"],"post_script_name_id":[null,"262"]},"3":{"subfamily_name_id":["260","263"],"post_script_name_id":[null,"264"]}}},"instance_size":[8,10]},"head":{"checksum_adjustment":[2182822298,2541917621],"modified":[3804080054,3813912105]},"loca":{"offsets":{"error":"There are 791 changes, check manually!"}},"maxp":{"max_points":[792,793]},"name":{"258":{"en":["Medium","NotoNastaliqUrdu-Regular"],"en-US":["Medium","NotoNastaliqUrdu-Regular"]},"259":{"en":["SemiBold","Medium"],"en-US":["SemiBold","Medium"]},"260":{"en":["Bold","NotoNastaliqUrdu-Medium"],"en-US":["Bold","NotoNastaliqUrdu-Medium"]},"261":[null,{"en":"SemiBold","en-US":"SemiBold"}],"262":[null,{"en":"NotoNastaliqUrdu-SemiBold","en-US":"NotoNastaliqUrdu-SemiBold"}],"263":[null,{"en":"Bold","en-US":"Bold"}],"264":[null,{"en":"NotoNastaliqUrdu-Bold","en-US":"NotoNastaliqUrdu-Bold"}]}},"cmap_diff":{},"locations":[{"location":"Medium","coords":{"wght":500.0},"glyphs":[{"string":"؃","name":"ARABIC SIGN SAFHA","unicode":"U+0603","differing_pixels":95},{"string":"9","name":"DIGIT NINE","unicode":"U+0039","differing_pixels":78}],"words":{"Arabic":[{"word":"مُضطرة","buffer_a":"776@170,-248|503|146|245@0,248|762@707,89|216@-18,276|960|823@709,274|462@0,384|951|","differing_pixels":41},{"word":"المضطربة،","buffer_a":"694|776@102,-538|504|952|767@102,-69|38@0,-34|951|146|245@0,248|762@707,89|216@-18,276|449@0,384|966|423@0,809|951|3|","differing_pixels":40},{"word":"يضطرها","buffer_a":"5|952|488|951|146|245@0,248|762@707,89|216@-18,276|960|780@517,341|51@0,384|951|","differing_pixels":40},{"word":"فتضطر","buffer_a":"146|245@0,248|762@707,89|216@-18,276|776@564,83|34@0,384|966|762@108,401|318@0,590|951|","differing_pixels":39},{"word":"تضطرم","buffer_a":"436|146|245@0,248|762@707,89|216@-18,276|960|776@586,234|51@0,384|951|","differing_pixels":18},{"word":"بمصطفى","buffer_a":"571|762@138,154|314@0,385|240@0,453|216@-18,484|449@0,592|966|767@248,830|48@0,1017|951|","differing_pixels":17},{"word":"المصطافون","buffer_a":"769@409,-1|468|552|956|762@169,152|326@0,248|951|5|236|216@-18,38|449@0,146|965|423@0,571|951|3|","differing_pixels":16},{"word":"تصطحبها","buffer_a":"5|476|767@154,-2|29@0,190|89@0,219|243@0,628|216@-18,715|966|776@586,673|51@0,823|951|","differing_pixels":16},{"word":"ويضطلع","buffer_a":"266|404@0,363|236@0,462|762@707,313|216@-18,500|966|780@517,565|51@0,608|951|551|","differing_pixels":16},{"word":"وتصطاد","buffer_a":"126|5|236|216@-18,38|955|776@586,-4|51@0,146|951|551|","differing_pixels":16},{"word":"سيصطدم","buffer_a":"436|127|236|216@-18,38|780@551,66|35@0,146|957|188@0,206|951|","differing_pixels":16},{"word":"ستصطدم","buffer_a":"436|127|236|216@-18,38|776@532,-133|35@0,146|957|188@0,206|951|","differing_pixels":16},{"word":"يضطجع","buffer_a":"266|767@214,289|89@0,363|243@0,772|762@707,672|216@-18,859|965|780@517,924|51@0,967|951|","differing_pixels":16},{"word":"تضطهد","buffer_a":"127|476|241@0,190|762@707,90|216@-18,277|960|776@586,235|51@0,385|951|","differing_pixels":16},{"word":"دارالمصطفی،","buffer_a":"694|571|762@138,154|314@0,385|240@0,453|216@-18,484|449@0,592|966|423@0,1017|951|3|143|3|126@-30,0|","differing_pixels":15},{"word":"واللاقصصية","buffer_a":"776@102,-538|504|780@250,-131|17@0,-34|209@0,107|216@-18,233|960|776@560,195|322@0,341|951|4|399|953|414@0,95|951|3|551|","differing_pixels":15},{"word":"قِصَصُهم","buffer_a":"437|482@0,580|823@413,465|209@0,687|822@707,588|216@-18,813|966|824@529,847|776@560,775|322@0,921|951|","differing_pixels":15},{"word":"يصطحبون","buffer_a":"769@409,-1|468|553|767@287,87|36@0,206|89@0,371|243@0,780|216@-18,867|966|780@517,932|51@0,975|951|","differing_pixels":15},{"word":"قصَصُهم","buffer_a":"437|482@0,580|823@413,465|209@0,687|822@707,588|216@-18,813|966|776@560,775|322@0,921|951|","differing_pixels":15},{"word":"وقصصًا","buffer_a":"5|819@411,-222|209|216@-18,126|957|776@560,88|322@0,234|951|551|","differing_pixels":15},{"word":"وقصصها","buffer_a":"5|476|209@0,190|216@-18,316|962|776@560,278|322@0,424|951|551|","differing_pixels":15},{"word":"قصصّه","buffer_a":"504|825@411,-257|209@0,-34|216@-18,92|957|776@560,54|322@0,200|951|","differing_pixels":15},{"word":"ويصطادون","buffer_a":"769@409,-1|468|551|126|5|236|216@-18,38|955|780@517,103|51@0,146|951|551|","differing_pixels":14},{"word":"القصصيّة","buffer_a":"776@102,-538|504|825@191,-430|780@250,-131|17@0,-34|209@0,107|216@-18,233|776@602,199|313@0,341|965|418@0,500|951|3|","differing_pixels":14},{"word":"يصطفون","buffer_a":"769@409,-1|468|552|762@285,62|307@0,245|240@0,355|216@-18,386|964|780@517,451|51@0,494|951|","differing_pixels":14},{"word":"وخصصوا","buffer_a":"3|552|213@0,245|216@-18,324|962|762@670,366|113@0,432|951|551|","differing_pixels":14},{"word":"ليصطدم","buffer_a":"436|127|236|216@-18,38|780@608,121|34@0,146|960|417@0,352|951|","differing_pixels":14},{"word":"لتصطدم","buffer_a":"436|127|236|216@-18,38|776@564,-155|34@0,146|960|417@0,352|951|","differing_pixels":14},{"word":"فيصطحب","buffer_a":"767@589,-158|15|89@0,239|243@0,648|216@-18,735|780@608,818|34@0,843|966|762@108,860|318@0,1049|951|","differing_pixels":14},{"word":"المصطلحية،","buffer_a":"694|776@102,-538|504|780@250,-131|17@0,-34|89@0,107|406@0,516|236@0,570|216@-18,608|449@0,716|966|423@0,1141|951|3|","differing_pixels":13},{"word":"المضطهدة،","buffer_a":"694|776@170,-248|503|127|476|241@0,190|762@707,90|216@-18,277|449@0,385|966|423@0,810|951|3|","differing_pixels":13},{"word":"المصطنعة،","buffer_a":"694|776@102,-538|504|267@0,-34|762@232,-295|28@0,70|239@0,200|216@-18,203|449@0,311|966|423@0,736|951|3|","differing_pixels":13},{"word":"والمصطكي","buffer_a":"780@282,-436|571|358@0,385|236@0,384|216@-18,422|449@0,530|965|423@0,955|951|3|551|","differing_pixels":13},{"word":"مصطحبًا","buffer_a":"5|819@145,-407|767@204,-83|18|89@0,145|243@0,554|216@-18,641|966|462@0,749|951|","differing_pixels":13},{"word":"كمُصطلح","buffer_a":"87|967|406@0,733|236@0,787|216@-18,825|823@580,763|449@0,933|966|371@0,1358|951|","differing_pixels":13},{"word":"المفصصة","buffer_a":"776@102,-538|504|209@0,-34|216@-18,92|762@602,60|313@0,200|443@0,359|966|423@0,695|951|3|","differing_pixels":13},{"word":"عصطان","buffer_a":"769@409,-1|468|5|236|216@-18,38|955|292@0,146|951|","differing_pixels":13},{"word":"والمتخصصين،","buffer_a":"694|769@400,-2|469|780@157,-88|22@0,333|209@0,302|216@-18,428|762@528,504|99@0,536|776@239,712|31@0,1048|958|442@0,1146|966|423@0,1487|951|3|551|","differing_pixels":12},{"word":"يَغْضُضْنَ","buffer_a":"822@416,-246|769@400,-2|469|826@414,363|762@414,149|212@0,320|823@707,416|762@707,261|216@-18,448|826@615,596|762@615,382|278@0,556|966|822@249,498|780@153,710|44@0,760|951|","differing_pixels":12},{"word":"والمتخصصون","buffer_a":"769@409,-1|468|552|213@0,245|216@-18,324|762@528,400|99@0,432|776@239,608|31@0,944|442@0,1042|966|423@0,1383|951|3|551|","differing_pixels":12},{"word":"للمضطهدين","buffer_a":"769@400,-2|469|958|780@97,-50|49@0,320|951|127|476|241@0,190|762@707,90|216@-18,277|449@0,385|405@0,795|966|414@0,780|951|","buffer_b":"769@400,-2|469|958|780@69,-118|49@0,320|951|127|476|241@0,190|762@707,90|216@-18,277|449@0,385|405@0,795|966|414@0,780|951|","differing_pixels":12},{"word":"للمصطافين","buffer_a":"769@400,-2|469|958|780@160,-1|23@0,333|762@181,84|315@0,289|951|5|236|216@-18,38|449@0,146|405@0,556|965|414@0,541|951|","differing_pixels":12},{"word":"المخصصتين","buffer_a":"769@400,-2|469|780@157,-88|22@0,333|776@145,-69|18@0,302|209@0,447|216@-18,573|762@528,649|99@0,681|958|445@0,1193|966|423@0,1460|951|3|","differing_pixels":12},{"word":"ويتخصصون","buffer_a":"769@409,-1|468|552|213@0,245|216@-18,324|762@528,400|99@0,432|776@239,608|31@0,944|966|780@137,936|42@0,1042|951|551@-30,0|","differing_pixels":12},{"word":"ومتخصصة،","buffer_a":"694|776@102,-538|504|209@0,-34|216@-18,92|762@528,168|99@0,200|776@239,376|31@0,712|966|456@0,810|951|551|","differing_pixels":12},{"word":"مُخصَّصة","buffer_a":"776@102,-538|504|209@0,-34|822@707,29|825@707,-134|216@-18,92|762@528,168|99@0,200|966|823@360,400|458@0,712|951|","differing_pixels":12},{"word":"متخصصون،","buffer_a":"694|769@409,-1|468|552|213@0,245|216@-18,324|762@528,400|99@0,432|776@239,608|31@0,944|966|456@0,1042|951|","differing_pixels":12},{"word":"المُخصصة","buffer_a":"776@102,-538|504|209@0,-34|216@-18,92|762@528,168|99@0,200|823@199,560|445@0,712|966|423@0,979|951|3|","differing_pixels":12},{"word":"مُخصصًا","buffer_a":"5|819@411,-222|209|216@-18,126|762@528,202|99@0,234|966|823@360,434|458@0,746|951|","differing_pixels":12},{"word":"مضطلعاً","buffer_a":"819@210,28|5|269|404@0,104|236@0,203|762@707,54|216@-18,241|959|462@0,349|951|","differing_pixels":12},{"word":"مصطلحًا","buffer_a":"5|819@171,-206|90|406@0,445|236@0,499|216@-18,537|966|462@0,645|951|","differing_pixels":12},{"word":"مصطفاي،","buffer_a":"694|780@290,-437|973|5|762@172,-188|303|240@0,99|216@-18,130|957|462@0,238|951|","differing_pixels":12},{"word":"مخصصتان","buffer_a":"769@409,-1|468|5|776@145,-371|18|209@0,145|216@-18,271|762@528,347|99@0,379|966|458@0,891|951|","differing_pixels":12},{"word":"قصصيتين","buffer_a":"769@400,-2|469|780@157,-88|22@0,333|776@151,-19|21@0,302|780@204,293|18@0,376|209@0,521|216@-18,647|966|776@560,609|322@0,755|951|","differing_pixels":12},{"word":"تخصصها،","buffer_a":"694|5|476|209@0,190|216@-18,316|762@528,392|99@0,424|966|776@382,568|46@0,936|951|","differing_pixels":12},{"word":"المصصمة","buffer_a":"776@102,-538|504|438@0,-34|209@0,315|216@-18,441|449@0,549|966|423@0,974|951|3|","differing_pixels":12},{"word":"ومصطبة","buffer_a":"776@102,-538|504|767@250,-131|17@0,-34|239@0,107|216@-18,110|957|462@0,218|951|551|","differing_pixels":12},{"word":"مُصطفى","buffer_a":"571|762@138,154|314@0,385|240@0,453|216@-18,484|966|823@709,482|462@0,592|951|","differing_pixels":12},{"word":"تخصصنا","buffer_a":"5|762@145,-369|18|209@0,145|216@-18,271|762@528,347|99@0,379|966|776@382,523|46@0,891|951|","differing_pixels":12},{"word":"يغضضن","buffer_a":"769@400,-2|469|762@414,149|212@0,320|762@707,261|216@-18,448|762@615,382|278@0,556|966|780@153,710|44@0,760|951|","differing_pixels":12},{"word":"حصصًا","buffer_a":"5|819@411,-222|209|216@-18,126|957|113@0,234|951|","differing_pixels":12},{"word":"بالتخصصات","buffer_a":"776@598,-319|14|5|209|216@-18,126|762@528,202|99@0,234|776@239,410|31@0,746|966|417@0,844|951|5|952|767@66,-169|39|951|","differing_pixels":11},{"word":"مصطحبين","buffer_a":"769@400,-2|469|780@157,-88|22@0,333|767@264,-7|25@0,302|90@0,397|243@0,842|216@-18,929|966|462@0,1037|951|","differing_pixels":11},{"word":"خُصِّصت","buffer_a":"776@609,-321|15|212@0,239|824@700,316|825@707,141|216@-18,367|963|823@670,564|762@670,409|113@0,475|951|","differing_pixels":11},{"word":"بمخصصات","buffer_a":"776@598,-319|14|5|209|216@-18,126|762@528,202|99@0,234|445@0,746|966|767@248,826|48@0,1013|951|","differing_pixels":11},{"word":"بالقِصص","buffer_a":"208|216@-18,269|824@637,358|776@602,235|313@0,377|965|418@0,536|951|5|952|767@66,-169|39|951|","differing_pixels":9},{"word":"وتُخصص","buffer_a":"208|216@-18,269|762@528,345|99@0,377|966|823@382,704|776@382,521|46@0,889|951|551|","differing_pixels":9},{"word":"الحصص،","buffer_a":"694|208|216@-18,269|99@0,377|966|420@0,889|951|3|","differing_pixels":9},{"word":"نُخصص","buffer_a":"208|216@-18,269|762@528,345|99@0,377|966|823@382,678|762@382,523|46@0,889|951|","differing_pixels":9},{"word":"فيخصص","buffer_a":"208|216@-18,269|762@528,345|99@0,377|780@435,632|31@0,889|966|762@108,798|318@0,987|951|","differing_pixels":9},{"word":"بحصص","buffer_a":"208|216@-18,269|99@0,377|966|767@501,770|46@0,889|951|","differing_pixels":9}]}},{"location":"SemiBold","coords":{"wght":600.0},"glyphs":[{"string":"؃","name":"ARABIC SIGN SAFHA","unicode":"U+0603","differing_pixels":95},{"string":"9","name":"DIGIT NINE","unicode":"U+0039","differing_pixels":78}],"words":{"Arabic":[{"word":"والضظوى","buffer_a":"973|552|922@478,781|240@0,241|762@735,133|216@-36,285|960|426@0,398|951|3|551|","differing_pixels":19},{"word":"نٌےـوِٱفُےـ","buffer_a":"929|597|955|823@292,250|762@292,95|316@0,206|948|808@207,106|3|824@170,-90|552|956|929|596|960|820@83,343|762@83,113|40@0,446|948|","differing_pixels":18},{"word":"بمصطفى","buffer_a":"571|762@147,175|314@0,390|240@0,456|216@-36,500|449@0,613|966|767@254,858|48@0,1061|951|","differing_pixels":16},{"word":"المصطلحية،","buffer_a":"694|776@114,-507|504|780@255,-130|17@0,-33|89@0,105|406@0,548|236@0,603|216@-36,644|449@0,757|966|423@0,1205|951|3|","differing_pixels":15},{"word":"خُصِّصت","buffer_a":"776@625,-322|15|212@0,229|824@685,312|825@735,184|216@-36,364|963|823@710,582|762@710,427|113@0,477|951|","differing_pixels":15},{"word":"تصطحبها","buffer_a":"5|476|767@172,6|29@0,212|89@0,232|243@0,675|216@-36,761|966|776@587,735|51@0,874|951|","differing_pixels":15},{"word":"يضطرها","buffer_a":"5|952|488|951|146|245@0,248|762@735,117|216@-36,269|960|780@534,337|51@0,382|951|","differing_pixels":15},{"word":"ويضطلع","buffer_a":"266|404@0,369|236@0,468|762@735,357|216@-36,509|966|780@534,577|51@0,622|951|551|","differing_pixels":15},{"word":"مُضطرة","buffer_a":"776@180,-249|503|146|245@0,248|762@735,117|216@-36,269|960|823@710,272|462@0,382|951|","differing_pixels":15},{"word":"سيصطدم","buffer_a":"436|127|236|216@-36,41|780@588,68|35@0,154|957|188@0,216|951|","differing_pixels":15},{"word":"ستصطدم","buffer_a":"436|127|236|216@-36,41|776@558,-94|35@0,154|957|188@0,216|951|","differing_pixels":15},{"word":"يضطجع","buffer_a":"266|767@233,305|89@0,369|243@0,812|762@735,746|216@-36,898|965|780@534,966|51@0,1011|951|","differing_pixels":15},{"word":"فتضطر","buffer_a":"146|245@0,248|762@735,117|216@-36,269|776@600,94|34@0,382|966|762@128,426|318@0,577|951|","differing_pixels":15},{"word":"تضطهد","buffer_a":"127|476|241@0,212|762@735,144|216@-36,296|960|776@587,270|51@0,409|951|","differing_pixels":15},{"word":"تضطرم","buffer_a":"436|146|245@0,248|762@735,117|216@-36,269|960|776@587,243|51@0,382|951|","differing_pixels":15},{"word":"دارالمصطفی،","buffer_a":"694|571|762@147,175|314@0,390|240@0,456|216@-36,500|449@0,613|966|423@0,1061|951|3|143|3|126@-30,0|","differing_pixels":14},{"word":"المضطربة،","buffer_a":"694|776@114,-507|504|952|767@102,-68|38@0,-33|951|146|245@0,248|762@735,117|216@-36,269|449@0,382|966|423@0,830|951|3|","differing_pixels":14},{"word":"القصصيّة","buffer_a":"776@114,-507|504|825@204,-389|780@255,-130|17@0,-33|209@0,105|216@-36,236|776@629,219|313@0,349|965|418@0,501|951|3|","differing_pixels":14},{"word":"يصطحبون","buffer_a":"769@409,0|468|553|767@290,100|36@0,206|89@0,375|243@0,818|216@-36,904|966|780@534,972|51@0,1017|951|","differing_pixels":14},{"word":"المفصصة","buffer_a":"776@114,-507|504|209@0,-33|216@-36,98|762@629,83|313@0,211|443@0,363|966|423@0,728|951|3|","differing_pixels":14},{"word":"يصطفون","buffer_a":"769@409,0|468|552|762@304,86|307@0,241|240@0,352|216@-36,396|964|780@534,464|51@0,509|951|","differing_pixels":14},{"word":"فيصطحب","buffer_a":"767@605,-158|15|89@0,229|243@0,672|216@-36,758|780@638,847|34@0,871|966|762@128,915|318@0,1066|951|","differing_pixels":14},{"word":"ٱلمِےـقَےـٱطٌےـيّےـ","buffer_a":"929|596|825@5,-123|780@25,-161|20@0,368|960|929|597|955|820@306,345|249@0,206|948|808@211,46|5|952|929|597|822@290,276|776@290,77|304@0,206|959|929|597|824@380,-159|440@0,206|962|423@0,525|948|808@207,106|3|","differing_pixels":13},{"word":"واللاقصصية","buffer_a":"776@114,-507|504|780@255,-130|17@0,-33|209@0,105|216@-36,236|960|776@585,225|322@0,349|951|4|399|953|414@0,96|951|3|551|","differing_pixels":13},{"word":"قِصَصُهم","buffer_a":"437|482@0,587|823@449,495|209@0,694|822@735,635|216@-36,825|966|824@529,863|776@585,814|322@0,938|951|","differing_pixels":13},{"word":"قصَصُهم","buffer_a":"437|482@0,587|823@449,495|209@0,694|822@735,635|216@-36,825|966|776@585,814|322@0,938|951|","differing_pixels":13},{"word":"وقصصًا","buffer_a":"5|819@447,-200|209|216@-36,131|957|776@585,120|322@0,244|951|551|","differing_pixels":13},{"word":"وقصصها","buffer_a":"5|476|209@0,212|216@-36,343|962|776@585,332|322@0,456|951|551|","differing_pixels":13},{"word":"قصصّه","buffer_a":"504|825@447,-223|209@0,-33|216@-36,98|957|776@585,87|322@0,211|951|","differing_pixels":13},{"word":"للمضطهدين","buffer_a":"769@405,-1|469|958|780@126,24|49@0,305|951|127|476|241@0,212|762@735,144|216@-36,296|449@0,409|405@0,826|966|414@0,814|951|","buffer_b":"769@405,-1|469|958|780@71,-113|49@0,305|951|127|476|241@0,212|762@735,144|216@-36,296|449@0,409|405@0,826|966|414@0,814|951|","differing_pixels":12},{"word":"للمصطافين","buffer_a":"769@405,-1|469|958|780@188,-2|23@0,330|762@180,146|315@0,290|951|5|236|216@-36,41|449@0,154|405@0,571|965|414@0,559|951|","differing_pixels":12},{"word":"المضطهدة،","buffer_a":"694|776@180,-249|503|127|476|241@0,212|762@735,144|216@-36,296|449@0,409|966|423@0,857|951|3|","differing_pixels":12},{"word":"المصطنعة،","buffer_a":"694|776@114,-507|504|267@0,-33|762@241,-259|28@0,79|239@0,207|216@-36,213|449@0,326|966|423@0,774|951|3|","differing_pixels":12},{"word":"والمصطكي","buffer_a":"780@289,-456|571|358@0,390|236@0,395|216@-36,436|449@0,549|965|423@0,997|951|3|551|","differing_pixels":12},{"word":"كمُصطلح","buffer_a":"87|967|406@0,747|236@0,802|216@-36,843|823@580,787|449@0,956|966|371@0,1404|951|","differing_pixels":12},{"word":"قصصيتين","buffer_a":"769@405,-1|469|780@182,-82|22@0,331|776@175,39|21@0,300|780@196,302|18@0,384|209@0,529|216@-36,660|966|776@585,649|322@0,773|951|","differing_pixels":12},{"word":"المصصمة","buffer_a":"776@114,-507|504|438@0,-33|209@0,343|216@-36,474|449@0,587|966|423@0,1035|951|3|","differing_pixels":12},{"word":"وخصصوا","buffer_a":"3|552|213@0,241|216@-36,324|962|762@710,387|113@0,437|951|551|","differing_pixels":12},{"word":"يَغْضُضْنَ","buffer_a":"822@420,-246|769@405,-1|469|826@451,383|762@451,170|212@0,305|823@735,443|762@735,288|216@-36,440|826@638,602|762@638,389|278@0,553|966|822@263,548|780@155,701|44@0,762|951|","differing_pixels":11},{"word":"يغضضن","buffer_a":"769@405,-1|469|762@451,170|212@0,305|762@735,288|216@-36,440|762@638,389|278@0,553|966|780@155,701|44@0,762|951|","differing_pixels":11},{"word":"والمتخصصين،","buffer_a":"694|769@405,-1|469|780@182,-82|22@0,331|209@0,300|216@-36,431|762@549,536|99@0,544|776@260,755|31@0,1088|958|442@0,1174|966|423@0,1544|951|3|551|","differing_pixels":10},{"word":"والمتخصصون","buffer_a":"769@409,0|468|552|213@0,241|216@-36,324|762@549,429|99@0,437|776@260,648|31@0,981|442@0,1067|966|423@0,1437|951|3|551|","differing_pixels":10},{"word":"المخصصتين","buffer_a":"769@405,-1|469|780@182,-82|22@0,331|776@144,-31|18@0,300|209@0,445|216@-36,576|762@549,681|99@0,689|958|445@0,1233|966|423@0,1513|951|3|","differing_pixels":10},{"word":"ويتخصصون","buffer_a":"769@409,0|468|552|213@0,241|216@-36,324|762@549,429|99@0,437|776@260,648|31@0,981|966|780@139,958|42@0,1067|951|551@-30,0|","differing_pixels":10},{"word":"ومتخصصة،","buffer_a":"694|776@114,-507|504|209@0,-33|216@-36,98|762@549,203|99@0,211|776@260,422|31@0,755|966|456@0,841|951|551|","differing_pixels":10},{"word":"مُخصَّصة","buffer_a":"776@114,-507|504|209@0,-33|822@735,82|825@735,-82|216@-36,98|762@549,203|99@0,211|966|823@368,479|458@0,755|951|","differing_pixels":10},{"word":"متخصصون،","buffer_a":"694|769@409,0|468|552|213@0,241|216@-36,324|762@549,429|99@0,437|776@260,648|31@0,981|966|456@0,1067|951|","differing_pixels":10},{"word":"المُخصصة","buffer_a":"776@114,-507|504|209@0,-33|216@-36,98|762@549,203|99@0,211|823@200,603|445@0,755|966|423@0,1035|951|3|","differing_pixels":10},{"word":"مُخصصًا","buffer_a":"5|819@447,-200|209|216@-36,131|762@549,236|99@0,244|966|823@368,512|458@0,788|951|","differing_pixels":10},{"word":"مضطلعاً","buffer_a":"819@212,60|5|269|404@0,112|236@0,211|762@735,100|216@-36,252|959|462@0,365|951|","differing_pixels":10},{"word":"مصطلحًا","buffer_a":"5|819@166,-174|90|406@0,477|236@0,532|216@-36,573|966|462@0,686|951|","differing_pixels":10},{"word":"مصطفاي،","buffer_a":"694|780@302,-458|973|5|762@193,-156|303|240@0,103|216@-36,147|957|462@0,260|951|","differing_pixels":10},{"word":"مصطحبًا","buffer_a":"5|819@144,-367|767@196,-82|18|89@0,145|243@0,588|216@-36,674|966|462@0,787|951|","differing_pixels":10},{"word":"مصطحبين","buffer_a":"769@405,-1|469|780@182,-82|22@0,331|767@265,8|25@0,300|90@0,394|243@0,871|216@-36,957|966|462@0,1070|951|","differing_pixels":10},{"word":"مخصصتان","buffer_a":"769@409,0|468|5|776@144,-331|18|209@0,145|216@-36,276|762@549,381|99@0,389|966|458@0,933|951|","differing_pixels":10},{"word":"تخصصها،","buffer_a":"694|5|476|209@0,212|216@-36,343|762@549,448|99@0,456|966|776@393,634|46@0,1000|951|","differing_pixels":10},{"word":"ومصطبة","buffer_a":"776@114,-507|504|767@255,-130|17@0,-33|239@0,105|216@-36,111|957|462@0,224|951|551|","differing_pixels":10},{"word":"مُصطفى","buffer_a":"571|762@147,175|314@0,390|240@0,456|216@-36,500|966|823@710,503|462@0,613|951|","differing_pixels":10},{"word":"تخصصنا","buffer_a":"5|762@144,-329|18|209@0,145|216@-36,276|762@549,381|99@0,389|966|776@393,567|46@0,933|951|","differing_pixels":10},{"word":"حصصًا","buffer_a":"5|819@447,-200|209|216@-36,131|957|113@0,244|951|","differing_pixels":10},{"word":"والمخصصات","buffer_a":"776@600,-320|14|5|209|216@-36,131|762@549,236|99@0,244|445@0,788|966|423@0,1068|951|3|551|","differing_pixels":9},{"word":"بالتخصصات","buffer_a":"776@600,-320|14|5|209|216@-36,131|762@549,236|99@0,244|776@260,455|31@0,788|966|417@0,874|951|5|952|767@60,-174|39|951|","differing_pixels":9},{"word":"بمخصصات","buffer_a":"776@600,-320|14|5|209|216@-36,131|762@549,236|99@0,244|445@0,788|966|767@254,865|48@0,1068|951|","differing_pixels":9}]}}]};
+		function buildLocation_statichtml(loc) {
+  // Set font styles to appropriate axis locations
+  let rule = document.styleSheets[0].cssRules[2].style;
+  let cssSetting = "";
+  let textLocation = "Default";
+  if (loc.coords) {
+    cssSetting = Object.entries(loc.coords)
+      .map(function ([axis, value]) {
+        return `"${axis}" ${value}`;
+      })
+      .join(", ");
+    textLocation = Object.entries(loc.coords)
+      .map(function ([axis, value]) {
+        return `${axis}=${value}`;
+      })
+      .join(" ");
+    rule.setProperty("font-variation-settings", cssSetting);
+  }
+
+  $("#main").empty();
+
+  $("#title").html(`<h4 class="mt-2">${textLocation}</h2>`);
+
+  if (loc.glyphs) {
+    $("#main").append("<h4>Modified Glyphs</h4>");
+    let glyphs = $("<div>");
+    for (let glyph of loc.glyphs) {
+      addAGlyph(glyph, glyphs);
+    }
+    $("#main").append(glyphs);
+  }
+
+  if (loc.words) {
+    $("#main").append("<h4>Modified Words</h4>");
+    for (let [script, words] of Object.entries(loc.words)) {
+      let scriptTitle = $(`<h6>${script}</h6>`);
+      $("#main").append(scriptTitle);
+      let worddiv = $("<div>");
+      for (let word of words) {
+        addAWord(word, worddiv);
+      }
+      $("#main").append(worddiv);
+    }
+  }
+  $('[data-toggle="tooltip"]').tooltip();
+}
+
+$(function () {
+  if (report["tables"]) {
+    diffTables(report);
+  }
+  if (report["kerns"]) {
+    diffKerns(report);
+  }
+  cmapDiff(report);
+  $('[data-toggle="tooltip"]').tooltip();
+  if (!report["locations"]) {
+    $("#title").html("<h4 class='mt-2'>No differences found</h4>");
+    $("#ui-nav").hide();
+    return;
+  }
+
+  for (var [index, loc] of report["locations"].entries()) {
+    var loc_nav = $(`<li class="nav-item">
+		<a class="nav-link text-secondary" href="#" data-index="${index}">${loc.location.replaceAll(
+      ",",
+      ",\u200b"
+    )}</a>
+	</li>`);
+    $("#locationnav").append(loc_nav);
+  }
+  $("#locationnav li a").on("click", function (e) {
+    $("#locationnav li a").removeClass("active");
+    $(this).addClass("active");
+    buildLocation_statichtml(report.locations[$(this).data("index")]);
+  });
+  $("#locationnav li a").eq(0).click();
+
+  document.styleSheets[0].cssRules[0].style.setProperty(
+    "src",
+    "url(old-NotoNastaliqUrdu[wght].ttf)"
+  );
+  document.styleSheets[0].cssRules[1].style.setProperty(
+    "src",
+    "url(new-NotoNastaliqUrdu[wght].ttf)"
+  );
+  setupAnimation();
+});
+
+	</script>
+</body>
+
+</html>
