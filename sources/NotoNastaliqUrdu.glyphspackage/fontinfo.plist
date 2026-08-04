@@ -1,5 +1,5 @@
 {
-.appVersion = "3414";
+.appVersion = "3512";
 .formatVersion = 3;
 axes = (
 {
@@ -2021,7 +2021,7 @@ sub uni06B8 by lam-ar threedotsdownbelow-ar;
 sub uni06B7 by lam-ar threedotsupabove-ar;
 sub uni06B9 by Noon dotbelow-ar;
 sub uni06BF by Tcheh dotabove-ar; # Other subs will take it from here
-sub uni06C4 by waw-ar ringbelow-ar;
+sub uni06C4 by waw-ar ringbelow-ar.waw;
 sub uni06C5 by waw-ar bar-ar;
 sub uni06C6 by waw-ar vabove-ar;
 sub uni06C7 by waw-ar damma-ar;

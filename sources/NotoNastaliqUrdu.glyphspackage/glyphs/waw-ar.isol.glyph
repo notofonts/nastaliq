@@ -10,11 +10,11 @@ pos = (84,112);
 },
 {
 name = Bar;
-pos = (120,29);
+pos = (90,29);
 },
 {
 name = Ring;
-pos = (120,29);
+pos = (27,17);
 },
 {
 name = bottom;
@@ -83,7 +83,7 @@ pos = (124,49);
 },
 {
 name = Ring;
-pos = (124,49);
+pos = (40,19);
 },
 {
 name = bottom;

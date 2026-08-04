@@ -14,7 +14,7 @@ pos = (120,30);
 },
 {
 name = Ring;
-pos = (120,30);
+pos = (27,17);
 },
 {
 name = bottom;
@@ -84,7 +84,7 @@ pos = (124,49);
 },
 {
 name = Ring;
-pos = (124,49);
+pos = (40,19);
 },
 {
 name = bottom;
