@@ -2137,7 +2137,7 @@ language UYG;
 tag = ccmp;
 },
 {
-code = "sub yehKashmiri-ar by yehKashmiri-ar.fina;
+code = "sub yehKashmiri-ar by alefMaksura-ar.fina RingDistNS;
 sub alef-ar by alef-ar.fina;
 sub hah-ar by hah-ar.fina;
 sub dal-ar by dal-ar.fina;
