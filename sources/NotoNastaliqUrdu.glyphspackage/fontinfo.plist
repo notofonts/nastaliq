@@ -1,5 +1,5 @@
 {
-.appVersion = "3512";
+.appVersion = "3414";
 .formatVersion = 3;
 axes = (
 {
@@ -2525,7 +2525,7 @@ lookup Connections {
 	sub @to.QAFf' [qafDotless-ar.fina] by @to.QAFf.alt;
 	sub @to.HEHm' [@HEHm] by @to.HEHm.alt;
 	sub @to.DOHEHm' [@HEHDOCHi.m hehDoachashmee-ar.fina] by @to.DOHEHm.alt;
-	sub @to.YEHf' [alefMaksura-ar.fina] by @to.YEHf.alt;
+	sub @to.YEHf' [alefMaksura-ar.fina yehKashmiri-ar.fina] by @to.YEHf.alt;
 	sub @to.BARIYEHf' @BARIYEHf by @to.BARIYEHf.alt;
 } Connections;
 
@@ -2542,8 +2542,9 @@ lookup Alternates {
 	
 	sub [lam-ar.medi.doheh kaf-ar.medi.doheh]' meem-ar.fina by [lam-ar.medi.meem kaf-ar.medi.meem];
 
-	sub [behDotless-ar.init hah-ar.init fehDotless-ar.init kaf-ar.medi kaf-ar.init lam-ar.medi lam-ar.init]' alefMaksura-ar.fina by [behDotless-ar.init.yeh hah-ar.init.yeh fehDotless-ar.init.yeh kaf-ar.medi.yeh kaf-ar.init.yeh lam-ar.medi.yeh lam-ar.init.yeh];
+	sub [behDotless-ar.init hah-ar.init fehDotless-ar.init kaf-ar.medi kaf-ar.init lam-ar.medi lam-ar.init]' [alefMaksura-ar.fina yehKashmiri-ar.fina] by [behDotless-ar.init.yeh hah-ar.init.yeh fehDotless-ar.init.yeh kaf-ar.medi.yeh kaf-ar.init.yeh lam-ar.medi.yeh lam-ar.init.yeh];
 	sub [behDotless-ar.init.yeh hah-ar.init.yeh fehDotless-ar.init.yeh kaf-ar.init.yeh lam-ar.init.yeh] alefMaksura-ar.fina' by alefMaksura-ar.fina.alt;
+	sub [behDotless-ar.init.yeh hah-ar.init.yeh fehDotless-ar.init.yeh kaf-ar.init.yeh lam-ar.init.yeh] yehKashmiri-ar.fina' by yehKashmiri-ar.fina.alt;
 	
 	sub [behDotless-ar.init.reh] [reh-ar.fina]' by [reh-ar.fina.short];
 	sub @to.REHf.long [reh-ar.fina]' by [reh-ar.fina.long];	
