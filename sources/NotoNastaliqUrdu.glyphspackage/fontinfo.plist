@@ -2461,6 +2461,8 @@ lookup LamAlefGen {
 } LamAlefGen;
 
 lookup DivNmCheck {
+    # Marks are part of the context, so they must not be skipped (#70)
+    lookupflag 0;
     sub lam-ar.init' lookup FormDivineName lam-ar.medi' shadda-ar' [alefabove-ar fatha-ar]' hehgoal-ar.fina';
     sub lam-ar.init' lookup FormDivineName lam-ar.medi' [shadda-ar alefabove-ar fatha-ar]' hehgoal-ar.fina';
 } DivNmCheck;
