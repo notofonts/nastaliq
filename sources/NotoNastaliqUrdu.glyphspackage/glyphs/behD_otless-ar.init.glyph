@@ -96,7 +96,7 @@ GPOS_Context = "lookupflag UseMarkFilteringSet [ dotbelow-ar @HeightCounters]; @
 },
 {
 name = "*bottom.longre.r0";
-pos = (134,-600);
+pos = (-60,-180);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters]; @LongRe * r0";
 };
@@ -253,7 +253,7 @@ GPOS_Context = "lookupflag UseMarkFilteringSet [ dotbelow-ar @HeightCounters]; @
 },
 {
 name = "*bottom.longre.r0";
-pos = (134,-600);
+pos = (-60,-180);
 userData = {
 GPOS_Context = "lookupflag UseMarkFilteringSet [@BelowMarksForYB @HeightCounters]; @LongRe * r0";
 };
